@@ -37,7 +37,7 @@ I'm importing the font-awesome icons as a stylesheet!
 
 <i class="fa-solid fa-square"></i>                                                                                                                                                                          
 <i class="fa-solid fa-dragon"></i>                                                                                                                                                                          
-<i class="fa-solid fa-paw"></i> 
+<i class="fa-solid \01f1e6\01f1eb"></i> 
 '''
 st.write(css_example,unsafe_allow_html=True)
 # # Set page config
