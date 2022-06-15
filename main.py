@@ -6,8 +6,7 @@ st.set_page_config(page_title='Soccer Players Stats', page_icon=':soccer:', init
                    layout="wide")
 # matches = pd.read_csv('Data\matches.csv')
 leagues_stats = pd.read_csv('league_stats.csv')
-teams_stats = pd.read_csv('teams_players.csv')
-leagues = np.unique(teams_stats['League'])
+all_tables_data = pd.read_csv('all_tables.csv')
 st.markdown('# Select League ')
 selected_league = st.radio('', leagues_stats['League'], horizontal=True)
 row2_1, row2_spacer2, row2_2, row2_spacer3, row2_3 = st.columns((1.6, .2, 1.6, .2, 1.6))
@@ -27,11 +26,11 @@ with row2_3:
     str_goals = "🥅 " + str(total_goals_in_df) + " Goals"
     st.markdown(str_goals)
 
-teams_in_league= teams_stats.loc[teams_stats['League'] == selected_league]
+teams_in_league= all_tables_data.loc[all_tables_data['League'] == selected_league]
 teams = np.unique(teams_in_league['Team'])
-seasons = np.unique(teams_in_league['Season'])
+# seasons = np.unique(teams_in_league['Season'])
 selected_team = st.radio('Pick a Team:', teams, horizontal=True)
-#selected_season = st.select_slider('Choose season', seasons)
+# selected_season = st.select_slider('Choose season', seasons)
 
 
 # dataframe = pd.read_csv('player_stats_dataset.csv')
