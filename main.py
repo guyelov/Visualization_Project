@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 st.set_page_config(page_title='Soccer Players Stats', page_icon=':soccer:', initial_sidebar_state='expanded',layout="wide")
-matches = pd.read_csv('Data\matches.csv')
+# matches = pd.read_csv('Data\matches.csv')
 leagues_stats = pd.read_csv('league_stats.csv')
 teams_stats = pd.read_csv('teams_players.csv')
 leagues = np.unique(teams_stats['League'])
