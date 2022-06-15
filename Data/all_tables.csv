@@ -1,0 +1,2485 @@
+Place,Team,GP,W,D,L,GF,GA,GD,P,Year,League
+1,ARS,38,26,9,3,79,36,43,87,2001,English Premier League
+2,LIV,38,24,8,6,67,30,37,80,2001,English Premier League
+3,MAN,38,24,5,9,87,45,42,77,2001,English Premier League
+4,NEW,38,21,8,9,74,52,22,71,2001,English Premier League
+5,LEE,38,18,12,8,53,37,16,66,2001,English Premier League
+6,CHE,38,17,13,8,66,38,28,64,2001,English Premier League
+7,WHU,38,15,8,15,48,57,-9,53,2001,English Premier League
+8,AVL,38,12,14,12,46,47,-1,50,2001,English Premier League
+9,TOT,38,14,8,16,49,53,-4,50,2001,English Premier League
+10,BLK,38,12,10,16,55,51,4,46,2001,English Premier League
+11,SOU,38,12,9,17,46,54,-8,45,2001,English Premier League
+12,MID,38,12,9,17,35,47,-12,45,2001,English Premier League
+13,FUL,38,10,14,14,36,44,-8,44,2001,English Premier League
+14,CHA,38,10,14,14,38,49,-11,44,2001,English Premier League
+15,EVE,38,11,10,17,45,57,-12,43,2001,English Premier League
+16,BOL,38,9,13,16,44,62,-18,40,2001,English Premier League
+17,SUN,38,10,10,18,29,51,-22,40,2001,English Premier League
+18,IPS,38,9,9,20,41,64,-23,36,2001,English Premier League
+19,DER,38,8,6,24,33,63,-30,30,2001,English Premier League
+20,LEI,38,5,13,20,30,64,-34,28,2001,English Premier League
+1,MAN,38,25,8,5,74,34,40,83,2002,English Premier League
+2,ARS,38,23,9,6,85,42,43,78,2002,English Premier League
+3,NEW,38,21,6,11,63,48,15,69,2002,English Premier League
+4,CHE,38,19,10,9,68,38,30,67,2002,English Premier League
+5,LIV,38,18,10,10,61,41,20,64,2002,English Premier League
+6,BLK,38,16,12,10,52,43,9,60,2002,English Premier League
+7,EVE,38,17,8,13,48,49,-1,59,2002,English Premier League
+8,SOU,38,13,13,12,43,46,-3,52,2002,English Premier League
+9,MNC,38,15,6,17,47,54,-7,51,2002,English Premier League
+10,TOT,38,14,8,16,51,62,-11,50,2002,English Premier League
+11,MID,38,13,10,15,48,44,4,49,2002,English Premier League
+12,CHA,38,14,7,17,45,56,-11,49,2002,English Premier League
+13,BIR,38,13,9,16,41,49,-8,48,2002,English Premier League
+14,FUL,38,13,9,16,41,50,-9,48,2002,English Premier League
+15,LEE,38,14,5,19,58,57,1,47,2002,English Premier League
+16,AVL,38,12,9,17,42,47,-5,45,2002,English Premier League
+17,BOL,38,10,14,14,41,51,-10,44,2002,English Premier League
+18,WHU,38,10,12,16,42,59,-17,42,2002,English Premier League
+19,WBA,38,6,8,24,29,65,-36,26,2002,English Premier League
+20,SUN,38,4,7,27,21,65,-44,19,2002,English Premier League
+1,ARS,38,26,12,0,73,26,47,90,2003,English Premier League
+2,CHE,38,24,7,7,67,30,37,79,2003,English Premier League
+3,MAN,38,23,6,9,64,35,29,75,2003,English Premier League
+4,LIV,38,16,12,10,55,37,18,60,2003,English Premier League
+5,NEW,38,13,17,8,52,40,12,56,2003,English Premier League
+6,AVL,38,15,11,12,48,44,4,56,2003,English Premier League
+7,CHA,38,14,11,13,51,51,0,53,2003,English Premier League
+8,BOL,38,14,11,13,48,56,-8,53,2003,English Premier League
+9,FUL,38,14,10,14,52,46,6,52,2003,English Premier League
+10,BIR,38,12,14,12,43,48,-5,50,2003,English Premier League
+11,MID,38,13,9,16,44,52,-8,48,2003,English Premier League
+12,SOU,38,12,11,15,44,45,-1,47,2003,English Premier League
+13,POR,38,12,9,17,47,54,-7,45,2003,English Premier League
+14,TOT,38,13,6,19,47,57,-10,45,2003,English Premier League
+15,BLK,38,12,8,18,51,59,-8,44,2003,English Premier League
+16,MNC,38,9,14,15,55,54,1,41,2003,English Premier League
+17,EVE,38,9,12,17,45,57,-12,39,2003,English Premier League
+18,LEI,38,6,15,17,48,65,-17,33,2003,English Premier League
+19,LEE,38,8,9,21,40,79,-39,33,2003,English Premier League
+20,WOL,38,7,12,19,38,77,-39,33,2003,English Premier League
+1,CHE,38,29,8,1,72,15,57,95,2004,English Premier League
+2,ARS,38,25,8,5,87,36,51,83,2004,English Premier League
+3,MAN,38,22,11,5,58,26,32,77,2004,English Premier League
+4,EVE,38,18,7,13,45,46,-1,61,2004,English Premier League
+5,LIV,38,17,7,14,52,41,11,58,2004,English Premier League
+6,BOL,38,16,10,12,49,44,5,58,2004,English Premier League
+7,MID,38,14,13,11,53,46,7,55,2004,English Premier League
+8,MNC,38,13,13,12,47,39,8,52,2004,English Premier League
+9,TOT,38,14,10,14,47,41,6,52,2004,English Premier League
+10,AVL,38,12,11,15,45,52,-7,47,2004,English Premier League
+11,CHA,38,12,10,16,42,58,-16,46,2004,English Premier League
+12,BIR,38,11,12,15,40,46,-6,45,2004,English Premier League
+13,FUL,38,12,8,18,52,60,-8,44,2004,English Premier League
+14,NEW,38,10,14,14,47,57,-10,44,2004,English Premier League
+15,BLK,38,9,15,14,32,43,-11,42,2004,English Premier League
+16,POR,38,10,9,19,43,59,-16,39,2004,English Premier League
+17,WBA,38,6,16,16,36,61,-25,34,2004,English Premier League
+18,CRY,38,7,12,19,41,62,-21,33,2004,English Premier League
+19,NOR,38,7,12,19,42,77,-35,33,2004,English Premier League
+20,SOU,38,6,14,18,45,66,-21,32,2004,English Premier League
+1,CHE,38,29,4,5,72,22,50,91,2005,English Premier League
+2,MAN,38,25,8,5,72,34,38,83,2005,English Premier League
+3,LIV,38,25,7,6,57,25,32,82,2005,English Premier League
+4,ARS,38,20,7,11,68,31,37,67,2005,English Premier League
+5,TOT,38,18,11,9,53,38,15,65,2005,English Premier League
+6,BLK,38,19,6,13,51,42,9,63,2005,English Premier League
+7,NEW,38,17,7,14,47,42,5,58,2005,English Premier League
+8,BOL,38,15,11,12,49,41,8,56,2005,English Premier League
+9,WHU,38,16,7,15,52,55,-3,55,2005,English Premier League
+10,WGA,38,15,6,17,45,52,-7,51,2005,English Premier League
+11,EVE,38,14,8,16,34,49,-15,50,2005,English Premier League
+12,FUL,38,14,6,18,48,58,-10,48,2005,English Premier League
+13,CHA,38,13,8,17,41,55,-14,47,2005,English Premier League
+14,MID,38,12,9,17,48,58,-10,45,2005,English Premier League
+15,MNC,38,13,4,21,43,48,-5,43,2005,English Premier League
+16,AVL,38,10,12,16,42,55,-13,42,2005,English Premier League
+17,POR,38,10,8,20,37,62,-25,38,2005,English Premier League
+18,BIR,38,8,10,20,28,50,-22,34,2005,English Premier League
+19,WBA,38,7,9,22,31,58,-27,30,2005,English Premier League
+20,SUN,38,3,6,29,26,69,-43,15,2005,English Premier League
+1,MAN,38,28,5,5,83,27,56,89,2006,English Premier League
+2,CHE,38,24,11,3,64,24,40,83,2006,English Premier League
+3,LIV,38,20,8,10,57,27,30,68,2006,English Premier League
+4,ARS,38,19,11,8,63,35,28,68,2006,English Premier League
+5,TOT,38,17,9,12,57,54,3,60,2006,English Premier League
+6,EVE,38,15,13,10,52,36,16,58,2006,English Premier League
+7,BOL,38,16,8,14,47,52,-5,56,2006,English Premier League
+8,REA,38,16,7,15,52,47,5,55,2006,English Premier League
+9,POR,38,14,12,12,45,42,3,54,2006,English Premier League
+10,BLK,38,15,7,16,52,54,-2,52,2006,English Premier League
+11,AVL,38,11,17,10,43,41,2,50,2006,English Premier League
+12,MID,38,12,10,16,44,49,-5,46,2006,English Premier League
+13,NEW,38,11,10,17,38,47,-9,43,2006,English Premier League
+14,MNC,38,11,9,18,29,44,-15,42,2006,English Premier League
+15,WHU,38,12,5,21,35,59,-24,41,2006,English Premier League
+16,FUL,38,8,15,15,38,60,-22,39,2006,English Premier League
+17,WGA,38,10,8,20,37,59,-22,38,2006,English Premier League
+18,SHU,38,10,8,20,32,55,-23,38,2006,English Premier League
+19,CHA,38,8,10,20,34,60,-26,34,2006,English Premier League
+20,WAT,38,5,13,20,29,59,-30,28,2006,English Premier League
+1,MAN,38,27,6,5,80,22,58,87,2007,English Premier League
+2,CHE,38,25,10,3,65,26,39,85,2007,English Premier League
+3,ARS,38,24,11,3,74,31,43,83,2007,English Premier League
+4,LIV,38,21,13,4,67,28,39,76,2007,English Premier League
+5,EVE,38,19,8,11,55,33,22,65,2007,English Premier League
+6,AVL,38,16,12,10,71,51,20,60,2007,English Premier League
+7,BLK,38,15,13,10,50,48,2,58,2007,English Premier League
+8,POR,38,16,9,13,48,40,8,57,2007,English Premier League
+9,MNC,38,15,10,13,45,53,-8,55,2007,English Premier League
+10,WHU,38,13,10,15,42,50,-8,49,2007,English Premier League
+11,TOT,38,11,13,14,66,61,5,46,2007,English Premier League
+12,NEW,38,11,10,17,45,65,-20,43,2007,English Premier League
+13,MID,38,10,12,16,43,53,-10,42,2007,English Premier League
+14,WGA,38,10,10,18,34,51,-17,40,2007,English Premier League
+15,SUN,38,11,6,21,36,59,-23,39,2007,English Premier League
+16,BOL,38,9,10,19,36,54,-18,37,2007,English Premier League
+17,FUL,38,8,12,18,38,60,-22,36,2007,English Premier League
+18,REA,38,10,6,22,41,66,-25,36,2007,English Premier League
+19,BIR,38,8,11,19,46,62,-16,35,2007,English Premier League
+20,DER,38,1,8,29,20,89,-69,11,2007,English Premier League
+1,MAN,38,28,6,4,68,24,44,90,2008,English Premier League
+2,LIV,38,25,11,2,77,27,50,86,2008,English Premier League
+3,CHE,38,25,8,5,68,24,44,83,2008,English Premier League
+4,ARS,38,20,12,6,68,37,31,72,2008,English Premier League
+5,EVE,38,17,12,9,55,37,18,63,2008,English Premier League
+6,AVL,38,17,11,10,54,48,6,62,2008,English Premier League
+7,FUL,38,14,11,13,39,34,5,53,2008,English Premier League
+8,TOT,38,14,9,15,45,45,0,51,2008,English Premier League
+9,WHU,38,14,9,15,42,45,-3,51,2008,English Premier League
+10,MNC,38,15,5,18,58,50,8,50,2008,English Premier League
+11,WGA,38,12,9,17,34,45,-11,45,2008,English Premier League
+12,STK,38,12,9,17,38,55,-17,45,2008,English Premier League
+13,BOL,38,11,8,19,41,53,-12,41,2008,English Premier League
+14,POR,38,10,11,17,38,57,-19,41,2008,English Premier League
+15,BLK,38,10,11,17,40,60,-20,41,2008,English Premier League
+16,SUN,38,9,9,20,34,54,-20,36,2008,English Premier League
+17,HUL,38,8,11,19,39,64,-25,35,2008,English Premier League
+18,NEW,38,7,13,18,40,59,-19,34,2008,English Premier League
+19,MID,38,7,11,20,28,57,-29,32,2008,English Premier League
+20,WBA,38,8,8,22,36,67,-31,32,2008,English Premier League
+1,CHE,38,27,5,6,103,32,71,86,2009,English Premier League
+2,MAN,38,27,4,7,86,28,58,85,2009,English Premier League
+3,ARS,38,23,6,9,83,41,42,75,2009,English Premier League
+4,TOT,38,21,7,10,67,41,26,70,2009,English Premier League
+5,MNC,38,18,13,7,73,45,28,67,2009,English Premier League
+6,AVL,38,17,13,8,52,39,13,64,2009,English Premier League
+7,LIV,38,18,9,11,61,35,26,63,2009,English Premier League
+8,EVE,38,16,13,9,60,49,11,61,2009,English Premier League
+9,BIR,38,13,11,14,38,47,-9,50,2009,English Premier League
+10,BLK,38,13,11,14,41,55,-14,50,2009,English Premier League
+11,STK,38,11,14,13,34,48,-14,47,2009,English Premier League
+12,FUL,38,12,10,16,39,46,-7,46,2009,English Premier League
+13,SUN,38,11,11,16,48,56,-8,44,2009,English Premier League
+14,BOL,38,10,9,19,42,67,-25,39,2009,English Premier League
+15,WOL,38,9,11,18,32,56,-24,38,2009,English Premier League
+16,WGA,38,9,9,20,37,79,-42,36,2009,English Premier League
+17,WHU,38,8,11,19,47,66,-19,35,2009,English Premier League
+18,BUR,38,8,6,24,42,82,-40,30,2009,English Premier League
+19,HUL,38,6,12,20,34,75,-41,30,2009,English Premier League
+20,POR,38,7,7,24,34,66,-32,19,2009,English Premier League
+1,MAN,38,23,11,4,78,37,41,80,2010,English Premier League
+2,CHE,38,21,8,9,69,33,36,71,2010,English Premier League
+3,MNC,38,21,8,9,60,33,27,71,2010,English Premier League
+4,ARS,38,19,11,8,72,43,29,68,2010,English Premier League
+5,TOT,38,16,14,8,55,46,9,62,2010,English Premier League
+6,LIV,38,17,7,14,59,44,15,58,2010,English Premier League
+7,EVE,38,13,15,10,51,45,6,54,2010,English Premier League
+8,FUL,38,11,16,11,49,43,6,49,2010,English Premier League
+9,AVL,38,12,12,14,48,59,-11,48,2010,English Premier League
+10,SUN,38,12,11,15,45,56,-11,47,2010,English Premier League
+11,WBA,38,12,11,15,56,71,-15,47,2010,English Premier League
+12,NEW,38,11,13,14,56,57,-1,46,2010,English Premier League
+13,STK,38,13,7,18,46,48,-2,46,2010,English Premier League
+14,BOL,38,12,10,16,52,56,-4,46,2010,English Premier League
+15,BLK,38,11,10,17,46,59,-13,43,2010,English Premier League
+16,WGA,38,9,15,14,40,61,-21,42,2010,English Premier League
+17,WOL,38,11,7,20,46,66,-20,40,2010,English Premier League
+18,BIR,38,8,15,15,37,58,-21,39,2010,English Premier League
+19,BLP,38,10,9,19,55,78,-23,39,2010,English Premier League
+20,WHU,38,7,12,19,43,70,-27,33,2010,English Premier League
+1,MNC,38,28,5,5,93,29,64,89,2011,English Premier League
+2,MAN,38,28,5,5,89,33,56,89,2011,English Premier League
+3,ARS,38,21,7,10,74,49,25,70,2011,English Premier League
+4,TOT,38,20,9,9,66,41,25,69,2011,English Premier League
+5,NEW,38,19,8,11,56,51,5,65,2011,English Premier League
+6,CHE,38,18,10,10,65,46,19,64,2011,English Premier League
+7,EVE,38,15,11,12,50,40,10,56,2011,English Premier League
+8,LIV,38,14,10,14,47,40,7,52,2011,English Premier League
+9,FUL,38,14,10,14,48,51,-3,52,2011,English Premier League
+10,WBA,38,13,8,17,45,52,-7,47,2011,English Premier League
+11,SWA,38,12,11,15,44,51,-7,47,2011,English Premier League
+12,NOR,38,12,11,15,52,66,-14,47,2011,English Premier League
+13,SUN,38,11,12,15,45,46,-1,45,2011,English Premier League
+14,STK,38,11,12,15,36,53,-17,45,2011,English Premier League
+15,WGA,38,11,10,17,42,62,-20,43,2011,English Premier League
+16,AVL,38,7,17,14,37,53,-16,38,2011,English Premier League
+17,QPR,38,10,7,21,43,66,-23,37,2011,English Premier League
+18,BOL,38,10,6,22,46,77,-31,36,2011,English Premier League
+19,BLK,38,8,7,23,48,78,-30,31,2011,English Premier League
+20,WOL,38,5,10,23,40,82,-42,25,2011,English Premier League
+1,MAN,38,28,5,5,86,43,43,89,2012,English Premier League
+2,MNC,38,23,9,6,66,34,32,78,2012,English Premier League
+3,CHE,38,22,9,7,75,39,36,75,2012,English Premier League
+4,ARS,38,21,10,7,72,37,35,73,2012,English Premier League
+5,TOT,38,21,9,8,66,46,20,72,2012,English Premier League
+6,EVE,38,16,15,7,55,40,15,63,2012,English Premier League
+7,LIV,38,16,13,9,71,43,28,61,2012,English Premier League
+8,WBA,38,14,7,17,53,57,-4,49,2012,English Premier League
+9,SWA,38,11,13,14,47,51,-4,46,2012,English Premier League
+10,WHU,38,12,10,16,45,53,-8,46,2012,English Premier League
+11,NOR,38,10,14,14,41,58,-17,44,2012,English Premier League
+12,FUL,38,11,10,17,50,60,-10,43,2012,English Premier League
+13,STK,38,9,15,14,34,45,-11,42,2012,English Premier League
+14,SOU,38,9,14,15,49,60,-11,41,2012,English Premier League
+15,AVL,38,10,11,17,47,69,-22,41,2012,English Premier League
+16,NEW,38,11,8,19,45,68,-23,41,2012,English Premier League
+17,SUN,38,9,12,17,41,54,-13,39,2012,English Premier League
+18,WGA,38,9,9,20,47,73,-26,36,2012,English Premier League
+19,REA,38,6,10,22,43,73,-30,28,2012,English Premier League
+20,QPR,38,4,13,21,30,60,-30,25,2012,English Premier League
+1,MNC,38,27,5,6,102,37,65,86,2013,English Premier League
+2,LIV,38,26,6,6,101,50,51,84,2013,English Premier League
+3,CHE,38,25,7,6,71,27,44,82,2013,English Premier League
+4,ARS,38,24,7,7,68,41,27,79,2013,English Premier League
+5,EVE,38,21,9,8,61,39,22,72,2013,English Premier League
+6,TOT,38,21,6,11,55,51,4,69,2013,English Premier League
+7,MAN,38,19,7,12,64,43,21,64,2013,English Premier League
+8,SOU,38,15,11,12,54,46,8,56,2013,English Premier League
+9,STK,38,13,11,14,45,52,-7,50,2013,English Premier League
+10,NEW,38,15,4,19,43,59,-16,49,2013,English Premier League
+11,CRY,38,13,6,19,33,48,-15,45,2013,English Premier League
+12,SWA,38,11,9,18,54,54,0,42,2013,English Premier League
+13,WHU,38,11,7,20,40,51,-11,40,2013,English Premier League
+14,SUN,38,10,8,20,41,60,-19,38,2013,English Premier League
+15,AVL,38,10,8,20,39,61,-22,38,2013,English Premier League
+16,HUL,38,10,7,21,38,53,-15,37,2013,English Premier League
+17,WBA,38,7,15,16,43,59,-16,36,2013,English Premier League
+18,NOR,38,8,9,21,28,62,-34,33,2013,English Premier League
+19,FUL,38,9,5,24,40,85,-45,32,2013,English Premier League
+20,CAR,38,7,9,22,32,74,-42,30,2013,English Premier League
+1,CHE,38,26,9,3,73,32,41,87,2014,English Premier League
+2,MNC,38,24,7,7,83,38,45,79,2014,English Premier League
+3,ARS,38,22,9,7,71,36,35,75,2014,English Premier League
+4,MAN,38,20,10,8,62,37,25,70,2014,English Premier League
+5,TOT,38,19,7,12,58,53,5,64,2014,English Premier League
+6,LIV,38,18,8,12,52,48,4,62,2014,English Premier League
+7,SOU,38,18,6,14,54,33,21,60,2014,English Premier League
+8,SWA,38,16,8,14,46,49,-3,56,2014,English Premier League
+9,STK,38,15,9,14,48,45,3,54,2014,English Premier League
+10,CRY,38,13,9,16,47,51,-4,48,2014,English Premier League
+11,EVE,38,12,11,15,48,50,-2,47,2014,English Premier League
+12,WHU,38,12,11,15,44,47,-3,47,2014,English Premier League
+13,WBA,38,11,11,16,38,51,-13,44,2014,English Premier League
+14,LEI,38,11,8,19,46,55,-9,41,2014,English Premier League
+15,NEW,38,10,9,19,40,63,-23,39,2014,English Premier League
+16,SUN,38,7,17,14,31,53,-22,38,2014,English Premier League
+17,AVL,38,10,8,20,31,57,-26,38,2014,English Premier League
+18,HUL,38,8,11,19,33,51,-18,35,2014,English Premier League
+19,BUR,38,7,12,19,28,53,-25,33,2014,English Premier League
+20,QPR,38,8,6,24,42,73,-31,30,2014,English Premier League
+1,LEI,38,23,12,3,68,36,32,81,2015,English Premier League
+2,ARS,38,20,11,7,65,36,29,71,2015,English Premier League
+3,TOT,38,19,13,6,69,35,34,70,2015,English Premier League
+4,MNC,38,19,9,10,71,41,30,66,2015,English Premier League
+5,MAN,38,19,9,10,49,35,14,66,2015,English Premier League
+6,SOU,38,18,9,11,59,41,18,63,2015,English Premier League
+7,WHU,38,16,14,8,65,51,14,62,2015,English Premier League
+8,LIV,38,16,12,10,63,50,13,60,2015,English Premier League
+9,STK,38,14,9,15,41,55,-14,51,2015,English Premier League
+10,CHE,38,12,14,12,59,53,6,50,2015,English Premier League
+11,EVE,38,11,14,13,59,55,4,47,2015,English Premier League
+12,SWA,38,12,11,15,42,52,-10,47,2015,English Premier League
+13,WAT,38,12,9,17,40,50,-10,45,2015,English Premier League
+14,WBA,38,10,13,15,34,48,-14,43,2015,English Premier League
+15,CRY,38,11,9,18,39,51,-12,42,2015,English Premier League
+16,BOU,38,11,9,18,45,67,-22,42,2015,English Premier League
+17,SUN,38,9,12,17,48,62,-14,39,2015,English Premier League
+18,NEW,38,9,10,19,44,65,-21,37,2015,English Premier League
+19,NOR,38,9,7,22,39,67,-28,34,2015,English Premier League
+20,AVL,38,3,8,27,27,76,-49,17,2015,English Premier League
+1,CHE,38,30,3,5,85,33,52,93,2016,English Premier League
+2,TOT,38,26,8,4,86,26,60,86,2016,English Premier League
+3,MNC,38,23,9,6,80,39,41,78,2016,English Premier League
+4,LIV,38,22,10,6,78,42,36,76,2016,English Premier League
+5,ARS,38,23,6,9,77,44,33,75,2016,English Premier League
+6,MAN,38,18,15,5,54,29,25,69,2016,English Premier League
+7,EVE,38,17,10,11,62,44,18,61,2016,English Premier League
+8,SOU,38,12,10,16,41,48,-7,46,2016,English Premier League
+9,BOU,38,12,10,16,55,67,-12,46,2016,English Premier League
+10,WBA,38,12,9,17,43,51,-8,45,2016,English Premier League
+11,WHU,38,12,9,17,47,64,-17,45,2016,English Premier League
+12,LEI,38,12,8,18,48,63,-15,44,2016,English Premier League
+13,STK,38,11,11,16,41,56,-15,44,2016,English Premier League
+14,CRY,38,12,5,21,50,63,-13,41,2016,English Premier League
+15,SWA,38,12,5,21,45,70,-25,41,2016,English Premier League
+16,BUR,38,11,7,20,39,55,-16,40,2016,English Premier League
+17,WAT,38,11,7,20,40,68,-28,40,2016,English Premier League
+18,HUL,38,9,7,22,37,80,-43,34,2016,English Premier League
+19,MID,38,5,13,20,27,53,-26,28,2016,English Premier League
+20,SUN,38,6,6,26,29,69,-40,24,2016,English Premier League
+1,MNC,38,32,4,2,106,27,79,100,2017,English Premier League
+2,MAN,38,25,6,7,68,28,40,81,2017,English Premier League
+3,TOT,38,23,8,7,74,36,38,77,2017,English Premier League
+4,LIV,38,21,12,5,84,38,46,75,2017,English Premier League
+5,CHE,38,21,7,10,62,38,24,70,2017,English Premier League
+6,ARS,38,19,6,13,74,51,23,63,2017,English Premier League
+7,BUR,38,14,12,12,36,39,-3,54,2017,English Premier League
+8,EVE,38,13,10,15,44,58,-14,49,2017,English Premier League
+9,LEI,38,12,11,15,56,60,-4,47,2017,English Premier League
+10,NEW,38,12,8,18,39,47,-8,44,2017,English Premier League
+11,CRY,38,11,11,16,45,55,-10,44,2017,English Premier League
+12,BOU,38,11,11,16,45,61,-16,44,2017,English Premier League
+13,WHU,38,10,12,16,48,68,-20,42,2017,English Premier League
+14,WAT,38,11,8,19,44,64,-20,41,2017,English Premier League
+15,BHA,38,9,13,16,34,54,-20,40,2017,English Premier League
+16,HUD,38,9,10,19,28,58,-30,37,2017,English Premier League
+17,SOU,38,7,15,16,37,56,-19,36,2017,English Premier League
+18,SWA,38,8,9,21,28,56,-28,33,2017,English Premier League
+19,STK,38,7,12,19,35,68,-33,33,2017,English Premier League
+20,WBA,38,6,13,19,31,56,-25,31,2017,English Premier League
+1,MNC,38,32,2,4,95,23,72,98,2018,English Premier League
+2,LIV,38,30,7,1,89,22,67,97,2018,English Premier League
+3,CHE,38,21,9,8,63,39,24,72,2018,English Premier League
+4,TOT,38,23,2,13,67,39,28,71,2018,English Premier League
+5,ARS,38,21,7,10,73,51,22,70,2018,English Premier League
+6,MAN,38,19,9,10,65,54,11,66,2018,English Premier League
+7,WOL,38,16,9,13,47,46,1,57,2018,English Premier League
+8,EVE,38,15,9,14,54,46,8,54,2018,English Premier League
+9,LEI,38,15,7,16,51,48,3,52,2018,English Premier League
+10,WHU,38,15,7,16,52,55,-3,52,2018,English Premier League
+11,WAT,38,14,8,16,52,59,-7,50,2018,English Premier League
+12,CRY,38,14,7,17,51,53,-2,49,2018,English Premier League
+13,NEW,38,12,9,17,42,48,-6,45,2018,English Premier League
+14,BOU,38,13,6,19,56,70,-14,45,2018,English Premier League
+15,BUR,38,11,7,20,45,68,-23,40,2018,English Premier League
+16,SOU,38,9,12,17,45,65,-20,39,2018,English Premier League
+17,BHA,38,9,9,20,35,60,-25,36,2018,English Premier League
+18,CAR,38,10,4,24,34,69,-35,34,2018,English Premier League
+19,FUL,38,7,5,26,34,81,-47,26,2018,English Premier League
+20,HUD,38,3,7,28,22,76,-54,16,2018,English Premier League
+1,LIV,38,32,3,3,85,33,52,99,2019,English Premier League
+2,MNC,38,26,3,9,102,35,67,81,2019,English Premier League
+3,MAN,38,18,12,8,66,36,30,66,2019,English Premier League
+4,CHE,38,20,6,12,69,54,15,66,2019,English Premier League
+5,LEI,38,18,8,12,67,41,26,62,2019,English Premier League
+6,TOT,38,16,11,11,61,47,14,59,2019,English Premier League
+7,WOL,38,15,14,9,51,40,11,59,2019,English Premier League
+8,ARS,38,14,14,10,56,48,8,56,2019,English Premier League
+9,SHU,38,14,12,12,39,39,0,54,2019,English Premier League
+10,BUR,38,15,9,14,43,50,-7,54,2019,English Premier League
+11,SOU,38,15,7,16,51,60,-9,52,2019,English Premier League
+12,EVE,38,13,10,15,44,56,-12,49,2019,English Premier League
+13,NEW,38,11,11,16,38,58,-20,44,2019,English Premier League
+14,CRY,38,11,10,17,31,50,-19,43,2019,English Premier League
+15,BHA,38,9,14,15,39,54,-15,41,2019,English Premier League
+16,WHU,38,10,9,19,49,62,-13,39,2019,English Premier League
+17,AVL,38,9,8,21,41,67,-26,35,2019,English Premier League
+18,BOU,38,9,7,22,40,65,-25,34,2019,English Premier League
+19,WAT,38,8,10,20,36,64,-28,34,2019,English Premier League
+20,NOR,38,5,6,27,26,75,-49,21,2019,English Premier League
+1,MNC,38,27,5,6,83,32,51,86,2020,English Premier League
+2,MAN,38,21,11,6,73,44,29,74,2020,English Premier League
+3,LIV,38,20,9,9,68,42,26,69,2020,English Premier League
+4,CHE,38,19,10,9,58,36,22,67,2020,English Premier League
+5,LEI,38,20,6,12,68,50,18,66,2020,English Premier League
+6,WHU,38,19,8,11,62,47,15,65,2020,English Premier League
+7,TOT,38,18,8,12,68,45,23,62,2020,English Premier League
+8,ARS,38,18,7,13,55,39,16,61,2020,English Premier League
+9,LEE,38,18,5,15,62,54,8,59,2020,English Premier League
+10,EVE,38,17,8,13,47,48,-1,59,2020,English Premier League
+11,AVL,38,16,7,15,55,46,9,55,2020,English Premier League
+12,NEW,38,12,9,17,46,62,-16,45,2020,English Premier League
+13,WOL,38,12,9,17,36,52,-16,45,2020,English Premier League
+14,CRY,38,12,8,18,41,66,-25,44,2020,English Premier League
+15,SOU,38,12,7,19,47,68,-21,43,2020,English Premier League
+16,BHA,38,9,14,15,40,46,-6,41,2020,English Premier League
+17,BUR,38,10,9,19,33,55,-22,39,2020,English Premier League
+18,FUL,38,5,13,20,27,53,-26,28,2020,English Premier League
+19,WBA,38,5,11,22,35,76,-41,26,2020,English Premier League
+20,SHU,38,7,2,29,20,63,-43,23,2020,English Premier League
+1,MNC,37,28,6,3,96,24,72,90,2021,English Premier League
+2,LIV,37,27,8,2,91,25,66,89,2021,English Premier League
+3,CHE,37,20,11,6,74,32,42,71,2021,English Premier League
+4,TOT,37,21,5,11,64,40,24,68,2021,English Premier League
+5,ARS,37,21,3,13,56,47,9,66,2021,English Premier League
+6,MAN,37,16,10,11,57,56,1,58,2021,English Premier League
+7,WHU,37,16,8,13,59,48,11,56,2021,English Premier League
+8,WOL,37,15,6,16,37,40,-3,51,2021,English Premier League
+9,LEI,37,13,10,14,58,58,0,49,2021,English Premier League
+10,BHA,37,11,15,11,39,43,-4,48,2021,English Premier League
+11,BRE,37,13,7,17,47,54,-7,46,2021,English Premier League
+12,NEW,37,12,10,15,42,61,-19,46,2021,English Premier League
+13,CRY,37,10,15,12,49,46,3,45,2021,English Premier League
+14,AVL,37,13,6,18,50,51,-1,45,2021,English Premier League
+15,SOU,37,9,13,15,42,63,-21,40,2021,English Premier League
+16,EVE,37,11,6,20,42,61,-19,39,2021,English Premier League
+17,BUR,37,7,14,16,33,51,-18,35,2021,English Premier League
+18,LEE,37,8,11,18,40,78,-38,35,2021,English Premier League
+19,WAT,37,6,5,26,33,75,-42,23,2021,English Premier League
+20,NOR,37,5,7,25,23,79,-56,22,2021,English Premier League
+1,MAD,28,18,5,5,0,0,0,59,2000,Spanish La Liga
+2,DEP,28,16,6,6,0,0,0,54,2000,Spanish La Liga
+3,VAL,28,14,7,7,0,0,0,49,2000,Spanish La Liga
+4,BAR,28,14,7,7,0,0,0,49,2000,Spanish La Liga
+5,MAL,28,12,10,6,0,0,0,46,2000,Spanish La Liga
+6,VIL,28,12,6,10,0,0,0,42,2000,Spanish La Liga
+7,CEL,28,11,8,9,0,0,0,41,2000,Spanish La Liga
+8,ALV,28,11,7,10,0,0,0,40,2000,Spanish La Liga
+9,ESP,28,11,6,11,0,0,0,39,2000,Spanish La Liga
+10,MCF,28,11,5,12,0,0,0,38,2000,Spanish La Liga
+11,RAY,28,9,10,9,0,0,0,37,2000,Spanish La Liga
+12,ATH,28,9,9,10,0,0,0,36,2000,Spanish La Liga
+13,LPA,28,10,5,13,0,0,0,35,2000,Spanish La Liga
+14,ZAR,28,7,11,10,0,0,0,32,2000,Spanish La Liga
+15,VALL,28,7,11,10,0,0,0,32,2000,Spanish La Liga
+16,OVI,28,9,5,14,0,0,0,32,2000,Spanish La Liga
+17,OSA,28,6,9,13,0,0,0,27,2000,Spanish La Liga
+18,NUM,28,7,6,15,0,0,0,27,2000,Spanish La Liga
+19,RAC,28,7,5,16,0,0,0,26,2000,Spanish La Liga
+20,RSO,28,6,8,14,0,0,0,26,2000,Spanish La Liga
+1,VAL,38,21,12,5,51,27,24,75,2001,Spanish La Liga
+2,DEP,38,20,8,10,65,41,24,68,2001,Spanish La Liga
+3,MAD,38,19,9,10,69,44,25,66,2001,Spanish La Liga
+4,BAR,38,18,10,10,65,37,28,64,2001,Spanish La Liga
+5,CEL,38,16,12,10,64,46,18,60,2001,Spanish La Liga
+6,BET,38,15,14,9,42,34,8,59,2001,Spanish La Liga
+7,ALV,38,17,3,18,41,44,-3,54,2001,Spanish La Liga
+8,SEV,38,14,11,13,51,40,11,53,2001,Spanish La Liga
+9,ATH,38,14,11,13,54,66,-12,53,2001,Spanish La Liga
+10,MCF,38,13,14,11,44,44,0,53,2001,Spanish La Liga
+11,RAY,38,13,10,15,46,52,-6,49,2001,Spanish La Liga
+12,VALL,38,13,9,16,45,58,-13,48,2001,Spanish La Liga
+13,RSO,38,13,8,17,48,54,-6,47,2001,Spanish La Liga
+14,ESP,38,13,8,17,47,56,-9,47,2001,Spanish La Liga
+15,VIL,38,11,10,17,46,55,-9,43,2001,Spanish La Liga
+16,MAL,38,11,10,17,40,52,-12,43,2001,Spanish La Liga
+17,OSA,38,10,12,16,36,49,-13,42,2001,Spanish La Liga
+18,LPA,38,9,13,16,40,50,-10,40,2001,Spanish La Liga
+19,TEN,38,10,8,20,32,58,-26,38,2001,Spanish La Liga
+20,ZAR,38,9,10,19,35,54,-19,37,2001,Spanish La Liga
+1,MAD,38,22,12,4,86,42,44,78,2002,Spanish La Liga
+2,RSO,38,22,10,6,71,45,26,76,2002,Spanish La Liga
+3,DEP,38,22,6,10,67,47,20,72,2002,Spanish La Liga
+4,CEL,38,17,10,11,45,36,9,61,2002,Spanish La Liga
+5,VAL,38,17,9,12,56,35,21,60,2002,Spanish La Liga
+6,BAR,38,15,11,12,63,47,16,56,2002,Spanish La Liga
+7,ATH,38,15,10,13,63,61,2,55,2002,Spanish La Liga
+8,BET,38,14,12,12,56,53,3,54,2002,Spanish La Liga
+9,MAL,38,14,10,14,49,56,-7,52,2002,Spanish La Liga
+10,SEV,38,13,11,14,38,39,-1,50,2002,Spanish La Liga
+11,OSA,38,12,11,15,40,48,-8,47,2002,Spanish La Liga
+12,ATL,38,12,11,15,51,56,-5,47,2002,Spanish La Liga
+13,MCF,38,11,13,14,44,49,-5,46,2002,Spanish La Liga
+14,VALL,38,12,10,16,37,40,-3,46,2002,Spanish La Liga
+15,VIL,38,11,12,15,44,53,-9,45,2002,Spanish La Liga
+16,RAC,38,13,5,20,54,64,-10,44,2002,Spanish La Liga
+17,ESP,38,10,13,15,48,54,-6,43,2002,Spanish La Liga
+18,HUE,38,8,12,18,35,61,-26,36,2002,Spanish La Liga
+19,ALV,38,8,11,19,38,68,-30,35,2002,Spanish La Liga
+20,RAY,38,7,11,20,31,62,-31,32,2002,Spanish La Liga
+1,VAL,38,23,8,7,71,27,44,77,2003,Spanish La Liga
+2,BAR,38,21,9,8,63,39,24,72,2003,Spanish La Liga
+3,DEP,38,21,8,9,60,34,26,71,2003,Spanish La Liga
+4,MAD,38,21,7,10,72,54,18,70,2003,Spanish La Liga
+5,ATH,38,15,11,12,53,49,4,56,2003,Spanish La Liga
+6,SEV,38,15,10,13,56,45,11,55,2003,Spanish La Liga
+7,ATL,38,15,10,13,51,53,-2,55,2003,Spanish La Liga
+8,VIL,38,15,9,14,47,49,-2,54,2003,Spanish La Liga
+9,BET,38,13,13,12,46,43,3,52,2003,Spanish La Liga
+10,MCF,38,15,6,17,50,55,-5,51,2003,Spanish La Liga
+11,MAL,38,15,6,17,54,66,-12,51,2003,Spanish La Liga
+12,ZAR,38,13,9,16,46,55,-9,48,2003,Spanish La Liga
+13,OSA,38,11,15,12,38,37,1,48,2003,Spanish La Liga
+14,ALB,38,13,8,17,40,48,-8,47,2003,Spanish La Liga
+15,RSO,38,11,13,14,49,53,-4,46,2003,Spanish La Liga
+16,ESP,38,13,4,21,48,64,-16,43,2003,Spanish La Liga
+17,RAC,38,11,10,17,48,63,-15,42,2003,Spanish La Liga
+18,VALL,38,10,11,17,46,56,-10,41,2003,Spanish La Liga
+19,CEL,38,9,12,17,48,68,-20,39,2003,Spanish La Liga
+20,MUR,38,5,11,22,29,57,-28,26,2003,Spanish La Liga
+1,BAR,38,25,9,4,73,29,44,84,2004,Spanish La Liga
+2,MAD,38,25,5,8,71,32,39,80,2004,Spanish La Liga
+3,VIL,38,18,11,9,69,37,32,65,2004,Spanish La Liga
+4,BET,38,16,14,8,62,50,12,62,2004,Spanish La Liga
+5,ESP,38,17,10,11,54,46,8,61,2004,Spanish La Liga
+6,SEV,38,17,9,12,44,41,3,60,2004,Spanish La Liga
+7,VAL,38,14,16,8,54,39,15,58,2004,Spanish La Liga
+8,DEP,38,12,15,11,46,50,-4,51,2004,Spanish La Liga
+9,ATH,38,14,9,15,59,54,5,51,2004,Spanish La Liga
+10,MCF,38,15,6,17,40,48,-8,51,2004,Spanish La Liga
+11,ATL,38,13,11,14,40,34,6,50,2004,Spanish La Liga
+12,ZAR,38,14,8,16,52,57,-5,50,2004,Spanish La Liga
+13,GET,38,12,11,15,38,46,-8,47,2004,Spanish La Liga
+14,RSO,38,13,8,17,47,56,-9,47,2004,Spanish La Liga
+15,OSA,38,12,10,16,46,65,-19,46,2004,Spanish La Liga
+16,RAC,38,12,8,18,41,58,-17,44,2004,Spanish La Liga
+17,MAL,38,10,9,19,42,63,-21,39,2004,Spanish La Liga
+18,LEV,38,9,10,19,39,58,-19,37,2004,Spanish La Liga
+19,NUM,38,6,11,21,30,61,-31,29,2004,Spanish La Liga
+20,ALB,38,6,10,22,33,56,-23,28,2004,Spanish La Liga
+1,BAR,38,25,7,6,80,35,45,82,2005,Spanish La Liga
+2,MAD,38,20,10,8,70,40,30,70,2005,Spanish La Liga
+3,VAL,38,19,12,7,58,33,25,69,2005,Spanish La Liga
+4,OSA,38,21,5,12,49,43,6,68,2005,Spanish La Liga
+5,SEV,38,20,8,10,54,39,15,68,2005,Spanish La Liga
+6,CEL,38,20,4,14,45,33,12,64,2005,Spanish La Liga
+7,VIL,38,14,15,9,50,39,11,57,2005,Spanish La Liga
+8,DEP,38,15,10,13,47,45,2,55,2005,Spanish La Liga
+9,GET,38,15,9,14,54,49,5,54,2005,Spanish La Liga
+10,ATL,38,13,13,12,45,37,8,52,2005,Spanish La Liga
+11,ZAR,38,10,16,12,46,51,-5,46,2005,Spanish La Liga
+12,ATH,38,11,12,15,40,46,-6,45,2005,Spanish La Liga
+13,MAL,38,10,13,15,37,51,-14,43,2005,Spanish La Liga
+14,BET,38,10,12,16,34,51,-17,42,2005,Spanish La Liga
+15,ESP,38,10,11,17,36,56,-20,41,2005,Spanish La Liga
+16,RSO,38,11,7,20,48,65,-17,40,2005,Spanish La Liga
+17,RAC,38,9,13,16,36,49,-13,40,2005,Spanish La Liga
+18,ALV,38,9,12,17,35,54,-19,39,2005,Spanish La Liga
+19,CAD,38,8,12,18,36,52,-16,36,2005,Spanish La Liga
+20,MCF,38,5,9,24,36,68,-32,24,2005,Spanish La Liga
+1,MAD,38,23,7,8,66,40,26,76,2006,Spanish La Liga
+2,BAR,38,22,10,6,78,33,45,76,2006,Spanish La Liga
+3,SEV,38,21,8,9,64,35,29,71,2006,Spanish La Liga
+4,VAL,38,20,6,12,57,42,15,66,2006,Spanish La Liga
+5,VIL,38,18,8,12,48,44,4,62,2006,Spanish La Liga
+6,ZAR,38,16,12,10,55,43,12,60,2006,Spanish La Liga
+7,ATL,38,17,9,12,46,39,7,60,2006,Spanish La Liga
+8,HUE,38,15,9,14,54,52,2,54,2006,Spanish La Liga
+9,GET,38,14,10,14,39,33,6,52,2006,Spanish La Liga
+10,RAC,38,12,14,12,42,48,-6,50,2006,Spanish La Liga
+11,ESP,38,12,13,13,46,53,-7,49,2006,Spanish La Liga
+12,MAL,38,14,7,17,41,47,-6,49,2006,Spanish La Liga
+13,DEP,38,12,11,15,32,45,-13,47,2006,Spanish La Liga
+14,OSA,38,13,7,18,51,49,2,46,2006,Spanish La Liga
+15,LEV,38,10,12,16,37,53,-16,42,2006,Spanish La Liga
+16,BET,38,8,16,14,36,49,-13,40,2006,Spanish La Liga
+17,ATH,38,10,10,18,44,62,-18,40,2006,Spanish La Liga
+18,CEL,38,10,9,19,40,59,-19,39,2006,Spanish La Liga
+19,RSO,38,8,11,19,32,47,-15,35,2006,Spanish La Liga
+20,GIM,38,7,7,24,34,69,-35,28,2006,Spanish La Liga
+1,MAD,38,27,4,7,84,36,48,85,2007,Spanish La Liga
+2,VIL,38,24,5,9,63,40,23,77,2007,Spanish La Liga
+3,BAR,38,19,10,9,76,43,33,67,2007,Spanish La Liga
+4,ATL,38,19,7,12,66,47,19,64,2007,Spanish La Liga
+5,SEV,38,20,4,14,75,49,26,64,2007,Spanish La Liga
+6,RAC,38,17,9,12,42,41,1,60,2007,Spanish La Liga
+7,MAL,38,15,14,9,69,54,15,59,2007,Spanish La Liga
+8,ALM,38,14,10,14,42,45,-3,52,2007,Spanish La Liga
+9,DEP,38,15,7,16,46,47,-1,52,2007,Spanish La Liga
+10,VAL,38,15,6,17,48,62,-14,51,2007,Spanish La Liga
+11,ATH,38,13,11,14,40,43,-3,50,2007,Spanish La Liga
+12,ESP,38,13,9,16,43,53,-10,48,2007,Spanish La Liga
+13,BET,38,12,11,15,45,51,-6,47,2007,Spanish La Liga
+14,GET,38,12,11,15,44,48,-4,47,2007,Spanish La Liga
+15,VALL,38,11,12,15,42,57,-15,45,2007,Spanish La Liga
+16,HUE,38,11,11,16,40,60,-20,44,2007,Spanish La Liga
+17,OSA,38,12,7,19,37,44,-7,43,2007,Spanish La Liga
+18,ZAR,38,10,12,16,50,61,-11,42,2007,Spanish La Liga
+19,MUR,38,7,9,22,36,65,-29,30,2007,Spanish La Liga
+20,LEV,38,7,5,26,33,75,-42,26,2007,Spanish La Liga
+1,BAR,38,27,6,5,105,35,70,87,2008,Spanish La Liga
+2,MAD,38,25,3,10,83,52,31,78,2008,Spanish La Liga
+3,SEV,38,21,7,10,54,39,15,70,2008,Spanish La Liga
+4,ATL,38,20,7,11,80,57,23,67,2008,Spanish La Liga
+5,VIL,38,18,11,9,61,54,7,65,2008,Spanish La Liga
+6,VAL,38,18,8,12,68,54,14,62,2008,Spanish La Liga
+7,DEP,38,16,10,12,48,47,1,58,2008,Spanish La Liga
+8,MCF,38,15,10,13,55,59,-4,55,2008,Spanish La Liga
+9,MAL,38,14,9,15,53,60,-7,51,2008,Spanish La Liga
+10,ESP,38,12,11,15,46,49,-3,47,2008,Spanish La Liga
+11,ALM,38,13,7,18,45,61,-16,46,2008,Spanish La Liga
+12,RAC,38,12,10,16,49,48,1,46,2008,Spanish La Liga
+13,ATH,38,12,8,18,47,62,-15,44,2008,Spanish La Liga
+14,RSG,38,14,1,23,47,79,-32,43,2008,Spanish La Liga
+15,OSA,38,10,13,15,41,47,-6,43,2008,Spanish La Liga
+16,VALL,38,12,7,19,46,58,-12,43,2008,Spanish La Liga
+17,GET,38,10,12,16,50,56,-6,42,2008,Spanish La Liga
+18,BET,38,10,12,16,51,58,-7,42,2008,Spanish La Liga
+19,NUM,38,10,5,23,38,69,-31,35,2008,Spanish La Liga
+20,HUE,38,8,9,21,34,57,-23,33,2008,Spanish La Liga
+1,BAR,38,31,6,1,98,24,74,99,2009,Spanish La Liga
+2,MAD,38,31,3,4,102,35,67,96,2009,Spanish La Liga
+3,VAL,38,21,8,9,59,40,19,71,2009,Spanish La Liga
+4,SEV,38,19,6,13,65,49,16,63,2009,Spanish La Liga
+5,MAL,38,18,8,12,59,44,15,62,2009,Spanish La Liga
+6,GET,38,17,7,14,58,48,10,58,2009,Spanish La Liga
+7,VIL,38,16,8,14,58,57,1,56,2009,Spanish La Liga
+8,ATH,38,15,9,14,50,53,-3,54,2009,Spanish La Liga
+9,ATL,38,13,8,17,57,61,-4,47,2009,Spanish La Liga
+10,DEP,38,13,8,17,35,49,-14,47,2009,Spanish La Liga
+11,ESP,38,11,11,16,29,46,-17,44,2009,Spanish La Liga
+12,OSA,38,11,10,17,37,46,-9,43,2009,Spanish La Liga
+13,ALM,38,10,12,16,43,55,-12,42,2009,Spanish La Liga
+14,ZAR,38,10,11,17,46,64,-18,41,2009,Spanish La Liga
+15,RSG,38,9,13,16,36,51,-15,40,2009,Spanish La Liga
+16,RAC,38,9,12,17,42,59,-17,39,2009,Spanish La Liga
+17,MCF,38,7,16,15,42,48,-6,37,2009,Spanish La Liga
+18,VALL,38,7,15,16,37,62,-25,36,2009,Spanish La Liga
+19,TEN,38,9,9,20,40,74,-34,36,2009,Spanish La Liga
+20,XER,38,8,10,20,38,66,-28,34,2009,Spanish La Liga
+1,BAR,38,30,6,2,95,21,74,96,2010,Spanish La Liga
+2,MAD,38,29,5,4,102,33,69,92,2010,Spanish La Liga
+3,VAL,38,21,8,9,64,44,20,71,2010,Spanish La Liga
+4,VIL,38,18,8,12,54,44,10,62,2010,Spanish La Liga
+5,SEV,38,17,7,14,62,61,1,58,2010,Spanish La Liga
+6,ATH,38,18,4,16,59,55,4,58,2010,Spanish La Liga
+7,ATL,38,17,7,14,62,53,9,58,2010,Spanish La Liga
+8,ESP,38,15,4,19,46,55,-9,49,2010,Spanish La Liga
+9,OSA,38,13,8,17,45,46,-1,47,2010,Spanish La Liga
+10,RSG,38,11,14,13,35,42,-7,47,2010,Spanish La Liga
+11,MCF,38,13,7,18,54,68,-14,46,2010,Spanish La Liga
+12,RAC,38,12,10,16,41,56,-15,46,2010,Spanish La Liga
+13,ZAR,38,12,9,17,40,53,-13,45,2010,Spanish La Liga
+14,LEV,38,12,9,17,41,52,-11,45,2010,Spanish La Liga
+15,RSO,38,14,3,21,49,66,-17,45,2010,Spanish La Liga
+16,GET,38,12,8,18,49,60,-11,44,2010,Spanish La Liga
+17,MAL,38,12,8,18,41,56,-15,44,2010,Spanish La Liga
+18,DEP,38,10,13,15,31,47,-16,43,2010,Spanish La Liga
+19,HER,38,9,8,21,36,60,-24,35,2010,Spanish La Liga
+20,ALM,38,6,12,20,36,70,-34,30,2010,Spanish La Liga
+1,MAD,38,32,4,2,121,32,89,100,2011,Spanish La Liga
+2,BAR,38,28,7,3,114,29,85,91,2011,Spanish La Liga
+3,VAL,38,17,10,11,59,44,15,61,2011,Spanish La Liga
+4,MCF,38,17,7,14,54,53,1,58,2011,Spanish La Liga
+5,ATL,38,15,11,12,53,46,7,56,2011,Spanish La Liga
+6,LEV,38,16,7,15,54,50,4,55,2011,Spanish La Liga
+7,OSA,38,13,15,10,44,61,-17,54,2011,Spanish La Liga
+8,MAL,38,14,10,14,42,46,-4,52,2011,Spanish La Liga
+9,SEV,38,13,11,14,48,47,1,50,2011,Spanish La Liga
+10,ATH,38,12,13,13,49,52,-3,49,2011,Spanish La Liga
+11,GET,38,12,11,15,40,51,-11,47,2011,Spanish La Liga
+12,RSO,38,12,11,15,46,52,-6,47,2011,Spanish La Liga
+13,BET,38,13,8,17,47,56,-9,47,2011,Spanish La Liga
+14,ESP,38,12,10,16,46,56,-10,46,2011,Spanish La Liga
+15,RAY,38,13,4,21,53,73,-20,43,2011,Spanish La Liga
+16,ZAR,38,12,7,19,36,61,-25,43,2011,Spanish La Liga
+17,GCF,38,12,6,20,35,56,-21,42,2011,Spanish La Liga
+18,VIL,38,9,14,15,39,53,-14,41,2011,Spanish La Liga
+19,RSG,38,10,7,21,42,69,-27,37,2011,Spanish La Liga
+20,RAC,38,4,15,19,28,63,-35,27,2011,Spanish La Liga
+1,BAR,38,32,4,2,115,40,75,100,2012,Spanish La Liga
+2,MAD,38,26,7,5,103,42,61,85,2012,Spanish La Liga
+3,ATL,38,23,7,8,65,31,34,76,2012,Spanish La Liga
+4,RSO,38,18,12,8,70,49,21,66,2012,Spanish La Liga
+5,VAL,38,19,8,11,67,54,13,65,2012,Spanish La Liga
+6,MCF,38,16,9,13,53,50,3,57,2012,Spanish La Liga
+7,BET,38,16,8,14,57,56,1,56,2012,Spanish La Liga
+8,RAY,38,16,5,17,50,66,-16,53,2012,Spanish La Liga
+9,SEV,38,14,8,16,58,54,4,50,2012,Spanish La Liga
+10,GET,38,13,8,17,43,57,-14,47,2012,Spanish La Liga
+11,LEV,38,12,10,16,40,57,-17,46,2012,Spanish La Liga
+12,ATH,38,12,9,17,44,65,-21,45,2012,Spanish La Liga
+13,ESP,38,11,11,16,43,52,-9,44,2012,Spanish La Liga
+14,VALL,38,11,10,17,49,58,-9,43,2012,Spanish La Liga
+15,GCF,38,11,9,18,37,54,-17,42,2012,Spanish La Liga
+16,OSA,38,10,9,19,33,50,-17,39,2012,Spanish La Liga
+17,CEL,38,10,7,21,37,52,-15,37,2012,Spanish La Liga
+18,MAL,38,9,9,20,43,72,-29,36,2012,Spanish La Liga
+19,DEP,38,8,11,19,47,70,-23,35,2012,Spanish La Liga
+20,ZAR,38,9,7,22,37,62,-25,34,2012,Spanish La Liga
+1,ATL,38,28,6,4,77,26,51,90,2013,Spanish La Liga
+2,BAR,38,27,6,5,100,33,67,87,2013,Spanish La Liga
+3,MAD,38,27,6,5,104,38,66,87,2013,Spanish La Liga
+4,ATH,38,20,10,8,66,39,27,70,2013,Spanish La Liga
+5,SEV,38,18,9,11,69,52,17,63,2013,Spanish La Liga
+6,VIL,38,17,8,13,60,44,16,59,2013,Spanish La Liga
+7,RSO,38,16,11,11,62,55,7,59,2013,Spanish La Liga
+8,VAL,38,13,10,15,51,53,-2,49,2013,Spanish La Liga
+9,CEL,38,14,7,17,49,54,-5,49,2013,Spanish La Liga
+10,LEV,38,12,12,14,35,43,-8,48,2013,Spanish La Liga
+11,MCF,38,12,9,17,39,46,-7,45,2013,Spanish La Liga
+12,RAY,38,13,4,21,46,80,-34,43,2013,Spanish La Liga
+13,GET,38,11,9,18,35,54,-19,42,2013,Spanish La Liga
+14,ESP,38,11,9,18,41,51,-10,42,2013,Spanish La Liga
+15,GCF,38,12,5,21,32,56,-24,41,2013,Spanish La Liga
+16,ELC,38,9,13,16,30,50,-20,40,2013,Spanish La Liga
+17,ALM,38,11,7,20,43,71,-28,40,2013,Spanish La Liga
+18,OSA,38,10,9,19,32,62,-30,39,2013,Spanish La Liga
+19,VALL,38,7,15,16,38,60,-22,36,2013,Spanish La Liga
+20,BET,38,6,7,25,36,78,-42,25,2013,Spanish La Liga
+1,BAR,38,30,4,4,110,21,89,94,2014,Spanish La Liga
+2,MAD,38,30,2,6,118,38,80,92,2014,Spanish La Liga
+3,ATL,38,23,9,6,67,29,38,78,2014,Spanish La Liga
+4,VAL,38,22,11,5,70,32,38,77,2014,Spanish La Liga
+5,SEV,38,23,7,8,71,45,26,76,2014,Spanish La Liga
+6,VIL,38,16,12,10,48,37,11,60,2014,Spanish La Liga
+7,ATH,38,15,10,13,42,41,1,55,2014,Spanish La Liga
+8,CEL,38,13,12,13,47,44,3,51,2014,Spanish La Liga
+9,MCF,38,14,8,16,42,48,-6,50,2014,Spanish La Liga
+10,ESP,38,13,10,15,47,51,-4,49,2014,Spanish La Liga
+11,RAY,38,15,4,19,46,68,-22,49,2014,Spanish La Liga
+12,RSO,38,11,13,14,44,51,-7,46,2014,Spanish La Liga
+13,ELC,38,11,8,19,35,62,-27,41,2014,Spanish La Liga
+14,LEV,38,9,10,19,34,67,-33,37,2014,Spanish La Liga
+15,GET,38,10,7,21,33,64,-31,37,2014,Spanish La Liga
+16,DEP,38,7,14,17,35,60,-25,35,2014,Spanish La Liga
+17,GCF,38,7,14,17,29,64,-35,35,2014,Spanish La Liga
+18,EIB,38,9,8,21,34,55,-21,35,2014,Spanish La Liga
+19,ALM,38,8,8,22,35,64,-29,29,2014,Spanish La Liga
+20,COR,38,3,11,24,22,68,-46,20,2014,Spanish La Liga
+1,BAR,38,29,4,5,112,29,83,91,2015,Spanish La Liga
+2,MAD,38,28,6,4,110,34,76,90,2015,Spanish La Liga
+3,ATL,38,28,4,6,63,18,45,88,2015,Spanish La Liga
+4,VIL,38,18,10,10,44,35,9,64,2015,Spanish La Liga
+5,ATH,38,18,8,12,58,45,13,62,2015,Spanish La Liga
+6,CEL,38,17,9,12,51,59,-8,60,2015,Spanish La Liga
+7,SEV,38,14,10,14,51,50,1,52,2015,Spanish La Liga
+8,MCF,38,12,12,14,38,35,3,48,2015,Spanish La Liga
+9,RSO,38,13,9,16,45,48,-3,48,2015,Spanish La Liga
+10,BET,38,11,12,15,34,52,-18,45,2015,Spanish La Liga
+11,LPA,38,12,8,18,45,53,-8,44,2015,Spanish La Liga
+12,VAL,38,11,11,16,46,48,-2,44,2015,Spanish La Liga
+13,ESP,38,12,7,19,40,74,-34,43,2015,Spanish La Liga
+14,EIB,38,11,10,17,49,61,-12,43,2015,Spanish La Liga
+15,DEP,38,8,18,12,45,61,-16,42,2015,Spanish La Liga
+16,GCF,38,10,9,19,46,69,-23,39,2015,Spanish La Liga
+17,RSG,38,10,9,19,40,62,-22,39,2015,Spanish La Liga
+18,RAY,38,9,11,18,52,73,-21,38,2015,Spanish La Liga
+19,GET,38,9,9,20,37,67,-30,36,2015,Spanish La Liga
+20,LEV,38,8,8,22,37,70,-33,32,2015,Spanish La Liga
+1,MAD,38,29,6,3,106,41,65,93,2016,Spanish La Liga
+2,BAR,38,28,6,4,116,37,79,90,2016,Spanish La Liga
+3,ATL,38,23,9,6,70,27,43,78,2016,Spanish La Liga
+4,SEV,38,21,9,8,69,49,20,72,2016,Spanish La Liga
+5,VIL,38,19,10,9,56,33,23,67,2016,Spanish La Liga
+6,RSO,38,19,7,12,59,53,6,64,2016,Spanish La Liga
+7,ATH,38,19,6,13,53,43,10,63,2016,Spanish La Liga
+8,ESP,38,15,11,12,49,50,-1,56,2016,Spanish La Liga
+9,ALV,38,14,13,11,41,43,-2,55,2016,Spanish La Liga
+10,EIB,38,15,9,14,56,51,5,54,2016,Spanish La Liga
+11,MCF,38,12,10,16,49,55,-6,46,2016,Spanish La Liga
+12,VAL,38,13,7,18,56,65,-9,46,2016,Spanish La Liga
+13,CEL,38,13,6,19,53,69,-16,45,2016,Spanish La Liga
+14,LPA,38,10,9,19,53,74,-21,39,2016,Spanish La Liga
+15,BET,38,10,9,19,41,64,-23,39,2016,Spanish La Liga
+16,DEP,38,8,12,18,43,61,-18,36,2016,Spanish La Liga
+17,LEG,38,8,11,19,36,55,-19,35,2016,Spanish La Liga
+18,RSG,38,7,10,21,42,72,-30,31,2016,Spanish La Liga
+19,OSA,38,4,10,24,40,94,-54,22,2016,Spanish La Liga
+20,GCF,38,4,8,26,30,82,-52,20,2016,Spanish La Liga
+1,BAR,38,28,9,1,99,29,70,93,2017,Spanish La Liga
+2,ATL,38,23,10,5,58,22,36,79,2017,Spanish La Liga
+3,MAD,38,22,10,6,94,44,50,76,2017,Spanish La Liga
+4,VAL,38,22,7,9,65,38,27,73,2017,Spanish La Liga
+5,VIL,38,18,7,13,57,50,7,61,2017,Spanish La Liga
+6,BET,38,18,6,14,60,61,-1,60,2017,Spanish La Liga
+7,SEV,38,17,7,14,49,58,-9,58,2017,Spanish La Liga
+8,GET,38,15,10,13,42,33,9,55,2017,Spanish La Liga
+9,EIB,38,14,9,15,44,50,-6,51,2017,Spanish La Liga
+10,GIR,38,14,9,15,50,59,-9,51,2017,Spanish La Liga
+11,ESP,38,12,13,13,36,42,-6,49,2017,Spanish La Liga
+12,RSO,38,14,7,17,66,59,7,49,2017,Spanish La Liga
+13,CEL,38,13,10,15,59,60,-1,49,2017,Spanish La Liga
+14,ALV,38,15,2,21,40,50,-10,47,2017,Spanish La Liga
+15,LEV,38,11,13,14,44,58,-14,46,2017,Spanish La Liga
+16,ATH,38,10,13,15,41,49,-8,43,2017,Spanish La Liga
+17,LEG,38,12,7,19,34,51,-17,43,2017,Spanish La Liga
+18,DEP,38,6,11,21,38,76,-38,29,2017,Spanish La Liga
+19,LPA,38,5,7,26,24,74,-50,22,2017,Spanish La Liga
+20,MCF,38,5,5,28,24,61,-37,20,2017,Spanish La Liga
+1,BAR,38,26,9,3,90,36,54,87,2018,Spanish La Liga
+2,ATL,38,22,10,6,55,29,26,76,2018,Spanish La Liga
+3,MAD,38,21,5,12,63,46,17,68,2018,Spanish La Liga
+4,VAL,38,15,16,7,51,35,16,61,2018,Spanish La Liga
+5,GET,38,15,14,9,48,35,13,59,2018,Spanish La Liga
+6,SEV,38,17,8,13,62,47,15,59,2018,Spanish La Liga
+7,ESP,38,14,11,13,48,50,-2,53,2018,Spanish La Liga
+8,ATH,38,13,14,11,41,45,-4,53,2018,Spanish La Liga
+9,RSO,38,13,11,14,45,46,-1,50,2018,Spanish La Liga
+10,BET,38,14,8,16,44,52,-8,50,2018,Spanish La Liga
+11,ALV,38,13,11,14,39,50,-11,50,2018,Spanish La Liga
+12,EIB,38,11,14,13,46,50,-4,47,2018,Spanish La Liga
+13,LEG,38,11,12,15,37,43,-6,45,2018,Spanish La Liga
+14,VIL,38,10,14,14,49,52,-3,44,2018,Spanish La Liga
+15,LEV,38,11,11,16,59,66,-7,44,2018,Spanish La Liga
+16,VALL,38,10,11,17,32,51,-19,41,2018,Spanish La Liga
+17,CEL,38,10,11,17,53,62,-9,41,2018,Spanish La Liga
+18,GIR,38,9,10,19,37,53,-16,37,2018,Spanish La Liga
+19,HUE,38,7,12,19,43,65,-22,33,2018,Spanish La Liga
+20,RAY,38,8,8,22,41,70,-29,32,2018,Spanish La Liga
+1,MAD,38,26,9,3,70,25,45,87,2019,Spanish La Liga
+2,BAR,38,25,7,6,86,38,48,82,2019,Spanish La Liga
+3,ATL,38,18,16,4,51,27,24,70,2019,Spanish La Liga
+4,SEV,38,19,13,6,54,34,20,70,2019,Spanish La Liga
+5,VIL,38,18,6,14,63,49,14,60,2019,Spanish La Liga
+6,RSO,38,16,8,14,56,48,8,56,2019,Spanish La Liga
+7,GCF,38,16,8,14,52,45,7,56,2019,Spanish La Liga
+8,GET,38,14,12,12,43,37,6,54,2019,Spanish La Liga
+9,VAL,38,14,11,13,46,53,-7,53,2019,Spanish La Liga
+10,OSA,38,13,13,12,46,54,-8,52,2019,Spanish La Liga
+11,ATH,38,13,12,13,41,38,3,51,2019,Spanish La Liga
+12,LEV,38,14,7,17,47,53,-6,49,2019,Spanish La Liga
+13,VALL,38,9,15,14,32,43,-11,42,2019,Spanish La Liga
+14,EIB,38,11,9,18,39,56,-17,42,2019,Spanish La Liga
+15,BET,38,10,11,17,48,60,-12,41,2019,Spanish La Liga
+16,ALV,38,10,9,19,34,59,-25,39,2019,Spanish La Liga
+17,CEL,38,7,16,15,37,49,-12,37,2019,Spanish La Liga
+18,LEG,38,8,12,18,30,51,-21,36,2019,Spanish La Liga
+19,MAL,38,9,6,23,40,65,-25,33,2019,Spanish La Liga
+20,ESP,38,5,10,23,27,58,-31,25,2019,Spanish La Liga
+1,ATL,38,26,8,4,67,25,42,86,2020,Spanish La Liga
+2,MAD,38,25,9,4,67,28,39,84,2020,Spanish La Liga
+3,BAR,38,24,7,7,85,38,47,79,2020,Spanish La Liga
+4,SEV,38,24,5,9,53,33,20,77,2020,Spanish La Liga
+5,RSO,38,17,11,10,59,38,21,62,2020,Spanish La Liga
+6,BET,38,17,10,11,50,50,0,61,2020,Spanish La Liga
+7,VIL,38,15,13,10,60,44,16,58,2020,Spanish La Liga
+8,CEL,38,14,11,13,55,57,-2,53,2020,Spanish La Liga
+9,GCF,38,13,7,18,47,65,-18,46,2020,Spanish La Liga
+10,ATH,38,11,13,14,46,42,4,46,2020,Spanish La Liga
+11,OSA,38,11,11,16,37,48,-11,44,2020,Spanish La Liga
+12,CAD,38,11,11,16,36,58,-22,44,2020,Spanish La Liga
+13,VAL,38,10,13,15,50,53,-3,43,2020,Spanish La Liga
+14,LEV,38,9,14,15,46,57,-11,41,2020,Spanish La Liga
+15,GET,38,9,11,18,28,43,-15,38,2020,Spanish La Liga
+16,ALV,38,9,11,18,36,57,-21,38,2020,Spanish La Liga
+17,ELC,38,8,12,18,34,55,-21,36,2020,Spanish La Liga
+18,HUE,38,7,13,18,34,53,-19,34,2020,Spanish La Liga
+19,VALL,38,5,16,17,34,57,-23,31,2020,Spanish La Liga
+20,EIB,38,6,12,20,29,52,-23,30,2020,Spanish La Liga
+1,MAD,37,26,7,4,80,31,49,85,2021,Spanish La Liga
+2,BAR,37,21,10,6,68,36,32,73,2021,Spanish La Liga
+3,ATL,37,20,8,9,63,42,21,68,2021,Spanish La Liga
+4,SEV,37,17,16,4,52,30,22,67,2021,Spanish La Liga
+5,BET,37,19,7,11,62,40,22,64,2021,Spanish La Liga
+6,RSO,37,17,11,9,39,35,4,62,2021,Spanish La Liga
+7,VIL,37,15,11,11,61,37,24,56,2021,Spanish La Liga
+8,ATH,37,14,13,10,43,35,8,55,2021,Spanish La Liga
+9,OSA,37,12,11,14,37,49,-12,47,2021,Spanish La Liga
+10,CEL,37,12,10,15,43,41,2,46,2021,Spanish La Liga
+11,VAL,37,10,15,12,46,53,-7,45,2021,Spanish La Liga
+12,RAY,37,11,9,17,37,46,-9,42,2021,Spanish La Liga
+13,ESP,37,10,11,16,40,53,-13,41,2021,Spanish La Liga
+14,GET,37,8,15,14,32,38,-6,39,2021,Spanish La Liga
+15,ELC,37,10,9,18,37,51,-14,39,2021,Spanish La Liga
+16,GCF,37,8,13,16,44,61,-17,37,2021,Spanish La Liga
+17,MAL,37,9,9,19,34,63,-29,36,2021,Spanish La Liga
+18,CAD,37,7,15,15,34,51,-17,36,2021,Spanish La Liga
+19,LEV,37,7,11,19,47,74,-27,32,2021,Spanish La Liga
+20,ALV,37,8,7,22,31,64,-33,31,2021,Spanish La Liga
+1,MUN,27,15,4,8,0,0,0,49,2000,German Bundesliga
+2,DOR,27,14,6,7,0,0,0,48,2000,German Bundesliga
+3,SCHA,27,13,7,7,0,0,0,46,2000,German Bundesliga
+4,LEV,27,14,4,9,0,0,0,46,2000,German Bundesliga
+5,HERT,27,15,1,11,0,0,0,46,2000,German Bundesliga
+6,FCK,27,14,4,9,0,0,0,46,2000,German Bundesliga
+7,COL,27,11,7,9,0,0,0,40,2000,German Bundesliga
+8,WER,27,11,7,9,0,0,0,40,2000,German Bundesliga
+9,WOB,27,10,9,8,0,0,0,39,2000,German Bundesliga
+10,FREI,27,10,9,8,0,0,0,39,2000,German Bundesliga
+11,HAN,27,10,4,13,0,0,0,34,2000,German Bundesliga
+12,TSV,27,9,7,11,0,0,0,34,2000,German Bundesliga
+13,HSV,27,9,6,12,0,0,0,33,2000,German Bundesliga
+14,COT,27,9,2,16,0,0,0,29,2000,German Bundesliga
+15,SGE,27,8,5,14,0,0,0,29,2000,German Bundesliga
+16,Unterhaching,27,7,8,12,0,0,0,29,2000,German Bundesliga
+17,VFB,27,6,9,12,0,0,0,27,2000,German Bundesliga
+18,BOC,27,6,5,16,0,0,0,23,2000,German Bundesliga
+1,DOR,34,21,7,6,62,33,29,70,2001,German Bundesliga
+2,LEV,34,21,6,7,77,38,39,69,2001,German Bundesliga
+3,MUN,34,20,8,6,65,25,40,68,2001,German Bundesliga
+4,HERT,34,18,7,9,61,38,23,61,2001,German Bundesliga
+5,SCHA,34,18,7,9,52,36,16,61,2001,German Bundesliga
+6,WER,34,17,5,12,54,43,11,56,2001,German Bundesliga
+7,FCK,34,17,5,12,62,53,9,56,2001,German Bundesliga
+8,VFB,34,13,11,10,47,43,4,50,2001,German Bundesliga
+9,TSV,34,15,5,14,59,59,0,50,2001,German Bundesliga
+10,WOB,34,13,7,14,57,49,8,46,2001,German Bundesliga
+11,HSV,34,10,10,14,51,57,-6,40,2001,German Bundesliga
+12,MON,34,9,12,13,41,53,-12,39,2001,German Bundesliga
+13,COT,34,9,8,17,36,60,-24,35,2001,German Bundesliga
+14,HAN,34,9,7,18,35,54,-19,34,2001,German Bundesliga
+15,NUR,34,10,4,20,34,57,-23,34,2001,German Bundesliga
+16,FREI,34,7,9,18,37,64,-27,30,2001,German Bundesliga
+17,COL,34,7,8,19,26,61,-35,29,2001,German Bundesliga
+18,STP,34,4,10,20,37,70,-33,22,2001,German Bundesliga
+1,MUN,34,23,6,5,70,25,45,75,2002,German Bundesliga
+2,VFB,34,17,8,9,53,39,14,59,2002,German Bundesliga
+3,DOR,34,15,13,6,51,27,24,58,2002,German Bundesliga
+4,HSV,34,15,11,8,46,36,10,56,2002,German Bundesliga
+5,HERT,34,16,6,12,52,43,9,54,2002,German Bundesliga
+6,WER,34,16,4,14,51,50,1,52,2002,German Bundesliga
+7,SCHA,34,12,13,9,46,40,6,49,2002,German Bundesliga
+8,WOB,34,13,7,14,39,42,-3,46,2002,German Bundesliga
+9,BOC,34,12,9,13,55,56,-1,45,2002,German Bundesliga
+10,TSV,34,12,9,13,44,52,-8,45,2002,German Bundesliga
+11,HAN,34,12,7,15,47,57,-10,43,2002,German Bundesliga
+12,MON,34,11,9,14,43,45,-2,42,2002,German Bundesliga
+13,HAN,34,11,8,15,35,41,-6,41,2002,German Bundesliga
+14,FCK,34,10,10,14,40,42,-2,40,2002,German Bundesliga
+15,LEV,34,11,7,16,47,56,-9,40,2002,German Bundesliga
+16,DSC,34,8,12,14,35,46,-11,36,2002,German Bundesliga
+17,NUR,34,8,6,20,33,60,-27,30,2002,German Bundesliga
+18,COT,34,7,9,18,34,64,-30,30,2002,German Bundesliga
+1,WER,34,22,8,4,79,38,41,74,2003,German Bundesliga
+2,MUN,34,20,8,6,70,39,31,68,2003,German Bundesliga
+3,LEV,34,19,8,7,73,39,34,65,2003,German Bundesliga
+4,VFB,34,18,10,6,52,24,28,64,2003,German Bundesliga
+5,BOC,34,15,11,8,57,39,18,56,2003,German Bundesliga
+6,DOR,34,16,7,11,59,48,11,55,2003,German Bundesliga
+7,SCHA,34,13,11,10,49,42,7,50,2003,German Bundesliga
+8,HSV,34,14,7,13,47,60,-13,49,2003,German Bundesliga
+9,HAN,34,12,8,14,55,54,1,44,2003,German Bundesliga
+10,WOB,34,13,3,18,56,61,-5,42,2003,German Bundesliga
+11,MON,34,10,9,15,40,49,-9,39,2003,German Bundesliga
+12,HERT,34,9,12,13,42,59,-17,39,2003,German Bundesliga
+13,FREI,34,10,8,16,42,67,-25,38,2003,German Bundesliga
+14,HAN,34,9,10,15,49,63,-14,37,2003,German Bundesliga
+15,FCK,34,11,6,17,39,62,-23,36,2003,German Bundesliga
+16,SGE,34,9,5,20,36,53,-17,32,2003,German Bundesliga
+17,TSV,34,8,8,18,32,55,-23,32,2003,German Bundesliga
+18,COL,34,6,5,23,32,57,-25,23,2003,German Bundesliga
+1,MUN,34,24,5,5,75,33,42,77,2004,German Bundesliga
+2,SCHA,34,20,3,11,56,46,10,63,2004,German Bundesliga
+3,WER,34,18,5,11,68,37,31,59,2004,German Bundesliga
+4,HERT,34,15,13,6,59,31,28,58,2004,German Bundesliga
+5,VFB,34,17,7,10,54,40,14,58,2004,German Bundesliga
+6,LEV,34,16,9,9,65,44,21,57,2004,German Bundesliga
+7,DOR,34,15,10,9,47,44,3,55,2004,German Bundesliga
+8,HSV,34,16,3,15,55,50,5,51,2004,German Bundesliga
+9,WOB,34,15,3,16,49,51,-2,48,2004,German Bundesliga
+10,HAN,34,13,6,15,34,36,-2,45,2004,German Bundesliga
+11,MAIN,34,12,7,15,50,55,-5,43,2004,German Bundesliga
+12,FCK,34,12,6,16,43,52,-9,42,2004,German Bundesliga
+13,DSC,34,11,7,16,37,49,-12,40,2004,German Bundesliga
+14,NUR,34,10,8,16,55,63,-8,38,2004,German Bundesliga
+15,MON,34,8,12,14,35,51,-16,36,2004,German Bundesliga
+16,BOC,34,9,8,17,47,68,-21,35,2004,German Bundesliga
+17,HAN,34,7,9,18,31,65,-34,30,2004,German Bundesliga
+18,FREI,34,3,9,22,30,75,-45,18,2004,German Bundesliga
+1,MUN,34,22,9,3,67,32,35,75,2005,German Bundesliga
+2,WER,34,21,7,6,79,37,42,70,2005,German Bundesliga
+3,HSV,34,21,5,8,53,30,23,68,2005,German Bundesliga
+4,SCHA,34,16,13,5,47,31,16,61,2005,German Bundesliga
+5,LEV,34,14,10,10,64,49,15,52,2005,German Bundesliga
+6,HERT,34,12,12,10,52,48,4,48,2005,German Bundesliga
+7,DOR,34,11,13,10,45,42,3,46,2005,German Bundesliga
+8,NUR,34,12,8,14,49,51,-2,44,2005,German Bundesliga
+9,VFB,34,9,16,9,37,39,-2,43,2005,German Bundesliga
+10,MON,34,10,12,12,42,50,-8,42,2005,German Bundesliga
+11,MAIN,34,9,11,14,46,47,-1,38,2005,German Bundesliga
+12,HAN,34,7,17,10,43,47,-4,38,2005,German Bundesliga
+13,DSC,34,10,7,17,32,47,-15,37,2005,German Bundesliga
+14,SGE,34,9,9,16,42,51,-9,36,2005,German Bundesliga
+15,WOB,34,7,13,14,33,55,-22,34,2005,German Bundesliga
+16,FCK,34,8,9,17,47,71,-24,33,2005,German Bundesliga
+17,COL,34,7,9,18,49,71,-22,30,2005,German Bundesliga
+18,DUI,34,5,12,17,34,63,-29,27,2005,German Bundesliga
+1,VFB,34,21,7,6,61,37,24,70,2006,German Bundesliga
+2,SCHA,34,21,5,8,53,32,21,68,2006,German Bundesliga
+3,WER,34,20,6,8,76,40,36,66,2006,German Bundesliga
+4,MUN,34,18,6,10,55,40,15,60,2006,German Bundesliga
+5,LEV,34,15,6,13,54,49,5,51,2006,German Bundesliga
+6,NUR,34,11,15,8,43,32,11,48,2006,German Bundesliga
+7,HSV,34,10,15,9,43,37,6,45,2006,German Bundesliga
+8,BOC,34,13,6,15,49,50,-1,45,2006,German Bundesliga
+9,DOR,34,12,8,14,41,43,-2,44,2006,German Bundesliga
+10,HERT,34,12,8,14,50,55,-5,44,2006,German Bundesliga
+11,HAN,34,12,8,14,41,50,-9,44,2006,German Bundesliga
+12,DSC,34,11,9,14,47,49,-2,42,2006,German Bundesliga
+13,COT,34,11,8,15,38,49,-11,41,2006,German Bundesliga
+14,SGE,34,9,13,12,46,58,-12,40,2006,German Bundesliga
+15,WOB,34,8,13,13,37,45,-8,37,2006,German Bundesliga
+16,MAIN,34,8,10,16,34,57,-23,34,2006,German Bundesliga
+17,AAC,34,9,7,18,46,70,-24,34,2006,German Bundesliga
+18,MON,34,6,8,20,23,44,-21,26,2006,German Bundesliga
+1,MUN,34,22,10,2,68,21,47,76,2007,German Bundesliga
+2,WER,34,20,6,8,75,45,30,66,2007,German Bundesliga
+3,SCHA,34,18,10,6,55,32,23,64,2007,German Bundesliga
+4,HSV,34,14,12,8,47,26,21,54,2007,German Bundesliga
+5,WOB,34,15,9,10,58,46,12,54,2007,German Bundesliga
+6,VFB,34,16,4,14,57,57,0,52,2007,German Bundesliga
+7,LEV,34,15,6,13,57,40,17,51,2007,German Bundesliga
+8,HAN,34,13,10,11,54,56,-2,49,2007,German Bundesliga
+9,SGE,34,12,10,12,43,50,-7,46,2007,German Bundesliga
+10,HERT,34,12,8,14,39,44,-5,44,2007,German Bundesliga
+11,KAR,34,11,10,13,38,53,-15,43,2007,German Bundesliga
+12,BOC,34,10,11,13,48,54,-6,41,2007,German Bundesliga
+13,DOR,34,10,10,14,50,62,-12,40,2007,German Bundesliga
+14,COT,34,9,9,16,35,56,-21,36,2007,German Bundesliga
+15,DSC,34,8,10,16,35,60,-25,34,2007,German Bundesliga
+16,NUR,34,7,10,17,35,51,-16,31,2007,German Bundesliga
+17,HAN,34,8,6,20,30,52,-22,30,2007,German Bundesliga
+18,DUI,34,8,5,21,36,55,-19,29,2007,German Bundesliga
+1,WOB,34,21,6,7,80,41,39,69,2008,German Bundesliga
+2,MUN,34,20,7,7,71,42,29,67,2008,German Bundesliga
+3,VFB,34,19,7,8,63,43,20,64,2008,German Bundesliga
+4,HERT,34,19,6,9,48,41,7,63,2008,German Bundesliga
+5,HSV,34,19,4,11,49,47,2,61,2008,German Bundesliga
+6,DOR,34,15,14,5,60,37,23,59,2008,German Bundesliga
+7,HOF,34,15,10,9,63,49,14,55,2008,German Bundesliga
+8,SCHA,34,14,8,12,47,35,12,50,2008,German Bundesliga
+9,LEV,34,14,7,13,59,46,13,49,2008,German Bundesliga
+10,WER,34,12,9,13,64,50,14,45,2008,German Bundesliga
+11,HAN,34,10,10,14,49,69,-20,40,2008,German Bundesliga
+12,COL,34,11,6,17,35,50,-15,39,2008,German Bundesliga
+13,SGE,34,8,9,17,39,60,-21,33,2008,German Bundesliga
+14,BOC,34,7,11,16,39,55,-16,32,2008,German Bundesliga
+15,MON,34,8,7,19,39,62,-23,31,2008,German Bundesliga
+16,COT,34,8,6,20,30,57,-27,30,2008,German Bundesliga
+17,KAR,34,8,5,21,30,54,-24,29,2008,German Bundesliga
+18,DSC,34,4,16,14,29,56,-27,28,2008,German Bundesliga
+1,MUN,34,20,10,4,72,31,41,70,2009,German Bundesliga
+2,SCHA,34,19,8,7,53,31,22,65,2009,German Bundesliga
+3,WER,34,17,10,7,71,40,31,61,2009,German Bundesliga
+4,LEV,34,15,14,5,65,38,27,59,2009,German Bundesliga
+5,DOR,34,16,9,9,54,42,12,57,2009,German Bundesliga
+6,VFB,34,15,10,9,51,41,10,55,2009,German Bundesliga
+7,HSV,34,13,13,8,56,41,15,52,2009,German Bundesliga
+8,WOB,34,14,8,12,64,58,6,50,2009,German Bundesliga
+9,MAIN,34,12,11,11,36,42,-6,47,2009,German Bundesliga
+10,SGE,34,12,10,12,47,54,-7,46,2009,German Bundesliga
+11,HOF,34,11,9,14,44,42,2,42,2009,German Bundesliga
+12,MON,34,10,9,15,43,60,-17,39,2009,German Bundesliga
+13,COL,34,9,11,14,33,42,-9,38,2009,German Bundesliga
+14,FREI,34,9,8,17,35,59,-24,35,2009,German Bundesliga
+15,HAN,34,9,6,19,43,67,-24,33,2009,German Bundesliga
+16,NUR,34,8,7,19,32,58,-26,31,2009,German Bundesliga
+17,BOC,34,6,10,18,33,64,-31,28,2009,German Bundesliga
+18,HERT,34,5,9,20,34,56,-22,24,2009,German Bundesliga
+1,DOR,34,23,6,5,67,22,45,75,2010,German Bundesliga
+2,LEV,34,20,8,6,64,44,20,68,2010,German Bundesliga
+3,MUN,34,19,8,7,81,40,41,65,2010,German Bundesliga
+4,HAN,34,19,3,12,49,45,4,60,2010,German Bundesliga
+5,MAIN,34,18,4,12,52,39,13,58,2010,German Bundesliga
+6,NUR,34,13,8,13,47,45,2,47,2010,German Bundesliga
+7,FCK,34,13,7,14,48,51,-3,46,2010,German Bundesliga
+8,HSV,34,12,9,13,46,52,-6,45,2010,German Bundesliga
+9,FREI,34,13,5,16,41,50,-9,44,2010,German Bundesliga
+10,COL,34,13,5,16,47,62,-15,44,2010,German Bundesliga
+11,HOF,34,11,10,13,50,50,0,43,2010,German Bundesliga
+12,VFB,34,12,6,16,60,59,1,42,2010,German Bundesliga
+13,WER,34,10,11,13,47,61,-14,41,2010,German Bundesliga
+14,SCHA,34,11,7,16,38,44,-6,40,2010,German Bundesliga
+15,WOB,34,9,11,14,43,48,-5,38,2010,German Bundesliga
+16,MON,34,10,6,18,48,65,-17,36,2010,German Bundesliga
+17,SGE,34,9,7,18,31,49,-18,34,2010,German Bundesliga
+18,STP,34,8,5,21,35,68,-33,29,2010,German Bundesliga
+1,DOR,34,25,6,3,80,25,55,81,2011,German Bundesliga
+2,MUN,34,23,4,7,77,22,55,73,2011,German Bundesliga
+3,SCHA,34,20,4,10,74,44,30,64,2011,German Bundesliga
+4,MON,34,17,9,8,49,24,25,60,2011,German Bundesliga
+5,LEV,34,15,9,10,52,44,8,54,2011,German Bundesliga
+6,VFB,34,15,8,11,63,46,17,53,2011,German Bundesliga
+7,HAN,34,12,12,10,41,45,-4,48,2011,German Bundesliga
+8,WOB,34,13,5,16,47,60,-13,44,2011,German Bundesliga
+9,WER,34,11,9,14,49,58,-9,42,2011,German Bundesliga
+10,NUR,34,12,6,16,38,49,-11,42,2011,German Bundesliga
+11,HOF,34,10,11,13,41,47,-6,41,2011,German Bundesliga
+12,FREI,34,10,10,14,45,61,-16,40,2011,German Bundesliga
+13,MAIN,34,9,12,13,47,51,-4,39,2011,German Bundesliga
+14,AUG,34,8,14,12,36,49,-13,38,2011,German Bundesliga
+15,HSV,34,8,12,14,35,57,-22,36,2011,German Bundesliga
+16,HERT,34,7,10,17,38,64,-26,31,2011,German Bundesliga
+17,COL,34,8,6,20,39,75,-36,30,2011,German Bundesliga
+18,FCK,34,4,11,19,24,54,-30,23,2011,German Bundesliga
+1,MUN,34,29,4,1,98,18,80,91,2012,German Bundesliga
+2,DOR,34,19,9,6,81,42,39,66,2012,German Bundesliga
+3,LEV,34,19,8,7,65,39,26,65,2012,German Bundesliga
+4,SCHA,34,16,7,11,58,50,8,55,2012,German Bundesliga
+5,FREI,34,14,9,11,45,40,5,51,2012,German Bundesliga
+6,SGE,34,14,9,11,49,46,3,51,2012,German Bundesliga
+7,HSV,34,14,6,14,42,53,-11,48,2012,German Bundesliga
+8,MON,34,12,11,11,45,49,-4,47,2012,German Bundesliga
+9,HAN,34,13,6,15,60,62,-2,45,2012,German Bundesliga
+10,NUR,34,11,11,12,39,47,-8,44,2012,German Bundesliga
+11,WOB,34,10,13,11,47,52,-5,43,2012,German Bundesliga
+12,VFB,34,12,7,15,37,55,-18,43,2012,German Bundesliga
+13,MAIN,34,10,12,12,42,44,-2,42,2012,German Bundesliga
+14,WER,34,8,10,16,50,66,-16,34,2012,German Bundesliga
+15,AUG,34,8,9,17,33,51,-18,33,2012,German Bundesliga
+16,HOF,34,8,7,19,42,67,-25,31,2012,German Bundesliga
+17,FOR,34,7,9,18,39,57,-18,30,2012,German Bundesliga
+18,FUR,34,4,9,21,26,60,-34,21,2012,German Bundesliga
+1,MUN,34,29,3,2,94,23,71,90,2013,German Bundesliga
+2,DOR,34,22,5,7,80,38,42,71,2013,German Bundesliga
+3,SCHA,34,19,7,8,63,43,20,64,2013,German Bundesliga
+4,LEV,34,19,4,11,60,41,19,61,2013,German Bundesliga
+5,WOB,34,18,6,10,63,50,13,60,2013,German Bundesliga
+6,MON,34,16,7,11,59,43,16,55,2013,German Bundesliga
+7,MAIN,34,16,5,13,52,54,-2,53,2013,German Bundesliga
+8,AUG,34,15,7,12,47,47,0,52,2013,German Bundesliga
+9,HOF,34,11,11,12,72,70,2,44,2013,German Bundesliga
+10,HAN,34,12,6,16,46,59,-13,42,2013,German Bundesliga
+11,HERT,34,11,8,15,40,48,-8,41,2013,German Bundesliga
+12,WER,34,10,9,15,42,66,-24,39,2013,German Bundesliga
+13,SGE,34,9,9,16,40,57,-17,36,2013,German Bundesliga
+14,FREI,34,9,9,16,43,61,-18,36,2013,German Bundesliga
+15,VFB,34,8,8,18,49,62,-13,32,2013,German Bundesliga
+16,HSV,34,7,6,21,51,75,-24,27,2013,German Bundesliga
+17,NUR,34,5,11,18,37,70,-33,26,2013,German Bundesliga
+18,EBS,34,6,7,21,29,60,-31,25,2013,German Bundesliga
+1,MUN,34,25,4,5,80,18,62,79,2014,German Bundesliga
+2,WOB,34,20,9,5,72,38,34,69,2014,German Bundesliga
+3,MON,34,19,9,6,53,26,27,66,2014,German Bundesliga
+4,LEV,34,17,10,7,62,37,25,61,2014,German Bundesliga
+5,AUG,34,15,4,15,43,43,0,49,2014,German Bundesliga
+6,SCHA,34,13,9,12,42,40,2,48,2014,German Bundesliga
+7,DOR,34,13,7,14,47,42,5,46,2014,German Bundesliga
+8,HOF,34,12,8,14,49,55,-6,44,2014,German Bundesliga
+9,SGE,34,11,10,13,56,62,-6,43,2014,German Bundesliga
+10,WER,34,11,10,13,50,65,-15,43,2014,German Bundesliga
+11,MAIN,34,9,13,12,45,47,-2,40,2014,German Bundesliga
+12,COL,34,9,13,12,34,40,-6,40,2014,German Bundesliga
+13,HAN,34,9,10,15,40,56,-16,37,2014,German Bundesliga
+14,VFB,34,9,9,16,42,60,-18,36,2014,German Bundesliga
+15,HERT,34,9,8,17,36,52,-16,35,2014,German Bundesliga
+16,HSV,34,9,8,17,25,50,-25,35,2014,German Bundesliga
+17,FREI,34,7,13,14,36,47,-11,34,2014,German Bundesliga
+18,PAD,34,7,10,17,31,65,-34,31,2014,German Bundesliga
+1,MUN,34,28,4,2,80,17,63,88,2015,German Bundesliga
+2,DOR,34,24,6,4,82,34,48,78,2015,German Bundesliga
+3,LEV,34,18,6,10,56,40,16,60,2015,German Bundesliga
+4,MON,34,17,4,13,67,50,17,55,2015,German Bundesliga
+5,SCHA,34,15,7,12,51,49,2,52,2015,German Bundesliga
+6,MAIN,34,14,8,12,46,42,4,50,2015,German Bundesliga
+7,HERT,34,14,8,12,42,42,0,50,2015,German Bundesliga
+8,WOB,34,12,9,13,47,49,-2,45,2015,German Bundesliga
+9,COL,34,10,13,11,38,42,-4,43,2015,German Bundesliga
+10,HSV,34,11,8,15,40,46,-6,41,2015,German Bundesliga
+11,ING,34,10,10,14,33,42,-9,40,2015,German Bundesliga
+12,AUG,34,9,11,14,42,52,-10,38,2015,German Bundesliga
+13,WER,34,10,8,16,50,65,-15,38,2015,German Bundesliga
+14,DRM,34,9,11,14,38,53,-15,38,2015,German Bundesliga
+15,HOF,34,9,10,15,39,54,-15,37,2015,German Bundesliga
+16,SGE,34,9,9,16,34,52,-18,36,2015,German Bundesliga
+17,VFB,34,9,6,19,50,75,-25,33,2015,German Bundesliga
+18,HAN,34,7,4,23,31,62,-31,25,2015,German Bundesliga
+1,MUN,34,25,7,2,89,22,67,82,2016,German Bundesliga
+2,RBL,34,20,7,7,66,39,27,67,2016,German Bundesliga
+3,DOR,34,18,10,6,72,40,32,64,2016,German Bundesliga
+4,HOF,34,16,14,4,64,37,27,62,2016,German Bundesliga
+5,COL,34,12,13,9,51,42,9,49,2016,German Bundesliga
+6,HERT,34,15,4,15,43,47,-4,49,2016,German Bundesliga
+7,FREI,34,14,6,14,42,60,-18,48,2016,German Bundesliga
+8,WER,34,13,6,15,61,64,-3,45,2016,German Bundesliga
+9,MON,34,12,9,13,45,49,-4,45,2016,German Bundesliga
+10,SCHA,34,11,10,13,45,40,5,43,2016,German Bundesliga
+11,SGE,34,11,9,14,36,43,-7,42,2016,German Bundesliga
+12,LEV,34,11,8,15,53,55,-2,41,2016,German Bundesliga
+13,AUG,34,9,11,14,35,51,-16,38,2016,German Bundesliga
+14,HSV,34,10,8,16,33,61,-28,38,2016,German Bundesliga
+15,MAIN,34,10,7,17,44,55,-11,37,2016,German Bundesliga
+16,WOB,34,10,7,17,34,52,-18,37,2016,German Bundesliga
+17,ING,34,8,8,18,36,57,-21,32,2016,German Bundesliga
+18,DRM,34,7,4,23,28,63,-35,25,2016,German Bundesliga
+1,MUN,34,27,3,4,92,28,64,84,2017,German Bundesliga
+2,SCHA,34,18,9,7,53,37,16,63,2017,German Bundesliga
+3,HOF,34,15,10,9,66,48,18,55,2017,German Bundesliga
+4,DOR,34,15,10,9,64,47,17,55,2017,German Bundesliga
+5,LEV,34,15,10,9,58,44,14,55,2017,German Bundesliga
+6,RBL,34,15,8,11,57,53,4,53,2017,German Bundesliga
+7,VFB,34,15,6,13,36,36,0,51,2017,German Bundesliga
+8,SGE,34,14,7,13,45,45,0,49,2017,German Bundesliga
+9,MON,34,13,8,13,47,52,-5,47,2017,German Bundesliga
+10,HERT,34,10,13,11,43,46,-3,43,2017,German Bundesliga
+11,WER,34,10,12,12,37,40,-3,42,2017,German Bundesliga
+12,AUG,34,10,11,13,43,46,-3,41,2017,German Bundesliga
+13,HAN,34,10,9,15,44,54,-10,39,2017,German Bundesliga
+14,MAIN,34,9,9,16,38,52,-14,36,2017,German Bundesliga
+15,FREI,34,8,12,14,32,56,-24,36,2017,German Bundesliga
+16,WOB,34,6,15,13,36,48,-12,33,2017,German Bundesliga
+17,HSV,34,8,7,19,29,53,-24,31,2017,German Bundesliga
+18,COL,34,5,7,22,35,70,-35,22,2017,German Bundesliga
+1,MUN,34,24,6,4,88,32,56,78,2018,German Bundesliga
+2,DOR,34,23,7,4,81,44,37,76,2018,German Bundesliga
+3,RBL,34,19,9,6,63,29,34,66,2018,German Bundesliga
+4,LEV,34,18,4,12,69,52,17,58,2018,German Bundesliga
+5,MON,34,16,7,11,55,42,13,55,2018,German Bundesliga
+6,WOB,34,16,7,11,62,50,12,55,2018,German Bundesliga
+7,SGE,34,15,9,10,60,48,12,54,2018,German Bundesliga
+8,WER,34,14,11,9,58,49,9,53,2018,German Bundesliga
+9,HOF,34,13,12,9,70,52,18,51,2018,German Bundesliga
+10,FOR,34,13,5,16,49,65,-16,44,2018,German Bundesliga
+11,HERT,34,11,10,13,49,57,-8,43,2018,German Bundesliga
+12,MAIN,34,12,7,15,46,57,-11,43,2018,German Bundesliga
+13,FREI,34,8,12,14,46,61,-15,36,2018,German Bundesliga
+14,SCHA,34,8,9,17,37,55,-18,33,2018,German Bundesliga
+15,AUG,34,8,8,18,51,71,-20,32,2018,German Bundesliga
+16,VFB,34,7,7,20,32,70,-38,28,2018,German Bundesliga
+17,HAN,34,5,6,23,31,71,-40,21,2018,German Bundesliga
+18,NUR,34,3,10,21,26,68,-42,19,2018,German Bundesliga
+1,MUN,34,26,4,4,100,32,68,82,2019,German Bundesliga
+2,DOR,34,21,6,7,84,41,43,69,2019,German Bundesliga
+3,RBL,34,18,12,4,81,37,44,66,2019,German Bundesliga
+4,MON,34,20,5,9,66,40,26,65,2019,German Bundesliga
+5,LEV,34,19,6,9,61,44,17,63,2019,German Bundesliga
+6,HOF,34,15,7,12,53,53,0,52,2019,German Bundesliga
+7,WOB,34,13,10,11,48,46,2,49,2019,German Bundesliga
+8,FREI,34,13,9,12,48,47,1,48,2019,German Bundesliga
+9,SGE,34,13,6,15,59,60,-1,45,2019,German Bundesliga
+10,HERT,34,11,8,15,48,59,-11,41,2019,German Bundesliga
+11,FCU,34,12,5,17,41,58,-17,41,2019,German Bundesliga
+12,SCHA,34,9,12,13,38,58,-20,39,2019,German Bundesliga
+13,MAIN,34,11,4,19,44,65,-21,37,2019,German Bundesliga
+14,COL,34,10,6,18,51,69,-18,36,2019,German Bundesliga
+15,AUG,34,9,9,16,45,63,-18,36,2019,German Bundesliga
+16,WER,34,8,7,19,42,69,-27,31,2019,German Bundesliga
+17,FOR,34,6,12,16,36,67,-31,30,2019,German Bundesliga
+18,PAD,34,4,8,22,37,74,-37,20,2019,German Bundesliga
+1,MUN,34,24,6,4,99,44,55,78,2020,German Bundesliga
+2,RBL,34,19,8,7,60,32,28,65,2020,German Bundesliga
+3,DOR,34,20,4,10,75,46,29,64,2020,German Bundesliga
+4,WOB,34,17,10,7,61,37,24,61,2020,German Bundesliga
+5,SGE,34,16,12,6,69,53,16,60,2020,German Bundesliga
+6,LEV,34,14,10,10,53,39,14,52,2020,German Bundesliga
+7,FCU,34,12,14,8,50,43,7,50,2020,German Bundesliga
+8,MON,34,13,10,11,64,56,8,49,2020,German Bundesliga
+9,VFB,34,12,9,13,56,55,1,45,2020,German Bundesliga
+10,FREI,34,12,9,13,52,52,0,45,2020,German Bundesliga
+11,HOF,34,11,10,13,52,54,-2,43,2020,German Bundesliga
+12,MAIN,34,10,9,15,39,56,-17,39,2020,German Bundesliga
+13,AUG,34,10,6,18,36,54,-18,36,2020,German Bundesliga
+14,HERT,34,8,11,15,41,52,-11,35,2020,German Bundesliga
+15,DSC,34,9,8,17,26,52,-26,35,2020,German Bundesliga
+16,COL,34,8,9,17,34,60,-26,33,2020,German Bundesliga
+17,WER,34,7,10,17,36,57,-21,31,2020,German Bundesliga
+18,SCHA,34,3,7,24,25,86,-61,16,2020,German Bundesliga
+1,MUN,34,24,5,5,97,37,60,77,2021,German Bundesliga
+2,DOR,34,22,3,9,85,52,33,69,2021,German Bundesliga
+3,LEV,34,19,7,8,80,47,33,64,2021,German Bundesliga
+4,RBL,34,17,7,10,72,37,35,58,2021,German Bundesliga
+5,FCU,34,16,9,9,50,44,6,57,2021,German Bundesliga
+6,FREI,34,15,10,9,58,46,12,55,2021,German Bundesliga
+7,COL,34,14,10,10,52,49,3,52,2021,German Bundesliga
+8,MAIN,34,13,7,14,50,45,5,46,2021,German Bundesliga
+9,HOF,34,13,7,14,58,60,-2,46,2021,German Bundesliga
+10,MON,34,12,9,13,54,61,-7,45,2021,German Bundesliga
+11,SGE,34,10,12,12,45,49,-4,42,2021,German Bundesliga
+12,WOB,34,12,6,16,43,54,-11,42,2021,German Bundesliga
+13,BOC,34,12,6,16,38,52,-14,42,2021,German Bundesliga
+14,AUG,34,10,8,16,39,56,-17,38,2021,German Bundesliga
+15,VFB,34,7,12,15,41,59,-18,33,2021,German Bundesliga
+16,HERT,34,9,6,19,37,71,-34,33,2021,German Bundesliga
+17,DSC,34,5,13,16,27,53,-26,28,2021,German Bundesliga
+18,FUR,34,3,9,22,28,82,-54,18,2021,German Bundesliga
+1,ROMA,24,18,4,2,0,0,0,58,2000,Italian Serie A
+2,JUV,24,14,7,3,0,0,0,49,2000,Italian Serie A
+3,LAZ,24,14,4,6,0,0,0,46,2000,Italian Serie A
+4,PAR,24,11,7,6,0,0,0,40,2000,Italian Serie A
+5,INT,24,10,7,7,0,0,0,37,2000,Italian Serie A
+6,ATA,24,9,10,5,0,0,0,37,2000,Italian Serie A
+7,MIL,24,9,9,6,0,0,0,36,2000,Italian Serie A
+8,BOL,24,9,6,9,0,0,0,33,2000,Italian Serie A
+9,PER,24,8,7,9,0,0,0,31,2000,Italian Serie A
+10,FIO,24,6,12,6,0,0,0,30,2000,Italian Serie A
+11,LEC,24,7,8,9,0,0,0,29,2000,Italian Serie A
+12,UDN,24,9,2,13,0,0,0,29,2000,Italian Serie A
+13,VER,24,6,6,12,0,0,0,24,2000,Italian Serie A
+14,VIC,24,6,6,12,0,0,0,24,2000,Italian Serie A
+15,NAP,24,5,8,11,0,0,0,23,2000,Italian Serie A
+16,BRE,24,4,10,10,0,0,0,22,2000,Italian Serie A
+17,REG,24,5,5,14,0,0,0,20,2000,Italian Serie A
+18,BAR,24,5,4,15,0,0,0,19,2000,Italian Serie A
+1,JUV,34,20,11,3,64,23,41,71,2001,Italian Serie A
+2,ROMA,34,19,13,2,58,24,34,70,2001,Italian Serie A
+3,INT,34,20,9,5,62,35,27,69,2001,Italian Serie A
+4,MIL,34,14,13,7,47,33,14,55,2001,Italian Serie A
+5,CVO,34,14,12,8,57,52,5,54,2001,Italian Serie A
+6,LAZ,34,14,11,9,50,37,13,53,2001,Italian Serie A
+7,BOL,34,15,7,12,40,40,0,52,2001,Italian Serie A
+8,PER,34,13,7,14,38,46,-8,46,2001,Italian Serie A
+9,ATA,34,12,9,13,41,50,-9,45,2001,Italian Serie A
+10,PAR,34,12,8,14,43,47,-4,44,2001,Italian Serie A
+11,TOR,34,10,13,11,37,39,-2,43,2001,Italian Serie A
+12,PIA,34,11,9,14,49,43,6,42,2001,Italian Serie A
+13,BRE,34,9,13,12,43,52,-9,40,2001,Italian Serie A
+14,UDN,34,11,7,16,41,52,-11,40,2001,Italian Serie A
+15,VER,34,11,6,17,41,53,-12,39,2001,Italian Serie A
+16,LEC,34,6,10,18,36,56,-20,28,2001,Italian Serie A
+17,FIO,34,5,7,22,29,63,-34,22,2001,Italian Serie A
+18,Venezia,34,3,9,22,30,61,-31,18,2001,Italian Serie A
+1,JUV,34,21,9,4,64,29,35,72,2002,Italian Serie A
+2,INT,34,19,8,7,64,38,26,65,2002,Italian Serie A
+3,MIL,34,18,7,9,55,30,25,61,2002,Italian Serie A
+4,LAZ,34,15,15,4,57,32,25,60,2002,Italian Serie A
+5,PAR,34,15,11,8,55,36,19,56,2002,Italian Serie A
+6,UDN,34,16,8,10,38,35,3,56,2002,Italian Serie A
+7,CVO,34,16,7,11,51,39,12,55,2002,Italian Serie A
+8,ROMA,34,13,10,11,55,46,9,49,2002,Italian Serie A
+9,BRE,34,9,15,10,36,38,-2,42,2002,Italian Serie A
+10,PER,34,10,12,12,40,48,-8,42,2002,Italian Serie A
+11,BOL,34,10,11,13,39,47,-8,41,2002,Italian Serie A
+12,EMP,34,9,11,14,36,46,-10,38,2002,Italian Serie A
+13,ATA,34,8,14,12,35,47,-12,38,2002,Italian Serie A
+14,REG,34,10,8,16,38,53,-15,38,2002,Italian Serie A
+15,MOD,34,9,11,14,30,48,-18,38,2002,Italian Serie A
+16,PIA,34,8,6,20,44,62,-18,30,2002,Italian Serie A
+17,COMO,34,4,12,18,29,57,-28,24,2002,Italian Serie A
+18,TOR,34,4,9,21,23,58,-35,21,2002,Italian Serie A
+1,MIL,34,25,7,2,65,24,41,82,2003,Italian Serie A
+2,ROMA,34,21,8,5,68,19,49,71,2003,Italian Serie A
+3,JUV,34,21,6,7,67,42,25,69,2003,Italian Serie A
+4,INT,34,17,8,9,59,37,22,59,2003,Italian Serie A
+5,PAR,34,16,10,8,57,46,11,58,2003,Italian Serie A
+6,LAZ,34,16,8,10,52,38,14,56,2003,Italian Serie A
+7,UDN,34,13,11,10,44,40,4,50,2003,Italian Serie A
+8,SAM,34,11,13,10,40,42,-2,46,2003,Italian Serie A
+9,CVO,34,11,11,12,36,37,-1,44,2003,Italian Serie A
+10,LEC,34,11,8,15,43,56,-13,41,2003,Italian Serie A
+11,BRE,34,9,13,12,52,57,-5,40,2003,Italian Serie A
+12,BOL,34,10,9,15,45,53,-8,39,2003,Italian Serie A
+13,REG,34,6,16,12,29,45,-16,34,2003,Italian Serie A
+14,SNA,34,8,10,16,41,54,-13,34,2003,Italian Serie A
+15,PER,34,6,14,14,44,56,-12,32,2003,Italian Serie A
+16,MOD,34,6,12,16,27,46,-19,30,2003,Italian Serie A
+17,EMP,34,7,9,18,26,54,-28,30,2003,Italian Serie A
+18,Ancona,34,2,7,25,21,70,-49,13,2003,Italian Serie A
+1,JUV,38,26,8,4,67,27,40,86,2004,Italian Serie A
+2,MIL,38,23,10,5,63,28,35,79,2004,Italian Serie A
+3,INT,38,18,18,2,65,37,28,72,2004,Italian Serie A
+4,UDN,38,17,11,10,56,40,16,62,2004,Italian Serie A
+5,SAM,38,17,10,11,42,29,13,61,2004,Italian Serie A
+6,PAL,38,12,17,9,48,44,4,53,2004,Italian Serie A
+7,Messina,38,12,12,14,44,52,-8,48,2004,Italian Serie A
+8,ROMA,38,11,12,15,55,58,-3,45,2004,Italian Serie A
+9,LVO,38,11,12,15,49,60,-11,45,2004,Italian Serie A
+10,LEC,38,10,14,14,66,73,-7,44,2004,Italian Serie A
+11,REG,38,10,14,14,36,45,-9,44,2004,Italian Serie A
+12,CAG,38,10,14,14,51,60,-9,44,2004,Italian Serie A
+13,LAZ,38,11,11,16,48,53,-5,44,2004,Italian Serie A
+14,SNA,38,9,16,13,44,55,-11,43,2004,Italian Serie A
+15,CVO,38,11,10,17,32,49,-17,43,2004,Italian Serie A
+16,FIO,38,9,15,14,42,50,-8,42,2004,Italian Serie A
+17,BOL,38,9,15,14,33,36,-3,42,2004,Italian Serie A
+18,PAR,38,10,12,16,48,65,-17,42,2004,Italian Serie A
+19,BRE,38,11,8,19,37,54,-17,41,2004,Italian Serie A
+20,ATA,38,8,11,19,34,45,-11,35,2004,Italian Serie A
+1,INT,38,23,7,8,68,30,38,76,2005,Italian Serie A
+2,ROMA,38,19,12,7,70,42,28,69,2005,Italian Serie A
+3,MIL,38,28,4,6,85,31,54,58,2005,Italian Serie A
+4,CVO,38,13,15,10,54,49,5,54,2005,Italian Serie A
+5,PAL,38,13,13,12,50,52,-2,52,2005,Italian Serie A
+6,LVO,38,12,13,13,37,44,-7,49,2005,Italian Serie A
+7,PAR,38,12,9,17,46,60,-14,45,2005,Italian Serie A
+8,EMP,38,13,6,19,47,61,-14,45,2005,Italian Serie A
+9,FIO,38,22,8,8,66,41,25,44,2005,Italian Serie A
+10,ASC,38,9,16,13,43,53,-10,43,2005,Italian Serie A
+11,UDN,38,11,10,17,40,54,-14,43,2005,Italian Serie A
+12,SAM,38,10,11,17,47,51,-4,41,2005,Italian Serie A
+13,REG,38,11,8,19,39,65,-26,41,2005,Italian Serie A
+14,CAG,38,8,15,15,42,55,-13,39,2005,Italian Serie A
+15,SNA,38,9,12,17,42,60,-18,39,2005,Italian Serie A
+16,LAZ,38,16,14,8,57,47,10,32,2005,Italian Serie A
+17,Messina,38,6,13,19,33,59,-26,31,2005,Italian Serie A
+18,LEC,38,7,8,23,30,57,-27,29,2005,Italian Serie A
+19,Treviso,38,3,12,23,24,56,-32,21,2005,Italian Serie A
+20,JUV,38,27,10,1,71,24,47,91,2005,Italian Serie A
+1,INT,38,30,7,1,80,34,46,97,2006,Italian Serie A
+2,ROMA,38,22,9,7,74,34,40,75,2006,Italian Serie A
+3,LAZ,38,18,11,9,59,33,26,62,2006,Italian Serie A
+4,MIL,38,19,12,7,57,36,21,61,2006,Italian Serie A
+5,FIO,38,21,10,7,62,31,31,58,2006,Italian Serie A
+6,PAL,38,16,10,12,58,51,7,58,2006,Italian Serie A
+7,EMP,38,14,12,12,42,43,-1,54,2006,Italian Serie A
+8,ATA,38,12,14,12,56,54,2,50,2006,Italian Serie A
+9,SAM,38,13,10,15,44,48,-4,49,2006,Italian Serie A
+10,UDN,38,12,10,16,49,55,-6,46,2006,Italian Serie A
+11,LVO,38,10,13,15,41,54,-13,43,2006,Italian Serie A
+12,PAR,38,10,12,16,41,56,-15,42,2006,Italian Serie A
+13,CAT,38,10,11,17,46,68,-22,41,2006,Italian Serie A
+14,REG,38,12,15,11,52,50,2,40,2006,Italian Serie A
+15,SNA,38,9,14,15,35,45,-10,40,2006,Italian Serie A
+16,CAG,38,9,13,16,35,46,-11,40,2006,Italian Serie A
+17,TOR,38,10,10,18,27,47,-20,40,2006,Italian Serie A
+18,CVO,38,9,12,17,38,48,-10,39,2006,Italian Serie A
+19,ASC,38,5,12,21,36,67,-31,27,2006,Italian Serie A
+20,Messina,38,5,11,22,37,69,-32,26,2006,Italian Serie A
+1,INT,38,25,10,3,69,26,43,85,2007,Italian Serie A
+2,ROMA,38,24,10,4,72,37,35,82,2007,Italian Serie A
+3,JUV,38,20,12,6,72,37,35,72,2007,Italian Serie A
+4,FIO,38,19,9,10,55,39,16,66,2007,Italian Serie A
+5,MIL,38,18,10,10,66,38,28,64,2007,Italian Serie A
+6,SAM,38,17,9,12,56,46,10,60,2007,Italian Serie A
+7,UDN,38,16,9,13,48,53,-5,57,2007,Italian Serie A
+8,NAP,38,14,8,16,50,53,-3,50,2007,Italian Serie A
+9,ATA,38,12,12,14,52,56,-4,48,2007,Italian Serie A
+10,GEN,38,13,9,16,44,54,-10,48,2007,Italian Serie A
+11,PAL,38,12,11,15,47,57,-10,47,2007,Italian Serie A
+12,LAZ,38,11,13,14,47,51,-4,46,2007,Italian Serie A
+13,SNA,38,9,17,12,40,45,-5,44,2007,Italian Serie A
+14,CAG,38,11,9,18,40,56,-16,42,2007,Italian Serie A
+15,TOR,38,8,16,14,36,49,-13,40,2007,Italian Serie A
+16,REG,38,9,13,16,37,56,-19,40,2007,Italian Serie A
+17,CAT,38,8,13,17,33,45,-12,37,2007,Italian Serie A
+18,EMP,38,9,9,20,29,52,-23,36,2007,Italian Serie A
+19,PAR,38,7,13,18,42,62,-20,34,2007,Italian Serie A
+20,LVO,38,6,12,20,35,60,-25,30,2007,Italian Serie A
+1,INT,38,25,9,4,70,32,38,84,2008,Italian Serie A
+2,JUV,38,21,11,6,69,37,32,74,2008,Italian Serie A
+3,MIL,38,22,8,8,70,35,35,74,2008,Italian Serie A
+4,FIO,38,21,5,12,53,38,15,68,2008,Italian Serie A
+5,GEN,38,19,11,8,56,39,17,68,2008,Italian Serie A
+6,ROMA,38,18,9,11,64,61,3,63,2008,Italian Serie A
+7,UDN,38,16,10,12,61,50,11,58,2008,Italian Serie A
+8,PAL,38,17,6,15,57,50,7,57,2008,Italian Serie A
+9,CAG,38,15,8,15,49,50,-1,53,2008,Italian Serie A
+10,LAZ,38,15,5,18,46,55,-9,50,2008,Italian Serie A
+11,ATA,38,13,8,17,45,48,-3,47,2008,Italian Serie A
+12,NAP,38,12,10,16,43,45,-2,46,2008,Italian Serie A
+13,SAM,38,11,13,14,49,52,-3,46,2008,Italian Serie A
+14,SNA,38,12,8,18,33,44,-11,44,2008,Italian Serie A
+15,CAT,38,12,7,19,41,51,-10,43,2008,Italian Serie A
+16,CVO,38,8,14,16,35,49,-14,38,2008,Italian Serie A
+17,BOL,38,9,10,19,43,62,-19,37,2008,Italian Serie A
+18,TOR,38,8,10,20,37,61,-24,34,2008,Italian Serie A
+19,REG,38,6,13,19,30,62,-32,31,2008,Italian Serie A
+20,LEC,38,5,15,18,37,67,-30,30,2008,Italian Serie A
+1,INT,38,24,10,4,75,34,41,82,2009,Italian Serie A
+2,ROMA,38,24,8,6,68,41,27,80,2009,Italian Serie A
+3,MIL,38,20,10,8,60,39,21,70,2009,Italian Serie A
+4,SAM,38,19,10,9,49,41,8,67,2009,Italian Serie A
+5,PAL,38,18,11,9,59,47,12,65,2009,Italian Serie A
+6,NAP,38,15,14,9,50,43,7,59,2009,Italian Serie A
+7,JUV,38,16,7,15,55,56,-1,55,2009,Italian Serie A
+8,PAR,38,14,10,14,46,51,-5,52,2009,Italian Serie A
+9,GEN,38,14,9,15,57,61,-4,51,2009,Italian Serie A
+10,BAR,38,13,11,14,49,49,0,50,2009,Italian Serie A
+11,FIO,38,13,8,17,48,47,1,47,2009,Italian Serie A
+12,LAZ,38,11,13,14,39,43,-4,46,2009,Italian Serie A
+13,CAT,38,10,15,13,44,45,-1,45,2009,Italian Serie A
+14,CVO,38,12,8,18,37,42,-5,44,2009,Italian Serie A
+15,UDN,38,11,11,16,54,59,-5,44,2009,Italian Serie A
+16,CAG,38,11,11,16,56,58,-2,44,2009,Italian Serie A
+17,BOL,38,10,12,16,42,55,-13,42,2009,Italian Serie A
+18,ATA,38,9,8,21,37,53,-16,35,2009,Italian Serie A
+19,SNA,38,7,10,21,40,67,-27,31,2009,Italian Serie A
+20,LVO,38,7,8,23,27,61,-34,29,2009,Italian Serie A
+1,MIL,38,24,10,4,65,24,41,82,2010,Italian Serie A
+2,INT,38,23,7,8,69,42,27,76,2010,Italian Serie A
+3,NAP,38,21,7,10,59,39,20,70,2010,Italian Serie A
+4,UDN,38,20,6,12,65,43,22,66,2010,Italian Serie A
+5,LAZ,38,20,6,12,55,39,16,66,2010,Italian Serie A
+6,ROMA,38,18,9,11,59,52,7,63,2010,Italian Serie A
+7,JUV,38,15,13,10,57,47,10,58,2010,Italian Serie A
+8,PAL,38,17,5,16,58,63,-5,56,2010,Italian Serie A
+9,FIO,38,12,15,11,49,44,5,51,2010,Italian Serie A
+10,GEN,38,14,9,15,45,47,-2,51,2010,Italian Serie A
+11,CVO,38,11,13,14,38,40,-2,46,2010,Italian Serie A
+12,PAR,38,11,13,14,39,47,-8,46,2010,Italian Serie A
+13,CAT,38,12,10,16,40,52,-12,46,2010,Italian Serie A
+14,CAG,38,12,9,17,44,51,-7,45,2010,Italian Serie A
+15,CES,38,11,10,17,38,50,-12,43,2010,Italian Serie A
+16,BOL,38,11,12,15,35,52,-17,42,2010,Italian Serie A
+17,LEC,38,11,8,19,46,66,-20,41,2010,Italian Serie A
+18,SAM,38,8,12,18,33,49,-16,36,2010,Italian Serie A
+19,BRE,38,7,11,20,34,52,-18,32,2010,Italian Serie A
+20,BAR,38,5,9,24,27,56,-29,24,2010,Italian Serie A
+1,JUV,38,23,15,0,68,20,48,84,2011,Italian Serie A
+2,MIL,38,24,8,6,74,33,41,80,2011,Italian Serie A
+3,UDN,38,18,10,10,52,35,17,64,2011,Italian Serie A
+4,LAZ,38,18,8,12,56,47,9,62,2011,Italian Serie A
+5,NAP,38,16,13,9,66,46,20,61,2011,Italian Serie A
+6,INT,38,17,7,14,58,55,3,58,2011,Italian Serie A
+7,ROMA,38,16,8,14,60,54,6,56,2011,Italian Serie A
+8,PAR,38,15,11,12,54,53,1,56,2011,Italian Serie A
+9,BOL,38,13,12,13,41,43,-2,51,2011,Italian Serie A
+10,CVO,38,12,13,13,35,45,-10,49,2011,Italian Serie A
+11,CAT,38,11,15,12,47,52,-5,48,2011,Italian Serie A
+12,ATA,38,13,13,12,41,43,-2,46,2011,Italian Serie A
+13,FIO,38,11,13,14,37,43,-6,46,2011,Italian Serie A
+14,SNA,38,11,11,16,45,45,0,44,2011,Italian Serie A
+15,CAG,38,10,13,15,37,46,-9,43,2011,Italian Serie A
+16,PAL,38,11,10,17,52,62,-10,43,2011,Italian Serie A
+17,GEN,38,11,9,18,50,69,-19,42,2011,Italian Serie A
+18,LEC,38,8,12,18,40,56,-16,36,2011,Italian Serie A
+19,NOV,38,7,11,20,35,65,-30,32,2011,Italian Serie A
+20,CES,38,4,10,24,24,60,-36,22,2011,Italian Serie A
+1,JUV,38,27,6,5,71,24,47,87,2012,Italian Serie A
+2,NAP,38,23,9,6,73,36,37,78,2012,Italian Serie A
+3,MIL,38,21,9,8,67,39,28,72,2012,Italian Serie A
+4,FIO,38,21,7,10,72,44,28,70,2012,Italian Serie A
+5,UDN,38,18,12,8,59,45,14,66,2012,Italian Serie A
+6,ROMA,38,18,8,12,71,56,15,62,2012,Italian Serie A
+7,LAZ,38,18,7,13,51,42,9,61,2012,Italian Serie A
+8,CAT,38,15,11,12,50,46,4,56,2012,Italian Serie A
+9,INT,38,16,6,16,55,57,-2,54,2012,Italian Serie A
+10,PAR,38,13,10,15,45,46,-1,49,2012,Italian Serie A
+11,CAG,38,12,11,15,43,55,-12,47,2012,Italian Serie A
+12,CVO,38,12,9,17,37,52,-15,45,2012,Italian Serie A
+13,BOL,38,11,11,16,46,52,-6,44,2012,Italian Serie A
+14,SAM,38,11,10,17,43,51,-8,42,2012,Italian Serie A
+15,ATA,38,11,9,18,39,56,-17,40,2012,Italian Serie A
+16,TOR,38,8,16,14,46,55,-9,39,2012,Italian Serie A
+17,GEN,38,8,14,16,38,52,-14,38,2012,Italian Serie A
+18,PAL,38,6,14,18,34,54,-20,32,2012,Italian Serie A
+19,SNA,38,9,9,20,36,57,-21,30,2012,Italian Serie A
+20,PES,38,6,4,28,27,84,-57,22,2012,Italian Serie A
+1,JUV,38,33,3,2,80,23,57,102,2013,Italian Serie A
+2,ROMA,38,26,7,5,72,25,47,85,2013,Italian Serie A
+3,NAP,38,23,9,6,77,39,38,78,2013,Italian Serie A
+4,FIO,38,19,8,11,65,44,21,65,2013,Italian Serie A
+5,INT,38,15,15,8,62,39,23,60,2013,Italian Serie A
+6,PAR,38,15,13,10,58,46,12,58,2013,Italian Serie A
+7,TOR,38,15,12,11,58,48,10,57,2013,Italian Serie A
+8,MIL,38,16,9,13,57,49,8,57,2013,Italian Serie A
+9,LAZ,38,15,11,12,54,54,0,56,2013,Italian Serie A
+10,VER,38,16,6,16,62,68,-6,54,2013,Italian Serie A
+11,ATA,38,15,5,18,43,51,-8,50,2013,Italian Serie A
+12,SAM,38,12,9,17,48,62,-14,45,2013,Italian Serie A
+13,UDN,38,12,8,18,46,57,-11,44,2013,Italian Serie A
+14,GEN,38,11,11,16,41,50,-9,44,2013,Italian Serie A
+15,CAG,38,9,12,17,34,53,-19,39,2013,Italian Serie A
+16,CVO,38,10,6,22,34,54,-20,36,2013,Italian Serie A
+17,SAS,38,9,7,22,43,72,-29,34,2013,Italian Serie A
+18,CAT,38,8,8,22,34,66,-32,32,2013,Italian Serie A
+19,BOL,38,5,14,19,28,58,-30,29,2013,Italian Serie A
+20,LVO,38,6,7,25,39,77,-38,25,2013,Italian Serie A
+1,JUV,38,26,9,3,72,24,48,87,2014,Italian Serie A
+2,ROMA,38,19,13,6,54,31,23,70,2014,Italian Serie A
+3,LAZ,38,21,6,11,71,38,33,69,2014,Italian Serie A
+4,FIO,38,18,10,10,61,46,15,64,2014,Italian Serie A
+5,NAP,38,18,9,11,70,54,16,63,2014,Italian Serie A
+6,GEN,38,16,11,11,62,47,15,59,2014,Italian Serie A
+7,SAM,38,13,17,8,48,42,6,56,2014,Italian Serie A
+8,INT,38,14,13,11,59,48,11,55,2014,Italian Serie A
+9,TOR,38,14,12,12,48,45,3,54,2014,Italian Serie A
+10,MIL,38,13,13,12,56,50,6,52,2014,Italian Serie A
+11,PAL,38,12,13,13,53,55,-2,49,2014,Italian Serie A
+12,SAS,38,12,13,13,49,57,-8,49,2014,Italian Serie A
+13,VER,38,11,13,14,49,65,-16,46,2014,Italian Serie A
+14,CVO,38,10,13,15,28,41,-13,43,2014,Italian Serie A
+15,EMP,38,8,18,12,46,52,-6,42,2014,Italian Serie A
+16,UDN,38,10,11,17,43,56,-13,41,2014,Italian Serie A
+17,ATA,38,7,16,15,38,57,-19,37,2014,Italian Serie A
+18,CAG,38,8,10,20,48,68,-20,34,2014,Italian Serie A
+19,CES,38,4,12,22,36,73,-37,24,2014,Italian Serie A
+20,PAR,38,6,8,24,33,75,-42,19,2014,Italian Serie A
+1,JUV,38,29,4,5,75,20,55,91,2015,Italian Serie A
+2,NAP,38,25,7,6,80,32,48,82,2015,Italian Serie A
+3,ROMA,38,23,11,4,83,41,42,80,2015,Italian Serie A
+4,INT,38,20,7,11,50,38,12,67,2015,Italian Serie A
+5,FIO,38,18,10,10,60,42,18,64,2015,Italian Serie A
+6,SAS,38,16,13,9,49,40,9,61,2015,Italian Serie A
+7,MIL,38,15,12,11,49,43,6,57,2015,Italian Serie A
+8,LAZ,38,15,9,14,52,52,0,54,2015,Italian Serie A
+9,CVO,38,13,11,14,43,45,-2,50,2015,Italian Serie A
+10,EMP,38,12,10,16,40,49,-9,46,2015,Italian Serie A
+11,GEN,38,13,7,18,45,48,-3,46,2015,Italian Serie A
+12,TOR,38,12,9,17,52,55,-3,45,2015,Italian Serie A
+13,ATA,38,11,12,15,41,47,-6,45,2015,Italian Serie A
+14,BOL,38,11,9,18,33,45,-12,42,2015,Italian Serie A
+15,SAM,38,10,10,18,48,61,-13,40,2015,Italian Serie A
+16,PAL,38,10,9,19,38,65,-27,39,2015,Italian Serie A
+17,UDN,38,10,9,19,35,60,-25,39,2015,Italian Serie A
+18,CAR,38,9,11,18,37,57,-20,38,2015,Italian Serie A
+19,FRO,38,8,7,23,35,76,-41,31,2015,Italian Serie A
+20,VER,38,5,13,20,34,63,-29,28,2015,Italian Serie A
+1,JUV,38,29,4,5,77,27,50,91,2016,Italian Serie A
+2,ROMA,38,28,3,7,90,38,52,87,2016,Italian Serie A
+3,NAP,38,26,8,4,94,39,55,86,2016,Italian Serie A
+4,ATA,38,21,9,8,62,41,21,72,2016,Italian Serie A
+5,LAZ,38,21,7,10,74,51,23,70,2016,Italian Serie A
+6,MIL,38,18,9,11,57,45,12,63,2016,Italian Serie A
+7,INT,38,19,5,14,72,49,23,62,2016,Italian Serie A
+8,FIO,38,16,12,10,63,57,6,60,2016,Italian Serie A
+9,TOR,38,13,14,11,71,66,5,53,2016,Italian Serie A
+10,SAM,38,12,12,14,49,55,-6,48,2016,Italian Serie A
+11,CAG,38,14,5,19,55,76,-21,47,2016,Italian Serie A
+12,SAS,38,13,7,18,58,63,-5,46,2016,Italian Serie A
+13,UDN,38,12,9,17,47,56,-9,45,2016,Italian Serie A
+14,CVO,38,12,7,19,43,61,-18,43,2016,Italian Serie A
+15,BOL,38,11,8,19,40,58,-18,41,2016,Italian Serie A
+16,GEN,38,9,9,20,38,64,-26,36,2016,Italian Serie A
+17,CRO,38,9,7,22,34,58,-24,34,2016,Italian Serie A
+18,EMP,38,8,8,22,29,61,-32,32,2016,Italian Serie A
+19,PAL,38,6,8,24,33,77,-44,26,2016,Italian Serie A
+20,PES,38,3,9,26,37,81,-44,18,2016,Italian Serie A
+1,JUV,38,30,5,3,86,24,62,95,2017,Italian Serie A
+2,NAP,38,28,7,3,77,29,48,91,2017,Italian Serie A
+3,ROMA,38,23,8,7,61,28,33,77,2017,Italian Serie A
+4,INT,38,20,12,6,66,30,36,72,2017,Italian Serie A
+5,LAZ,38,21,9,8,89,49,40,72,2017,Italian Serie A
+6,MIL,38,18,10,10,56,42,14,64,2017,Italian Serie A
+7,ATA,38,16,12,10,57,39,18,60,2017,Italian Serie A
+8,FIO,38,16,9,13,54,46,8,57,2017,Italian Serie A
+9,TOR,38,13,15,10,54,46,8,54,2017,Italian Serie A
+10,SAM,38,16,6,16,56,60,-4,54,2017,Italian Serie A
+11,SAS,38,11,10,17,29,59,-30,43,2017,Italian Serie A
+12,GEN,38,11,8,19,33,43,-10,41,2017,Italian Serie A
+13,CVO,38,10,10,18,36,59,-23,40,2017,Italian Serie A
+14,UDN,38,12,4,22,48,63,-15,40,2017,Italian Serie A
+15,BOL,38,11,6,21,40,52,-12,39,2017,Italian Serie A
+16,CAG,38,11,6,21,33,61,-28,39,2017,Italian Serie A
+17,SPAL,38,8,14,16,39,59,-20,38,2017,Italian Serie A
+18,CRO,38,9,8,21,40,66,-26,35,2017,Italian Serie A
+19,VER,38,7,4,27,30,78,-48,25,2017,Italian Serie A
+20,BEN,38,6,3,29,33,84,-51,21,2017,Italian Serie A
+1,JUV,38,28,6,4,70,30,40,90,2018,Italian Serie A
+2,NAP,38,24,7,7,74,36,38,79,2018,Italian Serie A
+3,ATA,38,20,9,9,77,46,31,69,2018,Italian Serie A
+4,INT,38,20,9,9,57,33,24,69,2018,Italian Serie A
+5,MIL,38,19,11,8,55,36,19,68,2018,Italian Serie A
+6,ROMA,38,18,12,8,66,48,18,66,2018,Italian Serie A
+7,TOR,38,16,15,7,52,37,15,63,2018,Italian Serie A
+8,LAZ,38,17,8,13,56,46,10,59,2018,Italian Serie A
+9,SAM,38,15,8,15,60,51,9,53,2018,Italian Serie A
+10,BOL,38,11,11,16,48,56,-8,44,2018,Italian Serie A
+11,SAS,38,9,16,13,53,60,-7,43,2018,Italian Serie A
+12,UDN,38,11,10,17,39,53,-14,43,2018,Italian Serie A
+13,SPAL,38,11,9,18,44,56,-12,42,2018,Italian Serie A
+14,PAR,38,10,11,17,41,61,-20,41,2018,Italian Serie A
+15,CAG,38,10,11,17,36,54,-18,41,2018,Italian Serie A
+16,FIO,38,8,17,13,47,45,2,41,2018,Italian Serie A
+17,GEN,38,8,14,16,39,57,-18,38,2018,Italian Serie A
+18,EMP,38,10,8,20,51,70,-19,38,2018,Italian Serie A
+19,FRO,38,5,10,23,29,69,-40,25,2018,Italian Serie A
+20,CVO,38,2,14,22,25,75,-50,17,2018,Italian Serie A
+1,JUV,38,26,5,7,76,43,33,83,2019,Italian Serie A
+2,INT,38,24,10,4,81,36,45,82,2019,Italian Serie A
+3,ATA,38,23,9,6,98,48,50,78,2019,Italian Serie A
+4,LAZ,38,24,6,8,79,42,37,78,2019,Italian Serie A
+5,ROMA,38,21,7,10,77,51,26,70,2019,Italian Serie A
+6,MIL,38,19,9,10,63,46,17,66,2019,Italian Serie A
+7,NAP,38,18,8,12,61,50,11,62,2019,Italian Serie A
+8,SAS,38,14,9,15,69,63,6,51,2019,Italian Serie A
+9,VER,38,12,13,13,47,51,-4,49,2019,Italian Serie A
+10,FIO,38,12,13,13,51,48,3,49,2019,Italian Serie A
+11,PAR,38,14,7,17,56,57,-1,49,2019,Italian Serie A
+12,BOL,38,12,11,15,52,65,-13,47,2019,Italian Serie A
+13,UDN,38,12,9,17,37,51,-14,45,2019,Italian Serie A
+14,CAG,38,11,12,15,52,56,-4,45,2019,Italian Serie A
+15,SAM,38,12,6,20,48,65,-17,42,2019,Italian Serie A
+16,TOR,38,11,7,20,46,68,-22,40,2019,Italian Serie A
+17,GEN,38,10,9,19,47,73,-26,39,2019,Italian Serie A
+18,LEC,38,9,8,21,52,85,-33,35,2019,Italian Serie A
+19,BRE,38,6,7,25,35,79,-44,25,2019,Italian Serie A
+20,SPAL,38,5,5,28,27,77,-50,20,2019,Italian Serie A
+1,INT,38,28,7,3,89,35,54,91,2020,Italian Serie A
+2,MIL,38,24,7,7,74,41,33,79,2020,Italian Serie A
+3,ATA,38,23,9,6,90,47,43,78,2020,Italian Serie A
+4,JUV,38,23,9,6,77,38,39,78,2020,Italian Serie A
+5,NAP,38,24,5,9,86,41,45,77,2020,Italian Serie A
+6,LAZ,38,21,5,12,61,55,6,68,2020,Italian Serie A
+7,ROMA,38,18,8,12,68,58,10,62,2020,Italian Serie A
+8,SAS,38,17,11,10,64,56,8,62,2020,Italian Serie A
+9,SAM,38,15,7,16,52,54,-2,52,2020,Italian Serie A
+10,VER,38,11,12,15,46,48,-2,45,2020,Italian Serie A
+11,GEN,38,10,12,16,47,58,-11,42,2020,Italian Serie A
+12,BOL,38,10,11,17,51,65,-14,41,2020,Italian Serie A
+13,FIO,38,9,13,16,47,59,-12,40,2020,Italian Serie A
+14,UDN,38,10,10,18,42,58,-16,40,2020,Italian Serie A
+15,SPE,38,9,12,17,52,72,-20,39,2020,Italian Serie A
+16,CAG,38,9,10,19,43,59,-16,37,2020,Italian Serie A
+17,TOR,38,7,16,15,50,69,-19,37,2020,Italian Serie A
+18,BEN,38,7,12,19,40,75,-35,33,2020,Italian Serie A
+19,CRO,38,6,5,27,45,92,-47,23,2020,Italian Serie A
+20,PAR,38,3,11,24,39,83,-44,20,2020,Italian Serie A
+1,MIL,37,25,8,4,66,31,35,83,2021,Italian Serie A
+2,INT,37,24,9,4,81,32,49,81,2021,Italian Serie A
+3,NAP,37,23,7,7,71,31,40,76,2021,Italian Serie A
+4,JUV,37,20,10,7,57,35,22,70,2021,Italian Serie A
+5,LAZ,37,18,9,10,74,55,19,63,2021,Italian Serie A
+6,ROMA,37,17,9,11,56,43,13,60,2021,Italian Serie A
+7,FIO,37,18,5,14,57,51,6,59,2021,Italian Serie A
+8,ATA,37,16,11,10,65,47,18,59,2021,Italian Serie A
+9,VER,37,14,10,13,62,56,6,52,2021,Italian Serie A
+10,TOR,37,13,11,13,46,38,8,50,2021,Italian Serie A
+11,SAS,37,13,11,13,64,63,1,50,2021,Italian Serie A
+12,UDN,37,10,14,13,57,58,-1,44,2021,Italian Serie A
+13,BOL,37,11,10,16,43,55,-12,43,2021,Italian Serie A
+14,EMP,37,9,11,17,49,70,-21,38,2021,Italian Serie A
+15,SAM,37,10,6,21,46,60,-14,36,2021,Italian Serie A
+16,SPE,37,10,6,21,41,68,-27,36,2021,Italian Serie A
+17,SAL,37,7,10,20,33,74,-41,31,2021,Italian Serie A
+18,CAG,37,6,11,20,34,68,-34,29,2021,Italian Serie A
+19,GEN,37,4,16,17,27,59,-32,28,2021,Italian Serie A
+20,VEN,37,6,8,23,34,69,-35,26,2021,Italian Serie A
+1,PSV,26,19,6,1,0,0,0,63,2000,Dutch Eredivisie
+2,FEY,26,18,2,6,0,0,0,56,2000,Dutch Eredivisie
+3,AJA,26,15,5,6,0,0,0,50,2000,Dutch Eredivisie
+4,RKC,27,14,8,5,0,0,0,50,2000,Dutch Eredivisie
+5,VIT,26,13,7,6,0,0,0,46,2000,Dutch Eredivisie
+6,RJC,26,13,6,7,0,0,0,45,2000,Dutch Eredivisie
+7,WIL,26,10,8,8,0,0,0,38,2000,Dutch Eredivisie
+8,UTR,25,11,5,9,0,0,0,38,2000,Dutch Eredivisie
+9,NEC,25,7,12,5,0,0,0,34,2000,Dutch Eredivisie
+10,HEE,25,8,10,7,0,0,0,34,2000,Dutch Eredivisie
+11,NAC,26,9,7,10,0,0,0,34,2000,Dutch Eredivisie
+12,TWE,26,7,8,11,0,0,0,29,2000,Dutch Eredivisie
+13,GRO,26,7,7,12,0,0,0,28,2000,Dutch Eredivisie
+14,AZ,26,7,6,13,0,0,0,27,2000,Dutch Eredivisie
+15,SPA,26,5,5,16,0,0,0,20,2000,Dutch Eredivisie
+16,GRA,26,6,2,18,0,0,0,20,2000,Dutch Eredivisie
+17,FOR,26,4,6,16,0,0,0,18,2000,Dutch Eredivisie
+18,Roosendaal,26,4,1,21,0,0,0,13,2000,Dutch Eredivisie
+1,AJA,34,22,7,5,73,34,39,73,2001,Dutch Eredivisie
+2,PSV,34,20,8,6,77,32,45,68,2001,Dutch Eredivisie
+3,FEY,34,19,7,8,68,29,39,64,2001,Dutch Eredivisie
+4,HEE,34,17,9,8,57,27,30,60,2001,Dutch Eredivisie
+5,VIT,34,16,12,6,45,34,11,60,2001,Dutch Eredivisie
+6,NAC,34,15,9,10,55,52,3,54,2001,Dutch Eredivisie
+7,UTR,34,14,9,11,60,51,9,51,2001,Dutch Eredivisie
+8,RKC,34,14,6,14,49,44,5,48,2001,Dutch Eredivisie
+9,NEC,34,13,6,15,38,59,-21,45,2001,Dutch Eredivisie
+10,AZ,34,12,7,15,43,45,-2,43,2001,Dutch Eredivisie
+11,WIL,34,10,13,11,54,61,-7,43,2001,Dutch Eredivisie
+12,TWE,34,10,12,12,41,41,0,42,2001,Dutch Eredivisie
+13,RJC,34,11,8,15,33,45,-12,41,2001,Dutch Eredivisie
+14,GRA,34,10,7,17,43,55,-12,37,2001,Dutch Eredivisie
+15,GRO,34,10,7,17,40,59,-19,37,2001,Dutch Eredivisie
+16,DBO,34,8,9,17,40,55,-15,33,2001,Dutch Eredivisie
+17,SPA,34,4,12,18,26,75,-49,24,2001,Dutch Eredivisie
+18,FOR,34,3,8,23,27,71,-44,17,2001,Dutch Eredivisie
+1,PSV,34,26,6,2,87,20,67,84,2002,Dutch Eredivisie
+2,AJA,34,26,5,3,96,32,64,83,2002,Dutch Eredivisie
+3,FEY,34,25,5,4,89,39,50,80,2002,Dutch Eredivisie
+4,NAC,34,13,13,8,42,31,11,52,2002,Dutch Eredivisie
+5,NEC,34,14,9,11,41,40,1,51,2002,Dutch Eredivisie
+6,RJC,34,14,8,12,58,54,4,50,2002,Dutch Eredivisie
+7,HEE,34,13,8,13,61,55,6,47,2002,Dutch Eredivisie
+8,UTR,34,12,11,11,49,49,0,47,2002,Dutch Eredivisie
+9,RKC,34,14,4,16,44,51,-7,46,2002,Dutch Eredivisie
+10,AZ,34,12,8,14,50,69,-19,44,2002,Dutch Eredivisie
+11,WIL,34,11,9,14,48,51,-3,42,2002,Dutch Eredivisie
+12,TWE,34,10,11,13,36,45,-9,41,2002,Dutch Eredivisie
+13,Roosendaal,34,10,6,18,33,54,-21,36,2002,Dutch Eredivisie
+14,VIT,34,8,9,17,37,51,-14,33,2002,Dutch Eredivisie
+15,GRO,34,7,11,16,28,44,-16,32,2002,Dutch Eredivisie
+16,PEC,34,8,8,18,31,62,-31,32,2002,Dutch Eredivisie
+17,EXC,34,5,8,21,38,72,-34,23,2002,Dutch Eredivisie
+18,GRA,34,6,5,23,35,84,-49,23,2002,Dutch Eredivisie
+1,AJA,34,25,5,4,79,31,48,80,2003,Dutch Eredivisie
+2,PSV,34,23,5,6,92,30,62,74,2003,Dutch Eredivisie
+3,FEY,34,20,8,6,71,38,33,68,2003,Dutch Eredivisie
+4,HEE,34,17,7,10,45,35,10,58,2003,Dutch Eredivisie
+5,AZ,34,17,6,11,65,42,23,57,2003,Dutch Eredivisie
+6,RJC,34,14,11,9,60,41,19,53,2003,Dutch Eredivisie
+7,WIL,34,13,10,11,47,54,-7,49,2003,Dutch Eredivisie
+8,TWE,34,15,3,16,56,53,3,48,2003,Dutch Eredivisie
+9,NAC,34,12,10,12,58,55,3,46,2003,Dutch Eredivisie
+10,UTR,34,13,7,14,42,52,-10,46,2003,Dutch Eredivisie
+11,RKC,34,10,10,14,47,55,-8,40,2003,Dutch Eredivisie
+12,Roosendaal,34,10,10,14,34,47,-13,40,2003,Dutch Eredivisie
+13,GRO,34,9,10,15,38,53,-15,37,2003,Dutch Eredivisie
+14,NEC,34,10,4,20,44,62,-18,34,2003,Dutch Eredivisie
+15,ADO,34,9,7,18,36,61,-25,34,2003,Dutch Eredivisie
+16,VIT,34,4,16,14,39,56,-17,28,2003,Dutch Eredivisie
+17,VOL,34,7,6,21,31,79,-48,27,2003,Dutch Eredivisie
+18,PEC,34,5,11,18,27,67,-40,26,2003,Dutch Eredivisie
+1,PSV,34,27,6,1,89,18,71,87,2004,Dutch Eredivisie
+2,AJA,34,24,5,5,74,33,41,77,2004,Dutch Eredivisie
+3,AZ,34,19,7,8,71,41,30,64,2004,Dutch Eredivisie
+4,FEY,34,19,5,10,90,51,39,62,2004,Dutch Eredivisie
+5,HEE,34,18,6,10,64,52,12,60,2004,Dutch Eredivisie
+6,TWE,34,15,9,10,48,38,10,54,2004,Dutch Eredivisie
+7,VIT,34,16,6,12,53,49,4,54,2004,Dutch Eredivisie
+8,RJC,34,13,8,13,60,55,5,47,2004,Dutch Eredivisie
+9,RKC,34,13,8,13,44,51,-7,47,2004,Dutch Eredivisie
+10,WIL,34,13,6,15,44,56,-12,45,2004,Dutch Eredivisie
+11,UTR,34,12,8,14,40,43,-3,44,2004,Dutch Eredivisie
+12,GRO,34,11,7,16,50,58,-8,40,2004,Dutch Eredivisie
+13,NEC,34,9,10,15,41,47,-6,37,2004,Dutch Eredivisie
+14,ADO,34,10,6,18,44,59,-15,36,2004,Dutch Eredivisie
+15,NAC,34,9,8,17,43,67,-24,35,2004,Dutch Eredivisie
+16,Roosendaal,34,10,2,22,38,77,-39,32,2004,Dutch Eredivisie
+17,GRA,34,4,7,23,32,78,-46,19,2004,Dutch Eredivisie
+18,DBO,34,5,4,25,23,75,-52,19,2004,Dutch Eredivisie
+1,PSV,34,26,6,2,71,23,48,84,2005,Dutch Eredivisie
+2,AZ,34,23,5,6,78,32,46,74,2005,Dutch Eredivisie
+3,FEY,34,21,8,5,79,34,45,71,2005,Dutch Eredivisie
+4,AJA,34,18,6,10,66,41,25,60,2005,Dutch Eredivisie
+5,GRO,34,16,8,10,46,43,3,56,2005,Dutch Eredivisie
+6,UTR,34,16,7,11,48,44,4,55,2005,Dutch Eredivisie
+7,HEE,34,14,8,12,63,58,5,50,2005,Dutch Eredivisie
+8,RJC,34,15,5,14,57,54,3,50,2005,Dutch Eredivisie
+9,TWE,34,13,8,13,44,36,8,47,2005,Dutch Eredivisie
+10,NEC,34,13,8,13,43,43,0,47,2005,Dutch Eredivisie
+11,VIT,34,13,5,16,52,54,-2,44,2005,Dutch Eredivisie
+12,RKC,34,11,6,17,48,58,-10,39,2005,Dutch Eredivisie
+13,HER,34,11,6,17,35,58,-23,39,2005,Dutch Eredivisie
+14,SPA,34,10,7,17,34,50,-16,37,2005,Dutch Eredivisie
+15,ADO,34,10,5,19,36,62,-26,35,2005,Dutch Eredivisie
+16,NAC,34,8,9,17,45,66,-21,33,2005,Dutch Eredivisie
+17,WIL,34,7,7,20,45,66,-21,28,2005,Dutch Eredivisie
+18,Roosendaal,34,1,6,27,22,90,-68,9,2005,Dutch Eredivisie
+1,PSV,34,23,6,5,75,25,50,75,2006,Dutch Eredivisie
+2,AJA,34,23,6,5,84,35,49,75,2006,Dutch Eredivisie
+3,AZ,34,21,9,4,83,31,52,72,2006,Dutch Eredivisie
+4,TWE,34,19,9,6,67,37,30,66,2006,Dutch Eredivisie
+5,HEE,34,16,7,11,60,43,17,55,2006,Dutch Eredivisie
+6,RJC,34,15,9,10,47,36,11,54,2006,Dutch Eredivisie
+7,FEY,34,15,8,11,56,66,-10,53,2006,Dutch Eredivisie
+8,GRO,34,15,6,13,54,54,0,51,2006,Dutch Eredivisie
+9,UTR,34,13,9,12,41,44,-3,48,2006,Dutch Eredivisie
+10,NEC,34,12,8,14,36,44,-8,44,2006,Dutch Eredivisie
+11,NAC,34,12,7,15,43,54,-11,43,2006,Dutch Eredivisie
+12,VIT,34,10,8,16,50,55,-5,38,2006,Dutch Eredivisie
+13,SPA,34,10,7,17,40,66,-26,37,2006,Dutch Eredivisie
+14,HER,34,7,11,16,32,64,-32,32,2006,Dutch Eredivisie
+15,WIL,34,8,7,19,31,64,-33,31,2006,Dutch Eredivisie
+16,EXC,34,8,6,20,43,65,-22,30,2006,Dutch Eredivisie
+17,RKC,34,6,9,19,33,60,-27,27,2006,Dutch Eredivisie
+18,ADO,34,3,8,23,40,72,-32,17,2006,Dutch Eredivisie
+1,PSV,34,21,9,4,65,24,41,72,2007,Dutch Eredivisie
+2,AJA,34,20,9,5,94,45,49,69,2007,Dutch Eredivisie
+3,NAC,34,19,6,9,48,40,8,63,2007,Dutch Eredivisie
+4,TWE,34,17,11,6,52,32,20,62,2007,Dutch Eredivisie
+5,HEE,34,18,6,10,88,48,40,60,2007,Dutch Eredivisie
+6,FEY,34,18,6,10,64,41,23,60,2007,Dutch Eredivisie
+7,GRO,34,15,6,13,53,54,-1,51,2007,Dutch Eredivisie
+8,NEC,34,14,7,13,49,50,-1,49,2007,Dutch Eredivisie
+9,RJC,34,12,11,11,55,55,0,47,2007,Dutch Eredivisie
+10,UTR,34,13,7,14,59,55,4,46,2007,Dutch Eredivisie
+11,AZ,34,11,10,13,48,53,-5,43,2007,Dutch Eredivisie
+12,VIT,34,12,7,15,46,55,-9,43,2007,Dutch Eredivisie
+13,SPA,34,9,7,18,52,76,-24,34,2007,Dutch Eredivisie
+14,HER,34,8,8,18,34,64,-30,32,2007,Dutch Eredivisie
+15,WIL,34,8,7,19,40,49,-9,31,2007,Dutch Eredivisie
+16,GRA,34,7,9,18,33,64,-31,30,2007,Dutch Eredivisie
+17,VVV,34,7,8,19,44,76,-32,29,2007,Dutch Eredivisie
+18,EXC,34,7,6,21,32,75,-43,27,2007,Dutch Eredivisie
+1,AZ,34,25,5,4,66,22,44,80,2008,Dutch Eredivisie
+2,TWE,34,20,9,5,62,31,31,69,2008,Dutch Eredivisie
+3,AJA,34,21,5,8,74,41,33,68,2008,Dutch Eredivisie
+4,PSV,34,19,8,7,71,33,38,65,2008,Dutch Eredivisie
+5,HEE,34,17,9,8,66,57,9,60,2008,Dutch Eredivisie
+6,GRO,34,17,5,12,53,36,17,56,2008,Dutch Eredivisie
+7,FEY,34,12,9,13,54,46,8,45,2008,Dutch Eredivisie
+8,NAC,34,13,6,15,44,54,-10,45,2008,Dutch Eredivisie
+9,UTR,34,11,11,12,41,44,-3,44,2008,Dutch Eredivisie
+10,VIT,34,11,10,13,41,48,-7,43,2008,Dutch Eredivisie
+11,NEC,34,9,15,10,41,40,1,42,2008,Dutch Eredivisie
+12,WIL,34,10,7,17,35,58,-23,37,2008,Dutch Eredivisie
+13,SPA,34,9,8,17,46,66,-20,35,2008,Dutch Eredivisie
+14,ADO,34,8,8,18,41,58,-17,32,2008,Dutch Eredivisie
+15,HER,34,7,11,16,35,53,-18,32,2008,Dutch Eredivisie
+16,RJC,34,7,9,18,38,58,-20,30,2008,Dutch Eredivisie
+17,GRA,34,7,9,18,24,58,-34,30,2008,Dutch Eredivisie
+18,VOL,34,7,8,19,38,67,-29,29,2008,Dutch Eredivisie
+1,TWE,34,27,5,2,63,23,40,86,2009,Dutch Eredivisie
+2,AJA,34,27,4,3,106,20,86,85,2009,Dutch Eredivisie
+3,PSV,34,23,9,2,72,29,43,78,2009,Dutch Eredivisie
+4,FEY,34,17,12,5,54,31,23,63,2009,Dutch Eredivisie
+5,AZ,34,19,5,10,64,34,30,62,2009,Dutch Eredivisie
+6,HER,34,17,5,12,54,49,5,56,2009,Dutch Eredivisie
+7,UTR,34,14,11,9,39,33,6,53,2009,Dutch Eredivisie
+8,GRO,34,14,7,13,48,47,1,49,2009,Dutch Eredivisie
+9,RJC,34,14,5,15,56,60,-4,47,2009,Dutch Eredivisie
+10,NAC,34,12,10,12,42,49,-7,46,2009,Dutch Eredivisie
+11,HEE,34,11,4,19,44,64,-20,37,2009,Dutch Eredivisie
+12,VVV,34,8,11,15,43,57,-14,35,2009,Dutch Eredivisie
+13,NEC,34,8,9,17,35,59,-24,33,2009,Dutch Eredivisie
+14,VIT,34,8,8,18,38,62,-24,32,2009,Dutch Eredivisie
+15,ADO,34,7,9,18,38,59,-21,30,2009,Dutch Eredivisie
+16,SPA,34,6,8,20,30,66,-36,26,2009,Dutch Eredivisie
+17,WIL,34,7,2,25,36,70,-34,23,2009,Dutch Eredivisie
+18,RKC,34,5,0,29,30,80,-50,15,2009,Dutch Eredivisie
+1,AJA,34,22,7,5,72,30,42,73,2010,Dutch Eredivisie
+2,TWE,34,21,8,5,65,34,31,71,2010,Dutch Eredivisie
+3,PSV,34,20,9,5,79,34,45,69,2010,Dutch Eredivisie
+4,GRO,35,18,6,11,70,53,17,60,2010,Dutch Eredivisie
+5,AZ,34,17,8,9,55,44,11,59,2010,Dutch Eredivisie
+6,RJC,34,14,13,7,65,50,15,55,2010,Dutch Eredivisie
+7,ADO,35,16,6,13,64,60,4,54,2010,Dutch Eredivisie
+8,HER,34,14,7,13,65,56,9,49,2010,Dutch Eredivisie
+9,UTR,34,13,8,13,55,51,4,47,2010,Dutch Eredivisie
+10,FEY,34,12,8,14,53,54,-1,44,2010,Dutch Eredivisie
+11,NEC,34,10,13,11,57,56,1,43,2010,Dutch Eredivisie
+12,HEE,34,10,11,13,60,54,6,41,2010,Dutch Eredivisie
+13,NAC,34,12,5,17,44,60,-16,41,2010,Dutch Eredivisie
+14,GRA,34,9,11,14,31,56,-25,38,2010,Dutch Eredivisie
+15,VIT,34,9,8,17,42,61,-19,35,2010,Dutch Eredivisie
+16,EXC,34,10,5,19,45,66,-21,35,2010,Dutch Eredivisie
+17,VVV,34,6,3,25,34,76,-42,21,2010,Dutch Eredivisie
+18,WIL,34,3,6,25,37,98,-61,15,2010,Dutch Eredivisie
+1,AJA,34,23,7,4,93,36,57,76,2011,Dutch Eredivisie
+2,FEY,34,21,7,6,70,37,33,70,2011,Dutch Eredivisie
+3,PSV,34,21,6,7,87,47,40,69,2011,Dutch Eredivisie
+4,AZ,34,19,8,7,64,35,29,65,2011,Dutch Eredivisie
+5,HEE,34,18,10,6,79,59,20,64,2011,Dutch Eredivisie
+6,TWE,34,17,9,8,82,46,36,60,2011,Dutch Eredivisie
+7,VIT,34,15,8,11,48,43,5,53,2011,Dutch Eredivisie
+8,NEC,34,13,6,15,42,45,-3,45,2011,Dutch Eredivisie
+9,RKC,34,13,6,15,40,49,-9,45,2011,Dutch Eredivisie
+10,RJC,34,14,2,18,55,70,-15,44,2011,Dutch Eredivisie
+11,UTR,34,11,10,13,55,58,-3,43,2011,Dutch Eredivisie
+12,HER,34,11,7,16,52,62,-10,40,2011,Dutch Eredivisie
+13,NAC,34,10,8,16,45,54,-9,38,2011,Dutch Eredivisie
+14,GRO,34,10,7,17,41,61,-20,37,2011,Dutch Eredivisie
+15,ADO,34,8,8,18,38,67,-29,32,2011,Dutch Eredivisie
+16,VVV,34,9,4,21,42,78,-36,31,2011,Dutch Eredivisie
+17,GRA,34,6,6,22,36,74,-38,24,2011,Dutch Eredivisie
+18,EXC,34,4,7,23,28,76,-48,19,2011,Dutch Eredivisie
+1,AJA,34,22,10,2,83,31,52,76,2012,Dutch Eredivisie
+2,PSV,34,22,3,9,103,43,60,69,2012,Dutch Eredivisie
+3,FEY,34,21,6,7,64,38,26,69,2012,Dutch Eredivisie
+4,VIT,34,19,7,8,68,42,26,64,2012,Dutch Eredivisie
+5,UTR,34,19,6,9,55,41,14,63,2012,Dutch Eredivisie
+6,TWE,34,17,11,6,60,33,27,62,2012,Dutch Eredivisie
+7,GRO,34,12,7,15,36,53,-17,43,2012,Dutch Eredivisie
+8,HEE,34,11,9,14,50,63,-13,42,2012,Dutch Eredivisie
+9,ADO,34,9,13,12,49,63,-14,40,2012,Dutch Eredivisie
+10,AZ,34,10,9,15,56,54,2,39,2012,Dutch Eredivisie
+11,PEC,34,10,9,15,42,55,-13,39,2012,Dutch Eredivisie
+12,HER,34,9,11,14,58,71,-13,38,2012,Dutch Eredivisie
+13,NAC,34,10,8,16,40,56,-16,38,2012,Dutch Eredivisie
+14,RKC,34,9,10,15,39,48,-9,37,2012,Dutch Eredivisie
+15,NEC,34,10,7,17,44,66,-22,37,2012,Dutch Eredivisie
+16,RJC,34,7,12,15,51,69,-18,33,2012,Dutch Eredivisie
+17,VVV,34,6,10,18,33,62,-29,28,2012,Dutch Eredivisie
+18,WIL,34,5,8,21,33,76,-43,23,2012,Dutch Eredivisie
+1,AJA,34,20,11,3,69,28,41,71,2013,Dutch Eredivisie
+2,FEY,34,20,7,7,76,40,36,67,2013,Dutch Eredivisie
+3,TWE,34,17,12,5,72,37,35,63,2013,Dutch Eredivisie
+4,PSV,34,18,5,11,60,45,15,59,2013,Dutch Eredivisie
+5,HEE,34,16,9,9,72,51,21,57,2013,Dutch Eredivisie
+6,VIT,34,15,10,9,65,49,16,55,2013,Dutch Eredivisie
+7,GRO,34,14,9,11,57,53,4,51,2013,Dutch Eredivisie
+8,AZ,34,13,8,13,54,50,4,47,2013,Dutch Eredivisie
+9,ADO,34,12,7,15,45,64,-19,43,2013,Dutch Eredivisie
+10,UTR,34,11,8,15,46,65,-19,41,2013,Dutch Eredivisie
+11,PEC,34,9,13,12,47,49,-2,40,2013,Dutch Eredivisie
+12,CAM,34,10,9,15,40,50,-10,39,2013,Dutch Eredivisie
+13,GAE,34,10,8,16,45,69,-24,38,2013,Dutch Eredivisie
+14,HER,34,10,7,17,45,59,-14,37,2013,Dutch Eredivisie
+15,NAC,34,8,11,15,43,54,-11,35,2013,Dutch Eredivisie
+16,RKC,34,7,11,16,44,64,-20,32,2013,Dutch Eredivisie
+17,NEC,34,5,15,14,54,82,-28,30,2013,Dutch Eredivisie
+18,RJC,34,7,8,19,44,69,-25,29,2013,Dutch Eredivisie
+1,PSV,34,29,1,4,92,31,61,88,2014,Dutch Eredivisie
+2,AJA,34,21,8,5,69,29,40,71,2014,Dutch Eredivisie
+3,AZ,34,19,5,10,63,56,7,62,2014,Dutch Eredivisie
+4,FEY,34,17,8,9,56,39,17,59,2014,Dutch Eredivisie
+5,VIT,34,16,10,8,66,43,23,58,2014,Dutch Eredivisie
+6,PEC,34,16,5,13,59,43,16,53,2014,Dutch Eredivisie
+7,HEE,34,13,11,10,53,46,7,50,2014,Dutch Eredivisie
+8,GRO,34,11,13,10,49,53,-4,46,2014,Dutch Eredivisie
+9,WIL,34,13,7,14,46,50,-4,46,2014,Dutch Eredivisie
+10,TWE,34,13,10,11,56,51,5,43,2014,Dutch Eredivisie
+11,UTR,34,11,8,15,60,62,-2,41,2014,Dutch Eredivisie
+12,CAM,34,11,8,15,46,56,-10,41,2014,Dutch Eredivisie
+13,ADO,34,9,10,15,44,53,-9,37,2014,Dutch Eredivisie
+14,HER,34,11,4,19,47,64,-17,37,2014,Dutch Eredivisie
+15,EXC,34,6,14,14,47,63,-16,32,2014,Dutch Eredivisie
+16,NAC,34,6,10,18,36,68,-32,28,2014,Dutch Eredivisie
+17,GAE,34,7,6,21,29,59,-30,27,2014,Dutch Eredivisie
+18,DOR,34,4,8,22,24,76,-52,20,2014,Dutch Eredivisie
+1,PSV,34,26,6,2,88,32,56,84,2015,Dutch Eredivisie
+2,AJA,34,25,7,2,81,21,60,82,2015,Dutch Eredivisie
+3,FEY,34,19,6,9,62,40,22,63,2015,Dutch Eredivisie
+4,AZ,34,18,5,11,70,53,17,59,2015,Dutch Eredivisie
+5,UTR,34,15,8,11,57,48,9,53,2015,Dutch Eredivisie
+6,HER,34,14,9,11,47,49,-2,51,2015,Dutch Eredivisie
+7,GRO,34,14,8,12,41,48,-7,50,2015,Dutch Eredivisie
+8,PEC,34,14,6,14,56,54,2,48,2015,Dutch Eredivisie
+9,VIT,34,12,10,12,55,38,17,46,2015,Dutch Eredivisie
+10,NEC,34,13,7,14,37,42,-5,46,2015,Dutch Eredivisie
+11,ADO,34,10,13,11,48,49,-1,43,2015,Dutch Eredivisie
+12,HEE,34,11,9,14,46,61,-15,42,2015,Dutch Eredivisie
+13,TWE,34,12,7,15,49,64,-15,40,2015,Dutch Eredivisie
+14,RJC,34,8,10,16,34,55,-21,34,2015,Dutch Eredivisie
+15,EXC,34,7,9,18,34,60,-26,30,2015,Dutch Eredivisie
+16,WIL,34,6,11,17,35,53,-18,29,2015,Dutch Eredivisie
+17,GRA,34,5,8,21,39,66,-27,23,2015,Dutch Eredivisie
+18,CAM,34,3,9,22,33,79,-46,18,2015,Dutch Eredivisie
+1,FEY,34,26,4,4,86,25,61,82,2016,Dutch Eredivisie
+2,AJA,34,25,6,3,79,23,56,81,2016,Dutch Eredivisie
+3,PSV,34,22,10,2,68,23,45,76,2016,Dutch Eredivisie
+4,UTR,34,18,8,8,54,38,16,62,2016,Dutch Eredivisie
+5,VIT,34,15,6,13,51,40,11,51,2016,Dutch Eredivisie
+6,AZ,34,12,13,9,56,52,4,49,2016,Dutch Eredivisie
+7,TWE,34,12,9,13,48,50,-2,45,2016,Dutch Eredivisie
+8,GRO,34,10,13,11,55,51,4,43,2016,Dutch Eredivisie
+9,HEE,34,12,7,15,54,53,1,43,2016,Dutch Eredivisie
+10,HER,34,12,7,15,53,55,-2,43,2016,Dutch Eredivisie
+11,ADO,34,11,5,18,37,59,-22,38,2016,Dutch Eredivisie
+12,EXC,34,9,10,15,43,60,-17,37,2016,Dutch Eredivisie
+13,WIL,34,9,9,16,29,44,-15,36,2016,Dutch Eredivisie
+14,PEC,34,9,8,17,39,67,-28,35,2016,Dutch Eredivisie
+15,SPA,34,9,7,18,42,61,-19,34,2016,Dutch Eredivisie
+16,NEC,34,9,7,18,32,59,-27,34,2016,Dutch Eredivisie
+17,RJC,34,7,12,15,26,51,-25,33,2016,Dutch Eredivisie
+18,GAE,34,6,5,23,32,73,-41,23,2016,Dutch Eredivisie
+1,PSV,34,26,5,3,87,39,48,83,2017,Dutch Eredivisie
+2,AJA,34,25,4,5,89,33,56,79,2017,Dutch Eredivisie
+3,AZ,34,22,5,7,72,38,34,71,2017,Dutch Eredivisie
+4,FEY,34,20,6,8,76,39,37,66,2017,Dutch Eredivisie
+5,UTR,34,14,12,8,58,53,5,54,2017,Dutch Eredivisie
+6,VIT,34,13,10,11,63,47,16,49,2017,Dutch Eredivisie
+7,ADO,34,13,8,13,45,53,-8,47,2017,Dutch Eredivisie
+8,HEE,34,12,10,12,48,53,-5,46,2017,Dutch Eredivisie
+9,PEC,34,12,8,14,42,54,-12,44,2017,Dutch Eredivisie
+10,HER,34,11,9,14,50,64,-14,42,2017,Dutch Eredivisie
+11,EXC,34,11,7,16,41,56,-15,40,2017,Dutch Eredivisie
+12,GRO,34,8,14,12,50,50,0,38,2017,Dutch Eredivisie
+13,WIL,34,10,7,17,50,63,-13,37,2017,Dutch Eredivisie
+14,NAC,34,9,7,18,41,57,-16,34,2017,Dutch Eredivisie
+15,VVV,34,7,13,14,35,54,-19,34,2017,Dutch Eredivisie
+16,RJC,34,8,6,20,42,69,-27,30,2017,Dutch Eredivisie
+17,SPA,34,7,6,21,34,75,-41,27,2017,Dutch Eredivisie
+18,TWE,34,5,9,20,37,63,-26,24,2017,Dutch Eredivisie
+1,AJA,34,28,2,4,119,32,87,86,2018,Dutch Eredivisie
+2,PSV,34,26,5,3,98,26,72,83,2018,Dutch Eredivisie
+3,FEY,34,20,5,9,75,41,34,65,2018,Dutch Eredivisie
+4,AZ,34,17,7,10,64,43,21,58,2018,Dutch Eredivisie
+5,VIT,34,14,11,9,70,51,19,53,2018,Dutch Eredivisie
+6,UTR,34,15,8,11,60,51,9,53,2018,Dutch Eredivisie
+7,HER,34,15,3,16,61,68,-7,48,2018,Dutch Eredivisie
+8,GRO,34,13,6,15,39,41,-2,45,2018,Dutch Eredivisie
+9,ADO,34,12,9,13,58,63,-5,45,2018,Dutch Eredivisie
+10,WIL,34,13,5,16,58,72,-14,44,2018,Dutch Eredivisie
+11,HEE,34,10,11,13,64,73,-9,41,2018,Dutch Eredivisie
+12,VVV,34,11,8,15,47,63,-16,41,2018,Dutch Eredivisie
+13,PEC,34,11,6,17,44,57,-13,39,2018,Dutch Eredivisie
+14,EMM,34,10,8,16,41,72,-31,38,2018,Dutch Eredivisie
+15,FOR,34,9,7,18,50,80,-30,34,2018,Dutch Eredivisie
+16,EXC,34,9,6,19,46,79,-33,33,2018,Dutch Eredivisie
+17,GRA,34,8,5,21,38,75,-37,29,2018,Dutch Eredivisie
+18,NAC,34,5,8,21,29,74,-45,23,2018,Dutch Eredivisie
+1,AJA,25,18,2,5,68,23,45,56,2019,Dutch Eredivisie
+2,AZ,25,18,2,5,54,17,37,56,2019,Dutch Eredivisie
+3,FEY,25,14,8,3,50,35,15,50,2019,Dutch Eredivisie
+4,PSV,26,14,7,5,54,28,26,49,2019,Dutch Eredivisie
+5,WIL,26,13,5,8,37,34,3,44,2019,Dutch Eredivisie
+6,UTR,25,12,5,8,50,34,16,41,2019,Dutch Eredivisie
+7,VIT,26,12,5,9,45,35,10,41,2019,Dutch Eredivisie
+8,HER,26,10,6,10,40,34,6,36,2019,Dutch Eredivisie
+9,GRO,26,10,5,11,27,26,1,35,2019,Dutch Eredivisie
+10,HEE,26,8,9,9,41,41,0,33,2019,Dutch Eredivisie
+11,SPA,26,9,6,11,41,45,-4,33,2019,Dutch Eredivisie
+12,EMM,26,9,5,12,32,45,-13,32,2019,Dutch Eredivisie
+13,VVV,26,8,4,14,24,51,-27,28,2019,Dutch Eredivisie
+14,TWE,26,7,6,13,34,46,-12,27,2019,Dutch Eredivisie
+15,PEC,26,7,5,14,37,55,-18,26,2019,Dutch Eredivisie
+16,FOR,26,6,8,12,29,52,-23,26,2019,Dutch Eredivisie
+17,ADO,26,4,7,15,25,54,-29,19,2019,Dutch Eredivisie
+18,RKC,26,4,3,19,27,60,-33,15,2019,Dutch Eredivisie
+1,AJA,34,28,4,2,102,23,79,88,2020,Dutch Eredivisie
+2,PSV,34,21,9,4,74,35,39,72,2020,Dutch Eredivisie
+3,AZ,34,21,8,5,75,41,34,71,2020,Dutch Eredivisie
+4,VIT,34,18,7,9,52,38,14,61,2020,Dutch Eredivisie
+5,FEY,34,16,11,7,64,36,28,59,2020,Dutch Eredivisie
+6,UTR,34,13,14,7,52,41,11,53,2020,Dutch Eredivisie
+7,GRO,34,14,8,12,40,37,3,50,2020,Dutch Eredivisie
+8,SPA,34,13,8,13,49,48,1,47,2020,Dutch Eredivisie
+9,HER,34,12,8,14,42,53,-11,44,2020,Dutch Eredivisie
+10,TWE,34,10,11,13,48,50,-2,41,2020,Dutch Eredivisie
+11,FOR,34,12,5,17,50,58,-8,41,2020,Dutch Eredivisie
+12,HEE,34,9,12,13,43,49,-6,39,2020,Dutch Eredivisie
+13,PEC,34,9,11,14,44,53,-9,38,2020,Dutch Eredivisie
+14,WIL,34,8,7,19,40,68,-28,31,2020,Dutch Eredivisie
+15,RKC,34,7,9,18,33,55,-22,30,2020,Dutch Eredivisie
+16,EMM,34,7,9,18,40,68,-28,30,2020,Dutch Eredivisie
+17,VVV,34,6,5,23,43,91,-48,23,2020,Dutch Eredivisie
+18,ADO,34,4,10,20,29,76,-47,22,2020,Dutch Eredivisie
+1,AJA,34,26,5,3,98,19,79,83,2021,Dutch Eredivisie
+2,PSV,34,26,3,5,86,42,44,81,2021,Dutch Eredivisie
+3,FEY,34,22,5,7,76,34,42,71,2021,Dutch Eredivisie
+4,TWE,34,20,8,6,55,37,18,68,2021,Dutch Eredivisie
+5,AZ,34,18,7,9,64,44,20,61,2021,Dutch Eredivisie
+6,VIT,34,15,6,13,42,51,-9,51,2021,Dutch Eredivisie
+7,UTR,34,12,11,11,51,46,5,47,2021,Dutch Eredivisie
+8,HEE,34,11,8,15,37,50,-13,41,2021,Dutch Eredivisie
+9,CAM,34,11,6,17,53,70,-17,39,2021,Dutch Eredivisie
+10,RKC,34,9,11,14,40,51,-11,38,2021,Dutch Eredivisie
+11,NEC,34,10,8,16,38,52,-14,38,2021,Dutch Eredivisie
+12,GRO,34,9,9,16,41,55,-14,36,2021,Dutch Eredivisie
+13,GAE,34,10,6,18,37,51,-14,36,2021,Dutch Eredivisie
+14,SPA,34,8,11,15,30,48,-18,35,2021,Dutch Eredivisie
+15,FOR,34,10,5,19,36,67,-31,35,2021,Dutch Eredivisie
+16,HER,34,9,7,18,33,49,-16,34,2021,Dutch Eredivisie
+17,WIL,34,9,6,19,32,57,-25,33,2021,Dutch Eredivisie
+18,PEC,34,7,6,21,26,52,-26,27,2021,Dutch Eredivisie
+1,LYON,38,19,11,8,63,41,22,68,2002,French Ligue 1
+2,MON,38,19,10,9,66,33,33,67,2002,French Ligue 1
+3,MAR,38,19,8,11,41,36,5,65,2002,French Ligue 1
+4,BOR,38,18,10,10,57,36,21,64,2002,French Ligue 1
+5,SOC,38,17,13,8,46,31,15,64,2002,French Ligue 1
+6,AUX,38,18,10,10,38,29,9,64,2002,French Ligue 1
+7,EAG,38,19,5,14,59,46,13,62,2002,French Ligue 1
+8,RCL,38,14,15,9,43,31,12,57,2002,French Ligue 1
+9,NANT,38,16,8,14,37,39,-2,56,2002,French Ligue 1
+10,NICE,38,13,16,9,39,31,8,55,2002,French Ligue 1
+11,PSG,38,14,12,12,47,36,11,54,2002,French Ligue 1
+12,BAS,38,12,11,15,40,48,-8,47,2002,French Ligue 1
+13,STRA,38,11,12,15,40,54,-14,45,2002,French Ligue 1
+14,LILL,38,10,12,16,29,44,-15,42,2002,French Ligue 1
+15,REN,38,10,10,18,35,45,-10,40,2002,French Ligue 1
+16,MONT,38,10,10,18,37,54,-17,40,2002,French Ligue 1
+17,AJC,38,9,12,17,29,49,-20,39,2002,French Ligue 1
+18,HAC,38,10,8,20,27,47,-20,38,2002,French Ligue 1
+19,SED,38,9,9,20,41,59,-18,36,2002,French Ligue 1
+20,TRY,38,7,10,21,23,48,-25,31,2002,French Ligue 1
+1,LYON,38,24,7,7,64,26,38,79,2003,French Ligue 1
+2,PSG,38,22,10,6,50,28,22,76,2003,French Ligue 1
+3,MON,38,21,12,5,59,30,29,75,2003,French Ligue 1
+4,AUX,38,19,8,11,60,34,26,65,2003,French Ligue 1
+5,SOC,38,18,9,11,54,42,12,63,2003,French Ligue 1
+6,NANT,38,17,9,12,47,35,12,60,2003,French Ligue 1
+7,MAR,38,17,6,15,51,45,6,57,2003,French Ligue 1
+8,RCL,38,15,8,15,34,48,-14,53,2003,French Ligue 1
+9,REN,38,14,10,14,56,44,12,52,2003,French Ligue 1
+10,LILL,38,14,9,15,41,41,0,51,2003,French Ligue 1
+11,NICE,38,11,17,10,42,39,3,50,2003,French Ligue 1
+12,BOR,38,13,11,14,40,43,-3,50,2003,French Ligue 1
+13,STRA,38,10,13,15,43,50,-7,43,2003,French Ligue 1
+14,METZ,38,11,9,18,34,42,-8,42,2003,French Ligue 1
+15,AJC,38,10,10,18,33,55,-22,40,2003,French Ligue 1
+16,TOUL,38,9,12,17,31,44,-13,39,2003,French Ligue 1
+17,BAS,38,9,12,17,33,49,-16,39,2003,French Ligue 1
+18,EAG,38,10,8,20,36,58,-22,38,2003,French Ligue 1
+19,MNS,38,9,11,18,35,57,-22,38,2003,French Ligue 1
+20,MONT,38,8,7,23,41,74,-33,31,2003,French Ligue 1
+1,LYON,38,22,13,3,56,22,34,79,2004,French Ligue 1
+2,LILL,38,18,13,7,52,29,23,67,2004,French Ligue 1
+3,MON,38,15,18,5,52,35,17,63,2004,French Ligue 1
+4,REN,38,15,10,13,49,42,7,55,2004,French Ligue 1
+5,MAR,38,15,10,13,47,42,5,55,2004,French Ligue 1
+6,ASSE,38,12,17,9,47,34,13,53,2004,French Ligue 1
+7,RCL,38,13,13,12,45,39,6,52,2004,French Ligue 1
+8,AUX,38,14,10,14,48,47,1,52,2004,French Ligue 1
+9,PSG,38,12,15,11,40,41,-1,51,2004,French Ligue 1
+10,SOC,38,13,11,14,42,41,1,50,2004,French Ligue 1
+11,STRA,38,12,12,14,42,43,-1,48,2004,French Ligue 1
+12,NICE,38,10,16,12,38,45,-7,46,2004,French Ligue 1
+13,TOUL,38,12,10,16,36,43,-7,46,2004,French Ligue 1
+14,AJC,38,10,15,13,36,40,-4,45,2004,French Ligue 1
+15,BOR,38,8,20,10,37,41,-4,44,2004,French Ligue 1
+16,METZ,38,10,14,14,33,45,-12,44,2004,French Ligue 1
+17,NANT,38,10,13,15,33,38,-5,43,2004,French Ligue 1
+18,CAN,38,10,12,16,36,60,-24,42,2004,French Ligue 1
+19,BAS,38,11,8,19,32,48,-16,41,2004,French Ligue 1
+20,IST,38,6,14,18,25,51,-26,32,2004,French Ligue 1
+1,LYON,38,25,9,4,73,31,42,84,2005,French Ligue 1
+2,BOR,38,18,15,5,43,25,18,69,2005,French Ligue 1
+3,LILL,38,16,14,8,56,31,25,62,2005,French Ligue 1
+4,RCL,38,14,18,6,48,34,14,60,2005,French Ligue 1
+5,MAR,38,16,12,10,44,35,9,60,2005,French Ligue 1
+6,AUX,38,17,8,13,50,39,11,59,2005,French Ligue 1
+7,REN,38,18,5,15,48,49,-1,59,2005,French Ligue 1
+8,NICE,38,16,10,12,36,31,5,58,2005,French Ligue 1
+9,PSG,38,13,13,12,44,38,6,52,2005,French Ligue 1
+10,MON,38,13,13,12,42,36,6,52,2005,French Ligue 1
+11,MNS,38,13,13,12,33,36,-3,52,2005,French Ligue 1
+12,ASNL,38,12,12,14,35,37,-2,48,2005,French Ligue 1
+13,ASSE,38,11,14,13,29,39,-10,47,2005,French Ligue 1
+14,NANT,38,11,12,15,37,41,-4,45,2005,French Ligue 1
+15,SOC,38,11,11,16,34,47,-13,44,2005,French Ligue 1
+16,TOUL,38,10,11,17,36,47,-11,41,2005,French Ligue 1
+17,TRY,38,9,12,17,37,47,-10,39,2005,French Ligue 1
+18,AJC,38,8,9,21,27,53,-26,33,2005,French Ligue 1
+19,STRA,38,5,14,19,33,56,-23,29,2005,French Ligue 1
+20,METZ,38,6,11,21,26,59,-33,29,2005,French Ligue 1
+1,LYON,38,24,9,5,64,27,37,81,2006,French Ligue 1
+2,MAR,38,19,7,12,53,38,15,64,2006,French Ligue 1
+3,TOUL,38,17,7,14,44,43,1,58,2006,French Ligue 1
+4,REN,38,14,15,9,38,30,8,57,2006,French Ligue 1
+5,RCL,38,15,12,11,47,41,6,57,2006,French Ligue 1
+6,BOR,38,16,9,13,39,35,4,57,2006,French Ligue 1
+7,SOC,38,15,12,11,46,48,-2,57,2006,French Ligue 1
+8,AUX,38,13,15,10,41,41,0,54,2006,French Ligue 1
+9,MON,38,13,12,13,45,38,7,51,2006,French Ligue 1
+10,LILL,38,13,11,14,45,43,2,50,2006,French Ligue 1
+11,ASSE,38,14,7,17,52,50,2,49,2006,French Ligue 1
+12,MNS,38,11,16,11,45,46,-1,49,2006,French Ligue 1
+13,ASNL,38,13,10,15,37,44,-7,49,2006,French Ligue 1
+14,LOR,38,12,13,13,33,40,-7,49,2006,French Ligue 1
+15,PSG,38,12,12,14,42,42,0,48,2006,French Ligue 1
+16,NICE,38,9,16,13,34,40,-6,43,2006,French Ligue 1
+17,VAFC,38,11,10,17,36,48,-12,43,2006,French Ligue 1
+18,TRY,38,9,12,17,39,54,-15,39,2006,French Ligue 1
+19,SED,38,7,14,17,46,58,-12,35,2006,French Ligue 1
+20,NANT,38,7,13,18,29,49,-20,34,2006,French Ligue 1
+1,LYON,38,24,7,7,74,37,37,79,2007,French Ligue 1
+2,BOR,38,22,9,7,65,38,27,75,2007,French Ligue 1
+3,MAR,38,17,11,10,58,45,13,62,2007,French Ligue 1
+4,ASNL,38,15,15,8,44,30,14,60,2007,French Ligue 1
+5,ASSE,38,16,10,12,47,34,13,58,2007,French Ligue 1
+6,REN,38,16,10,12,47,44,3,58,2007,French Ligue 1
+7,LILL,38,13,18,7,45,32,13,57,2007,French Ligue 1
+8,NICE,38,13,16,9,35,30,5,55,2007,French Ligue 1
+9,MNS,38,14,11,13,46,49,-3,53,2007,French Ligue 1
+10,LOR,38,12,16,10,32,35,-3,52,2007,French Ligue 1
+11,CAN,38,13,12,13,48,53,-5,51,2007,French Ligue 1
+12,MON,38,13,8,17,40,48,-8,47,2007,French Ligue 1
+13,VAFC,38,12,9,17,42,40,2,45,2007,French Ligue 1
+14,SOC,38,10,14,14,34,43,-9,44,2007,French Ligue 1
+15,AUX,38,12,8,18,33,52,-19,44,2007,French Ligue 1
+16,PSG,38,10,13,15,37,45,-8,43,2007,French Ligue 1
+17,TOUL,38,9,15,14,36,42,-6,42,2007,French Ligue 1
+18,RCL,38,9,13,16,43,52,-9,40,2007,French Ligue 1
+19,STRA,38,9,8,21,34,55,-21,35,2007,French Ligue 1
+20,METZ,38,5,9,24,28,64,-36,24,2007,French Ligue 1
+1,BOR,38,24,8,6,64,34,30,80,2008,French Ligue 1
+2,MAR,38,22,11,5,67,35,32,77,2008,French Ligue 1
+3,LYON,38,20,11,7,52,29,23,71,2008,French Ligue 1
+4,TOUL,38,16,16,6,45,27,18,64,2008,French Ligue 1
+5,LILL,38,17,13,8,51,39,12,64,2008,French Ligue 1
+6,PSG,38,19,7,12,49,38,11,64,2008,French Ligue 1
+7,REN,38,15,16,7,42,34,8,61,2008,French Ligue 1
+8,AUX,38,16,7,15,35,35,0,55,2008,French Ligue 1
+9,NICE,38,13,11,14,40,41,-1,50,2008,French Ligue 1
+10,LOR,38,10,15,13,47,47,0,45,2008,French Ligue 1
+11,MON,38,11,12,15,41,45,-4,45,2008,French Ligue 1
+12,VAFC,38,10,14,14,35,42,-7,44,2008,French Ligue 1
+13,GRE,38,10,14,14,24,37,-13,44,2008,French Ligue 1
+14,SOC,38,10,12,16,40,48,-8,42,2008,French Ligue 1
+15,ASNL,38,10,12,16,38,47,-9,42,2008,French Ligue 1
+16,MNS,38,10,10,18,43,54,-11,40,2008,French Ligue 1
+17,ASSE,38,11,7,20,40,56,-16,40,2008,French Ligue 1
+18,CAN,38,8,13,17,42,49,-7,37,2008,French Ligue 1
+19,NANT,38,9,10,19,33,54,-21,37,2008,French Ligue 1
+20,HAC,38,7,5,26,30,67,-37,26,2008,French Ligue 1
+1,MAR,38,23,9,6,69,36,33,78,2009,French Ligue 1
+2,LYON,38,20,12,6,64,38,26,72,2009,French Ligue 1
+3,AUX,38,20,11,7,42,29,13,71,2009,French Ligue 1
+4,LILL,38,21,7,10,72,40,32,70,2009,French Ligue 1
+5,MONT,38,20,9,9,50,40,10,69,2009,French Ligue 1
+6,BOR,38,19,7,12,58,40,18,64,2009,French Ligue 1
+7,LOR,38,16,10,12,54,42,12,58,2009,French Ligue 1
+8,MON,38,15,10,13,39,45,-6,55,2009,French Ligue 1
+9,REN,38,14,11,13,52,41,11,53,2009,French Ligue 1
+10,VAFC,38,14,10,14,50,50,0,52,2009,French Ligue 1
+11,RCL,38,12,12,14,40,44,-4,48,2009,French Ligue 1
+12,ASNL,38,13,9,16,46,53,-7,48,2009,French Ligue 1
+13,PSG,38,12,11,15,50,46,4,47,2009,French Ligue 1
+14,TOUL,38,12,11,15,36,36,0,47,2009,French Ligue 1
+15,NICE,38,11,11,16,41,57,-16,44,2009,French Ligue 1
+16,SOC,38,11,8,19,28,52,-24,41,2009,French Ligue 1
+17,ASSE,38,10,10,18,27,45,-18,40,2009,French Ligue 1
+18,MNS,38,8,8,22,36,59,-23,32,2009,French Ligue 1
+19,BOU,38,7,10,21,31,62,-31,31,2009,French Ligue 1
+20,GRE,38,5,8,25,31,61,-30,23,2009,French Ligue 1
+1,LILL,38,21,13,4,68,36,32,76,2010,French Ligue 1
+2,MAR,38,18,14,6,62,39,23,68,2010,French Ligue 1
+3,LYON,38,17,13,8,61,40,21,64,2010,French Ligue 1
+4,PSG,38,15,15,8,56,41,15,60,2010,French Ligue 1
+5,SOC,38,17,7,14,60,43,17,58,2010,French Ligue 1
+6,REN,38,15,11,12,38,35,3,56,2010,French Ligue 1
+7,BOR,38,12,15,11,43,42,1,51,2010,French Ligue 1
+8,TOUL,38,14,8,16,38,36,2,50,2010,French Ligue 1
+9,AUX,38,10,19,9,45,41,4,49,2010,French Ligue 1
+10,ASSE,38,12,13,13,46,47,-1,49,2010,French Ligue 1
+11,LOR,38,12,13,13,46,48,-2,49,2010,French Ligue 1
+12,VAFC,38,10,18,10,45,41,4,48,2010,French Ligue 1
+13,ASNL,38,13,9,16,43,48,-5,48,2010,French Ligue 1
+14,MONT,38,12,11,15,32,43,-11,47,2010,French Ligue 1
+15,CAN,38,11,13,14,46,51,-5,46,2010,French Ligue 1
+16,BRES,38,11,13,14,36,43,-7,46,2010,French Ligue 1
+17,NICE,38,11,13,14,33,48,-15,46,2010,French Ligue 1
+18,MON,38,9,17,12,36,40,-4,44,2010,French Ligue 1
+19,RCL,38,7,14,17,35,58,-23,35,2010,French Ligue 1
+20,ARL,38,3,11,24,21,70,-49,20,2010,French Ligue 1
+1,MONT,38,25,7,6,68,34,34,82,2011,French Ligue 1
+2,PSG,38,23,10,5,75,41,34,79,2011,French Ligue 1
+3,LILL,38,21,11,6,72,39,33,74,2011,French Ligue 1
+4,LYON,38,19,7,12,64,51,13,64,2011,French Ligue 1
+5,BOR,38,16,13,9,53,41,12,61,2011,French Ligue 1
+6,REN,38,17,9,12,53,44,9,60,2011,French Ligue 1
+7,ASSE,38,16,9,13,49,45,4,57,2011,French Ligue 1
+8,TOUL,38,15,11,12,37,34,3,56,2011,French Ligue 1
+9,EVN,38,13,11,14,54,55,-1,50,2011,French Ligue 1
+10,MAR,38,12,12,14,45,41,4,48,2011,French Ligue 1
+11,ASNL,38,11,12,15,38,48,-10,45,2011,French Ligue 1
+12,VAFC,38,12,7,19,40,50,-10,43,2011,French Ligue 1
+13,NICE,38,10,12,16,39,46,-7,42,2011,French Ligue 1
+14,SOC,38,11,9,18,40,60,-20,42,2011,French Ligue 1
+15,BRES,38,8,17,13,31,38,-7,41,2011,French Ligue 1
+16,AJC,38,9,14,15,40,61,-21,41,2011,French Ligue 1
+17,LOR,38,9,12,17,35,49,-14,39,2011,French Ligue 1
+18,CAN,38,9,11,18,39,59,-20,38,2011,French Ligue 1
+19,DIJO,38,9,9,20,38,63,-25,36,2011,French Ligue 1
+20,AUX,38,7,13,18,46,57,-11,34,2011,French Ligue 1
+1,PSG,38,25,8,5,69,23,46,83,2012,French Ligue 1
+2,MAR,38,21,8,9,42,36,6,71,2012,French Ligue 1
+3,LYON,38,19,10,9,61,38,23,67,2012,French Ligue 1
+4,NICE,38,18,10,10,57,46,11,64,2012,French Ligue 1
+5,ASSE,38,16,15,7,60,32,28,63,2012,French Ligue 1
+6,LILL,38,16,14,8,59,40,19,62,2012,French Ligue 1
+7,BOR,38,13,16,9,40,34,6,55,2012,French Ligue 1
+8,LOR,38,14,11,13,57,58,-1,53,2012,French Ligue 1
+9,MONT,38,15,7,16,54,51,3,52,2012,French Ligue 1
+10,TOUL,38,13,12,13,49,47,2,51,2012,French Ligue 1
+11,VAFC,38,12,12,14,49,53,-4,48,2012,French Ligue 1
+12,BAS,38,13,8,17,50,66,-16,47,2012,French Ligue 1
+13,REN,38,13,7,18,48,59,-11,46,2012,French Ligue 1
+14,REIM,38,10,13,15,33,42,-9,43,2012,French Ligue 1
+15,SOC,38,10,11,17,41,57,-16,41,2012,French Ligue 1
+16,EVN,38,10,10,18,46,53,-7,40,2012,French Ligue 1
+17,AJC,38,9,15,14,39,51,-12,40,2012,French Ligue 1
+18,ASNL,38,9,11,18,38,58,-20,38,2012,French Ligue 1
+19,TRY,38,8,13,17,43,61,-18,37,2012,French Ligue 1
+20,BRES,38,8,5,25,32,62,-30,29,2012,French Ligue 1
+1,PSG,38,27,8,3,84,23,61,89,2013,French Ligue 1
+2,MON,38,23,11,4,63,31,32,80,2013,French Ligue 1
+3,LILL,38,20,11,7,46,26,20,71,2013,French Ligue 1
+4,ASSE,38,20,9,9,56,34,22,69,2013,French Ligue 1
+5,LYON,38,17,10,11,56,44,12,61,2013,French Ligue 1
+6,MAR,38,16,12,10,53,40,13,60,2013,French Ligue 1
+7,BOR,38,13,14,11,49,43,6,53,2013,French Ligue 1
+8,LOR,38,13,10,15,48,53,-5,49,2013,French Ligue 1
+9,TOUL,38,12,13,13,46,53,-7,49,2013,French Ligue 1
+10,BAS,38,13,10,15,42,56,-14,49,2013,French Ligue 1
+11,REIM,38,12,12,14,44,52,-8,48,2013,French Ligue 1
+12,REN,38,11,13,14,47,45,2,46,2013,French Ligue 1
+13,NANT,38,12,10,16,38,43,-5,46,2013,French Ligue 1
+14,EVN,38,11,11,16,39,51,-12,44,2013,French Ligue 1
+15,MONT,38,8,18,12,45,53,-8,42,2013,French Ligue 1
+16,EAG,38,11,9,18,34,42,-8,42,2013,French Ligue 1
+17,NICE,38,12,6,20,30,44,-14,42,2013,French Ligue 1
+18,SOC,38,10,10,18,37,61,-24,40,2013,French Ligue 1
+19,VAFC,38,7,8,23,37,65,-28,29,2013,French Ligue 1
+20,AJC,38,4,11,23,37,72,-35,23,2013,French Ligue 1
+1,PSG,38,24,11,3,83,36,47,83,2014,French Ligue 1
+2,LYON,38,22,9,7,72,33,39,75,2014,French Ligue 1
+3,MON,38,20,11,7,51,26,25,71,2014,French Ligue 1
+4,MAR,38,21,6,11,76,42,34,69,2014,French Ligue 1
+5,ASSE,38,19,12,7,51,30,21,69,2014,French Ligue 1
+6,BOR,38,17,12,9,47,44,3,63,2014,French Ligue 1
+7,MONT,38,16,8,14,46,39,7,56,2014,French Ligue 1
+8,LILL,38,16,8,14,43,42,1,56,2014,French Ligue 1
+9,REN,38,13,11,14,35,42,-7,50,2014,French Ligue 1
+10,EAG,38,15,4,19,41,55,-14,49,2014,French Ligue 1
+11,NICE,38,13,9,16,44,53,-9,48,2014,French Ligue 1
+12,BAS,38,12,11,15,37,46,-9,47,2014,French Ligue 1
+13,CAN,38,12,10,16,54,55,-1,46,2014,French Ligue 1
+14,NANT,38,11,12,15,29,40,-11,45,2014,French Ligue 1
+15,REIM,38,12,8,18,47,66,-19,44,2014,French Ligue 1
+16,LOR,38,12,7,19,44,50,-6,43,2014,French Ligue 1
+17,TOUL,38,12,6,20,43,64,-21,42,2014,French Ligue 1
+18,EVN,38,11,4,23,41,62,-21,37,2014,French Ligue 1
+19,METZ,38,7,9,22,31,61,-30,30,2014,French Ligue 1
+20,RCL,38,7,8,23,32,61,-29,29,2014,French Ligue 1
+1,PSG,38,30,6,2,102,19,83,96,2015,French Ligue 1
+2,LYON,38,19,8,11,67,43,24,65,2015,French Ligue 1
+3,MON,38,17,14,7,57,50,7,65,2015,French Ligue 1
+4,NICE,38,18,9,11,58,41,17,63,2015,French Ligue 1
+5,LILL,38,15,15,8,39,27,12,60,2015,French Ligue 1
+6,ASSE,38,17,7,14,42,37,5,58,2015,French Ligue 1
+7,CAN,38,16,6,16,39,52,-13,54,2015,French Ligue 1
+8,REN,38,13,13,12,52,54,-2,52,2015,French Ligue 1
+9,ANG,38,13,11,14,40,38,2,50,2015,French Ligue 1
+10,BAS,38,14,8,16,36,42,-6,50,2015,French Ligue 1
+11,BOR,38,12,14,12,50,57,-7,50,2015,French Ligue 1
+12,MONT,38,14,7,17,49,47,2,49,2015,French Ligue 1
+13,MAR,38,10,18,10,48,42,6,48,2015,French Ligue 1
+14,NANT,38,12,12,14,33,44,-11,48,2015,French Ligue 1
+15,LOR,38,11,13,14,47,58,-11,46,2015,French Ligue 1
+16,EAG,38,11,11,16,47,56,-9,44,2015,French Ligue 1
+17,TOUL,38,9,13,16,45,55,-10,40,2015,French Ligue 1
+18,REIM,38,10,9,19,44,57,-13,39,2015,French Ligue 1
+19,GFC,38,8,13,17,37,58,-21,37,2015,French Ligue 1
+20,TRY,38,3,9,26,28,83,-55,18,2015,French Ligue 1
+1,MON,38,30,5,3,107,31,76,95,2016,French Ligue 1
+2,PSG,38,27,6,5,83,27,56,87,2016,French Ligue 1
+3,NICE,38,22,12,4,63,36,27,78,2016,French Ligue 1
+4,LYON,38,21,4,13,77,48,29,67,2016,French Ligue 1
+5,MAR,38,17,11,10,57,41,16,62,2016,French Ligue 1
+6,BOR,38,15,14,9,53,43,10,59,2016,French Ligue 1
+7,NANT,38,14,9,15,40,54,-14,51,2016,French Ligue 1
+8,ASSE,38,12,14,12,41,42,-1,50,2016,French Ligue 1
+9,REN,38,12,14,12,36,42,-6,50,2016,French Ligue 1
+10,EAG,38,14,8,16,46,53,-7,50,2016,French Ligue 1
+11,LILL,38,13,7,18,40,47,-7,46,2016,French Ligue 1
+12,ANG,38,13,7,18,40,49,-9,46,2016,French Ligue 1
+13,TOUL,38,10,14,14,37,41,-4,44,2016,French Ligue 1
+14,METZ,38,11,10,17,39,72,-33,43,2016,French Ligue 1
+15,MONT,38,10,9,19,48,66,-18,39,2016,French Ligue 1
+16,DIJO,38,8,13,17,46,58,-12,37,2016,French Ligue 1
+17,CAN,38,10,7,21,36,65,-29,37,2016,French Ligue 1
+18,LOR,38,10,6,22,44,70,-26,36,2016,French Ligue 1
+19,ASNL,38,9,8,21,29,52,-23,35,2016,French Ligue 1
+20,BAS,38,8,10,20,29,54,-25,34,2016,French Ligue 1
+1,PSG,38,29,6,3,108,29,79,93,2017,French Ligue 1
+2,MON,38,24,8,6,85,45,40,80,2017,French Ligue 1
+3,LYON,38,23,9,6,87,43,44,78,2017,French Ligue 1
+4,MAR,38,22,11,5,80,47,33,77,2017,French Ligue 1
+5,REN,38,16,10,12,50,44,6,58,2017,French Ligue 1
+6,BOR,38,16,7,15,53,48,5,55,2017,French Ligue 1
+7,ASSE,38,15,10,13,47,50,-3,55,2017,French Ligue 1
+8,NICE,38,15,9,14,53,52,1,54,2017,French Ligue 1
+9,NANT,38,14,10,14,36,41,-5,52,2017,French Ligue 1
+10,MONT,38,11,18,9,36,33,3,51,2017,French Ligue 1
+11,DIJO,38,13,9,16,55,73,-18,48,2017,French Ligue 1
+12,EAG,38,12,11,15,48,59,-11,47,2017,French Ligue 1
+13,AMI,38,12,9,17,37,42,-5,45,2017,French Ligue 1
+14,ANG,38,9,14,15,42,52,-10,41,2017,French Ligue 1
+15,STRA,38,9,11,18,44,67,-23,38,2017,French Ligue 1
+16,CAN,38,10,8,20,27,52,-25,38,2017,French Ligue 1
+17,LILL,38,10,8,20,41,67,-26,38,2017,French Ligue 1
+18,TOUL,38,9,10,19,38,54,-16,37,2017,French Ligue 1
+19,TRY,38,9,6,23,32,59,-27,33,2017,French Ligue 1
+20,METZ,38,6,8,24,34,76,-42,26,2017,French Ligue 1
+1,PSG,38,29,4,5,105,35,70,91,2018,French Ligue 1
+2,LILL,38,22,9,7,68,33,35,75,2018,French Ligue 1
+3,LYON,38,21,9,8,70,47,23,72,2018,French Ligue 1
+4,ASSE,38,19,9,10,59,41,18,66,2018,French Ligue 1
+5,MAR,38,18,7,13,60,52,8,61,2018,French Ligue 1
+6,MONT,38,15,14,9,53,42,11,59,2018,French Ligue 1
+7,NICE,38,15,11,12,30,35,-5,56,2018,French Ligue 1
+8,REIM,38,13,16,9,39,42,-3,55,2018,French Ligue 1
+9,NIM,38,15,8,15,57,58,-1,53,2018,French Ligue 1
+10,REN,38,13,13,12,55,52,3,52,2018,French Ligue 1
+11,STRA,38,11,16,11,58,48,10,49,2018,French Ligue 1
+12,NANT,38,13,9,16,48,48,0,48,2018,French Ligue 1
+13,ANG,38,10,16,12,44,49,-5,46,2018,French Ligue 1
+14,BOR,38,10,11,17,34,42,-8,41,2018,French Ligue 1
+15,AMI,38,9,11,18,31,52,-21,38,2018,French Ligue 1
+16,TOUL,38,8,14,16,35,57,-22,38,2018,French Ligue 1
+17,MON,38,8,12,18,38,57,-19,36,2018,French Ligue 1
+18,DIJO,38,9,7,22,31,60,-29,34,2018,French Ligue 1
+19,CAN,38,7,12,19,29,54,-25,33,2018,French Ligue 1
+20,EAG,38,5,12,21,28,68,-40,27,2018,French Ligue 1
+1,PSG,27,22,2,3,75,24,51,68,2019,French Ligue 1
+2,MAR,28,16,8,4,41,29,12,56,2019,French Ligue 1
+3,REN,28,15,5,8,38,24,14,50,2019,French Ligue 1
+4,LILL,28,15,4,9,35,27,8,49,2019,French Ligue 1
+5,NICE,28,11,8,9,41,38,3,41,2019,French Ligue 1
+6,REIM,28,10,11,7,26,21,5,41,2019,French Ligue 1
+7,LYON,28,11,7,10,42,27,15,40,2019,French Ligue 1
+8,MONT,28,11,7,10,35,34,1,40,2019,French Ligue 1
+9,MON,28,11,7,10,44,44,0,40,2019,French Ligue 1
+10,STRA,27,11,5,11,32,32,0,38,2019,French Ligue 1
+11,ANG,28,11,6,11,28,33,-5,39,2019,French Ligue 1
+12,BOR,28,9,10,9,40,34,6,37,2019,French Ligue 1
+13,NANT,28,11,4,13,28,31,-3,37,2019,French Ligue 1
+14,BRES,28,8,10,10,34,37,-3,34,2019,French Ligue 1
+15,METZ,28,8,10,10,27,35,-8,34,2019,French Ligue 1
+16,DIJO,28,7,9,12,27,37,-10,30,2019,French Ligue 1
+17,ASSE,28,8,6,14,29,45,-16,30,2019,French Ligue 1
+18,NIM,28,7,6,15,29,44,-15,27,2019,French Ligue 1
+19,AMI,28,4,11,13,31,50,-19,23,2019,French Ligue 1
+20,TOUL,28,3,4,21,22,58,-36,13,2019,French Ligue 1
+1,LILL,38,24,11,3,64,23,41,83,2020,French Ligue 1
+2,PSG,38,26,4,8,86,28,58,82,2020,French Ligue 1
+3,MON,38,24,6,8,76,42,34,78,2020,French Ligue 1
+4,LYON,38,22,10,6,81,43,38,76,2020,French Ligue 1
+5,MAR,38,16,12,10,54,47,7,60,2020,French Ligue 1
+6,REN,38,16,10,12,52,40,12,58,2020,French Ligue 1
+7,RCL,38,15,12,11,55,54,1,57,2020,French Ligue 1
+8,MONT,38,14,12,12,60,62,-2,54,2020,French Ligue 1
+9,NICE,38,15,7,16,50,53,-3,52,2020,French Ligue 1
+10,METZ,38,12,11,15,44,48,-4,47,2020,French Ligue 1
+11,ASSE,38,12,10,16,42,54,-12,46,2020,French Ligue 1
+12,BOR,38,13,6,19,42,56,-14,45,2020,French Ligue 1
+13,ANG,38,12,8,18,40,58,-18,44,2020,French Ligue 1
+14,REIM,38,9,15,14,42,50,-8,42,2020,French Ligue 1
+15,STRA,38,11,9,18,49,58,-9,42,2020,French Ligue 1
+16,LOR,38,11,9,18,50,68,-18,42,2020,French Ligue 1
+17,BRES,38,11,8,19,50,66,-16,41,2020,French Ligue 1
+18,NANT,38,9,13,16,47,55,-8,40,2020,French Ligue 1
+19,NIM,38,9,8,21,40,71,-31,35,2020,French Ligue 1
+20,DIJO,38,4,9,25,25,73,-48,21,2020,French Ligue 1
+1,PSG,37,25,8,4,85,36,49,83,2021,French Ligue 1
+2,MON,37,20,8,9,63,38,25,68,2021,French Ligue 1
+3,MAR,37,20,8,9,59,38,21,68,2021,French Ligue 1
+4,REN,37,20,5,12,80,38,42,65,2021,French Ligue 1
+5,STRA,37,17,12,8,60,39,21,63,2021,French Ligue 1
+6,NICE,37,19,7,11,49,34,15,63,2021,French Ligue 1
+7,RCL,37,17,10,10,60,46,14,61,2021,French Ligue 1
+8,LYON,37,16,11,10,64,50,14,58,2021,French Ligue 1
+9,NANT,37,15,9,13,54,47,7,54,2021,French Ligue 1
+10,LILL,37,14,12,11,46,46,0,54,2021,French Ligue 1
+11,BRES,37,13,9,15,47,53,-6,48,2021,French Ligue 1
+12,REIM,37,11,13,13,41,41,0,46,2021,French Ligue 1
+13,MONT,37,12,7,18,49,59,-10,43,2021,French Ligue 1
+14,ANG,37,9,11,17,42,55,-13,38,2021,French Ligue 1
+15,TRY,37,9,10,18,36,52,-16,37,2021,French Ligue 1
+16,CLER,37,9,9,19,37,67,-30,36,2021,French Ligue 1
+17,LOR,37,8,11,18,34,62,-28,35,2021,French Ligue 1
+18,METZ,37,6,13,18,35,64,-29,31,2021,French Ligue 1
+19,ASSE,37,7,10,20,41,76,-35,31,2021,French Ligue 1
+20,BOR,37,5,13,19,48,89,-41,28,2021,French Ligue 1
