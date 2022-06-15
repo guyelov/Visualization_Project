@@ -1,14 +1,16 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-st.set_page_config(page_title='Soccer Players Stats', page_icon=':soccer:', initial_sidebar_state='expanded',layout="wide")
+
+st.set_page_config(page_title='Soccer Players Stats', page_icon=':soccer:', initial_sidebar_state='expanded',
+                   layout="wide")
 # matches = pd.read_csv('Data\matches.csv')
 leagues_stats = pd.read_csv('league_stats.csv')
 teams_stats = pd.read_csv('teams_players.csv')
 leagues = np.unique(teams_stats['League'])
 st.markdown('# Select League ')
 selected_league = st.radio('', leagues_stats['League'], horizontal=True)
-row2_spacer1, row2_1, row2_spacer2, row2_2, row2_spacer3, row2_3, row2_spacer4, row2_4, row2_spacer5   = st.columns((.2, 1.6, .2, 1.6, .2, 1.6, .2, 1.6, .2))
+row2_spacer1, row2_1, row2_spacer2, row2_2, row2_spacer3, row2_3 = st.columns((.2, 1.6, .2, 1.6, .2, 1.6))
 with row2_1:
     unique_games_in_df = leagues_stats.loc[leagues_stats['League'] == selected_league]['GP'].iloc[0]
     str_games = "🏟️ " + str(unique_games_in_df) + " Matches"
@@ -16,7 +18,7 @@ with row2_1:
 with row2_2:
     unique_teams_in_df = leagues_stats.loc[leagues_stats['League'] == selected_league]['Num_teams'].iloc[0]
     t = " Teams"
-    if(unique_teams_in_df==1):
+    if (unique_teams_in_df == 1):
         t = " Team"
     str_teams = "🏃‍♂️ " + str(unique_teams_in_df) + t
     st.markdown(str_teams)
