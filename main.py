@@ -33,7 +33,7 @@ selected_team = st.radio('Pick a Team:', teams, horizontal=True)
 selected_season = st.select_slider('Choose season', seasons)
 
 
-# dataframe = pd.read_csv('player_stats_dataset.csv')
+dataframe = pd.read_csv('player_stats_dataset.csv')
 # # Set page config
 #
 # games_list = sorted(list(set(dataframe['player'])))
