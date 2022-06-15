@@ -13,7 +13,7 @@ selected_league = st.radio('', leagues_stats['League'], horizontal=True)
 row2_1, row2_spacer2, row2_2, row2_spacer3, row2_3 = st.columns((1.6, .2, 1.6, .2, 1.6))
 with row2_1:
     unique_games_in_df = leagues_stats.loc[leagues_stats['League'] == selected_league]['GP'].iloc[0]
-    str_games = "🏟️ 🏴󠁧󠁢󠁥󠁮󠁧󠁿 " + str(unique_games_in_df) + " Matches"
+    str_games = "🏟️ " + str(unique_games_in_df) + " Matches"
     st.markdown(str_games)
 with row2_2:
     unique_teams_in_df = leagues_stats.loc[leagues_stats['League'] == selected_league]['Num_teams'].iloc[0]
