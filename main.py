@@ -28,9 +28,9 @@ with row2_3:
 
 teams_in_league= all_tables_data.loc[all_tables_data['League'] == selected_league]
 teams = np.unique(teams_in_league['Team'])
-# seasons = np.unique(teams_in_league['Season'])
+seasons = np.unique(teams_in_league['Year'])
 selected_team = st.radio('Pick a Team:', teams, horizontal=True)
-# selected_season = st.select_slider('Choose season', seasons)
+selected_season = st.select_slider('Choose season', seasons)
 
 
 # dataframe = pd.read_csv('player_stats_dataset.csv')
