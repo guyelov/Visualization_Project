@@ -31,15 +31,7 @@ teams = np.unique(teams_in_league['Team'])
 seasons = np.unique(teams_in_league['Year'])
 selected_team = st.radio('Pick a Team:', teams, horizontal=True)
 selected_season = st.select_slider('Choose season', seasons)
-css_example = '''
-I'm importing the font-awesome icons as a stylesheet!                                                                                                                                                       
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">                                                                                                    
 
-<i class="fa-solid fa-square"></i>                                                                                                                                                                          
-<i class="fa-solid fa-dragon"></i>                                                                                                                                                                          
-<i  \01f1e6\01f1eb"></i> 
-'''
-st.write(css_example,unsafe_allow_html=True)
 # # Set page config
 #
 # games_list = sorted(list(set(dataframe['player'])))
