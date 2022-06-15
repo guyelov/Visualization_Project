@@ -6,9 +6,8 @@ genre = st.radio(
      ('Comedy', 'Drama', 'Documentary'))
 
 if genre == 'Comedy':
-
-    st.write('You selected comedy.')
- else:
+    st.write("You select comedy.")
+else:
      st.write("You didn't select comedy.")
 
 dataframe = pd.read_csv('player_stats_dataset.csv')
