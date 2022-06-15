@@ -8,6 +8,23 @@ teams_stats = pd.read_csv('teams_players.csv')
 leagues = np.unique(teams_stats['League'])
 st.markdown('# Select League ')
 selected_league = st.radio('', leagues_stats['League'], horizontal=True)
+row2_spacer1, row2_1, row2_spacer2, row2_2, row2_spacer3, row2_3, row2_spacer4, row2_4, row2_spacer5   = st.columns((.2, 1.6, .2, 1.6, .2, 1.6, .2, 1.6, .2))
+with row2_1:
+    unique_games_in_df = leagues_stats.loc[leagues_stats['League'] == selected_league]['GP']
+    str_games = "🏟️ " + str(unique_games_in_df) + " Matches"
+    st.markdown(str_games)
+with row2_2:
+    unique_teams_in_df = leagues_stats.loc[leagues_stats['League'] == selected_league]['Num_teams']
+    t = " Teams"
+    if(unique_teams_in_df==1):
+        t = " Team"
+    str_teams = "🏃‍♂️ " + str(unique_teams_in_df) + t
+    st.markdown(str_teams)
+with row2_3:
+    total_goals_in_df = leagues_stats.loc[leagues_stats['League'] == selected_league]['GF']
+    str_goals = "🥅 " + str(total_goals_in_df) + " Goals"
+    st.markdown(str_goals)
+
 # teams_in_league= teams_stats.loc[teams_stats['League'] == selected_league]
 # teams = np.unique(teams_in_league['Team'])
 # seasons = np.unique(teams_in_league['Season'])
