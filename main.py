@@ -4,8 +4,14 @@ import pandas as pd
 st.set_page_config(page_title='Soccer Players Stats', page_icon=':soccer:', initial_sidebar_state='expanded')
 
 teams_stats = pd.read_csv('teams_players.csv')
-league = np.unique(teams_stats['League'])
-teams = st.radio('Pick a league:',league,horizontal=True)
+leagues = np.unique(teams_stats['League'])
+selected_league = st.radio('Pick a league:', leagues, horizontal=True)
+teams_in_league= teams_stats.loc[teams_stats['League'] == selected_league]
+teams = np.unique(teams_in_league['Team'])
+seasons = np.unique(teams_in_league['Season'])
+selected_team = st.radio('Pick a Team:', teams, horizontal=True)
+selected_season = st.select_slider('Choose season', seasons)
+
 
 dataframe = pd.read_csv('player_stats_dataset.csv')
 # Set page config
