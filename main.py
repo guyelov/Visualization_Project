@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-st.set_page_config(page_title='Soccer Players Stats', page_icon=':soccer:', initial_sidebar_state='expanded',
+st.set_page_config(page_title='Soccer Players Stats', page_icon=':doctor:', initial_sidebar_state='expanded',
                    layout="wide")
 # matches = pd.read_csv('Data\matches.csv')
 leagues_stats = pd.read_csv('league_stats.csv')
