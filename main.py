@@ -2,11 +2,11 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 st.set_page_config(page_title='Soccer Players Stats', page_icon=':soccer:', initial_sidebar_state='expanded',layout="wide")
-
-
+matches = pd.read_csv('Data\matches.csv')
+leagues_stats = pd.read_csv('league_stats.csv')
 teams_stats = pd.read_csv('teams_players.csv')
 leagues = np.unique(teams_stats['League'])
-selected_league = st.radio('Pick a league:', leagues, horizontal=True)
+selected_league = st.radio('Pick a league:', leagues_stats['League'], horizontal=True)
 teams_in_league= teams_stats.loc[teams_stats['League'] == selected_league]
 teams = np.unique(teams_in_league['Team'])
 seasons = np.unique(teams_in_league['Season'])
