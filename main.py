@@ -27,13 +27,13 @@ with row2_3:
     str_goals = "🥅 " + str(total_goals_in_df) + " Goals"
     st.markdown(str_goals)
 
-# teams_in_league= teams_stats.loc[teams_stats['League'] == selected_league]
-# teams = np.unique(teams_in_league['Team'])
-# seasons = np.unique(teams_in_league['Season'])
-# selected_team = st.radio('Pick a Team:', teams, horizontal=True)
-# selected_season = st.select_slider('Choose season', seasons)
-#
-#
+teams_in_league= teams_stats.loc[teams_stats['League'] == selected_league]
+teams = np.unique(teams_in_league['Team'])
+seasons = np.unique(teams_in_league['Season'])
+selected_team = st.radio('Pick a Team:', teams, horizontal=True)
+selected_season = st.select_slider('Choose season', seasons)
+
+
 # dataframe = pd.read_csv('player_stats_dataset.csv')
 # # Set page config
 #
