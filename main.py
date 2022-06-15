@@ -1,7 +1,9 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-
+teams_stats = pd.read_csv('teams_players.csv')
+league = np.unique(teams_stats['League'])
+teams = st.radio('Pick a league:',league,horizontal=True)
 
 dataframe = pd.read_csv('player_stats_dataset.csv')
 # Set page config
