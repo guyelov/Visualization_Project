@@ -48,7 +48,7 @@ try:
         st.markdown(str_teams)
     with row2_3:
         total_goals_in_df = int(selected_team_season['Place'])
-        str_goals = "🥅 " + str(total_goals_in_df) + " Place"
+        str_goals = ":trophy: " + str(total_goals_in_df) + " Place"
         st.markdown(str_goals)
 except:
     st.write(f'Oops.. This team was not in this league this season')
