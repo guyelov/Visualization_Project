@@ -66,7 +66,7 @@ try:
     team_info+=str_teams
 
     conc = int(selected_team_season['GA'])
-    str_teams =str(conc) + "️Goals and finish in "
+    str_teams =str(conc) + "  Goals and finish in "
 
     team_info+=str_teams
     place_finshed = int(selected_team_season['Place'])
