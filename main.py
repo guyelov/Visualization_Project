@@ -33,7 +33,7 @@ seasons = np.unique(teams_in_league['Year'])
 selected_team = st.radio('Pick a Team:', teams, horizontal=True)
 team_data = teams_in_league.loc[teams_in_league['Team'] == selected_team]
 
-selected_season = st.select_slider('Choose season', seasons)
+selected_season = st.radio('Choose season', seasons)
 selected_team_season = team_data.loc[team_data['Year'] == selected_season]
 try:
     unique_games_in_df = int(selected_team_season['GP'])
