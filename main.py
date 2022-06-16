@@ -71,7 +71,7 @@ try:
     team_info+=str_teams
     place_finshed = int(selected_team_season['Place'])
     tro = thropy(place_finshed)
-    str_goals = tro + ' ' +'th' + " Place"+ str(place_finshed)
+    str_goals =  ' '  + " Place"+ str(place_finshed)+'th' +tro
     team_info+=str_goals
     st.write(team_info)
     # if place_finshed == 1:
