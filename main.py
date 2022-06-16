@@ -41,7 +41,7 @@ def thropy(place):
     else:
         return ''
 
-team_info =f'f In season {selected_season}-{selected_season+1} {selected_team} played '
+team_info =f' In season {selected_season}-{selected_season+1} {selected_team} played '
 
 try:
 
