@@ -35,23 +35,18 @@ team_data = teams_in_league.loc[teams_in_league['Team'] == selected_team]
 
 selected_season = st.select_slider('Choose season', seasons)
 selected_team_season = team_data.loc[team_data['Year'] == selected_season]
-row2_1, row2_spacer2, row2_2, row2_spacer3, row2_3 = st.columns((2.6, .2, 2.6, .2, 2.6))
 try:
-    with row2_1:
-        unique_games_in_df = int(selected_team_season['GP'])
-        str_games = "🏟️ " + str(unique_games_in_df) + " Matches"
-        st.markdown(str_games)
-    with row2_2:
-        wins = int(selected_team_season['W'])
-
-        str_teams = "🏃‍♂️Wins " + str(unique_teams_in_df)
-        st.markdown(str_teams)
-    with row2_3:
-        place_finshed = int(selected_team_season['Place'])
-        if place_finshed == 1:
-            str_goals = ":trophy:  " + str(place_finshed)+'th' + " Place"
-        str_goals =  str(place_finshed)+'th' + " Place"
-        st.markdown(str_goals)
+    unique_games_in_df = int(selected_team_season['GP'])
+    str_games = "🏟️ " + str(unique_games_in_df) + " Matches"
+    st.markdown(str_games)
+    wins = int(selected_team_season['W'])
+    str_teams = "🏃‍♂️Wins " + str(unique_teams_in_df)
+    st.markdown(str_teams)
+    place_finshed = int(selected_team_season['Place'])
+    if place_finshed == 1:
+        str_goals = ":trophy:  " + str(place_finshed)+'th' + " Place"
+    str_goals =  str(place_finshed)+'th' + " Place"
+    st.markdown(str_goals)
 except:
     st.write(f'Oops.. This team was not in this league this season')
 # st.write(f'In season {selected_season}/{selected_season+1} ')
