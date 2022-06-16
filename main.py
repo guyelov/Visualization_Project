@@ -53,7 +53,7 @@ try:
     team_info+=str_teams
 
     draws = int(selected_team_season['D'])
-    str_teams =str(draws)+ "️Draws and  "
+    str_teams =str(draws)+ "  Draws and  "
     team_info+=str_teams
 
     loss = int(selected_team_season['L'])
