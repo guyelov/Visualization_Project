@@ -35,6 +35,8 @@ team_data = teams_in_league.loc[teams_in_league['Team'] == selected_team]
 
 selected_season = st.select_slider('Choose season', seasons)
 selected_team_season = team_data.loc[team_data['Year'] == selected_season]
+row2_1, row2_spacer2, row2_2, row2_spacer3, row2_3 = st.columns((2.6, .2, 2.6, .2, 2.6))
+
 with row2_1:
     unique_games_in_df = int(selected_team_season['GP'])
     str_games = "🏟️ " + str(unique_games_in_df) + " Matches"
