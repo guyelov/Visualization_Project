@@ -44,11 +44,11 @@ with row2_1:
 with row2_2:
     wins = int(selected_team_season['W'])
 
-    str_teams = "🏃‍♂️ " + str(unique_teams_in_df)
+    str_teams = "🏃‍♂️Wins " + str(unique_teams_in_df)
     st.markdown(str_teams)
 with row2_3:
     total_goals_in_df = int(selected_team_season['Place'])
-    str_goals = "🥅 " + str(total_goals_in_df) + " Goals"
+    str_goals = "🥅 " + str(total_goals_in_df) + " Place"
     st.markdown(str_goals)
 # st.write(f'In season {selected_season}/{selected_season+1} ')
 
