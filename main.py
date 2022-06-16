@@ -10,7 +10,7 @@ leagues_stats = pd.read_csv('league_stats.csv')
 all_tables_data = pd.read_csv('all_tables.csv')
 st.markdown('# Select League ')
 selected_league = st.radio('', leagues_stats['League'], horizontal=True)
-row2_1, row2_spacer2, row2_2, row2_spacer3, row2_3 = st.columns((1.4, .2, 1.4, .2, 1.4))
+row2_1, row2_spacer2, row2_2, row2_spacer3, row2_3 = st.columns((1.6, .2, 1.6, .2, 1.6))
 with row2_1:
     unique_games_in_df = leagues_stats.loc[leagues_stats['League'] == selected_league]['GP'].iloc[0]
     str_games = "🏟️ " + str(unique_games_in_df) + " Matches"
