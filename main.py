@@ -62,7 +62,7 @@ try:
     st.write(team_info)
     team_info = 'They Scored '
     goals = int(selected_team_season['GF'])
-    str_teams = str(goals) +  " Goals Scored 🥅 and conceded "
+    str_teams = str(goals) +  " Goals  🥅 and conceded "
     team_info+=str_teams
 
     conc = int(selected_team_season['GA'])
