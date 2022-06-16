@@ -49,23 +49,23 @@ try:
     str_games =  str(games) + " Matches " + " 🏟️ "
     team_info+=str_games
     wins = int(selected_team_season['W'])
-    str_teams = " 🏃‍♂️Wins " + str(wins)
+    str_teams = "️Wins " + str(wins)
     team_info+=str_teams
 
     wins = int(selected_team_season['D'])
-    str_teams = "🏃‍♂️Draws " + str(wins)
+    str_teams = "️Draws " + str(wins)
     team_info+=str_teams
 
     wins = int(selected_team_season['L'])
-    str_teams = "🏃‍♂️Loses " + str(wins)
+    str_teams = "️Loses " + str(wins)
     team_info+=str_teams
 
     wins = int(selected_team_season['GF'])
-    str_teams = "🏃‍♂️Goals Scored " + str(wins)
+    str_teams = "️Goals Scored 🥅" + str(wins)
     team_info+=str_teams
 
     wins = int(selected_team_season['GA'])
-    str_teams = "🏃‍♂️Goals Against " + str(wins)
+    str_teams = "️Goals Against " + str(wins)
     team_info+=str_teams
     place_finshed = int(selected_team_season['Place'])
     tro = thropy(place_finshed)
