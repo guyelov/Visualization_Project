@@ -57,7 +57,7 @@ try:
     team_info+=str_teams
 
     loss = int(selected_team_season['L'])
-    str_teams = "️Loses " + str(loss)
+    str_teams =str(loss) + "️Loses "
     team_info+=str_teams
 
     wins = int(selected_team_season['GF'])
