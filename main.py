@@ -42,7 +42,20 @@ try:
     wins = int(selected_team_season['W'])
     str_teams = "🏃‍♂️Wins " + str(wins)
     st.markdown(str_teams)
+    wins = int(selected_team_season['D'])
+    str_teams = "🏃‍♂️Draws " + str(wins)
+    st.markdown(str_teams)
+    wins = int(selected_team_season['L'])
+    str_teams = "🏃‍♂️Loses " + str(wins)
+    st.markdown(str_teams)
+    wins = int(selected_team_season['GF'])
+    str_teams = "🏃‍♂️Goals Scored " + str(wins)
+    st.markdown(str_teams)
+    wins = int(selected_team_season['GA'])
+    str_teams = "🏃‍♂️Goals Against " + str(wins)
+    st.markdown(str_teams)
     place_finshed = int(selected_team_season['Place'])
+
     if place_finshed == 1:
         str_goals = ":trophy:  " + str(place_finshed) + 'th' + " Place"
     else:
