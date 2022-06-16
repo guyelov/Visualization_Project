@@ -49,15 +49,15 @@ try:
     str_games =  str(games) + " Matches " + " 🏟️ "
     team_info+=str_games
     wins = int(selected_team_season['W'])
-    str_teams = " and got "+ str(wins)+ " wins "
+    str_teams = " and got "+ str(wins)+ " Wins, "
     team_info+=str_teams
 
-    wins = int(selected_team_season['D'])
-    str_teams = "️Draws " + str(wins)
+    draws = int(selected_team_season['D'])
+    str_teams = "️Draws and  " + str(draws)
     team_info+=str_teams
 
-    wins = int(selected_team_season['L'])
-    str_teams = "️Loses " + str(wins)
+    loss = int(selected_team_season['L'])
+    str_teams = "️Loses " + str(loss)
     team_info+=str_teams
 
     wins = int(selected_team_season['GF'])
