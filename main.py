@@ -41,7 +41,7 @@ def thropy(place):
     else:
         return ''
 
-team_info = st.write('')
+team_info =''
 
 try:
 
