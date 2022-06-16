@@ -46,7 +46,7 @@ team_info =f' In season {selected_season}-{selected_season+1} {selected_team} pl
 try:
 
     games = int(selected_team_season['GP'])
-    str_games =  str(games) + " Matches " + " 🏟️ "
+    str_games =  str(games) + " Matches " + " 🏟️  "
     team_info+=str_games
     wins = int(selected_team_season['W'])
     str_teams = "️Wins " + str(wins)
