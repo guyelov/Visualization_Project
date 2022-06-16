@@ -71,6 +71,7 @@ try:
     tro = thropy(place_finshed)
     str_goals = tro + ' ' + str(place_finshed) + 'th' + " Place"
     team_info+=str_goals
+    st.write(team_info)
     # if place_finshed == 1:
     #     str_goals = ":trophy:  " + str(place_finshed) + 'th' + " Place"
     # else:
