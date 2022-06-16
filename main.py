@@ -36,11 +36,11 @@ team_data = teams_in_league.loc[teams_in_league['Team'] == selected_team]
 selected_season = st.select_slider('Choose season', seasons)
 selected_team_season = team_data.loc[team_data['Year'] == selected_season]
 try:
-    unique_games_in_df = int(selected_team_season['GP'])
-    str_games = "🏟️ " + str(unique_games_in_df) + " Matches"
+    games = int(selected_team_season['GP'])
+    str_games = "🏟️ " + str(games) + " Matches"
     st.markdown(str_games)
     wins = int(selected_team_season['W'])
-    str_teams = "🏃‍♂️Wins " + str(unique_teams_in_df)
+    str_teams = "🏃‍♂️Wins " + str(wins)
     st.markdown(str_teams)
     place_finshed = int(selected_team_season['Place'])
     if place_finshed == 1:
