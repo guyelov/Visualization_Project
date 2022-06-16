@@ -27,7 +27,7 @@ with row2_3:
     str_goals = "🥅 " + str(total_goals_in_df) + " Goals"
     st.markdown(str_goals)
 
-teams_in_league= all_tables_data.loc[all_tables_data['League'] == selected_league]
+teams_in_league = all_tables_data.loc[all_tables_data['League'] == selected_league]
 teams = np.unique(teams_in_league['Team'])
 seasons = np.unique(teams_in_league['Year'])
 selected_team = st.radio('Pick a Team:', teams, horizontal=True)
@@ -44,8 +44,9 @@ try:
     st.markdown(str_teams)
     place_finshed = int(selected_team_season['Place'])
     if place_finshed == 1:
-        str_goals = ":trophy:  " + str(place_finshed)+'th' + " Place"
-    str_goals =  str(place_finshed)+'th' + " Place"
+        str_goals = ":trophy:  " + str(place_finshed) + 'th' + " Place"
+    else:
+        str_goals = str(place_finshed) + 'th' + " Place"
     st.markdown(str_goals)
 except:
     st.write(f'Oops.. This team was not in this league this season')
