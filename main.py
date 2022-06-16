@@ -49,7 +49,7 @@ try:
     str_games =  str(games) + " Matches " + " 🏟️ "
     team_info+=str_games
     wins = int(selected_team_season['W'])
-    str_teams = "️ Wins " + str(wins)
+    str_teams = " and got wins " + str(wins)
     team_info+=str_teams
 
     wins = int(selected_team_season['D'])
