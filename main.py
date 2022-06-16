@@ -57,19 +57,21 @@ try:
     team_info+=str_teams
 
     loss = int(selected_team_season['L'])
-    str_teams =str(loss) + "  Loses "
+    str_teams =str(loss) + "  Loses."
+    team_info+=str_teams
+    st.write(team_info)
+    team_info = 'They Scored '
+    goals = int(selected_team_season['GF'])
+    str_teams = str(goals) +  " Goals Scored 🥅 and conceded "
     team_info+=str_teams
 
-    wins = int(selected_team_season['GF'])
-    str_teams = "️Goals Scored 🥅" + str(wins)
-    team_info+=str_teams
+    conc = int(selected_team_season['GA'])
+    str_teams =str(conc) + "️Goals and finish in "
 
-    wins = int(selected_team_season['GA'])
-    str_teams = "️Goals Against " + str(wins)
     team_info+=str_teams
     place_finshed = int(selected_team_season['Place'])
     tro = thropy(place_finshed)
-    str_goals = tro + ' ' + str(place_finshed) + 'th' + " Place"
+    str_goals = tro + ' ' +'th' + " Place"+ str(place_finshed)
     team_info+=str_goals
     st.write(team_info)
     # if place_finshed == 1:
