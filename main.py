@@ -5,6 +5,7 @@ import pandas as pd
 st.set_page_config(page_title='Soccer Players Stats', page_icon=':soccer:', initial_sidebar_state='expanded',
                    layout="wide")
 # matches = pd.read_csv('Data\matches.csv')
+
 leagues_stats = pd.read_csv('league_stats.csv')
 all_tables_data = pd.read_csv('all_tables.csv')
 st.markdown('# Select League ')
@@ -30,7 +31,24 @@ teams_in_league= all_tables_data.loc[all_tables_data['League'] == selected_leagu
 teams = np.unique(teams_in_league['Team'])
 seasons = np.unique(teams_in_league['Year'])
 selected_team = st.radio('Pick a Team:', teams, horizontal=True)
+team_data = teams_in_league.loc[teams_in_league['Team'] == selected_team]
+
 selected_season = st.select_slider('Choose season', seasons)
+selected_team_season = team_data.loc[team_data['Year'] == selected_season]
+with row2_1:
+    unique_games_in_df = int(selected_team_season['GP'])
+    str_games = "🏟️ " + str(unique_games_in_df) + " Matches"
+    st.markdown(str_games)
+with row2_2:
+    wins = int(selected_team_season['W'])
+
+    str_teams = "🏃‍♂️ " + str(unique_teams_in_df)
+    st.markdown(str_teams)
+with row2_3:
+    total_goals_in_df = int(selected_team_season['Place'])
+    str_goals = "🥅 " + str(total_goals_in_df) + " Goals"
+    st.markdown(str_goals)
+# st.write(f'In season {selected_season}/{selected_season+1} ')
 
 # # Set page config
 #
