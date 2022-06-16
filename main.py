@@ -35,32 +35,46 @@ team_data = teams_in_league.loc[teams_in_league['Team'] == selected_team]
 
 selected_season = st.select_slider('Choose season', seasons)
 selected_team_season = team_data.loc[team_data['Year'] == selected_season]
+def thropy(place):
+    if place == 1:
+        return ':trophy:'
+    else:
+        return ''
+
+team_info = st.write('')
+
 try:
+
     games = int(selected_team_season['GP'])
-    str_games = "🏟️ " + str(games) + " Matches"
-    st.markdown(str_games)
+    str_games = "🏟️ " + str(games) + " Matches "
+    team_info+=str_games
     wins = int(selected_team_season['W'])
     str_teams = "🏃‍♂️Wins " + str(wins)
-    st.markdown(str_teams)
+    team_info+=str_teams
+
     wins = int(selected_team_season['D'])
     str_teams = "🏃‍♂️Draws " + str(wins)
-    st.markdown(str_teams)
+    team_info+=str_teams
+
     wins = int(selected_team_season['L'])
     str_teams = "🏃‍♂️Loses " + str(wins)
-    st.markdown(str_teams)
+    team_info+=str_teams
+
     wins = int(selected_team_season['GF'])
     str_teams = "🏃‍♂️Goals Scored " + str(wins)
-    st.markdown(str_teams)
+    team_info+=str_teams
+
     wins = int(selected_team_season['GA'])
     str_teams = "🏃‍♂️Goals Against " + str(wins)
-    st.markdown(str_teams)
+    team_info+=str_teams
     place_finshed = int(selected_team_season['Place'])
-
-    if place_finshed == 1:
-        str_goals = ":trophy:  " + str(place_finshed) + 'th' + " Place"
-    else:
-        str_goals = str(place_finshed) + 'th' + " Place"
-    st.markdown(str_goals)
+    tro = thropy(place_finshed)
+    str_goals = tro + ' ' + str(place_finshed) + 'th' + " Place"
+    team_info+=str_goals
+    # if place_finshed == 1:
+    #     str_goals = ":trophy:  " + str(place_finshed) + 'th' + " Place"
+    # else:
+    #     str_goals = str(place_finshed) + 'th' + " Place"
 except:
     st.write(f'Oops.. This team was not in this league this season')
 # st.write(f'In season {selected_season}/{selected_season+1} ')
