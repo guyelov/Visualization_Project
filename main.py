@@ -127,12 +127,13 @@ data = [dict(type='choropleth',
 
 # let's now create slider for map
 steps = []
-# for i in range(len(data)):
-#     step = dict(method='restyle',
-#                 args=['visible', [False] * len(data)],
-#                 label='Year {}'.format(i + 1980))
-#     step['args'][1][i] = True
-#     steps.append(step)
+for i in range(len(data)):
+    step = dict(method='restyle',
+                args=['visible', [False] * len(data)],
+                label='Year {}'.format(i + 1980))
+    step['args'][1][i] = True
+    steps.append(step)
+st.write(step)
 steps = list(np.unique(df['Year']))
 slider = [dict(active=0,
                pad={"t": 1},
