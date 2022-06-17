@@ -122,3 +122,17 @@ fig.update_layout(
     height=920,margin=dict(l=0, r=0, t=0, b=0))
 
 st.plotly_chart(fig,use_container_width=False)
+import time
+
+slider_ph = st.empty()
+info_ph = st.empty()
+
+value = slider_ph.slider("slider", 0, 100, 25, 1)
+info_ph.info(value)
+
+if st.button('animate'):
+    for x in range(20):
+        time.sleep(.5)
+
+        value = slider_ph.slider("slider", 0, 100, value + 1, 1)
+        info_ph.info(value)
