@@ -116,5 +116,9 @@ data_chosen = df.loc[df['Year'] == year_chosen]
 fig = px.choropleth(data_chosen, locations='Team Initials',
                     color="Total_goals", hover_name='Team Name'
                     )
+fig.update_layout(
+    margin=dict(l=20, r=20, t=20, b=20),
+    paper_bgcolor="LightSteelBlue",
+)
 
 st.plotly_chart(fig,use_container_width=False)
