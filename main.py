@@ -112,13 +112,13 @@ import plotly.express as px
 
 
 
-with urlopen(
-    'https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv'
-) as response:
-    df = json.load(response)
+# with urlopen(
+#     'https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv'
+# ) as response:
+#     df = json.load(response)
 
 # Reading sample data using pandas DataFrame
-# df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv')
 
 data = [dict(type='choropleth',
 			locations = df['code'].astype(str),
