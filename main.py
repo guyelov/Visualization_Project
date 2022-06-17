@@ -114,6 +114,6 @@ year_chosen = st.select_slider('Choose Year', years)
 data_chosen = df.loc[df['Year'] == year_chosen]
 
 fig = px.choropleth(data_chosen, locations='Team Initials',
-                    color="Total_goals", hover_name='Team Name',projection = 'natural earth'
+                    color="Total_goals", hover_name='Team Name'
                     )
 fig.show()
