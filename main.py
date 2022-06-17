@@ -102,7 +102,6 @@ except:
 import pandas as pd
 import plotly
 import numpy as np
-import time
 
 import pandas as pd
 import streamlit as st
@@ -111,17 +110,7 @@ import plotly.express as px
 # Reading sample data using pandas DataFrame
 df = pd.read_csv('teams_goals.csv')
 years = list(np.unique(df['Year']))
-# year_chosen = st.select_slider('Choose Year', years)
-slider_ph = st.empty()
-info_ph = st.empty()
-year_chosen = slider_ph.slider("slider", years, 25, 1)
-info_ph.info(year_chosen)
-
-if st.button('animate'):
-    for x in range(20):
-        time.sleep(.5)
-        value = slider_ph.slider("slider", 0, 100, year_chosen + 1, 1)
-        info_ph.info(value)
+year_chosen = st.select_slider('Choose Year', years)
 data_chosen = df.loc[df['Year'] == year_chosen]
 
 fig = px.choropleth(data_chosen, locations='Team Initials',
