@@ -1,3 +1,6 @@
+import json
+from urllib.request import urlopen
+
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -79,7 +82,10 @@ try:
     # else:
     #     str_goals = str(place_finshed) + 'th' + " Place"
 except:
-    st.write(f'Oops.. This team was not in this league this season')
+    st.write(f'Oosps.. This team was not in this league this season')
+
+
+
 # st.write(f'In season {selected_season}/{selected_season+1} ')
 
 # # Set page config
