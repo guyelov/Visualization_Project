@@ -82,7 +82,7 @@ try:
     # else:
     #     str_goals = str(place_finshed) + 'th' + " Place"
 except:
-    st.write(f'Oosps.. This team was not in this league this season')
+    st.write(f'Oops.. This team was not in this league this season')
 
 
 
@@ -98,3 +98,58 @@ except:
 #
 # selected_player =players. loc[players['Player'] == menu_game]
 # st.write(f'my name is {menu_game} i born in {selected_player["Nationality"].iloc[0]} in {selected_player["Birth_Date"].iloc[0]}  ')
+import pandas as pd
+import plotly
+import numpy as np
+
+
+
+import pandas as pd
+import streamlit as st
+import plotly.express as px
+
+
+
+st.set_page_config(
+    layout="wide",
+)
+
+
+with urlopen(
+    'https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv'
+) as response:
+    df = json.load(response)
+
+# Reading sample data using pandas DataFrame
+# df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv')
+
+data = [dict(type='choropleth',
+			locations = df['code'].astype(str),
+			z=df['total exports'].astype(float),
+			locationmode='USA-states')]
+
+# let's create some more additional, data
+for i in range(5):
+	data.append(data[0].copy())
+	data[-1]['z'] = data[0]['z'] * np.random.rand(*data[0]['z'].shape)
+
+# let's now create slider for map
+steps = []
+for i in range(len(data)):
+	step = dict(method='restyle',
+				args=['visible', [False] * len(data)],
+				label='Year {}'.format(i + 1980))
+	step['args'][1][i] = True
+	steps.append(step)
+
+slider = [dict(active=0,
+				pad={"t": 1},
+				steps=steps)]
+layout = dict(geo=dict(scope='usa',
+					projection={'type': 'albers usa'}),
+			sliders=slider)
+
+fig = dict(data=data,
+		layout=layout)
+
+st.plotly_chart(fig, use_container_width=True)
