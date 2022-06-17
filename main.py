@@ -114,7 +114,7 @@ year_chosen = st.select_slider('Choose Year', years)
 data_chosen = df.loc[df['Year'] == year_chosen]
 
 fig = px.choropleth(data_chosen, locations='Team Initials',
-                    color="Total_goals", hover_name='Team Name',projection = 'natrual earth'
+                    color="Total_goals", hover_name='Team Name'
                     )
 
 st.plotly_chart(fig,use_container_width=True)
