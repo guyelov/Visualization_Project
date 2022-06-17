@@ -118,7 +118,7 @@ fig = px.choropleth(data_chosen, locations='Team Initials',
                     )
 fig.update_layout(
     autosize=False,
-    width=1780,
-    height=1000,margin=dict(l=0, r=0, t=0, b=0))
+    width=1600,
+    height=920,margin=dict(l=0, r=0, t=0, b=0))
 
 st.plotly_chart(fig,use_container_width=False)
