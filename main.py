@@ -117,7 +117,8 @@ fig = px.choropleth(data_chosen, locations='Team Initials',
                     color="Total_goals", hover_name='Team Name'
                     )
 fig.update_layout(
-    paper_bgcolor="LightSteelBlue",
-)
+    autosize=False,
+    width=800,
+    height=800,)
 
 st.plotly_chart(fig,use_container_width=False)
