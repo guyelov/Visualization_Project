@@ -107,42 +107,13 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-
-# fig = px.choropleth(team_goals, locations='Team Initials',
-#                     color="Total_goals", hover_name='Team Name'
-#                     # lifeExp is a column of gapminde# column to add to hover information
-#                     )
-# fig.show()
-
 # Reading sample data using pandas DataFrame
-df =  pd.read_csv('teams_goals.csv')
-data = [dict(type='choropleth',
-             locations=df['Team Initials'].astype(str),
-             z=df['Total_goals'].astype(float))]
+df = pd.read_csv('teams_goals.csv')
+years = list(np.unique(df['Year']))
+year_chosen = st.select_slider('Choose Year', years)
+data_chosen = df.loc[df['Year'] == year_chosen]
 
-# let's create some more additional, data
-# for i in range(5):
-#     data.append(data[0].copy())
-#     data[-1]['z'] = data[0]['z'] * np.random.rand(*data[0]['z'].shape)
-
-# let's now create slider for map
-steps = []
-years= list(np.unique(df['Year']))
-for i in range(len(years)):
-    step = dict(method='restyle',
-                args=['visible', [False] * len(data)],
-                label='Year {}'.format(years[i]))
-    step['args'][1][i] = True
-    steps.append(step)
-steps = list(np.unique(df['Year']))
-slider = [dict(active=0,
-               pad={"t": 1},
-               steps=steps)]
-layout = dict(geo=dict(scope='usa',
-                       projection={'type': 'albers usa'}),
-              sliders=slider)
-
-fig = dict(data=data,
-           layout=layout)
-
-st.plotly_chart(fig, use_container_width=True)
+fig = px.choropleth(data_chosen, locations='Team Initials',
+                    color="Total_goals", hover_name='Team Name'
+                    )
+st.plotly_chart(fig,use_container_width=True)
