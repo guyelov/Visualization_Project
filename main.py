@@ -108,11 +108,11 @@ import streamlit as st
 import plotly.express as px
 
 
-fig = px.choropleth(team_goals, locations='Team Initials',
-                    color="Total_goals", hover_name='Team Name'
-                    # lifeExp is a column of gapminde# column to add to hover information
-                    )
-fig.show()
+# fig = px.choropleth(team_goals, locations='Team Initials',
+#                     color="Total_goals", hover_name='Team Name'
+#                     # lifeExp is a column of gapminde# column to add to hover information
+#                     )
+# fig.show()
 
 # Reading sample data using pandas DataFrame
 df =  pd.read_csv('teams_goals.csv')
