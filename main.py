@@ -117,7 +117,7 @@ fig = px.choropleth(data_chosen, locations='Team Initials',
                     color="Total_goals", hover_name='Team Name'
                     )
 fig.update_layout(
-    margin=dict(l=20, r=20, t=20, b=20),
+    margin=dict(l=0, r=0, t=0, b=0),
     paper_bgcolor="LightSteelBlue",
 )
 
