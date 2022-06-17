@@ -38,44 +38,47 @@ team_data = teams_in_league.loc[teams_in_league['Team'] == selected_team]
 
 selected_season = st.select_slider('Choose season', seasons)
 selected_team_season = team_data.loc[team_data['Year'] == selected_season]
+
+
 def thropy(place):
     if place == 1:
         return ':trophy:'
     else:
         return ''
 
-team_info =f' In season {selected_season}-{selected_season+1} {selected_team} played '
+
+team_info = f' In season {selected_season}-{selected_season + 1} {selected_team} played '
 
 try:
 
     games = int(selected_team_season['GP'])
-    str_games =  str(games) + " Matches " + " 🏟️ "
-    team_info+=str_games
+    str_games = str(games) + " Matches " + " 🏟️ "
+    team_info += str_games
     wins = int(selected_team_season['W'])
-    str_teams = " and got "+ str(wins)+ " Wins, "
-    team_info+=str_teams
+    str_teams = " and got " + str(wins) + " Wins, "
+    team_info += str_teams
 
     draws = int(selected_team_season['D'])
-    str_teams =str(draws)+ "  Draws and  "
-    team_info+=str_teams
+    str_teams = str(draws) + "  Draws and  "
+    team_info += str_teams
 
     loss = int(selected_team_season['L'])
-    str_teams =str(loss) + "  Loses."
-    team_info+=str_teams
+    str_teams = str(loss) + "  Loses."
+    team_info += str_teams
     st.write(team_info)
     team_info = 'They Scored '
     goals = int(selected_team_season['GF'])
-    str_teams = str(goals) +  " Goals  🥅 and conceded "
-    team_info+=str_teams
+    str_teams = str(goals) + " Goals  🥅 and conceded "
+    team_info += str_teams
 
     conc = int(selected_team_season['GA'])
-    str_teams =str(conc) + "  Goals and finish in "
+    str_teams = str(conc) + "  Goals and finish in "
 
-    team_info+=str_teams
+    team_info += str_teams
     place_finshed = int(selected_team_season['Place'])
     tro = thropy(place_finshed)
-    str_goals =  ' '  + str(place_finshed)+'th' +tro + " Place."
-    team_info+=str_goals
+    str_goals = ' ' + str(place_finshed) + 'th' + tro + " Place."
+    team_info += str_goals
     st.write(team_info)
     # if place_finshed == 1:
     #     str_goals = ":trophy:  " + str(place_finshed) + 'th' + " Place"
@@ -83,8 +86,6 @@ try:
     #     str_goals = str(place_finshed) + 'th' + " Place"
 except:
     st.write(f'Oops.. This team was not in this league this season')
-
-
 
 # st.write(f'In season {selected_season}/{selected_season+1} ')
 
@@ -102,51 +103,45 @@ import pandas as pd
 import plotly
 import numpy as np
 
-
-
 import pandas as pd
 import streamlit as st
 import plotly.express as px
 
 
-
-
-
-# with urlopen(
-#     'https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv'
-# ) as response:
-#     df = json.load(response)
+fig = px.choropleth(team_goals, locations='Team Initials',
+                    color="Total_goals", hover_name='Team Name'
+                    # lifeExp is a column of gapminde# column to add to hover information
+                    )
+fig.show()
 
 # Reading sample data using pandas DataFrame
-df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv')
-
+df =  pd.read_csv('teams_goals.csv')
 data = [dict(type='choropleth',
-			locations = df['code'].astype(str),
-			z=df['total exports'].astype(float),
-			locationmode='USA-states')]
+             locations=df['Team Initials'].astype(str),
+             z=df['Total_goals'].astype(float))]
 
 # let's create some more additional, data
-for i in range(5):
-	data.append(data[0].copy())
-	data[-1]['z'] = data[0]['z'] * np.random.rand(*data[0]['z'].shape)
+# for i in range(5):
+#     data.append(data[0].copy())
+#     data[-1]['z'] = data[0]['z'] * np.random.rand(*data[0]['z'].shape)
 
 # let's now create slider for map
 steps = []
-for i in range(len(data)):
-	step = dict(method='restyle',
-				args=['visible', [False] * len(data)],
-				label='Year {}'.format(i + 1980))
-	step['args'][1][i] = True
-	steps.append(step)
-
+# for i in range(len(data)):
+#     step = dict(method='restyle',
+#                 args=['visible', [False] * len(data)],
+#                 label='Year {}'.format(i + 1980))
+#     step['args'][1][i] = True
+#     steps.append(step)
+steps = list(np.unique(df['Year']))
 slider = [dict(active=0,
-				pad={"t": 1},
-				steps=steps)]
+               pad={"t": 1},
+               steps=steps)]
 layout = dict(geo=dict(scope='usa',
-					projection={'type': 'albers usa'}),
-			sliders=slider)
+                       projection={'type': 'albers usa'}),
+              sliders=slider)
 
 fig = dict(data=data,
-		layout=layout)
+           layout=layout)
 
 st.plotly_chart(fig, use_container_width=True)
