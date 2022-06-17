@@ -116,7 +116,7 @@ data_chosen = df.loc[df['Year'] == year_chosen]
 fig = px.choropleth(data_chosen, locations='Team Initials',
                     color="Total_goals", hover_name='Team Name'
                     )
-fig.update_layout(
+fig.update_layout(width = 50,height = 50,
     paper_bgcolor="LightSteelBlue",
 )
 
