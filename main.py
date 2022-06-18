@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 import flagpy as fp
-import time
+
 st.set_page_config(page_title='Fifa Word Cup History', page_icon=':soccer:', initial_sidebar_state='expanded',
                    layout="wide")
 # matches = pd.read_csv('Data\matches.csv')
@@ -121,6 +121,8 @@ country_flag = {'All': 'global_flag.png', 'Germany FR': 'west germany.png', 'Ger
                 'Dutch East Indies': 'deind.png', 'Netherlands': 'nether.png',
                 'USA': 'usa.png', 'United Arab Emirates': 'uae.png', 'Wales': 'wales.png'}
 
+years = list(np.unique(df['Year']))
+year_chosen = st.select_slider('Choose Year', years)
 
 row2_1, row2_spacer2, row2_2 = st.columns((1.6, .05, 1.6))
 with row2_1:
