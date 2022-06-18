@@ -115,7 +115,7 @@ matches = pd.read_csv('WorldCupMatches.csv')
 matches.dropna(how='all', inplace=True)
 num_games = len(np.unique(matches['MatchID']))
 num_goals = df['Total_goals'].sum()
-countries = ['All'] + list(np.unique(df['Team Name']))
+countries =  list(np.unique(df['Team Name']))
 country_flag = {'All': 'global_flag.png', 'Germany FR': 'west germany.png', 'German DR': 'east germany.png',
                 'United Kingdom': 'uk flag.png', 'Soviet Union': 'soviet flag.png', 'Czechoslovakia': 'czech.png',
                 'Dutch East Indies': 'deind.png', 'Netherlands': 'nether.png',
@@ -129,8 +129,10 @@ with row2_1:
     selected_country = st.multiselect(
         'Choose a Country', countries
     )
-
-    st.write('You selected:', selected_country)
+    t = st.empty()
+    for i in range(len(selected_country) ):
+        t.markdown("## %s..." % selected_country[i])
+    # st.write(f'You selected: {}')
 with row2_2:
     try:
         img = fp.get_flag_img(selected_country[0])
