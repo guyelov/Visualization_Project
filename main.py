@@ -108,11 +108,12 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 from PIL import Image
-primaryColor="#F63366"
-backgroundColor="#FFFFFF"
-secondaryBackgroundColor="#F0F2F6"
-textColor="#262730"
-font="sans serif"
+
+primaryColor = "#F63366"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif"
 
 # Reading sample data using pandas DataFrame
 df = pd.read_csv('teams_goals.csv')
@@ -121,7 +122,10 @@ matches.dropna(how='all', inplace=True)
 num_games = len(np.unique(matches['MatchID']))
 num_goals = df['Total_goals'].sum()
 countries = ['All'] + list(np.unique(df['Team Name']))
-country_flag = {'All':'global_flag.png','Germany FR':'west germany.png','Germany DR':'east germany.png','United Kingdom':'uk flag.png','Soviet Union':'soviet flag.png'}
+country_flag = {'All': 'global_flag.png', 'Germany FR': 'west germany.png', 'Germany DR': 'east germany.png',
+                'United Kingdom': 'uk flag.png', 'Soviet Union': 'soviet flag.png', 'Czechoslovakia': 'czech.png',
+                'Dutch East Indies': 'deind.png', 'Netherlands': 'nether.png',
+                'USA': 'usa.png', 'United Arab Emirates': 'uae.png', 'Wales': 'wales.png'}
 years = list(np.unique(df['Year']))
 year_chosen = st.select_slider('Choose Year', years)
 row2_1, row2_spacer2, row2_2 = st.columns((1.6, .05, 1.6))
@@ -136,8 +140,12 @@ with row2_2:
         img = fp.get_flag_img(selected_country)
         st.image(img)
     except:
-        image = Image.open('global_flag.png')
-        st.image(image)
+        try:
+            image = Image.open(country_flag[selected_country])
+            st.image(image)
+        except:
+            image = Image.open('global_flag.png')
+            st.image(image)
 
 if selected_country == 'All':
     data_chosen = df.loc[df['Year'] == year_chosen]
