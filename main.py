@@ -107,6 +107,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 import plotly.express as px
+from PIL import Image
 
 # Reading sample data using pandas DataFrame
 df = pd.read_csv('teams_goals.csv')
@@ -126,9 +127,13 @@ with row2_1:
 
     st.write('You selected:', selected_country)
 with row2_2:
-    # img = fp.get_flag_img('Bonnie Blue')
-    # st.image(img)
-    pass
+    try:
+        img = fp.get_flag_img(selected_country)
+        st.image(img)
+    except:
+        image = Image.open('global_flag.png')
+        st.image(image)
+
 if selected_country == 'All':
     data_chosen = df.loc[df['Year'] == year_chosen]
     range_color = None
