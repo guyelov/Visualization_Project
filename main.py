@@ -182,7 +182,7 @@ if st.button('▶'):
 
             st.plotly_chart(fig, use_container_width=False)
 
-        time.sleep(5.0)
+        time.sleep(1.0)
 
         year_chosen = slider_ph.slider("slider", 1930, 2014, year_chosen + 4, 4)
 row2_1, row2_spacer2, row2_2 = st.columns((1.6, .05, 1.6))
