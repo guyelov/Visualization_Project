@@ -109,28 +109,30 @@ import plotly.express as px
 
 # Reading sample data using pandas DataFrame
 df = pd.read_csv('teams_goals.csv')
-matches =pd.read_csv('WorldCupMatches.csv')
-matches.dropna(how='all',inplace=True)
+matches = pd.read_csv('WorldCupMatches.csv')
+matches.dropna(how='all', inplace=True)
 num_games = len(np.unique(matches['MatchID']))
 num_goals = df['Total_goals'].sum()
+countries =['All']+ list(np.unique(df['Team Name']))
 
 years = list(np.unique(df['Year']))
 year_chosen = st.select_slider('Choose Year', years)
-data_chosen = df.loc[df['Year'] == year_chosen]
+selected_country = st.selectbox(
+    'Choose A Country', countries
+)
 
-countries = np.unique(df['Team Name'])
+st.write('You selected:', selected_country)
+if selected_country == 'All':
+    data_chosen = df.loc[df['Year'] == year_chosen ]
+else:
+    data_chosen = df.loc[(df['Year'] == year_chosen) &(df['Team Name']) == selected_country ]
 
-option = st.selectbox(
-     'Choose A Country',countries
-     )
-
-st.write('You selected:', option)
 fig = px.choropleth(data_chosen, locations='Team Initials',
-                    color="Total_goals", hover_name='Team Name',color_continuous_scale='Sunsetdark'
+                    color="Total_goals", hover_name='Team Name', color_continuous_scale='Sunsetdark'
                     )
 fig.update_layout(
     autosize=False,
     width=1600,
-    height=920,margin=dict(l=0, r=0, t=0, b=0))
+    height=920, margin=dict(l=0, r=0, t=0, b=0))
 
-st.plotly_chart(fig,use_container_width=False)
+st.plotly_chart(fig, use_container_width=False)
