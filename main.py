@@ -158,15 +158,13 @@ else:
     range_color = (min(selected_country_df['Total_goals']), max(selected_country_df['Total_goals']))
 if len(data_chosen) == 0:
     st.write(f'Oh no.. This country wasnt qualified for the World Cup this year')
-else:
 
-    fig = px.choropleth(data_chosen, locations='Team Initials',
-                        color="Total_goals", hover_name='Team Name', color_continuous_scale='Sunsetdark',
-                        range_color=range_color)
-    fig.update_layout(
-        autosize=False,
-        width=1600,
-        height=920, margin=dict(l=0, r=0, t=0, b=0))
+fig = px.choropleth(data_chosen, locations='Team Initials',
+                    color="Total_goals", hover_name='Team Name', color_continuous_scale='Sunsetdark',
+                    range_color=range_color)
+fig.update_layout(
+    autosize=False,
+    width=1600,
+    height=920, margin=dict(l=0, r=0, t=0, b=0))
 
-    st.plotly_chart(fig, use_container_width=False)
-
+st.plotly_chart(fig, use_container_width=False)
