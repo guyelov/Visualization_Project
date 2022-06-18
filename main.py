@@ -3,6 +3,7 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 import flagpy as fp
+import time
 
 st.set_page_config(page_title='Fifa Word Cup History', page_icon=':soccer:', initial_sidebar_state='expanded',
                    layout="wide")
@@ -109,12 +110,6 @@ import streamlit as st
 import plotly.express as px
 from PIL import Image
 
-primaryColor = "#F63366"
-backgroundColor = "#FFFFFF"
-secondaryBackgroundColor = "#F0F2F6"
-textColor = "#262730"
-font = "sans serif"
-
 # Reading sample data using pandas DataFrame
 df = pd.read_csv('teams_goals.csv')
 matches = pd.read_csv('WorldCupMatches.csv')
@@ -126,8 +121,18 @@ country_flag = {'All': 'global_flag.png', 'Germany FR': 'west germany.png', 'Ger
                 'United Kingdom': 'uk flag.png', 'Soviet Union': 'soviet flag.png', 'Czechoslovakia': 'czech.png',
                 'Dutch East Indies': 'deind.png', 'Netherlands': 'nether.png',
                 'USA': 'usa.png', 'United Arab Emirates': 'uae.png', 'Wales': 'wales.png'}
+
+slider_ph = st.empty()
+
+year_chosen = slider_ph.slider("slider", 1930, 2014, 1930, 4)
+
 years = list(np.unique(df['Year']))
-year_chosen = st.select_slider('Choose Year', years)
+# year_chosen = st.select_slider('Choose Year', years)
+if st.button('▶'):
+    for _ in range(year_chosen, 2014, step=4):
+        time.sleep(.5)
+
+        year_chosen = slider_ph.slider("slider", 1930, 2014, year_chosen + 1, 4)
 row2_1, row2_spacer2, row2_2 = st.columns((1.6, .05, 1.6))
 with row2_1:
     selected_country = st.selectbox(
@@ -179,16 +184,3 @@ else:
         height=920, margin=dict(l=0, r=0, t=0, b=0))
 
     st.plotly_chart(fig, use_container_width=False)
-import  time
-slider_ph = st.empty()
-info_ph = st.empty()
-
-value = slider_ph.slider("slider", 0, 100, 25, 1)
-info_ph.info(value)
-
-if st.button('animate'):
-    for x in range(20):
-        time.sleep(.5)
-
-        value = slider_ph.slider("slider", 0, 100, value + 1, 1)
-        info_ph.info(value)
