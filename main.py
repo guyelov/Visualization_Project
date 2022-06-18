@@ -126,7 +126,7 @@ with row2_1:
 
     st.write('You selected:', selected_country)
 with row2_2:
-    img = fp.get_flag_img(selected_country)
+    img = fp.get_flag_img('Bonnie Blue')
     st.image(img)
 
 if selected_country == 'All':
