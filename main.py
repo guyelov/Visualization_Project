@@ -141,10 +141,10 @@ with row2_2:
         st.image(img)
     except:
         try:
-            image = Image.open(f'Flags\{country_flag[selected_country]}')
+            image = Image.open(country_flag[selected_country])
             st.image(image)
         except:
-            image = Image.open(f'C:\Users\guyel\PycharmProjects\Visualization_Project\Flags\global_flag.png')
+            image = Image.open(f'global_flag.png')
             st.image(image)
 
 if selected_country == 'All':
