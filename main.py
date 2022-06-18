@@ -111,10 +111,8 @@ df = pd.read_csv('teams_goals.csv')
 years = list(np.unique(df['Year']))
 year_chosen = st.select_slider('Choose Year', years)
 data_chosen = df.loc[df['Year'] == year_chosen]
-home_names = set(df['Home Team Name'])
-away_names = set(df['Away Team Name'])
 
-countries = home_names.union(away_names)
+countries = np.unique(df['Team Name'])
 fig = px.choropleth(data_chosen, locations='Team Initials',
                     color="Total_goals", hover_name='Team Name'
                     )
