@@ -130,58 +130,6 @@ years = list(np.unique(df['Year']))
 # year_chosen = st.select_slider('Choose Year', years)
 if st.button('▶'):
     for _ in range(year_chosen, 2014,4):
-        row2_1, row2_spacer2, row2_2 = st.columns((1.6, .05, 1.6))
-        with row2_1:
-            selected_country = st.selectbox(
-                'Choose a Country', countries
-            )
-
-            st.write('You selected:', selected_country)
-        with row2_2:
-            try:
-                img = fp.get_flag_img(selected_country)
-                st.image(img)
-            except:
-                try:
-                    image = Image.open(country_flag[selected_country])
-                    st.image(image)
-                except:
-                    image = Image.open(f'global_flag.png')
-                    st.image(image)
-
-        if selected_country == 'All':
-            data_chosen = df.loc[df['Year'] == year_chosen]
-            range_color = None
-        else:
-
-            data_chosen = df.loc[(df['Year'] == year_chosen) & (df['Team Name'] == selected_country)]
-            selected_country_df = df.loc[df['Team Name'] == selected_country]
-
-            range_color = (min(selected_country_df['Total_goals']), max(selected_country_df['Total_goals']))
-        if len(data_chosen) == 0:
-            st.write(f'Oh no.. This country wasnt qualified for the World Cup this year')
-            data_chosen = df.loc[(df['Year'] == 1938) & (df['Team Name'] == 'Dutch East Indies')]
-            fig = px.choropleth(data_chosen, locations='Team Initials',
-                                color="Total_goals", hover_name='Team Name', color_continuous_scale='Sunsetdark',
-                                range_color=range_color)
-            fig.update_layout(
-                autosize=False,
-                width=1600,
-                height=920, margin=dict(l=0, r=0, t=0, b=0))
-
-            st.plotly_chart(fig, use_container_width=False)
-        else:
-
-            fig = px.choropleth(data_chosen, locations='Team Initials',
-                                color="Total_goals", hover_name='Team Name', color_continuous_scale='Sunsetdark',
-                                range_color=range_color)
-            fig.update_layout(
-                autosize=False,
-                width=1600,
-                height=920, margin=dict(l=0, r=0, t=0, b=0))
-
-            st.plotly_chart(fig, use_container_width=False)
-
         time.sleep(1.0)
 
         year_chosen = slider_ph.slider("slider", 1930, 2014, year_chosen + 4, 4)
