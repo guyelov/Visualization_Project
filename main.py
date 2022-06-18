@@ -108,6 +108,11 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 from PIL import Image
+primaryColor="#F63366"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F0F2F6"
+textColor="#262730"
+font="sans serif"
 
 # Reading sample data using pandas DataFrame
 df = pd.read_csv('teams_goals.csv')
@@ -143,15 +148,16 @@ else:
     selected_country_df = df.loc[df['Team Name'] == selected_country]
 
     range_color = (min(selected_country_df['Total_goals']), max(selected_country_df['Total_goals']))
-fig = px.choropleth(data_chosen, locations='Team Initials',
-                    color="Total_goals", hover_name='Team Name', color_continuous_scale='Sunsetdark',
-                    range_color=range_color)
-fig.update_layout(
-    autosize=False,
-    width=1600,
-    height=920, margin=dict(l=0, r=0, t=0, b=0))
+if len(data_chosen) == 0:
+    st.write(f'Oh no.. This country wasnt qualified for the World Cup this year')
+else:
 
-st.plotly_chart(fig, use_container_width=False)
-img = fp.get_flag_img('Somalia')
-img.show()
-st.image(img)
+    fig = px.choropleth(data_chosen, locations='Team Initials',
+                        color="Total_goals", hover_name='Team Name', color_continuous_scale='Sunsetdark',
+                        range_color=range_color)
+    fig.update_layout(
+        autosize=False,
+        width=1600,
+        height=920, margin=dict(l=0, r=0, t=0, b=0))
+
+    st.plotly_chart(fig, use_container_width=False)
