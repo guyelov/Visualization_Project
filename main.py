@@ -114,7 +114,7 @@ data_chosen = df.loc[df['Year'] == year_chosen]
 
 countries = np.unique(df['Team Name'])
 fig = px.choropleth(data_chosen, locations='Team Initials',
-                    color="Total_goals", hover_name='Team Name',color_continuous_scale='YiGnBu'
+                    color="Total_goals", hover_name='Team Name',color_continuous_scale='YlGnBu'
                     )
 fig.update_layout(
     autosize=False,
