@@ -134,10 +134,6 @@ fig.update_layout(
     autosize=False,
     width=1600,
     height=920, margin=dict(l=0, r=0, t=0, b=0))
-fig.add_scattergeo(
-  locations = df['Team Initials'],
-  text = df['Team Name'],
-  mode = 'text')
 
 
 st.plotly_chart(fig, use_container_width=False)
