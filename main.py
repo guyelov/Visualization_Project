@@ -155,7 +155,7 @@ else:
 
     range_color = (min(selected_country_df['Total_goals']), max(selected_country_df['Total_goals']))
 if len(data_chosen) == 0:
-    st.write(f'Oh no.. This country wasnt qualified for the World Cup this year')
+    st.write(f"Oh no.. These countries weren't qualified for the World Cup this year")
     data_chosen = df.loc[(df['Year'] == 1938) & (df['Team Name'] == 'Dutch East Indies')]
     fig = px.choropleth(data_chosen, locations='Team Initials',
                         color="Total_goals", hover_name='Team Name', color_continuous_scale='Sunsetdark',
