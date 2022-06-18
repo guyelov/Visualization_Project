@@ -4,7 +4,6 @@ import streamlit as st
 from PIL import Image
 import flagpy as fp
 import time
-import asyncio
 st.set_page_config(page_title='Fifa Word Cup History', page_icon=':soccer:', initial_sidebar_state='expanded',
                    layout="wide")
 # matches = pd.read_csv('Data\matches.csv')
@@ -121,133 +120,56 @@ country_flag = {'All': 'global_flag.png', 'Germany FR': 'west germany.png', 'Ger
                 'United Kingdom': 'uk flag.png', 'Soviet Union': 'soviet flag.png', 'Czechoslovakia': 'czech.png',
                 'Dutch East Indies': 'deind.png', 'Netherlands': 'nether.png',
                 'USA': 'usa.png', 'United Arab Emirates': 'uae.png', 'Wales': 'wales.png'}
-def omer():
-    slider_ph = st.empty()
 
-    year_chosen = slider_ph.slider("slider", 1930, 2014, 1930, 4)
 
-    years = list(np.unique(df['Year']))
-    # year_chosen = st.select_slider('Choose Year', years)
+row2_1, row2_spacer2, row2_2 = st.columns((1.6, .05, 1.6))
+with row2_1:
+    selected_country = st.selectbox(
+        'Choose a Country', countries
+    )
 
-    if st.button('▶'):
-        for _ in range(year_chosen, 2014, 4):
-            await asyncio.sleep(5)
+    st.write('You selected:', selected_country)
+with row2_2:
+    try:
+        img = fp.get_flag_img(selected_country)
+        st.image(img)
+    except:
+        try:
+            image = Image.open(country_flag[selected_country])
+            st.image(image)
+        except:
+            image = Image.open(f'global_flag.png')
+            st.image(image)
 
-            year_chosen = slider_ph.slider("slider", 1930, 2014, year_chosen + 4, 4)
-            row2_1, row2_spacer2, row2_2 = st.columns((1.6, .05, 1.6))
-            with row2_1:
-                selected_country = st.selectbox(
-                    'Choose a Country', countries
-                )
+if selected_country == 'All':
+    data_chosen = df.loc[df['Year'] == year_chosen]
+    range_color = None
+else:
 
-                st.write('You selected:', selected_country)
-            with row2_2:
-                try:
-                    img = fp.get_flag_img(selected_country)
-                    st.image(img)
-                except:
-                    try:
-                        image = Image.open(country_flag[selected_country])
-                        st.image(image)
-                    except:
-                        image = Image.open(f'global_flag.png')
-                        st.image(image)
+    data_chosen = df.loc[(df['Year'] == year_chosen) & (df['Team Name'] == selected_country)]
+    selected_country_df = df.loc[df['Team Name'] == selected_country]
 
-            if selected_country == 'All':
-                data_chosen = df.loc[df['Year'] == year_chosen]
-                range_color = None
-            else:
+    range_color = (min(selected_country_df['Total_goals']), max(selected_country_df['Total_goals']))
+if len(data_chosen) == 0:
+    st.write(f'Oh no.. This country wasnt qualified for the World Cup this year')
+    data_chosen = df.loc[(df['Year'] == 1938) & (df['Team Name'] == 'Dutch East Indies')]
+    fig = px.choropleth(data_chosen, locations='Team Initials',
+                        color="Total_goals", hover_name='Team Name', color_continuous_scale='Sunsetdark',
+                        range_color=range_color)
+    fig.update_layout(
+        autosize=False,
+        width=1600,
+        height=920, margin=dict(l=0, r=0, t=0, b=0))
 
-                data_chosen = df.loc[(df['Year'] == year_chosen) & (df['Team Name'] == selected_country)]
-                selected_country_df = df.loc[df['Team Name'] == selected_country]
+    st.plotly_chart(fig, use_container_width=False)
+else:
 
-                range_color = (min(selected_country_df['Total_goals']), max(selected_country_df['Total_goals']))
-            if len(data_chosen) == 0:
-                st.write(f'Oh no.. This country wasnt qualified for the World Cup this year')
-                data_chosen = df.loc[(df['Year'] == 1938) & (df['Team Name'] == 'Dutch East Indies')]
-                fig = px.choropleth(data_chosen, locations='Team Initials',
-                                    color="Total_goals", hover_name='Team Name', color_continuous_scale='Sunsetdark',
-                                    range_color=range_color)
-                fig.update_layout(
-                    autosize=False,
-                    width=1600,
-                    height=920, margin=dict(l=0, r=0, t=0, b=0))
+    fig = px.choropleth(data_chosen, locations='Team Initials',
+                        color="Total_goals", hover_name='Team Name', color_continuous_scale='Sunsetdark',
+                        range_color=range_color)
+    fig.update_layout(
+        autosize=False,
+        width=1600,
+        height=920, margin=dict(l=0, r=0, t=0, b=0))
 
-                st.plotly_chart(fig, use_container_width=False)
-            else:
-
-                fig = px.choropleth(data_chosen, locations='Team Initials',
-                                    color="Total_goals", hover_name='Team Name', color_continuous_scale='Sunsetdark',
-                                    range_color=range_color)
-                fig.update_layout(
-                    autosize=False,
-                    width=1600,
-                    height=920, margin=dict(l=0, r=0, t=0, b=0))
-
-                st.plotly_chart(fig, use_container_width=False)
-
-# slider_ph = st.empty()
-#
-# year_chosen = slider_ph.slider("slider", 1930, 2014, 1930, 4)
-#
-# years = list(np.unique(df['Year']))
-# # year_chosen = st.select_slider('Choose Year', years)
-#
-# if st.button('▶'):
-#     for _ in range(year_chosen, 2014,4):
-#         await asyncio.sleep(5)
-#
-#         year_chosen = slider_ph.slider("slider", 1930, 2014, year_chosen + 4, 4)
-asyncio.run(omer())
-
-# row2_1, row2_spacer2, row2_2 = st.columns((1.6, .05, 1.6))
-# with row2_1:
-#     selected_country = st.selectbox(
-#         'Choose a Country', countries
-#     )
-#
-#     st.write('You selected:', selected_country)
-# with row2_2:
-#     try:
-#         img = fp.get_flag_img(selected_country)
-#         st.image(img)
-#     except:
-#         try:
-#             image = Image.open(country_flag[selected_country])
-#             st.image(image)
-#         except:
-#             image = Image.open(f'global_flag.png')
-#             st.image(image)
-#
-# if selected_country == 'All':
-#     data_chosen = df.loc[df['Year'] == year_chosen]
-#     range_color = None
-# else:
-#
-#     data_chosen = df.loc[(df['Year'] == year_chosen) & (df['Team Name'] == selected_country)]
-#     selected_country_df = df.loc[df['Team Name'] == selected_country]
-#
-#     range_color = (min(selected_country_df['Total_goals']), max(selected_country_df['Total_goals']))
-# if len(data_chosen) == 0:
-#     st.write(f'Oh no.. This country wasnt qualified for the World Cup this year')
-#     data_chosen = df.loc[(df['Year'] == 1938) & (df['Team Name'] == 'Dutch East Indies')]
-#     fig = px.choropleth(data_chosen, locations='Team Initials',
-#                         color="Total_goals", hover_name='Team Name', color_continuous_scale='Sunsetdark',
-#                         range_color=range_color)
-#     fig.update_layout(
-#         autosize=False,
-#         width=1600,
-#         height=920, margin=dict(l=0, r=0, t=0, b=0))
-#
-#     st.plotly_chart(fig, use_container_width=False)
-# else:
-#
-#     fig = px.choropleth(data_chosen, locations='Team Initials',
-#                         color="Total_goals", hover_name='Team Name', color_continuous_scale='Sunsetdark',
-#                         range_color=range_color)
-#     fig.update_layout(
-#         autosize=False,
-#         width=1600,
-#         height=920, margin=dict(l=0, r=0, t=0, b=0))
-#
-#     st.plotly_chart(fig, use_container_width=False)
+    st.plotly_chart(fig, use_container_width=False)
