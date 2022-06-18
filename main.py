@@ -122,7 +122,7 @@ matches.dropna(how='all', inplace=True)
 num_games = len(np.unique(matches['MatchID']))
 num_goals = df['Total_goals'].sum()
 countries = ['All'] + list(np.unique(df['Team Name']))
-country_flag = {'All': 'global_flag.png', 'Germany FR': 'west germany.png', 'Germany DR': 'east germany.png',
+country_flag = {'All': 'global_flag.png', 'Germany FR': 'west germany.png', 'German DR': 'east germany.png',
                 'United Kingdom': 'uk flag.png', 'Soviet Union': 'soviet flag.png', 'Czechoslovakia': 'czech.png',
                 'Dutch East Indies': 'deind.png', 'Netherlands': 'nether.png',
                 'USA': 'usa.png', 'United Arab Emirates': 'uae.png', 'Wales': 'wales.png'}
