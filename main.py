@@ -126,9 +126,9 @@ with row2_1:
 
     st.write('You selected:', selected_country)
 with row2_2:
-    img = fp.get_flag_img('Bonnie Blue')
-    st.image(img)
-
+    # img = fp.get_flag_img('Bonnie Blue')
+    # st.image(img)
+    pass
 if selected_country == 'All':
     data_chosen = df.loc[df['Year'] == year_chosen]
     range_color = None
@@ -147,6 +147,6 @@ fig.update_layout(
     height=920, margin=dict(l=0, r=0, t=0, b=0))
 
 st.plotly_chart(fig, use_container_width=False)
-img = fp.get_flag_img('Yemen')
+img = fp.get_flag_img('Bonnie Blue')
 img.show()
 st.image(img)
