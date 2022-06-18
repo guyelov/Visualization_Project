@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 
-st.set_page_config(page_title='Soccer Players Stats', page_icon=':soccer:', initial_sidebar_state='expanded',
+st.set_page_config(page_title='Fifa Word Cup History', page_icon=':soccer:', initial_sidebar_state='expanded',
                    layout="wide")
 # matches = pd.read_csv('Data\matches.csv')
 image = Image.open('word cup wallpaper.jpg')
