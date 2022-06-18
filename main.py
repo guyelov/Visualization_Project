@@ -124,12 +124,16 @@ selected_country = st.selectbox(
 st.write('You selected:', selected_country)
 if selected_country == 'All':
     data_chosen = df.loc[df['Year'] == year_chosen]
+    range_color = None
 else:
-    data_chosen = df.loc[(df['Year'] == year_chosen) & (df['Team Name'] == selected_country)]
 
+    data_chosen = df.loc[(df['Year'] == year_chosen) & (df['Team Name'] == selected_country)]
+    selected_country_df = df.loc[df['Team Name'] == selected_country]
+
+    range_color = (min(selected_country_df['Total_goals']), max(selected_country_df['Total_goals']))
 fig = px.choropleth(data_chosen, locations='Team Initials',
                     color="Total_goals", hover_name='Team Name', color_continuous_scale='Sunsetdark',
-                    range_color=(0,12))
+                    range_color=range_color)
 fig.update_layout(
     autosize=False,
     width=1600,
