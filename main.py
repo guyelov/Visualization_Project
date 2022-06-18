@@ -130,7 +130,6 @@ years = list(np.unique(df['Year']))
 # year_chosen = st.select_slider('Choose Year', years)
 if st.button('▶'):
     for _ in range(year_chosen, 2014,4):
-        time.sleep(5.0)
 
         year_chosen = slider_ph.slider("slider", 1930, 2014, year_chosen + 4, 4)
 row2_1, row2_spacer2, row2_2 = st.columns((1.6, .05, 1.6))
