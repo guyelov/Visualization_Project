@@ -129,10 +129,10 @@ with row2_1:
     selected_country = st.multiselect(
         'Choose a Country', countries
     )
-    t = st.empty()
-    for i in range(len(selected_country) ):
-        t.markdown("## %s..." % selected_country[i])
-    # st.write(f'You selected: {}')
+    s = 'You selected'
+    for country in selected_country:
+        s += f' {country},'
+    st.write(s)
 with row2_2:
     try:
         img = fp.get_flag_img(selected_country[0])
