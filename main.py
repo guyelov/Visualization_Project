@@ -1,14 +1,14 @@
-import json
-from urllib.request import urlopen
-
-import streamlit as st
 import numpy as np
 import pandas as pd
+import streamlit as st
+from PIL import Image
 
 st.set_page_config(page_title='Soccer Players Stats', page_icon=':soccer:', initial_sidebar_state='expanded',
                    layout="wide")
 # matches = pd.read_csv('Data\matches.csv')
+image = Image.open('word cup wallpaper.jpg')
 
+st.image(image, caption='Sunrise by the mountains')
 leagues_stats = pd.read_csv('league_stats.csv')
 all_tables_data = pd.read_csv('all_tables.csv')
 st.markdown('# Select League ')
@@ -99,8 +99,6 @@ except:
 #
 # selected_player =players. loc[players['Player'] == menu_game]
 # st.write(f'my name is {menu_game} i born in {selected_player["Nationality"].iloc[0]} in {selected_player["Birth_Date"].iloc[0]}  ')
-import pandas as pd
-import plotly
 import numpy as np
 
 import pandas as pd
