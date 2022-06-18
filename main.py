@@ -125,7 +125,7 @@ st.write('You selected:', selected_country)
 if selected_country == 'All':
     data_chosen = df.loc[df['Year'] == year_chosen ]
 else:
-    data_chosen = df.loc[(df['Year'] == year_chosen) &(df['Team Name']) == selected_country ]
+    data_chosen = df.loc[(df['Year'] == year_chosen) &(df['Team Name'] == selected_country) ]
 
 fig = px.choropleth(data_chosen, locations='Team Initials',
                     color="Total_goals", hover_name='Team Name', color_continuous_scale='Sunsetdark'
