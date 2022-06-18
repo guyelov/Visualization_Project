@@ -85,7 +85,7 @@
 83,1958.0,SCT,Scotland,0.0,4.0,4.0
 84,1958.0,SWE,Sweden,10.0,2.0,12.0
 85,1958.0,,Czechoslovakia,6.0,3.0,9.0
-86,1958.0,RUS,Soviet Union,5.0,0.0,5.0
+86,1958.0,SSR,Soviet Union,5.0,0.0,5.0
 87,1958.0,AUS,Wales,2.0,2.0,4.0
 88,1958.0,,Yugoslavia,4.0,3.0,7.0
 89,1962.0,ARG,Argentina,1.0,1.0,2.0
@@ -101,7 +101,7 @@
 99,1962.0,MEX,Mexico,3.0,0.0,3.0
 100,1962.0,CHE,Switzerland,0.0,2.0,2.0
 101,1962.0,,Czechoslovakia,5.0,2.0,7.0
-102,1962.0,RUS,Soviet Union,8.0,1.0,9.0
+102,1962.0,SSR,Soviet Union,8.0,1.0,9.0
 103,1962.0,URY,Uruguay,2.0,2.0,4.0
 104,1962.0,,Yugoslavia,9.0,1.0,10.0
 105,1966.0,ARG,Argentina,4.0,0.0,4.0
@@ -118,7 +118,7 @@
 116,1966.0,PRT,Portugal,16.0,1.0,17.0
 117,1966.0,PRK,North Korea,2.0,3.0,5.0
 118,1966.0,CHE,Switzerland,0.0,1.0,1.0
-119,1966.0,RUS,Soviet Union,8.0,2.0,10.0
+119,1966.0,SSR,Soviet Union,8.0,2.0,10.0
 120,1966.0,URY,Uruguay,2.0,0.0,2.0
 121,1970.0,BEL,Belgium,3.0,1.0,4.0
 122,1970.0,BRA,Brazil,19.0,0.0,19.0
@@ -134,7 +134,7 @@
 132,1970.0,SLV,El Salvador,0.0,0.0,0.0
 133,1970.0,SWE,Sweden,2.0,0.0,2.0
 134,1970.0,,Czechoslovakia,0.0,2.0,2.0
-135,1970.0,RUS,Soviet Union,6.0,0.0,6.0
+135,1970.0,SSR,Soviet Union,6.0,0.0,6.0
 136,1970.0,URY,Uruguay,3.0,1.0,4.0
 137,1974.0,ARG,Argentina,7.0,2.0,9.0
 138,1974.0,AUS,Australia,0.0,0.0,0.0
@@ -191,7 +191,7 @@
 189,1982.0,SCT,Scotland,5.0,3.0,8.0
 190,1982.0,SLV,El Salvador,0.0,1.0,1.0
 191,1982.0,,Czechoslovakia,1.0,1.0,2.0
-192,1982.0,RUS,Soviet Union,5.0,2.0,7.0
+192,1982.0,SSR,Soviet Union,5.0,2.0,7.0
 193,1982.0,,Yugoslavia,0.0,2.0,2.0
 194,1986.0,DZA,Algeria,1.0,0.0,1.0
 195,1986.0,ARG,Argentina,13.0,1.0,14.0
@@ -215,7 +215,7 @@
 213,1986.0,POL,Poland,1.0,0.0,1.0
 214,1986.0,PRT,Portugal,2.0,0.0,2.0
 215,1986.0,SCT,Scotland,0.0,1.0,1.0
-216,1986.0,RUS,Soviet Union,11.0,1.0,12.0
+216,1986.0,SSR,Soviet Union,11.0,1.0,12.0
 217,1986.0,URY,Uruguay,1.0,1.0,2.0
 218,1990.0,ARG,Argentina,3.0,2.0,5.0
 219,1990.0,AUT,Austria,2.0,0.0,2.0
@@ -237,7 +237,7 @@
 235,1990.0,SWE,Sweden,2.0,1.0,3.0
 236,1990.0,,Czechoslovakia,4.0,6.0,10.0
 237,1990.0,ARE,United Arab Emirates,0.0,2.0,2.0
-238,1990.0,RUS,Soviet Union,0.0,4.0,4.0
+238,1990.0,SSR,Soviet Union,0.0,4.0,4.0
 239,1990.0,URY,Uruguay,0.0,2.0,2.0
 240,1990.0,USA,USA,1.0,1.0,2.0
 241,1990.0,,Yugoslavia,5.0,3.0,8.0
