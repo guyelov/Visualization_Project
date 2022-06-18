@@ -126,7 +126,7 @@ year_chosen = st.select_slider('Choose Year', years)
 
 row2_1, row2_spacer2, row2_2 = st.columns((1.6, .05, 1.6))
 with row2_1:
-    selected_country = st.selectbox(
+    selected_country = st.multiselect(
         'Choose a Country', countries
     )
 
