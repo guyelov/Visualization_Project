@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from PIL import Image
+import flagpy as fp
 
 st.set_page_config(page_title='Fifa Word Cup History', page_icon=':soccer:', initial_sidebar_state='expanded',
                    layout="wide")
@@ -117,11 +118,17 @@ countries = ['All'] + list(np.unique(df['Team Name']))
 
 years = list(np.unique(df['Year']))
 year_chosen = st.select_slider('Choose Year', years)
-selected_country = st.selectbox(
-    'Choose a Country', countries
-)
+row2_1, row2_spacer2, row2_2 = st.columns((1.6, .05, 1.6))
+with row2_1:
+    selected_country = st.selectbox(
+        'Choose a Country', countries
+    )
 
-st.write('You selected:', selected_country)
+    st.write('You selected:', selected_country)
+with row2_2:
+    img = fp.get_flag_img(selected_country)
+    st.image(img)
+
 if selected_country == 'All':
     data_chosen = df.loc[df['Year'] == year_chosen]
     range_color = None
@@ -140,7 +147,6 @@ fig.update_layout(
     height=920, margin=dict(l=0, r=0, t=0, b=0))
 
 st.plotly_chart(fig, use_container_width=False)
-import flagpy as fp
 img = fp.get_flag_img('Yemen')
 img.show()
 st.image(img)
