@@ -9,6 +9,7 @@ st.set_page_config(page_title='Fifa Word Cup History', page_icon=':soccer:', ini
 image = Image.open('word cup wallpaper.jpg')
 
 st.image(image, caption='Sunrise by the mountains')
+
 leagues_stats = pd.read_csv('league_stats.csv')
 all_tables_data = pd.read_csv('all_tables.csv')
 st.markdown('# Select League ')
@@ -108,11 +109,22 @@ import plotly.express as px
 
 # Reading sample data using pandas DataFrame
 df = pd.read_csv('teams_goals.csv')
+matches =pd.read_csv('WorldCupMatches.csv')
+matches.dropna(how='all',inplace=True)
+num_games = len(np.unique(matches['MatchID']))
+num_goals = df['Total_goals'].sum()
+
 years = list(np.unique(df['Year']))
 year_chosen = st.select_slider('Choose Year', years)
 data_chosen = df.loc[df['Year'] == year_chosen]
 
 countries = np.unique(df['Team Name'])
+
+option = st.selectbox(
+     'Choose A Country',countries
+     )
+
+st.write('You selected:', option)
 fig = px.choropleth(data_chosen, locations='Team Initials',
                     color="Total_goals", hover_name='Team Name',color_continuous_scale='Sunsetdark'
                     )
@@ -122,8 +134,3 @@ fig.update_layout(
     height=920,margin=dict(l=0, r=0, t=0, b=0))
 
 st.plotly_chart(fig,use_container_width=False)
-option = st.selectbox(
-     'Choose A Country',countries
-     )
-
-st.write('You selected:', option)
