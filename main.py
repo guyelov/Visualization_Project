@@ -161,4 +161,3 @@ else:
         height=920, margin=dict(l=0, r=0, t=0, b=0))
 
     st.plotly_chart(fig, use_container_width=False)
-st.write('')
