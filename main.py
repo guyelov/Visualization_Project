@@ -118,7 +118,7 @@ countries = ['All'] + list(np.unique(df['Team Name']))
 years = list(np.unique(df['Year']))
 year_chosen = st.select_slider('Choose Year', years)
 selected_country = st.selectbox(
-    'Choose A Country', countries
+    'Choose a Country', countries
 )
 
 st.write('You selected:', selected_country)
