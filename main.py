@@ -133,23 +133,23 @@ with row2_1:
     st.write('You selected:', selected_country)
 with row2_2:
     try:
-        img = fp.get_flag_img(selected_country)
+        img = fp.get_flag_img(selected_country[0])
         st.image(img)
     except:
         try:
-            image = Image.open(country_flag[selected_country])
+            image = Image.open(country_flag[selected_country[0]])
             st.image(image)
         except:
             image = Image.open(f'global_flag.png')
             st.image(image)
 
-if selected_country == 'All':
+if not selected_country:
     data_chosen = df.loc[df['Year'] == year_chosen]
     range_color = None
 else:
 
-    data_chosen = df.loc[(df['Year'] == year_chosen) & (df['Team Name'] == selected_country)]
-    selected_country_df = df.loc[df['Team Name'] == selected_country]
+    data_chosen = df.loc[(df['Year'] == year_chosen) & (df['Team Name'].isin(selected_country))]
+    selected_country_df = df.loc[df['Team Name'].isin(selected_country)]
 
     range_color = (min(selected_country_df['Total_goals']), max(selected_country_df['Total_goals']))
 if len(data_chosen) == 0:
