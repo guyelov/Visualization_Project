@@ -121,7 +121,7 @@ matches.dropna(how='all', inplace=True)
 num_games = len(np.unique(matches['MatchID']))
 num_goals = df['Total_goals'].sum()
 countries = ['All'] + list(np.unique(df['Team Name']))
-
+country_flag = {'All':'global_flag.png','Germany FR':'west germany.png','Germany DR':'east germany.png','United Kingdom':'uk flag.png','Soviet Union':'soviet flag.png'}
 years = list(np.unique(df['Year']))
 year_chosen = st.select_slider('Choose Year', years)
 row2_1, row2_spacer2, row2_2 = st.columns((1.6, .05, 1.6))
@@ -161,3 +161,5 @@ else:
         height=920, margin=dict(l=0, r=0, t=0, b=0))
 
     st.plotly_chart(fig, use_container_width=False)
+img = fp.get_flag_img('Czech Republic')
+st.image(img)
