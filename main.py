@@ -13,6 +13,7 @@ leagues_stats = pd.read_csv('league_stats.csv')
 all_tables_data = pd.read_csv('all_tables.csv')
 st.markdown('# Select League ')
 selected_league = st.radio('', leagues_stats['League'], horizontal=True)
+
 row2_1, row2_spacer2, row2_2, row2_spacer3, row2_3 = st.columns((1.6, .05, 1.6, .05, 1.6))
 with row2_1:
     unique_games_in_df = leagues_stats.loc[leagues_stats['League'] == selected_league]['GP'].iloc[0]
@@ -110,7 +111,10 @@ df = pd.read_csv('teams_goals.csv')
 years = list(np.unique(df['Year']))
 year_chosen = st.select_slider('Choose Year', years)
 data_chosen = df.loc[df['Year'] == year_chosen]
+home_names = set(df['Home Team Name'])
+away_names = set(df['Away Team Name'])
 
+countries = home_names.union(away_names)
 fig = px.choropleth(data_chosen, locations='Team Initials',
                     color="Total_goals", hover_name='Team Name'
                     )
@@ -120,3 +124,8 @@ fig.update_layout(
     height=920,margin=dict(l=0, r=0, t=0, b=0))
 
 st.plotly_chart(fig,use_container_width=False)
+option = st.selectbox(
+     'Choose A Country',countries
+     )
+
+st.write('You selected:', option)
