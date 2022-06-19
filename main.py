@@ -135,15 +135,19 @@ with row2_1:
     st.write(s)
 with row2_2:
     list_flags = []
-    for flag in selected_country:
-        if flag in country_flag:
-            list_flags.append(country_flag[flag])
-        else:
-            try:
-                img = fp.get_flag_img(flag)
-                list_flags.append(img)
-            except:
-                pass
+    if selected_country:
+
+        for flag in selected_country:
+            if flag in country_flag:
+                list_flags.append(country_flag[flag])
+            else:
+                try:
+                    img = fp.get_flag_img(flag)
+                    list_flags.append(img)
+                except:
+                    pass
+    else:
+        list_flags.append('global.png')
     # try:
     #     img = fp.get_flag_img(selected_country[0])
     #     st.image(img)
