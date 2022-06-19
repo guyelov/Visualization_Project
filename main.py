@@ -147,7 +147,7 @@ with row2_2:
                 except:
                     pass
     else:
-        list_flags.append('global.png')
+        list_flags.append('global_flag.png')
     # try:
     #     img = fp.get_flag_img(selected_country[0])
     #     st.image(img)
