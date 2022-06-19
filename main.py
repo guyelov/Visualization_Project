@@ -178,4 +178,4 @@ else:
 
     st.plotly_chart(fig, use_container_width=False)
 images = list(country_flag.values())
-st.image(images, use_column_width=True, caption=["some generic text"] * len(images))
+st.image(images)
