@@ -134,17 +134,27 @@ with row2_1:
         s += f' {country},'
     st.write(s)
 with row2_2:
-    try:
-        img = fp.get_flag_img(selected_country[0])
-        st.image(img)
-    except:
-        try:
-            image = Image.open(country_flag[selected_country[0]])
-            st.image(image)
-        except:
-            image = Image.open(f'global_flag.png')
-            st.image(image)
-
+    list_flags = []
+    for flag in selected_country:
+        if flag in country_flag:
+            list_flags.append(country_flag[flag])
+        else:
+            try:
+                img = fp.get_flag_img(flag)
+                list_flags.append(img)
+            except:
+                pass
+    # try:
+    #     img = fp.get_flag_img(selected_country[0])
+    #     st.image(img)
+    # except:
+    #     try:
+    #         image = Image.open(country_flag[selected_country[0]])
+    #         st.image(image)
+    #     except:
+    #         image = Image.open(f'global_flag.png')
+    #         st.image(image)
+    st.image(list_flags,width=100)
 if not selected_country:
     data_chosen = df.loc[df['Year'] == year_chosen]
     range_color = None
@@ -177,5 +187,5 @@ else:
         height=920, margin=dict(l=0, r=0, t=0, b=0))
 
     st.plotly_chart(fig, use_container_width=False)
-images = list(country_flag.values())
-st.image(images,width=100)
+# images = list(country_flag.values())
+# st.image(images,width=100)
