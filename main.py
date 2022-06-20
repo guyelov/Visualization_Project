@@ -3,6 +3,7 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 import flagpy as fp
+import plotly.graph_objects as go
 
 st.set_page_config(page_title='Fifa Word Cup History', page_icon=':soccer:', initial_sidebar_state='expanded',
                    layout="wide")
@@ -112,6 +113,7 @@ from PIL import Image
 # Reading sample data using pandas DataFrame
 df = pd.read_csv('teams_goals.csv')
 matches = pd.read_csv('WorldCupMatches.csv')
+worlds = pd.read_csv('WorldCups.csv')
 matches.dropna(how='all', inplace=True)
 num_games = len(np.unique(matches['MatchID']))
 num_goals = df['Total_goals'].sum()
@@ -180,5 +182,19 @@ else:
         height=920, margin=dict(l=0, r=0, t=0, b=0))
 
     st.plotly_chart(fig, use_container_width=False)
+
+worlds['Attendance'] =np.log10( worlds['Attendance'].map(lambda x: int(('').join(x.split('.')))))
+fig = px.line(df, x="Year", y="Attendance")
+
+# pick points that are special...
+df2 = df.iloc[np.unique(worlds.loc[worlds['Year'] == year_chosen])]
+
+# add special markers without hoverinfo
+fig.add_traces(
+    go.Scatter(
+        x=df2['Year'], y=df2["Attendance"], mode="markers", name="Ground Truth", hoverinfo="skip"
+    )
+)
+st.plotly_chart(fig,use_container_width=True)
 # images = list(country_flag.values())
 # st.image(images,width=100)
