@@ -188,12 +188,12 @@ st.write('hey')
 fig = px.line(worlds, x="Year", y="Attendance")
 
 # pick points that are special...
-df2 = worlds.iloc[np.unique(worlds.loc[worlds['Year'] == year_chosen])]
+df2 = worlds.loc[worlds.loc[worlds['Year'] == year_chosen]]
 
 # add special markers without hoverinfo
 fig.add_traces(
 go.Scatter(
-    x=df2['Year'], y=df2["Attendance"], mode="markers", name="Ground Truth", hoverinfo="skip"
+    x=np.unique(df2['Year']), y=np.unique(df2["Attendance"]), mode="markers", name="Ground Truth", hoverinfo="skip"
 )
 )
 st.plotly_chart(fig,use_container_width=False)
