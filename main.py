@@ -183,20 +183,20 @@ else:
 
     st.plotly_chart(fig, use_container_width=False)
 
-    worlds['Attendance'] =np.log10( worlds['Attendance'].map(lambda x: int(('').join(x.split('.')))))
-    st.write('hey')
-    fig = px.line(df, x="Year", y="Attendance")
+worlds['Attendance'] =np.log10( worlds['Attendance'].map(lambda x: int(('').join(x.split('.')))))
+st.write('hey')
+fig = px.line(df, x="Year", y="Attendance")
 
-    # pick points that are special...
-    df2 = df.iloc[np.unique(worlds.loc[worlds['Year'] == year_chosen])]
+# pick points that are special...
+df2 = df.iloc[np.unique(worlds.loc[worlds['Year'] == year_chosen])]
 
-    # add special markers without hoverinfo
-    fig.add_traces(
-    go.Scatter(
-        x=df2['Year'], y=df2["Attendance"], mode="markers", name="Ground Truth", hoverinfo="skip"
-    )
-    )
-    st.plotly_chart(fig,use_container_width=False)
+# add special markers without hoverinfo
+fig.add_traces(
+go.Scatter(
+    x=df2['Year'], y=df2["Attendance"], mode="markers", name="Ground Truth", hoverinfo="skip"
+)
+)
+st.plotly_chart(fig,use_container_width=False)
 
 # images = list(country_flag.values())
 # st.image(images,width=100)
