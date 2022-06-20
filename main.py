@@ -185,7 +185,7 @@ else:
 
 worlds['Attendance'] =np.log10( worlds['Attendance'].map(lambda x: int(('').join(x.split('.')))))
 st.write('hey')
-fig = px.line(df, x="Year", y="Attendance")
+fig = px.line(worlds, x="Year", y="Attendance")
 
 # pick points that are special...
 df2 = df.iloc[np.unique(worlds.loc[worlds['Year'] == year_chosen])]
