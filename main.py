@@ -188,7 +188,7 @@ st.write('hey')
 fig = px.line(worlds, x="Year", y="Attendance")
 
 # pick points that are special...
-df2 = df.iloc[np.unique(worlds.loc[worlds['Year'] == year_chosen])]
+df2 = worlds.iloc[np.unique(worlds.loc[worlds['Year'] == year_chosen])]
 
 # add special markers without hoverinfo
 fig.add_traces(
