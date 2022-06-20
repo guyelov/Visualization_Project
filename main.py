@@ -195,6 +195,7 @@ fig.add_traces(
         x=df2['Year'], y=df2["Attendance"], mode="markers", name="Ground Truth", hoverinfo="skip"
     )
 )
-st.plotly_chart(fig,use_container_width=True)
+st.plotly_chart(fig,use_container_width=False)
+
 # images = list(country_flag.values())
 # st.image(images,width=100)
