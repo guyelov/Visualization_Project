@@ -197,6 +197,7 @@ fig.update_layout(
         color="RebeccaPurple"),
     xaxis=dict(
         tickmode='linear',
+        tick0 = 1930,
         dtick=4
     ))
 
