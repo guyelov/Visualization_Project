@@ -103,9 +103,7 @@ st.image(image, caption='Word Cups History')
 #
 # selected_player =players. loc[players['Player'] == menu_game]
 # st.write(f'my name is {menu_game} i born in {selected_player["Nationality"].iloc[0]} in {selected_player["Birth_Date"].iloc[0]}  ')
-import numpy as np
 
-import pandas as pd
 import streamlit as st
 import plotly.express as px
 from PIL import Image
@@ -184,7 +182,7 @@ else:
     st.plotly_chart(fig, use_container_width=False)
 worlds['Attendance'] = worlds['Attendance'].map(lambda x: int(('').join(x.split('.'))))
 # worlds['Attendance'] =np.log10( worlds['Attendance'].map(lambda x: int(('').join(x.split('.')))))
-fig = px.line(worlds, x="Year", y="Attendance",text='Year')
+fig = px.line(worlds, x="Year", y="Attendance",text='Year',range_y=[1930,year_chosen+1])
 fig.update_traces(textposition="bottom right")
 fig.update_layout(
     autosize=False,
