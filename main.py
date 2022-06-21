@@ -185,7 +185,7 @@ else:
 worlds['Attendance'] = worlds['Attendance'].map(lambda x: int(('').join(x.split('.'))))
 # worlds['Attendance'] =np.log10( worlds['Attendance'].map(lambda x: int(('').join(x.split('.')))))
 fig = px.line(worlds, x="Year", y="Attendance",text='Year')
-fig.update_traces(textposition="bottom up")
+fig.update_traces(textposition="bottom right")
 fig.update_layout(
     autosize=False,
     width=1600,
