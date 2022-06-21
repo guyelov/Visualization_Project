@@ -181,7 +181,7 @@ else:
 
     st.plotly_chart(fig, use_container_width=False)
 worlds['Attendance'] = worlds['Attendance'].map(lambda x: int(('').join(x.split('.'))))
-worlds = worlds.loc[worlds['Year'].isin(range(1930,year_chosen))]
+worlds = worlds.loc[worlds['Year'].astype('int').isin(range(1930,year_chosen))]
 # worlds['Attendance'] =np.log10( worlds['Attendance'].map(lambda x: int(('').join(x.split('.')))))
 fig = px.line(worlds, x="Year", y="Attendance",text='Year',range_x= [1930,2014])
 fig.update_traces(textposition="bottom right")
