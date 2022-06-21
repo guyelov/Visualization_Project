@@ -189,7 +189,12 @@ fig.update_traces(textposition="bottom right")
 fig.update_layout(
     autosize=False,
     width=1600,
-    height=920, margin=dict(l=0, r=0, t=0, b=0))
+    height=920, margin=dict(l=0, r=0, t=0, b=0),
+    font=dict(
+        family="Courier New, monospace",
+        size=18,
+        color="RebeccaPurple"
+    ))
 # pick points that are special...
 df2 = worlds.loc[worlds['Year'] == year_chosen]
 
