@@ -203,6 +203,10 @@ fig.add_traces(
 go.Scatter(
     x=np.unique(df2['Year']), y=np.unique(df2["Attendance"]), mode="markers" ,name=f'Year {int(year_chosen)}')
 )
+fig.update_traces(marker=dict(size=12,
+                              line=dict(width=2,
+                                        color='DarkSlateGrey')),
+                  selector=dict(mode='markers'))
 st.plotly_chart(fig,use_container_width=False)
 
 # images = list(country_flag.values())
