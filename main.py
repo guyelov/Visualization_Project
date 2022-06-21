@@ -203,7 +203,7 @@ fig.add_traces(
 go.Scatter(
     x=np.unique(df2['Year']), y=np.unique(df2["Attendance"]), mode="markers" ,name=f'Year {int(year_chosen)}')
 )
-fig.update_traces(marker=dict(size=20,
+fig.update_traces(marker=dict(size=18,
                               line=dict(width=2,
                                         color='DarkSlateGrey')),
                   selector=dict(mode='markers'))
