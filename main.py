@@ -183,9 +183,9 @@ else:
 worlds['Attendance'] = worlds['Attendance'].map(lambda x: int(('').join(x.split('.'))))
 worlds['Year'] = worlds['Year'].astype('int')
 
-worlds = worlds.loc[worlds['Year'] <=year_chosen]
+worlds = worlds.loc[worlds['Year'] <= year_chosen]
 # worlds['Attendance'] =np.log10( worlds['Attendance'].map(lambda x: int(('').join(x.split('.')))))
-fig = px.line(worlds, x="Year", y="Attendance",text='Year',range_x= [1930,2018],)
+fig = px.line(worlds, x="Year", y="Attendance", text='Year', range_x=[1930, 2018], )
 fig.update_traces(textposition="bottom right")
 fig.update_layout(
     autosize=False,
@@ -194,26 +194,25 @@ fig.update_layout(
     font=dict(
         family="Calibri",
         size=18,
-        color="RebeccaPurple",
-        xaxis=dict(
-            tickmode='linear',
-            dtick=4
-
-    )))
+        color="RebeccaPurple"),
+    xaxis=dict(
+        tickmode='linear',
+        dtick=4
+    ))
 
 # pick points that are special...
 df2 = worlds.loc[worlds['Year'] == year_chosen]
 
 # add special markers without hoverinfo
 fig.add_traces(
-go.Scatter(
-    x=np.unique(df2['Year']), y=np.unique(df2["Attendance"]), mode="markers" ,name=f'Year {int(year_chosen)}')
+    go.Scatter(
+        x=np.unique(df2['Year']), y=np.unique(df2["Attendance"]), mode="markers", name=f'Year {int(year_chosen)}')
 )
 fig.update_traces(marker=dict(size=18,
                               line=dict(width=2,
                                         color='DarkSlateGrey')),
                   selector=dict(mode='markers'))
-st.plotly_chart(fig,use_container_width=False)
+st.plotly_chart(fig, use_container_width=False)
 
 # images = list(country_flag.values())
 # st.image(images,width=100)
