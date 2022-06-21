@@ -157,7 +157,7 @@ else:
     selected_country_df = df.loc[df['Team Name'].isin(selected_country)]
 
     range_color = (min(selected_country_df['Total_goals']), max(selected_country_df['Total_goals']))
-row3_1, row3_spacer2, row3_2 = st.columns((10, .40, 1.6))
+row3_1, row3_spacer2, row3_2 = st.columns((2, .40, 1.6))
 with row3_1:
     if len(data_chosen) == 0:
         st.write(f"Oh no.. These countries weren't qualified for the World Cup this year")
@@ -178,7 +178,7 @@ with row3_1:
                             range_color=range_color)
         fig.update_layout(
             margin=dict(l=0, r=0, t=0, b=0))
-        st.plotly_chart(fig, use_container_width=False)
+        st.plotly_chart(fig, use_container_width=True)
 
 with row3_2:
     worlds['Attendance'] = worlds['Attendance'].map(lambda x: int(('').join(x.split('.'))))
@@ -212,7 +212,7 @@ with row3_2:
                                   line=dict(width=2,
                                             color='DarkSlateGrey')),
                       selector=dict(mode='markers'))
-    st.plotly_chart(fig, use_container_width=False)
+    st.plotly_chart(fig, use_container_width=True)
 
 # images = list(country_flag.values())
 # st.image(images,width=100)
