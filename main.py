@@ -159,7 +159,6 @@ else:
     range_color = (min(selected_country_df['Total_goals']), max(selected_country_df['Total_goals']))
 row3_1, row3_spacer2, row3_2 = st.columns((2, .40, 1.6))
 with row3_1:
-
     if len(data_chosen) == 0:
         st.write(f"Oh no.. These countries weren't qualified for the World Cup this year")
         data_chosen = df.loc[(df['Year'] == 1938) & (df['Team Name'] == 'Dutch East Indies')]
@@ -178,13 +177,11 @@ with row3_1:
                             color="Total_goals", hover_name='Team Name', color_continuous_scale='Sunsetdark',
                             range_color=range_color)
         fig.update_layout(
-            autosize=False,
-            width=1400,
-            height=800, margin=dict(l=0, r=0, t=0, b=0))
+            autosize=True,
+            margin=dict(l=0, r=0, t=0, b=0))
         st.plotly_chart(fig, use_container_width=False)
 
 with row3_2:
-
     worlds['Attendance'] = worlds['Attendance'].map(lambda x: int(('').join(x.split('.'))))
     worlds['Year'] = worlds['Year'].astype('int')
 
@@ -193,16 +190,15 @@ with row3_2:
     fig = px.line(worlds, x="Year", y="Attendance", text='Year', range_x=[1930, 2014])
     fig.update_traces(textposition="bottom right")
     fig.update_layout(
-        autosize=False,
-        width=1130,
-        height=800, margin=dict(l=0, r=0, t=0, b=0),
+        autosize=True,
+        margin=dict(l=0, r=0, t=0, b=0),
         font=dict(
             family="Calibri",
             size=18,
             color="RebeccaPurple"),
         xaxis=dict(
             tickmode='linear',
-            tick0 = 1930,
+            tick0=1930,
             dtick=4
         ))
 
