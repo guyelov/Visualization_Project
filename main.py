@@ -184,7 +184,7 @@ else:
     st.plotly_chart(fig, use_container_width=False)
 worlds['Attendance'] = worlds['Attendance'].map(lambda x: int(('').join(x.split('.'))))
 # worlds['Attendance'] =np.log10( worlds['Attendance'].map(lambda x: int(('').join(x.split('.')))))
-fig = px.line(worlds, x="Year", y="Attendance",text='Year',animation_frame='Year')
+fig = px.line(worlds, x="Year", y="Attendance",text='Year')
 fig.update_traces(textposition="bottom right")
 fig.update_layout(
     autosize=False,
