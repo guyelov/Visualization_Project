@@ -157,7 +157,7 @@ else:
     selected_country_df = df.loc[df['Team Name'].isin(selected_country)]
 
     range_color = (min(selected_country_df['Total_goals']), max(selected_country_df['Total_goals']))
-row3_1, row3_spacer2, row3_2 = st.columns((2, .15, 1.6))
+row3_1, row3_spacer2, row3_2 = st.columns((2, .25, 1.6))
 with row3_1:
 
     if len(data_chosen) == 0:
