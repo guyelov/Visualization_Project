@@ -184,7 +184,7 @@ with row3_2:
 
     worlds = worlds.loc[worlds['Year'] <= year_chosen]
     # worlds['Attendance'] =np.log10( worlds['Attendance'].map(lambda x: int(('').join(x.split('.')))))
-    fig = px.line(worlds, x="Year", y="Attendance", text='Year', range_x=[1930, 2014])
+    fig = px.line(worlds, x="Year", y="Attendance", range_x=[1930, 2014])
     fig.update_traces(textposition="bottom right")
     fig.update_layout(
         margin=dict(l=0, r=0, t=0, b=0),
