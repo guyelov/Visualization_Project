@@ -191,7 +191,7 @@ fig.update_layout(
     width=1600,
     height=920, margin=dict(l=0, r=0, t=0, b=0),
     font=dict(
-        family="Courier New, monospace",
+        family="Calibri",
         size=18,
         color="RebeccaPurple"
     ))
