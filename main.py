@@ -182,8 +182,8 @@ else:
         height=920, margin=dict(l=0, r=0, t=0, b=0))
 
     st.plotly_chart(fig, use_container_width=False)
-
-worlds['Attendance'] =np.log10( worlds['Attendance'].map(lambda x: int(('').join(x.split('.')))))
+worlds['Attendance'] = worlds['Attendance'].map(lambda x: int(('').join(x.split('.'))))
+# worlds['Attendance'] =np.log10( worlds['Attendance'].map(lambda x: int(('').join(x.split('.')))))
 fig = px.line(worlds, x="Year", y="Attendance")
 
 # pick points that are special...
