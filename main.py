@@ -179,8 +179,8 @@ with row3_1:
                             range_color=range_color)
         fig.update_layout(
             autosize=False,
-            width=1600,
-            height=920, margin=dict(l=0, r=0, t=0, b=0))
+            width=800,
+            height=460, margin=dict(l=0, r=0, t=0, b=0))
         st.plotly_chart(fig, use_container_width=False)
 
 with row3_2:
@@ -194,8 +194,8 @@ with row3_2:
     fig.update_traces(textposition="bottom right")
     fig.update_layout(
         autosize=False,
-        width=1600,
-        height=920, margin=dict(l=0, r=0, t=0, b=0),
+        width=800,
+        height=460, margin=dict(l=0, r=0, t=0, b=0),
         font=dict(
             family="Calibri",
             size=18,
