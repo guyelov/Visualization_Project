@@ -182,7 +182,7 @@ else:
     st.plotly_chart(fig, use_container_width=False)
 worlds['Attendance'] = worlds['Attendance'].map(lambda x: int(('').join(x.split('.'))))
 # worlds['Attendance'] =np.log10( worlds['Attendance'].map(lambda x: int(('').join(x.split('.')))))
-fig = px.line(worlds, x="Year", y="Attendance",text='Year')
+fig = px.line(worlds, x="Year", y="Attendance",text='Year',range_x= [1930,year_chosen])
 fig.update_traces(textposition="bottom right")
 fig.update_layout(
     autosize=False,
@@ -194,7 +194,7 @@ fig.update_layout(
         color="RebeccaPurple"
 
     ))
-fig.update_yaxes(range =[1930,year_chosen] )
+
 # pick points that are special...
 df2 = worlds.loc[worlds['Year'] == year_chosen]
 
