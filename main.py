@@ -179,8 +179,8 @@ with row3_1:
                             range_color=range_color)
         fig.update_layout(
             autosize=False,
-            width=1220,
-            height=700, margin=dict(l=0, r=0, t=0, b=0))
+            width=1400,
+            height=800, margin=dict(l=0, r=0, t=0, b=0))
         st.plotly_chart(fig, use_container_width=False)
 
 with row3_2:
