@@ -192,7 +192,7 @@ df2 = worlds.loc[worlds['Year'] == year_chosen]
 # add special markers without hoverinfo
 fig.add_traces(
 go.Scatter(
-    x=np.unique(df2['Year']), y=np.unique(df2["Attendance"]), mode="markers" ,name=f'Year {year_chosen}')
+    x=np.unique(df2['Year']), y=np.unique(df2["Attendance"]), mode="markers" ,name=f'Year {int(year_chosen)}')
 )
 st.plotly_chart(fig,use_container_width=False)
 
