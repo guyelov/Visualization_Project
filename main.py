@@ -186,7 +186,10 @@ worlds['Attendance'] = worlds['Attendance'].map(lambda x: int(('').join(x.split(
 # worlds['Attendance'] =np.log10( worlds['Attendance'].map(lambda x: int(('').join(x.split('.')))))
 fig = px.line(worlds, x="Year", y="Attendance",text='Year')
 fig.update_traces(textposition="bottom right")
-
+fig.update_layout(
+    autosize=False,
+    width=1600,
+    height=920, margin=dict(l=0, r=0, t=0, b=0))
 # pick points that are special...
 df2 = worlds.loc[worlds['Year'] == year_chosen]
 
