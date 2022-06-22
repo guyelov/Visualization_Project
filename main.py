@@ -153,7 +153,7 @@ with row2_2:
 if not selected_country:
     data_chosen = df.loc[df['Year'] == year_chosen]
     data_goals = goals[:15]
-    data_yellows = yellow_cards
+    data_yellows = yellow_cards[:15]
     range_color = None
 else:
 
