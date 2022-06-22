@@ -233,6 +233,20 @@ else:
         .count().reset_index().sort_values(by='Year', ascending=False)[:15]
 
 fig = px.bar(qualified_team, 'Team Name', 'Year')
+# Add images
+fig.add_layout_image(
+        dict(
+            source="https://images.plot.ly/language-icons/api-home/python-logo.png",
+            xref="x",
+            yref="y",
+            x=0,
+            y=3,
+            sizex=2,
+            sizey=2,
+            sizing="stretch",
+            opacity=0.5,
+            layer="below")
+)
 st.plotly_chart(fig, use_container_width=True)
 # with row3_2:
 #     fig = px.bar(data_yellows,'Team Name','Yellow Cards',text='Player Name')
