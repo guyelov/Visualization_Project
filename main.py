@@ -233,7 +233,7 @@ else:
         .count().reset_index().sort_values(by='Year', ascending=False)[:15]
 fig = go.Figure()
 
-fig.add_trace(go.Bar(qualified_team, 'Team Name', 'Year'))
+fig.add_trace(go.Bar(px.bar(qualified_team, 'Team Name', 'Year')))
 # Add images
 fig.add_layout_image(
         dict(
