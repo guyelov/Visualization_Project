@@ -230,7 +230,7 @@ if not selected_country:
 else:
     qualified_team = df.loc[(df['Year'] <= year_chosen) & (df['Team Name'].isin(selected_country))] \
         .groupby(['Team Name'])['Year'] \
-        .count().reset_index().sort_values(by='Year', ascending=False)
+        .count().reset_index().sort_values(by='Year', ascending=False)[:15]
 
 fig = px.bar(qualified_team, 'Team Name', 'Year')
 st.plotly_chart(fig, use_container_width=True)
