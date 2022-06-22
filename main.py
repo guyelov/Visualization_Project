@@ -223,14 +223,14 @@ with row3_2:
                       selector=dict(mode='markers'))
     st.plotly_chart(fig, use_container_width=True)
 row3_1, row3_spacer2, row3_2 = st.columns((4, .05, 4))
-with row3_1:
-    fig = px.bar(data_goals,'Team Name','Goals Scored',text='Player Name')
-    fig.update_traces(textposition="outside", cliponaxis=False)
-    st.plotly_chart(fig,use_container_width=True)
-with row3_2:
-    fig = px.bar(data_yellows,'Team Name','Yellow Cards',text='Player Name')
-    fig.update_traces(textposition="outside", cliponaxis=True)
-
-    st.plotly_chart(fig,use_container_width=True)
+# with row3_1:
+#     fig = px.bar(data_goals,'Team Name','Goals Scored',text='Player Name')
+#     fig.update_traces(textposition="outside", cliponaxis=False)
+#     st.plotly_chart(fig,use_container_width=True)
+# with row3_2:
+#     fig = px.bar(data_yellows,'Team Name','Yellow Cards',text='Player Name')
+#     fig.update_traces(textposition="outside", cliponaxis=True)
+#
+#     st.plotly_chart(fig,use_container_width=True)
 # images = list(country_flag.values())
 # st.image(images,width=100)
