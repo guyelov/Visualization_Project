@@ -222,11 +222,12 @@ with row3_2:
                                             color='DarkSlateGrey')),
                       selector=dict(mode='markers'))
     st.plotly_chart(fig, use_container_width=True)
+qualified_team =  df.loc[df['Year'] <= year_chosen].groupby(['Team Name'])['Year'].count().reset_index()
+
 row3_1, row3_spacer2, row3_2 = st.columns((4, .05, 4))
-# with row3_1:
-#     fig = px.bar(data_goals,'Team Name','Goals Scored',text='Player Name')
-#     fig.update_traces(textposition="outside", cliponaxis=False)
-#     st.plotly_chart(fig,use_container_width=True)
+with row3_1:
+    fig = px.bar(qualified_team,'Team Name','Year')
+    st.plotly_chart(fig,use_container_width=True)
 # with row3_2:
 #     fig = px.bar(data_yellows,'Team Name','Yellow Cards',text='Player Name')
 #     fig.update_traces(textposition="outside", cliponaxis=True)
