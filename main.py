@@ -172,7 +172,7 @@ with row3_1:
                             color="Total_goals", hover_name='Team Name', color_continuous_scale='Sunsetdark',
                             range_color=range_color)
         fig.update_layout(
-         margin=dict(l=0, r=0, t=0, b=0))
+            margin=dict(l=0, r=0, t=0, b=0))
 
         st.plotly_chart(fig, use_container_width=True)
     else:
@@ -187,7 +187,7 @@ with row3_1:
 with row3_2:
     attribute = st.radio(
         "Select Attribute",
-        ('Attendance', 'QualifiedTeams', 'GoalsScored'),horizontal=True)
+        ('Attendance', 'QualifiedTeams', 'GoalsScored'), horizontal=True)
     if attribute == 'Attendance':
         worlds['Attendance'] = worlds['Attendance'].map(lambda x: int(('').join(x.split('.'))))
 
@@ -222,12 +222,10 @@ with row3_2:
                                             color='DarkSlateGrey')),
                       selector=dict(mode='markers'))
     st.plotly_chart(fig, use_container_width=True)
-qualified_team =  df.loc[df['Year'] <= year_chosen].groupby(['Team Name'])['Year'].count().reset_index()
+qualified_team = df.loc[df['Year'] <= year_chosen].groupby(['Team Name'])['Year'].count().reset_index()
 
-row3_1, row3_spacer2, row3_2 = st.columns((4, .05, 4))
-with row3_1:
-    fig = px.bar(qualified_team,'Team Name','Year')
-    st.plotly_chart(fig,use_container_width=True)
+fig = px.bar(qualified_team, 'Team Name', 'Year')
+st.plotly_chart(fig, use_container_width=True)
 # with row3_2:
 #     fig = px.bar(data_yellows,'Team Name','Yellow Cards',text='Player Name')
 #     fig.update_traces(textposition="outside", cliponaxis=True)
