@@ -225,11 +225,10 @@ with row3_2:
 if not selected_country:
     qualified_team = df.loc[df['Year'] <= year_chosen] \
         .groupby(['Team Name'])['Year'] \
-        .count().reset_index().sort_values(by='Year', ascending=False)
+        .count().reset_index().sort_values(by='Year', ascending=False)[:15]
 
 else:
-    qualified_team = \
-    df.loc[(df['Year'] <= year_chosen) & (df['Team Name'].isin(selected_country))] \
+    qualified_team = df.loc[(df['Year'] <= year_chosen) & (df['Team Name'].isin(selected_country))] \
         .groupby(['Team Name'])['Year'] \
         .count().reset_index().sort_values(by='Year', ascending=False)
 
