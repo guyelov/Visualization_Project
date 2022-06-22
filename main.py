@@ -232,7 +232,7 @@ else:
         .groupby(['Team Name'])['Year'] \
         .count().reset_index().sort_values(by='Year', ascending=False)[:15]
 
-fig = px.bar(qualified_team, 'Team Name', 'Year')
+fig = px.bar(qualified_team, 'Team Name', 'Year', template="simple_white")
 
 st.plotly_chart(fig, use_container_width=True)
 # with row3_2:
