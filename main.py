@@ -181,7 +181,7 @@ with row3_1:
 with row3_2:
     attribute = st.radio(
         "Select Something",
-        ('Attendance', 'QualifiedTeams', 'GoalsScored'))
+        ('Attendance', 'QualifiedTeams', 'GoalsScored'),horizontal=True)
     if attribute == 'Attendance':
         worlds['Attendance'] = worlds['Attendance'].map(lambda x: int(('').join(x.split('.'))))
 
