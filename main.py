@@ -120,6 +120,8 @@ country_flag = {'All': 'global_flag.png', 'Germany FR': 'west germany.png', 'Ger
                 'United Kingdom': 'uk flag.png', 'Soviet Union': 'soviet flag.png', 'Czechoslovakia': 'czech.png',
                 'Dutch East Indies': 'deind.png', 'Netherlands': 'nether.png',
                 'USA': 'usa.png', 'United Arab Emirates': 'uae.png', 'Wales': 'wales.png'}
+goals = pd.read_csv('goals_scoring.csv')
+yellow_cards = pd.read_csv('yellow_cards.csv')
 
 years = list(np.unique(df['Year']))
 year_chosen = st.select_slider('Choose Year', years)
@@ -150,12 +152,13 @@ with row2_2:
     st.image(list_flags, width=100)
 if not selected_country:
     data_chosen = df.loc[df['Year'] == year_chosen]
+    data_goals = goals
     range_color = None
 else:
 
     data_chosen = df.loc[(df['Year'] == year_chosen) & (df['Team Name'].isin(selected_country))]
     selected_country_df = df.loc[df['Team Name'].isin(selected_country)]
-
+    data_goals = goals['Team Name'].isin(selected_country)
     range_color = (min(selected_country_df['Total_goals']), max(selected_country_df['Total_goals']))
 row3_1, row3_spacer2, row3_2 = st.columns((5, .05, 4))
 with row3_1:
@@ -216,6 +219,12 @@ with row3_2:
                                             color='DarkSlateGrey')),
                       selector=dict(mode='markers'))
     st.plotly_chart(fig, use_container_width=True)
-
+row3_1, row3_spacer2, row3_2 = st.columns((4, .05, 4))
+with row3_1:
+    fig = px.bar(data_goals,'Team Name','Goals Scored')
+    st.plotly_chart(fig,use_container_width=True)
+with row3_2:
+    fig = px.bar(data_goals,'Team Name','Goals Scored')
+    st.plotly_chart(fig,use_container_width=True)
 # images = list(country_flag.values())
 # st.image(images,width=100)
