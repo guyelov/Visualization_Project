@@ -221,7 +221,7 @@ with row3_2:
     st.plotly_chart(fig, use_container_width=True)
 row3_1, row3_spacer2, row3_2 = st.columns((4, .05, 4))
 with row3_1:
-    fig = px.bar(data_goals,'Team Name','Goals Scored')
+    fig = px.bar(data_goals,'Team Name','Goals Scored',text='Player Name')
     st.plotly_chart(fig,use_container_width=True)
 with row3_2:
     fig = px.bar(data_goals,'Team Name','Goals Scored')
