@@ -223,10 +223,15 @@ with row3_2:
                       selector=dict(mode='markers'))
     st.plotly_chart(fig, use_container_width=True)
 if not selected_country:
-    qualified_team = df.loc[df['Year'] <= year_chosen].groupby(['Team Name'])['Year'].count().reset_index().sort_values(by ='Year')
+    qualified_team = df.loc[df['Year'] <= year_chosen] \
+        .groupby(['Team Name'])['Year'] \
+        .count().reset_index().sort_values(by='Year', ascending=False)
 
 else:
-    qualified_team = df.loc[(df['Year'] <= year_chosen) & (df['Team Name'].isin(selected_country))].groupby(['Team Name'])['Year'].count().reset_index().sort_values(by ='Year')
+    qualified_team = \
+    df.loc[(df['Year'] <= year_chosen) & (df['Team Name'].isin(selected_country))] \
+        .groupby(['Team Name'])['Year'] \
+        .count().reset_index().sort_values(by='Year', ascending=False)
 
 fig = px.bar(qualified_team, 'Team Name', 'Year')
 st.plotly_chart(fig, use_container_width=True)
