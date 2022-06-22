@@ -229,6 +229,7 @@ with row3_1:
     st.plotly_chart(fig,use_container_width=True)
 with row3_2:
     fig = px.bar(data_yellows,'Team Name','Yellow Cards',text='Player Name')
+    fig.update_traces(textposition="outside", cliponaxis=True)
 
     st.plotly_chart(fig,use_container_width=True)
 # images = list(country_flag.values())
