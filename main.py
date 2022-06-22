@@ -237,13 +237,6 @@ fig = px.bar(qualified_team, 'Team Name', 'Year')
 fig.add_layout_image(
         dict(
             source="Football_field_105x68.png",
-            xref="x",
-            yref="y",
-            x=0,
-            y=3,
-            sizex=2,
-            sizey=2,
-            sizing="stretch",
             opacity=0.5,
             layer="below")
 )
