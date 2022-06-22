@@ -236,7 +236,7 @@ fig = px.bar(qualified_team, 'Team Name', 'Year')
 # Add images
 fig.add_layout_image(
         dict(
-            source="https://images.plot.ly/language-icons/api-home/python-logo.png",
+            source="Football_field_105x68.png",
             xref="x",
             yref="y",
             x=0,
