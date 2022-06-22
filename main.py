@@ -227,7 +227,7 @@ with row3_1:
     fig = px.bar(data_goals,'Team Name','Goals Scored',text='Player Name')
     st.plotly_chart(fig,use_container_width=True)
 with row3_2:
-    fig = px.bar(data_yellows,'Team Name','Yellow Cards')
+    fig = px.bar(data_yellows,'Team Name','Yellow Cards',text='Player Name')
     st.plotly_chart(fig,use_container_width=True)
 # images = list(country_flag.values())
 # st.image(images,width=100)
