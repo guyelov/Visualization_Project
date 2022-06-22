@@ -9,10 +9,11 @@ import plotly.express as px
 st.set_page_config(page_title='Fifa Word Cup History', page_icon=':soccer:', initial_sidebar_state='expanded',
                    layout="wide")
 # matches = pd.read_csv('Data\matches.csv')
+st.markdown('World Cup History')
+
 image = Image.open('word cup wallpaper.jpg')
 
 st.image(image, caption='Word Cups History')
-st.markdown('#World Cup History')
 df = pd.read_csv('teams_goals.csv')
 matches = pd.read_csv('WorldCupMatches.csv')
 worlds = pd.read_csv('WorldCups.csv')
