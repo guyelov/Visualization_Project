@@ -4,8 +4,6 @@ import streamlit as st
 from PIL import Image
 import flagpy as fp
 import plotly.graph_objects as go
-CURRENT_THEME = "green"
-IS_DARK_THEME = False
 
 st.set_page_config(page_title='Fifa Word Cup History', page_icon=':soccer:', initial_sidebar_state='expanded',
                    layout="wide")
