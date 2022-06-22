@@ -231,8 +231,9 @@ else:
     qualified_team = df.loc[(df['Year'] <= year_chosen) & (df['Team Name'].isin(selected_country))] \
         .groupby(['Team Name'])['Year'] \
         .count().reset_index().sort_values(by='Year', ascending=False)[:15]
+fig = go.Figure()
 
-fig = px.bar(qualified_team, 'Team Name', 'Year')
+fig.add_trace(go.Bar(qualified_team, 'Team Name', 'Year'))
 # Add images
 fig.add_layout_image(
         dict(
