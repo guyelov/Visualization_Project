@@ -56,7 +56,7 @@ with row2_2:
     st.image(list_flags, width=100)
 if not selected_country:
     data_chosen = df.loc[df['Year'] == year_chosen]
-    data_chosen = data.loc[(data['Year'] == year_chosen) & (data['Team Name'].isin(selected_country))]
+    data_chosen =data.loc[data['Year'] == year_chosen]
 
     data_goals = goals[:15]
     data_yellows = yellow_cards[:15]
