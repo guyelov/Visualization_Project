@@ -56,6 +56,8 @@ with row2_2:
     st.image(list_flags, width=100)
 if not selected_country:
     data_chosen = df.loc[df['Year'] == year_chosen]
+    data_chosen = data.loc[(data['Year'] == year_chosen) & (data['Team Name'].isin(selected_country))]
+
     data_goals = goals[:15]
     data_yellows = yellow_cards[:15]
     range_color = None
@@ -80,7 +82,6 @@ with row3_1:
 
         st.plotly_chart(fig, use_container_width=True)
     else:
-        data_chosen = data.loc[(data['Year'] == year_chosen) & (data['Team Name'].isin(selected_country))]
 
         fig = px.choropleth(data_chosen, locations='Team Initials',
                             color="Total_goals", hover_name='Team Name',hover_data = ['Player Name','Goals Scored'], color_continuous_scale='Sunsetdark',
