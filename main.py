@@ -8,7 +8,7 @@ import plotly.express as px
 
 st.set_page_config(page_title='Fifa Word Cup History', page_icon=':soccer:', initial_sidebar_state='expanded',
                    layout="wide")
-st.markdown('World Cup History')
+st.title('World Cup History')
 
 image = Image.open('word cup wallpaper.jpg')
 data = pd.read_csv('data.csv')
