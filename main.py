@@ -77,7 +77,7 @@ with row3_1:
         st.write(f"Oh no.. These countries weren't qualified for the World Cup this year")
         data_chosen = df.loc[(df['Year'] == 1938) & (df['Team Name'] == 'Dutch East Indies')]
         fig = px.choropleth(data_chosen, locations='Team Initials',
-                            color="Total_goals", hover_name='Team Name', color_continuous_scale='Sunsetdark',
+                            color="Total_goals", hover_name='Team Name',hover_data = ['Player Name','Goals Scored'], color_continuous_scale='Sunsetdark',
                             range_color=range_color)
         fig.update_layout(
             margin=dict(l=0, r=0, t=0, b=0))
