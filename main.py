@@ -8,7 +8,6 @@ import plotly.express as px
 
 st.set_page_config(page_title='Fifa Word Cup History', page_icon=':soccer:', initial_sidebar_state='expanded',
                    layout="wide")
-# matches = pd.read_csv('Data\matches.csv')
 st.markdown('World Cup History')
 
 image = Image.open('word cup wallpaper.jpg')
@@ -72,10 +71,11 @@ row3_1, row3_spacer2, row3_2 = st.columns((5, .05, 4))
 with row3_1:
     if len(data_chosen) == 0:
         st.write(f"Oh no.. These countries weren't qualified for the World Cup this year")
+        df= pd.read_csv('data.csv')
         data_chosen = df.loc[(df['Year'] == 1938) & (df['Team Name'] == 'Dutch East Indies')]
         fig = px.choropleth(data_chosen, locations='Team Initials',
                             color="Total_goals", hover_name='Team Name', color_continuous_scale='Sunsetdark',
-                            range_color=range_color)
+                            range_color=range_color,hover_data=data_chosen[['Team Name','Player Name','Goals Scored']])
         fig.update_layout(
             margin=dict(l=0, r=0, t=0, b=0))
 
