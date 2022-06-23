@@ -55,7 +55,7 @@ with row2_2:
         list_flags.append('global_flag.png')
     st.image(list_flags, width=100)
 if not selected_country:
-    data_chosen = df.loc[df['Year'] == year_chosen]
+    # data_chosen = df.loc[df['Year'] == year_chosen]
     data_chosen =data.loc[data['Year'] == year_chosen]
 
     data_goals = goals[:15]
@@ -63,7 +63,9 @@ if not selected_country:
     range_color = None
 else:
 
-    data_chosen = df.loc[(df['Year'] == year_chosen) & (df['Team Name'].isin(selected_country))]
+    # data_chosen = df.loc[(df['Year'] == year_chosen) & (df['Team Name'].isin(selected_country))]
+    data_chosen = data.loc[(data['Year'] == year_chosen) & (data['Team Name'].isin(selected_country))]
+
     selected_country_df = df.loc[df['Team Name'].isin(selected_country)]
     data_yellows = yellow_cards.loc[yellow_cards['Team Name'].isin(selected_country)]
 
