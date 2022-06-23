@@ -11,7 +11,7 @@ st.set_page_config(page_title='Fifa Word Cup History', page_icon=':soccer:', ini
 st.markdown('World Cup History')
 
 image = Image.open('word cup wallpaper.jpg')
-
+data = pd.read_csv('data.csv')
 st.image(image, caption='Word Cups History')
 df = pd.read_csv('teams_goals.csv')
 matches = pd.read_csv('WorldCupMatches.csv')
@@ -80,9 +80,10 @@ with row3_1:
 
         st.plotly_chart(fig, use_container_width=True)
     else:
+        data_chosen = data.loc[(data['Year'] == year_chosen) & (data['Team Name'].isin(selected_country))]
 
         fig = px.choropleth(data_chosen, locations='Team Initials',
-                            color="Total_goals", hover_name='Team Name', color_continuous_scale='Sunsetdark',
+                            color="Total_goals", hover_name='Team Name',hover_data = ['Player Name','Goals Scored'], color_continuous_scale='Sunsetdark',
                             range_color=range_color)
         fig.update_layout(
             margin=dict(l=0, r=0, t=0, b=0))
