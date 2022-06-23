@@ -9,7 +9,10 @@ import plotly.express as px
 st.set_page_config(page_title='Fifa Word Cup History', page_icon=':soccer:', initial_sidebar_state='expanded',
                    layout="wide")
 st.title('World Cup History')
-
+st.markdown(
+    'The FIFA World Cup Qatar2022 is just around the corner!😱 Here you can view the evolution of the world cup tournament over the years.'
+    ' You can also compare any country at your leisureView the performance of countries in each world cup tournament. Also, see which country'
+    'has participated the most times at the world cup. Just choose your country,  Select a year to view some soccer data ⚽🥅')
 image = Image.open('word cup wallpaper.jpg')
 data = pd.read_csv('data.csv')
 st.image(image, caption='Word Cups History')
@@ -56,7 +59,7 @@ with row2_2:
     st.image(list_flags, width=100)
 if not selected_country:
     # data_chosen = df.loc[df['Year'] == year_chosen]
-    data_chosen =data.loc[data['Year'] == year_chosen]
+    data_chosen = data.loc[data['Year'] == year_chosen]
 
     data_goals = goals[:15]
     data_yellows = yellow_cards[:15]
@@ -77,7 +80,8 @@ with row3_1:
         st.write(f"Oh no.. These countries weren't qualified for the World Cup this year")
         data_chosen = df.loc[(df['Year'] == 1938) & (df['Team Name'] == 'Dutch East Indies')]
         fig = px.choropleth(data_chosen, locations='Team Initials',
-                            color="Total_goals", hover_name='Team Name',hover_data = ['Player Name','Goals Scored'], color_continuous_scale='Sunsetdark',
+                            color="Total_goals", hover_name='Team Name', hover_data=['Player Name', 'Goals Scored'],
+                            color_continuous_scale='Sunsetdark',
                             range_color=range_color)
         fig.update_layout(
             margin=dict(l=0, r=0, t=0, b=0))
@@ -86,7 +90,8 @@ with row3_1:
     else:
 
         fig = px.choropleth(data_chosen, locations='Team Initials',
-                            color="Total_goals", hover_name='Team Name',hover_data = ['Player Name','Goals Scored'], color_continuous_scale='Sunsetdark',
+                            color="Total_goals", hover_name='Team Name', hover_data=['Player Name', 'Goals Scored'],
+                            color_continuous_scale='Sunsetdark',
                             range_color=range_color)
         fig.update_layout(
             margin=dict(l=0, r=0, t=0, b=0))
