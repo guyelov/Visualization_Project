@@ -11,7 +11,8 @@ div[data-testid="stHorizontalBlock"] {
 
 
 div[data-baseweb="select"] {
-        border:10px;
-        border-color:#D95FFF;
+        background-color:#fff;
+        border-color:rgb(194, 189, 189);
+        width: 50%;
 }
 
