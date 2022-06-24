@@ -18,7 +18,7 @@ with row_1:
     st.title('The Evolution Of The FIFA World Cup')
 with row_2:
     st.text("")
-    st.subheader('Streamlit App by [Omer Idgar and Guy Elovici]')
+    st.subheader('Streamlit App by Omer Idgar and Guy Elovici')
 row2_spacer1, row2_1, row2_spacer2 = st.columns((.1, 3.2, .1))
 with row2_1:
     st.markdown(
@@ -33,7 +33,7 @@ with row2_1:
 #     ' You can also compare any country at your leisure and View the performance of countries in each world cup tournament. Also, see which country'
 #     'has participated the most times at the world cup. Just choose your country,  Select a year to view some soccer data ⚽🥅')
 # image = Image.open('world cup images/word cup wallpaper.jpg')
-st.image(image, caption='World Cups History')
+# st.image(image, caption='World Cups History')
 st.markdown(
     f'You can view how many goals each of the participating countries scored in a particular year of the world cup.'
     f' Then, you can choose the countries and compare the number of goals they scored in each world cup.')
