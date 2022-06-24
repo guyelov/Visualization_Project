@@ -19,13 +19,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Omer Idgar/OneDrive/University/Year 3/Semester B/Data Visualization/Project/Visualization_Project"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Omer Idgar/OneDrive/University/Year 3/Semester B/Data Visualization/Project/Visualization_Project&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Omer Idgar\OneDrive\University\Year 3\Semester B\Data Visualization\Project\Visualization_Project" />
@@ -39,18 +39,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656080869289</updated>
-    </task>
-    <task id="LOCAL‎00024" summary="change slider">
-      <created>1656102899750</created>
-      <option name="number" value="LOCAL‎00024" />
-      <option name="presentableId" value="LOCAL‎00024" />
-      <updated>1656102899750</updated>
-    </task>
-    <task id="LOCAL‎00025" summary="change slider">
-      <created>1656103305619</created>
-      <option name="number" value="LOCAL‎00025" />
-      <option name="presentableId" value="LOCAL‎00025" />
-      <updated>1656103305619</updated>
     </task>
     <task id="LOCAL‎00026" summary="change slider">
       <created>1656103329398</created>
@@ -334,7 +322,19 @@
       <option name="presentableId" value="LOCAL‎00072" />
       <updated>1656109811521</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL‎00073" summary="change slider">
+      <created>1656111817945</created>
+      <option name="number" value="LOCAL‎00073" />
+      <option name="presentableId" value="LOCAL‎00073" />
+      <updated>1656111817945</updated>
+    </task>
+    <task id="LOCAL‎00074" summary="change slider">
+      <created>1656111863986</created>
+      <option name="number" value="LOCAL‎00074" />
+      <option name="presentableId" value="LOCAL‎00074" />
+      <updated>1656111863986</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
