@@ -63,11 +63,11 @@ with row2_1:
     selected_country = st.multiselect('Choose a Country', countries)
     s = 'You selected'
     if not selected_country:
-        s += 'no specific country'
+        s += ' no specific country'
     else:
         for country in selected_country:
             s += f' {country},'
-        s.strip(',')
+        s.strip(',', inplace=True)
     st.write(s+'.')
 with row2_2:
     list_flags = []
