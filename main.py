@@ -13,9 +13,9 @@ st.markdown(
     'The FIFA World Cup Qatar2022 is just around the corner!😱 Here you can view the evolution of the world cup tournament over the years.'
     ' You can also compare any country at your leisure and View the performance of countries in each world cup tournament. Also, see which country'
     'has participated the most times at the world cup. Just choose your country,  Select a year to view some soccer data ⚽🥅')
-image = Image.open('word cup wallpaper.jpg')
+image = Image.open('world cup images/word cup wallpaper.jpg')
 data = pd.read_csv('Data/data.csv')
-st.image(image, caption='Word Cups History')
+st.image(image, caption='World Cups History')
 df = pd.read_csv('Data/teams_goals.csv')
 matches = pd.read_csv('Data/WorldCupMatches.csv')
 worlds = pd.read_csv('Data/WorldCups.csv')
@@ -50,12 +50,12 @@ with row2_2:
                 list_flags.append(country_flag[flag])
             else:
                 try:
-                    img = fp.get_flag_img(flag)
+                    img = fp.get_flag_img(f'world cup images/{flag}')
                     list_flags.append(img)
                 except:
                     pass
     else:
-        list_flags.append('global_flag.png')
+        list_flags.append('world cup images/global_flag.png')
     st.image(list_flags, width=100)
 if not selected_country:
     # data_chosen = df.loc[df['Year'] == year_chosen]
