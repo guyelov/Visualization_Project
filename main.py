@@ -115,8 +115,7 @@ with row3_1:
         fig = px.choropleth(data_chosen, locations='Team Initials',
                             color="Total_goals", hover_name='Team Name',
                             color_continuous_scale='Sunsetdark',
-                            range_color=range_color,
-                            title=f'Number of goals scored by the country in {year_chosen} World Cup')
+                            range_color=range_color)
         fig.update_layout(
             margin=dict(l=0, r=0, t=0, b=0))
 
