@@ -68,6 +68,18 @@ st.background(colour='red')
 container.write("This is inside the container")
 container.bar_chart(np.random.randn(50, 3))
 
+def local_css(file_name):
+    with open(file_name) as f:
+        st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
+
+local_css("style.css")
+
+st.title("Hello world")
+
+left, right = st.beta_columns(2)
+left.markdown("I am red")
+right.markdown("I am not")
+
 _, row2_1, _, row2_2, _ = st.columns((.1, 1.6, .05, 1.6, .1))
 with row2_1:
     selected_country = st.multiselect('Select some Countries', countries)
