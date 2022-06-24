@@ -14,11 +14,3 @@ div[data-baseweb="select"] {
         background-color:#DE01CB;
         border-color:#EEEA7C;
 }
-
-/* change the tag font properties */
-span[data-baseweb="tag"]>span {
-  color: #DE01CB;
-  font-size: 17px;
-  background-color:#fff;
-}
-
