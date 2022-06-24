@@ -16,7 +16,7 @@ st.markdown(
 image = Image.open('word cup wallpaper.jpg')
 data = pd.read_csv('Data/data.csv')
 st.image(image, caption='Word Cups History')
-df = pd.read_csv('Data/teams_goals.csv')
+df = pd.read_csv('Data\teams_goals.csv')
 matches = pd.read_csv('Data/WorldCupMatches.csv')
 worlds = pd.read_csv('Data/WorldCups.csv')
 matches.dropna(how='all', inplace=True)
