@@ -15,3 +15,10 @@ div[data-baseweb="select"] {
         border-color:#EEEA7C;
 }
 
+/* change the tag font properties */
+span[data-baseweb="tag"]>span {
+  color: black;
+  font-size: 17px;
+ /* background-color:#fff; */   /* only turns part of the tag white */
+}
+
