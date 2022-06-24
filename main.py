@@ -75,7 +75,7 @@ local_css("style.css")
 
 st.title("Hello world")
 
-left, right = st.beta_columns(2)
+left, right = st.columns(2)
 left.markdown("I am red")
 right.markdown("I am not")
 
