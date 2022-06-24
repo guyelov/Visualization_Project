@@ -169,6 +169,7 @@ with row_2:
                                             color='DarkSlateGrey')),
                       selector=dict(mode='markers'))
     st.plotly_chart(fig, use_container_width=True)
+
 if not selected_country:
     qualified_team = df.loc[df['Year'] <= year_chosen] \
                          .groupby(['Team Name'])['Year'] \
@@ -179,14 +180,16 @@ else:
                          .groupby(['Team Name'])['Year'] \
                          .count().reset_index().sort_values(by='Year', ascending=False)[:15]
 
-fig = px.bar(qualified_team, 'Team Name', 'Year', template="simple_white")
-fig.update_layout(
-    margin=dict(l=0, r=0, t=0, b=0),
-    font=dict(
-        family="Calibri",
-        size=18,
-        color="RebeccaPurple"),
-    xaxis=dict(
-        tickmode='linear'
-    ))
-st.plotly_chart(fig, use_container_width=True)
+_, row_1, _ = st.columns((.1, 3.2, .1))
+with row_1:
+    fig = px.bar(qualified_team, 'Team Name', 'Year', template="simple_white")
+    fig.update_layout(
+        margin=dict(l=0, r=0, t=0, b=0),
+        font=dict(
+            family="Calibri",
+            size=18,
+            color="RebeccaPurple"),
+        xaxis=dict(
+            tickmode='linear'
+        ))
+    st.plotly_chart(fig, use_container_width=True)
