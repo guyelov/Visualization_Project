@@ -8,15 +8,35 @@ import plotly.express as px
 
 st.set_page_config(page_title='Fifa Word Cup History', page_icon=':soccer:', initial_sidebar_state='expanded',
                    layout="wide")
-st.title('The Evolution Of The FIFA World Cup')
-st.markdown(
-    'The FIFA World Cup Qatar2022 is just around the corner!😱 Here you can view the evolution of the world cup tournament over the years.'
-    ' You can also compare any country at your leisure and View the performance of countries in each world cup tournament. Also, see which country'
-    'has participated the most times at the world cup. Just choose your country,  Select a year to view some soccer data ⚽🥅')
-image = Image.open('world cup images/word cup wallpaper.jpg')
+
+####################
+### INTRODUCTION ###
+####################
+
+row_spacer1, row_1, row_spacer2, row_2, row_spacer3 = st.columns((.1, 2.3, .1, 1.3, .1))
+with row0_1:
+    st.title('The Evolution Of The FIFA World Cup')
+with row0_2:
+    st.text("")
+    st.subheader('Streamlit App by [Omer Idgar and Guy Elovici]')
+row3_spacer1, row3_1, row3_spacer2 = st.columns((.1, 3.2, .1))
+with row3_1:
+    st.markdown(
+        'The FIFA World Cup Qatar2022 is just around the corner!😱 Here you can view the evolution of the world cup tournament over the years.'
+        ' You can also compare any country at your leisure and View the performance of countries in each world cup tournament. Also, see which country'
+        'has participated the most times at the world cup. Just choose your country,  Select a year to view some soccer data ⚽🥅')
+    st.markdown("You can find the source code in the [Project GitHub Repository](https://github.com/guyelov/Visualization_Project)")
+
+# st.title('The Evolution Of The FIFA World Cup')
+# st.markdown(
+#     'The FIFA World Cup Qatar2022 is just around the corner!😱 Here you can view the evolution of the world cup tournament over the years.'
+#     ' You can also compare any country at your leisure and View the performance of countries in each world cup tournament. Also, see which country'
+#     'has participated the most times at the world cup. Just choose your country,  Select a year to view some soccer data ⚽🥅')
+# image = Image.open('world cup images/word cup wallpaper.jpg')
 st.image(image, caption='World Cups History')
-st.markdown(f'You can view how many goals each of the participating countries scored in a particular year of the world cup.'
-            f' Then, you can choose the countries and compare the number of goals they scored in each world cup.')
+st.markdown(
+    f'You can view how many goals each of the participating countries scored in a particular year of the world cup.'
+    f' Then, you can choose the countries and compare the number of goals they scored in each world cup.')
 
 data = pd.read_csv('Data/data.csv')
 df = pd.read_csv('Data/teams_goals.csv')
@@ -83,7 +103,8 @@ with row3_1:
         fig = px.choropleth(data_chosen, locations='Team Initials',
                             color="Total_goals", hover_name='Team Name',
                             color_continuous_scale='Sunsetdark',
-                            range_color=range_color,title=f'Number of goals scored by the country in {year_chosen} World Cup')
+                            range_color=range_color,
+                            title=f'Number of goals scored by the country in {year_chosen} World Cup')
         fig.update_layout(
             margin=dict(l=0, r=0, t=0, b=0))
 
@@ -93,7 +114,8 @@ with row3_1:
         fig = px.choropleth(data_chosen, locations='Team Initials',
                             color="Total_goals", hover_name='Team Name', hover_data=['Player Name', 'Goals Scored'],
                             color_continuous_scale='Sunsetdark',
-                            range_color=range_color,title=f'Number of goals scored by the country in {year_chosen} World Cup')
+                            range_color=range_color,
+                            title=f'Number of goals scored by the country in {year_chosen} World Cup')
         fig.update_layout(
             margin=dict(l=0, r=0, t=0, b=0))
         st.plotly_chart(fig, use_container_width=True)
@@ -109,7 +131,8 @@ with row3_2:
 
     worlds = worlds.loc[worlds['Year'] <= year_chosen]
     # worlds['Attendance'] =np.log10( worlds['Attendance'].map(lambda x: int(('').join(x.split('.')))))
-    fig = px.line(worlds, x="Year", y=attribute, range_x=[1930, 2018], template="simple_white",title=f'Number of goals scored by the country in {year_chosen} World Cup')
+    fig = px.line(worlds, x="Year", y=attribute, range_x=[1930, 2018], template="simple_white",
+                  title=f'Number of goals scored by the country in {year_chosen} World Cup')
     fig.update_traces(textposition="bottom right")
     fig.update_layout(
         margin=dict(l=0, r=0, t=0, b=0),
