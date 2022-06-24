@@ -115,7 +115,7 @@ with row3_2:
         margin=dict(l=0, r=0, t=0, b=0),
         font=dict(
             family="Calibri",
-            size=18,
+            size=14,
             color="RebeccaPurple"),
         xaxis=dict(
             tickmode='linear',
