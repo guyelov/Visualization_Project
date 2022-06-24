@@ -10,8 +10,8 @@ st.set_page_config(page_title='Fifa Word Cup History', page_icon=':soccer:', ini
                    layout="wide")
 st.title('World Cup History')
 st.markdown(
-    'The FIFA World Cup Qatar2022 is just around the corner!😱 Here you can view the evolution of the world cup tournament over the years.'
-    ' You can also compare any country at your leisureView the performance of countries in each world cup tournament. Also, see which country'
+    'The FIFA World Cup Qatar2022 is just around the corner!😱 Here you can view the evolution of the world cup tournament over the years.\n'
+    ' You can also compare any country at your leisure and View the performance of countries in each world cup tournament. Also, see which country'
     'has participated the most times at the world cup. Just choose your country,  Select a year to view some soccer data ⚽🥅')
 image = Image.open('word cup wallpaper.jpg')
 data = pd.read_csv('data.csv')
