@@ -8,7 +8,7 @@ import plotly.express as px
 
 st.set_page_config(page_title='Fifa Word Cup History', page_icon=':soccer:', initial_sidebar_state='expanded',
                    layout="wide")
-st.title('World Cup History')
+st.title('The Evolution Of The FIFA World Cup')
 st.markdown(
     'The FIFA World Cup Qatar2022 is just around the corner!😱 Here you can view the evolution of the world cup tournament over the years.'
     ' You can also compare any country at your leisure and View the performance of countries in each world cup tournament. Also, see which country'
