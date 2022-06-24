@@ -133,6 +133,7 @@ with row3_1:
         st.plotly_chart(fig, use_container_width=True)
 
 with row3_2:
+    st.markdown(f'##### Total of {attribute} goals scored by the country in {int(year_chosen)} World Cup')
     attribute = st.radio(
         "Select Attribute",
         ('Attendance', 'QualifiedTeams', 'GoalsScored'), horizontal=True)
