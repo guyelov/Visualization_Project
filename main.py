@@ -9,6 +9,11 @@ import plotly.express as px
 st.set_page_config(page_title='Fifa Word Cup History', page_icon=':soccer:', initial_sidebar_state='expanded',
                    layout="wide")
 
+def local_css(file_name):
+    with open(file_name) as f:
+        st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
+
+local_css("style.css")
 
 ### Data Import ###
 data = pd.read_csv('Data/data.csv')
@@ -57,37 +62,7 @@ with row_1:
         f' Then, you can choose the countries and compare the number of goals they scored in each world cup.')
 
     year_chosen = st.select_slider('Drag the slider to change the year:', years)
-# st.markdown(
-#         f'<div style = "float:left; width:10%; position:relative; left:50px; top:0px;"> {weapons_stats_dict["Handgun"]} </div> '
-#         f'<div style = "float:left; width:20%; position:relative; left:150px; top:0px;"> {weapons_stats_dict["Rifle"]} </div>'
-#         f'<div style = "float:left; width:30%; position:relative; left:183px; top:0px;"> {weapons_stats_dict["Shotgun"]} </div>'
-#         f'<div style = "float:left; width:40%; position:relative; left:140px; top:0px;"> {weapons_stats_dict["Other"]} </div>',
-#         unsafe_allow_html=True)
-container = st.container()
-container.write("This is inside the container")
-container.bar_chart(np.random.randn(50, 3))
 
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
-
-local_css("style.css")
-
-st.title("Hello world")
-
-left, right = st.columns(2)
-left.markdown("I am red")
-right.markdown("I am not")
-st.markdown("""
-    <style type="text/css">
-    div[data-testid="stHorizontalBlock"] {
-        border:10px;
-        padding:30px;
-        border-radius: 10px;
-        background:#A1c6f9;
-    }
-    </style>
-""", unsafe_allow_html=True)
 _, row2_1, _, row2_2, _ = st.columns((.1, 1.6, .05, 1.6, .1))
 with row2_1:
     selected_country = st.multiselect('Select some Countries', countries)
