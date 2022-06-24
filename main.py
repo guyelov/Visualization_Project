@@ -107,7 +107,7 @@ else:
     range_color = (min(selected_country_df['Total_goals']), max(selected_country_df['Total_goals']))
 row3_1, row3_spacer2, row3_2 = st.columns((5, .05, 4))
 with row3_1:
-    st.markdown(f'Number of goals scored by the country in {int(year_chosen)} World Cup')
+    st.markdown(f'## Number of goals scored by the country in {int(year_chosen)} World Cup')
     if len(data_chosen) == 0:
         st.info(f"Oh no.. These countries weren't qualified for the World Cup this year")
         data_chosen = df.loc[(df['Year'] == 1938) & (df['Team Name'] == 'Dutch East Indies')]
