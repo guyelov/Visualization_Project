@@ -11,6 +11,6 @@ div[data-testid="stHorizontalBlock"] {
 
 
 div[data-baseweb="select"] {
-        background-color:#DE01CB;
-        border-color:#EEEA7C;
+        background-color:yellow;
+        outline:#EEEA7C;
 }
