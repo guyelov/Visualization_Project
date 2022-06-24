@@ -56,7 +56,7 @@ with row_1:
 
 _, row_1, _ = st.columns((.1, 3.2, .1))
 with row_1:
-    st.header('Analysis per Country and Year')
+    st.subheader('Analysis per Country and Year')
     st.markdown(
         f'You can view how many goals each of the participating countries scored in a particular year of the world cup.'
         f' Then, you can choose the countries and compare the number of goals they scored in each world cup.')
@@ -107,7 +107,7 @@ else:
     range_color = (min(selected_country_df['Total_goals']), max(selected_country_df['Total_goals']))
 row3_1, row3_spacer2, row3_2 = st.columns((5, .05, 4))
 with row3_1:
-    st.subheader(f'Number of goals scored by the country in {year_chosen} World Cup')
+    st.markdown(f'Number of goals scored by the country in {year_chosen} World Cup')
     if len(data_chosen) == 0:
         st.write(f"Oh no.. These countries weren't qualified for the World Cup this year")
         data_chosen = df.loc[(df['Year'] == 1938) & (df['Team Name'] == 'Dutch East Indies')]
