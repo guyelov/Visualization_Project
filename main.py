@@ -78,7 +78,16 @@ st.title("Hello world")
 left, right = st.columns(2)
 left.markdown("I am red")
 right.markdown("I am not")
-
+st.markdown("""
+    <style type="text/css">
+    div[data-testid="stHorizontalBlock"] {
+        border:10px;
+        padding:30px;
+        border-radius: 10px;
+        background:#FFFFFF;
+    }
+    </style>
+""", unsafe_allow_html=True)
 _, row2_1, _, row2_2, _ = st.columns((.1, 1.6, .05, 1.6, .1))
 with row2_1:
     selected_country = st.multiselect('Select some Countries', countries)
