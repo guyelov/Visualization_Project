@@ -61,7 +61,6 @@ if not selected_country:
     data_chosen = data.loc[data['Year'] == year_chosen]
 
     data_goals = goals[:15]
-    data_yellows = yellow_cards[:15]
     range_color = None
 else:
 
