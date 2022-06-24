@@ -17,7 +17,7 @@ div[data-baseweb="select"] {
 
 /* change the tag font properties */
 span[data-baseweb="tag"]>span {
-  color: black;
+  color: #DE01CB;
   font-size: 17px;
  /* background-color:#fff; */   /* only turns part of the tag white */
 }
