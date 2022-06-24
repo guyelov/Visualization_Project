@@ -6,7 +6,6 @@ div[data-testid="stHorizontalBlock"] {
 }
 
 div[data-testid="stImage"] {
-        display: flex;
-        justify-content: center;
+        text-align: center;
 }
 
