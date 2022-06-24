@@ -1,5 +1,5 @@
 body {
-  background:#A1c6f9;
+  background-color:#A1c6f9;
 }
 
 div[data-testid="stHorizontalBlock"] {
@@ -8,3 +8,12 @@ div[data-testid="stHorizontalBlock"] {
         border-radius: 10px;
         background:#A1c6f9;
 }
+
+
+div[data-baseweb="select"] {
+        border:10px;
+        padding:20px;
+        border-radius: 10px;
+        background:#D95FFF;
+}
+
