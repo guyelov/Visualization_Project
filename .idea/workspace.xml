@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77f1fd6b-9c16-4a14-9a75-e0f5d6948f2d" name="Changes" comment="change slider" />
+    <list default="true" id="77f1fd6b-9c16-4a14-9a75-e0f5d6948f2d" name="Changes" comment="change slider">
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,36 +41,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656080869289</updated>
-    </task>
-    <task id="LOCAL‎00026" summary="change slider">
-      <created>1656103329398</created>
-      <option name="number" value="LOCAL‎00026" />
-      <option name="presentableId" value="LOCAL‎00026" />
-      <updated>1656103329398</updated>
-    </task>
-    <task id="LOCAL‎00027" summary="change slider">
-      <created>1656103360263</created>
-      <option name="number" value="LOCAL‎00027" />
-      <option name="presentableId" value="LOCAL‎00027" />
-      <updated>1656103360263</updated>
-    </task>
-    <task id="LOCAL‎00028" summary="change slider">
-      <created>1656103588544</created>
-      <option name="number" value="LOCAL‎00028" />
-      <option name="presentableId" value="LOCAL‎00028" />
-      <updated>1656103588544</updated>
-    </task>
-    <task id="LOCAL‎00029" summary="change slider">
-      <created>1656103634348</created>
-      <option name="number" value="LOCAL‎00029" />
-      <option name="presentableId" value="LOCAL‎00029" />
-      <updated>1656103634348</updated>
-    </task>
-    <task id="LOCAL‎00030" summary="change slider">
-      <created>1656103706312</created>
-      <option name="number" value="LOCAL‎00030" />
-      <option name="presentableId" value="LOCAL‎00030" />
-      <updated>1656103706312</updated>
     </task>
     <task id="LOCAL‎00031" summary="change slider">
       <created>1656103893000</created>
@@ -334,7 +306,37 @@
       <option name="presentableId" value="LOCAL‎00074" />
       <updated>1656111863986</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL‎00075" summary="change slider">
+      <created>1656112067317</created>
+      <option name="number" value="LOCAL‎00075" />
+      <option name="presentableId" value="LOCAL‎00075" />
+      <updated>1656112067317</updated>
+    </task>
+    <task id="LOCAL‎00076" summary="change slider">
+      <created>1656112112708</created>
+      <option name="number" value="LOCAL‎00076" />
+      <option name="presentableId" value="LOCAL‎00076" />
+      <updated>1656112112708</updated>
+    </task>
+    <task id="LOCAL‎00077" summary="change slider">
+      <created>1656112236407</created>
+      <option name="number" value="LOCAL‎00077" />
+      <option name="presentableId" value="LOCAL‎00077" />
+      <updated>1656112236407</updated>
+    </task>
+    <task id="LOCAL‎00078" summary="change slider">
+      <created>1656112254388</created>
+      <option name="number" value="LOCAL‎00078" />
+      <option name="presentableId" value="LOCAL‎00078" />
+      <updated>1656112254388</updated>
+    </task>
+    <task id="LOCAL‎00079" summary="change slider">
+      <created>1656112287803</created>
+      <option name="number" value="LOCAL‎00079" />
+      <option name="presentableId" value="LOCAL‎00079" />
+      <updated>1656112287803</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
