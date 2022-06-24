@@ -105,8 +105,8 @@ else:
 
     data_goals = goals.loc[goals['Team Name'].isin(selected_country)]
     range_color = (min(selected_country_df['Total_goals']), max(selected_country_df['Total_goals']))
-row3_1, row3_spacer2, row3_2 = st.columns((5, .05, 4))
-with row3_1:
+_, row_1, _, row_2, _ = st.columns((.1, 5, .05, 4, .1))
+with row_1:
     st.markdown(f'##### Number of goals scored by the country in {int(year_chosen)} World Cup')
     if len(data_chosen) == 0:
         st.info(f"Oh no.. Your selected countries weren't qualified for the World Cup this year")
@@ -130,7 +130,7 @@ with row3_1:
             margin=dict(l=0, r=0, t=0, b=0))
         st.plotly_chart(fig, use_container_width=True)
 
-with row3_2:
+with row_2:
     st.markdown(f'##### Number of *#Attribute* over the years up to {int(year_chosen)} World Cup')
     attribute = st.radio(
         "Select Attribute",
