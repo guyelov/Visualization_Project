@@ -10,3 +10,8 @@ div[data-testid="stHorizontalBlock"] {
 }
 
 
+div[data-baseweb="select"] {
+        border:10px;
+        color:#D95FFF;
+}
+
