@@ -9,8 +9,7 @@ div[data-testid="stHorizontalBlock"] {
         background:#A1c6f9;
 }
 
-
-div[data-baseweb="select"] {
-        background-color:yellow;
-        outline:#EEEA7C;
+div[data-testid="stImage"] {
+        text-align: center;
 }
+

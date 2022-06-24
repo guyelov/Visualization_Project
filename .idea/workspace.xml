@@ -36,18 +36,6 @@
       <option name="presentableId" value="Default" />
       <updated>1656080869289</updated>
     </task>
-    <task id="LOCAL‎00008" summary="change introduction">
-      <created>1656097988572</created>
-      <option name="number" value="LOCAL‎00008" />
-      <option name="presentableId" value="LOCAL‎00008" />
-      <updated>1656097988572</updated>
-    </task>
-    <task id="LOCAL‎00009" summary="change introduction">
-      <created>1656098060653</created>
-      <option name="number" value="LOCAL‎00009" />
-      <option name="presentableId" value="LOCAL‎00009" />
-      <updated>1656098060653</updated>
-    </task>
     <task id="LOCAL‎00010" summary="change introduction">
       <created>1656098099292</created>
       <option name="number" value="LOCAL‎00010" />
@@ -330,7 +318,19 @@
       <option name="presentableId" value="LOCAL‎00056" />
       <updated>1656106309809</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL‎00057" summary="change slider">
+      <created>1656106395304</created>
+      <option name="number" value="LOCAL‎00057" />
+      <option name="presentableId" value="LOCAL‎00057" />
+      <updated>1656106395304</updated>
+    </task>
+    <task id="LOCAL‎00058" summary="change slider">
+      <created>1656106519197</created>
+      <option name="number" value="LOCAL‎00058" />
+      <option name="presentableId" value="LOCAL‎00058" />
+      <updated>1656106519197</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
