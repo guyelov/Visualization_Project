@@ -64,7 +64,6 @@ with row_1:
 #         f'<div style = "float:left; width:40%; position:relative; left:140px; top:0px;"> {weapons_stats_dict["Other"]} </div>',
 #         unsafe_allow_html=True)
 container = st.container()
-st.background(colour='red')
 container.write("This is inside the container")
 container.bar_chart(np.random.randn(50, 3))
 
