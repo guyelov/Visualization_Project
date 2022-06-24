@@ -132,7 +132,7 @@ with row3_1:
         st.plotly_chart(fig, use_container_width=True)
 
 with row3_2:
-    st.markdown(f'##### Total of goals scored by the country in {int(year_chosen)} World Cup')
+    st.markdown(f'##### Total number of #attribute over the years up to {int(year_chosen)} World Cup')
     attribute = st.radio(
         "Select Attribute",
         ('Attendance', 'QualifiedTeams', 'GoalsScored'), horizontal=True)
@@ -143,8 +143,7 @@ with row3_2:
 
     worlds = worlds.loc[worlds['Year'] <= year_chosen]
     # worlds['Attendance'] =np.log10( worlds['Attendance'].map(lambda x: int(('').join(x.split('.')))))
-    fig = px.line(worlds, x="Year", y=attribute, range_x=[1930, 2018], template="simple_white",
-                  title=f'Number of goals scored by the country in {year_chosen} World Cup')
+    fig = px.line(worlds, x="Year", y=attribute, range_x=[1930, 2018], template="simple_white")
     fig.update_traces(textposition="bottom right")
     fig.update_layout(
         margin=dict(l=0, r=0, t=0, b=0),
