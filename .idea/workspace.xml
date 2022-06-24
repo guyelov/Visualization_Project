@@ -36,24 +36,6 @@
       <option name="presentableId" value="Default" />
       <updated>1656080869289</updated>
     </task>
-    <task id="LOCAL‎00010" summary="change introduction">
-      <created>1656098099292</created>
-      <option name="number" value="LOCAL‎00010" />
-      <option name="presentableId" value="LOCAL‎00010" />
-      <updated>1656098099292</updated>
-    </task>
-    <task id="LOCAL‎00011" summary="change introduction">
-      <created>1656098343810</created>
-      <option name="number" value="LOCAL‎00011" />
-      <option name="presentableId" value="LOCAL‎00011" />
-      <updated>1656098343810</updated>
-    </task>
-    <task id="LOCAL‎00012" summary="change introduction">
-      <created>1656099153576</created>
-      <option name="number" value="LOCAL‎00012" />
-      <option name="presentableId" value="LOCAL‎00012" />
-      <updated>1656099153576</updated>
-    </task>
     <task id="LOCAL‎00013" summary="change introduction">
       <created>1656099266171</created>
       <option name="number" value="LOCAL‎00013" />
@@ -330,7 +312,25 @@
       <option name="presentableId" value="LOCAL‎00058" />
       <updated>1656106519197</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL‎00059" summary="change slider">
+      <created>1656106738029</created>
+      <option name="number" value="LOCAL‎00059" />
+      <option name="presentableId" value="LOCAL‎00059" />
+      <updated>1656106738029</updated>
+    </task>
+    <task id="LOCAL‎00060" summary="change slider">
+      <created>1656106797126</created>
+      <option name="number" value="LOCAL‎00060" />
+      <option name="presentableId" value="LOCAL‎00060" />
+      <updated>1656106797126</updated>
+    </task>
+    <task id="LOCAL‎00061" summary="change slider">
+      <created>1656107090093</created>
+      <option name="number" value="LOCAL‎00061" />
+      <option name="presentableId" value="LOCAL‎00061" />
+      <updated>1656107090093</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
