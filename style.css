@@ -7,6 +7,6 @@ div[data-testid="stHorizontalBlock"] {
 .css-1kymt8f{
         display: flex;
         align-items: center;
-        /*margin-bottom: 25px;*/
+        padding-bottom: 25px;
 }
 
