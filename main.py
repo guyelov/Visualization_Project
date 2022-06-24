@@ -9,36 +9,8 @@ import plotly.express as px
 st.set_page_config(page_title='Fifa Word Cup History', page_icon=':soccer:', initial_sidebar_state='expanded',
                    layout="wide")
 
-####################
-### INTRODUCTION ###
-####################
 
-row_spacer1, row_1, row_spacer2, row_2, row_spacer3 = st.columns((.1, 2.3, .1, 1.3, .1))
-with row_1:
-    st.title('The Evolution Of The FIFA World Cup')
-with row_2:
-    st.text("")
-    st.subheader('Streamlit App by '
-                 'Omer Idgar and Guy Elovici')
-row2_spacer1, row2_1, row2_spacer2 = st.columns((.1, 3.2, .1))
-with row2_1:
-    st.markdown(
-        'The FIFA World Cup Qatar2022 is just around the corner!😱 Here you can view the evolution of the world cup tournament over the years.'
-        ' You can also compare any country at your leisure and View the performance of countries in each world cup tournament. Also, see which country'
-        'has participated the most times at the world cup. Just choose your country,  Select a year to view some soccer data ⚽🥅')
-    st.markdown("You can find the source code in the [Project GitHub Repository](https://github.com/guyelov/Visualization_Project)")
-
-# st.title('The Evolution Of The FIFA World Cup')
-# st.markdown(
-#     'The FIFA World Cup Qatar2022 is just around the corner!😱 Here you can view the evolution of the world cup tournament over the years.'
-#     ' You can also compare any country at your leisure and View the performance of countries in each world cup tournament. Also, see which country'
-#     'has participated the most times at the world cup. Just choose your country,  Select a year to view some soccer data ⚽🥅')
-# image = Image.open('world cup images/word cup wallpaper.jpg')
-# st.image(image, caption='World Cups History')
-st.markdown(
-    f'You can view how many goals each of the participating countries scored in a particular year of the world cup.'
-    f' Then, you can choose the countries and compare the number of goals they scored in each world cup.')
-
+### Data Import ###
 data = pd.read_csv('Data/data.csv')
 df = pd.read_csv('Data/teams_goals.csv')
 matches = pd.read_csv('Data/WorldCupMatches.csv')
@@ -54,6 +26,36 @@ country_flag = {'All': 'global_flag.png', 'Germany FR': 'west germany.png', 'Ger
 goals = pd.read_csv('Data/goals_scoring.csv')
 
 years = list(np.unique(df['Year']))
+
+
+####################
+### INTRODUCTION ###
+####################
+
+_, row_1, _, row_2, _ = st.columns((.1, 2.3, .1, 1.3, .1))
+with row_1:
+    st.title('The Evolution Of The FIFA World Cup')
+with row_2:
+    st.text("")
+    st.subheader('Streamlit App by Omer Idgar and Guy Elovici')
+_, row_1, _ = st.columns((.1, 3.2, .1))
+with row_1:
+    st.markdown(
+        'The FIFA World Cup Qatar2022 is just around the corner!😱 Here you can view the evolution of the world cup tournament over the years.'
+        ' You can also compare any country at your leisure and View the performance of countries in each world cup tournament. Also, see which country'
+        'has participated the most times at the world cup. Just choose your country,  Select a year to view some soccer data ⚽🥅')
+    st.markdown("You can find the source code in the [Project GitHub Repository](https://github.com/guyelov/Visualization_Project)")
+
+# image = Image.open('world cup images/word cup wallpaper.jpg')
+# st.image(image, caption='World Cups History')
+
+_, row_1, _ = st.columns((.1, 3.2, .1))
+with row_1:
+    st.subheader('Analysis per Country and Year')
+    st.markdown(
+        f'You can view how many goals each of the participating countries scored in a particular year of the world cup.'
+        f' Then, you can choose the countries and compare the number of goals they scored in each world cup.')
+
 year_chosen = st.select_slider('Choose Year', years)
 
 row2_1, row2_spacer2, row2_2 = st.columns((1.6, .05, 1.6))
