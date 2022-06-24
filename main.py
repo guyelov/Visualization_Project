@@ -60,7 +60,8 @@ with row_1:
     st.markdown(
         f'You can view how many goals each of the participating countries scored in a particular year of the world cup.'
         f' Then, you can choose the countries and compare the number of goals they scored in each world cup.')
-
+_, row_1, _ = st.columns((.1, 3.2, .1))
+with row_1:
     year_chosen = st.select_slider('Drag the slider to change the year:', years)
 
 _, row2_1, _, row2_2, _ = st.columns((.1, 1.6, .05, 1.6, .1))
