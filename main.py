@@ -57,6 +57,15 @@ with row_1:
         f' Then, you can choose the countries and compare the number of goals they scored in each world cup.')
 
     year_chosen = st.select_slider('Drag the slider to change the year:', years)
+# st.markdown(
+#         f'<div style = "float:left; width:10%; position:relative; left:50px; top:0px;"> {weapons_stats_dict["Handgun"]} </div> '
+#         f'<div style = "float:left; width:20%; position:relative; left:150px; top:0px;"> {weapons_stats_dict["Rifle"]} </div>'
+#         f'<div style = "float:left; width:30%; position:relative; left:183px; top:0px;"> {weapons_stats_dict["Shotgun"]} </div>'
+#         f'<div style = "float:left; width:40%; position:relative; left:140px; top:0px;"> {weapons_stats_dict["Other"]} </div>',
+#         unsafe_allow_html=True)
+container = st.container()
+container.write("This is inside the container")
+container.bar_chart(np.random.randn(50, 3))
 
 _, row2_1, _, row2_2, _ = st.columns((.1, 1.6, .05, 1.6, .1))
 with row2_1:

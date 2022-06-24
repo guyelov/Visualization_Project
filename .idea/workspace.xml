@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77f1fd6b-9c16-4a14-9a75-e0f5d6948f2d" name="Changes" comment="change introduction">
+    <list default="true" id="77f1fd6b-9c16-4a14-9a75-e0f5d6948f2d" name="Changes" comment="change slider">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +133,25 @@
       <option name="presentableId" value="LOCAL‎00016" />
       <updated>1656099928741</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL‎00017" summary="change introduction">
+      <created>1656099974950</created>
+      <option name="number" value="LOCAL‎00017" />
+      <option name="presentableId" value="LOCAL‎00017" />
+      <updated>1656099974950</updated>
+    </task>
+    <task id="LOCAL‎00018" summary="change slider">
+      <created>1656100000743</created>
+      <option name="number" value="LOCAL‎00018" />
+      <option name="presentableId" value="LOCAL‎00018" />
+      <updated>1656100000743</updated>
+    </task>
+    <task id="LOCAL‎00019" summary="change slider">
+      <created>1656100304770</created>
+      <option name="number" value="LOCAL‎00019" />
+      <option name="presentableId" value="LOCAL‎00019" />
+      <updated>1656100304770</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +168,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change title" />
     <MESSAGE value="change introduction" />
-    <option name="LAST_COMMIT_MESSAGE" value="change introduction" />
+    <MESSAGE value="change slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="change slider" />
   </component>
 </project>
