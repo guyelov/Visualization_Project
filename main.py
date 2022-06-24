@@ -67,7 +67,7 @@ with row2_1:
     else:
         for country in selected_country:
             s += f' {country},'
-        s.strip(',', inplace=True)
+        s = s.strip(',')
     st.write(s+'.')
 with row2_2:
     list_flags = []
