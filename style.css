@@ -8,5 +8,6 @@ div[data-testid="stHorizontalBlock"] {
         text-align: center;
         display: flex;
         justify-content: center;
+        align-items: center;
 }
 
