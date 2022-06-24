@@ -14,13 +14,13 @@ st.set_page_config(page_title='Fifa Word Cup History', page_icon=':soccer:', ini
 ####################
 
 row_spacer1, row_1, row_spacer2, row_2, row_spacer3 = st.columns((.1, 2.3, .1, 1.3, .1))
-with row0_1:
+with row_1:
     st.title('The Evolution Of The FIFA World Cup')
-with row0_2:
+with row_2:
     st.text("")
     st.subheader('Streamlit App by [Omer Idgar and Guy Elovici]')
-row3_spacer1, row3_1, row3_spacer2 = st.columns((.1, 3.2, .1))
-with row3_1:
+row2_spacer1, row2_1, row2_spacer2 = st.columns((.1, 3.2, .1))
+with row2_1:
     st.markdown(
         'The FIFA World Cup Qatar2022 is just around the corner!😱 Here you can view the evolution of the world cup tournament over the years.'
         ' You can also compare any country at your leisure and View the performance of countries in each world cup tournament. Also, see which country'
