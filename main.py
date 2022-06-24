@@ -58,9 +58,9 @@ with row_1:
 
     year_chosen = st.select_slider('Drag the slider to change the year:', years)
 
-row2_1, row2_spacer2, row2_2 = st.columns((1.6, .05, 1.6))
+_, row2_1, _, row2_2, _ = st.columns((.1, 1.6, .05, 1.6, .1))
 with row2_1:
-    selected_country = st.multiselect('Choose a Country', countries)
+    selected_country = st.multiselect('Select some Countries', countries)
     s = 'You selected'
     if not selected_country:
         s += ' no specific country'
