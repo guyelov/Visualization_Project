@@ -13,3 +13,7 @@ div[data-testid="stImage"] {
         text-align: center;
 }
 
+div[data-testid="column"] {
+        text-align: center;
+}
+
