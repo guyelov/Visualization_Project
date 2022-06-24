@@ -19,6 +19,6 @@ div[data-baseweb="select"] {
 span[data-baseweb="tag"]>span {
   color: #DE01CB;
   font-size: 17px;
- /* background-color:#fff; */   /* only turns part of the tag white */
+  background-color:#fff;
 }
 
