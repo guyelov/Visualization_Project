@@ -27,8 +27,7 @@ country_flag = {'All': 'global_flag.png', 'Germany FR': 'west germany.png', 'Ger
                 'United Kingdom': 'uk flag.png', 'Soviet Union': 'soviet flag.png', 'Czechoslovakia': 'czech.png',
                 'Dutch East Indies': 'deind.png', 'Netherlands': 'nether.png',
                 'USA': 'usa.png', 'United Arab Emirates': 'uae.png', 'Wales': 'wales.png'}
-goals = pd.read_csv('goals_scoring.csv')
-yellow_cards = pd.read_csv('yellow_cards.csv')
+goals = pd.read_csv('Data/goals_scoring.csv')
 
 years = list(np.unique(df['Year']))
 year_chosen = st.select_slider('Choose Year', years)
@@ -70,7 +69,6 @@ else:
     data_chosen = data.loc[(data['Year'] == year_chosen) & (data['Team Name'].isin(selected_country))]
 
     selected_country_df = df.loc[df['Team Name'].isin(selected_country)]
-    data_yellows = yellow_cards.loc[yellow_cards['Team Name'].isin(selected_country)]
 
     data_goals = goals.loc[goals['Team Name'].isin(selected_country)]
     range_color = (min(selected_country_df['Total_goals']), max(selected_country_df['Total_goals']))
