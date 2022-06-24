@@ -14,8 +14,11 @@ st.markdown(
     ' You can also compare any country at your leisure and View the performance of countries in each world cup tournament. Also, see which country'
     'has participated the most times at the world cup. Just choose your country,  Select a year to view some soccer data ⚽🥅')
 image = Image.open('world cup images/word cup wallpaper.jpg')
-data = pd.read_csv('Data/data.csv')
 st.image(image, caption='World Cups History')
+st.markdown(f'You can view how many goals each of the participating countries scored in a particular year of the world cup.'
+            f' Then, you can choose the countries and compare the number of goals they scored in each world cup.')
+
+data = pd.read_csv('Data/data.csv')
 df = pd.read_csv('Data/teams_goals.csv')
 matches = pd.read_csv('Data/WorldCupMatches.csv')
 worlds = pd.read_csv('Data/WorldCups.csv')
