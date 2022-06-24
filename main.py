@@ -65,7 +65,8 @@ with row_1:
 
 _, row2_1, _, row2_2, _ = st.columns((.1, 1.6, .05, 1.6, .1))
 with row2_1:
-    selected_country = st.multiselect('Select some Countries', countries)
+    st.markdown('##Select some Countries')
+    selected_country = st.multiselect(countries)
     s = 'You selected'
     if not selected_country:
         s += ' no specific country'
@@ -73,7 +74,7 @@ with row2_1:
         for country in selected_country:
             s += f' {country},'
         s = s.strip(',')
-    st.write(s+'.')
+    st.markdown(s+'.')
 with row2_2:
     list_flags = []
     if selected_country:
