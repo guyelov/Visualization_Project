@@ -65,7 +65,7 @@ with row_1:
 
 _, row2_1, _, row2_2, _ = st.columns((.1, 1.6, .05, 1.6, .1))
 with row2_1:
-    selected_country = st.multiselect('Select some Countries', options=countries)
+    selected_country = st.multiselect('#Select some Countries', options=countries)
     s = 'You selected'
     if not selected_country:
         s += ' no specific country'
