@@ -10,8 +10,3 @@ div[data-testid="stHorizontalBlock"] {
 }
 
 
-div[data-baseweb="select"] {
-        border:10px;
-        background-color:#D95FFF;
-}
-
