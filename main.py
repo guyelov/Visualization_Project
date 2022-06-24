@@ -10,15 +10,15 @@ st.set_page_config(page_title='Fifa Word Cup History', page_icon=':soccer:', ini
                    layout="wide")
 st.title('World Cup History')
 st.markdown(
-    'The FIFA World Cup Qatar2022 is just around the corner!😱 Here you can view the evolution of the world cup tournament over the years.\n'
+    'The FIFA World Cup Qatar2022 is just around the corner!😱 Here you can view the evolution of the world cup tournament over the years.'
     ' You can also compare any country at your leisure and View the performance of countries in each world cup tournament. Also, see which country'
     'has participated the most times at the world cup. Just choose your country,  Select a year to view some soccer data ⚽🥅')
 image = Image.open('word cup wallpaper.jpg')
-data = pd.read_csv('data.csv')
+data = pd.read_csv('Data/data.csv')
 st.image(image, caption='Word Cups History')
-df = pd.read_csv('teams_goals.csv')
-matches = pd.read_csv('WorldCupMatches.csv')
-worlds = pd.read_csv('WorldCups.csv')
+df = pd.read_csv('Data/teams_goals.csv')
+matches = pd.read_csv('Data/WorldCupMatches.csv')
+worlds = pd.read_csv('Data/WorldCups.csv')
 matches.dropna(how='all', inplace=True)
 num_games = len(np.unique(matches['MatchID']))
 num_goals = df['Total_goals'].sum()
