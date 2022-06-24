@@ -60,13 +60,15 @@ with row_1:
 
 row2_1, row2_spacer2, row2_2 = st.columns((1.6, .05, 1.6))
 with row2_1:
-    selected_country = st.multiselect(
-        'Choose a Country', countries
-    )
+    selected_country = st.multiselect('Choose a Country', countries)
     s = 'You selected'
-    for country in selected_country:
-        s += f' {country},'
-    st.write(s)
+    if not selected_country:
+        s += 'no specific country'
+    else:
+        for country in selected_country:
+            s += f' {country},'
+        s.strip(',')
+    st.write(s+'.')
 with row2_2:
     list_flags = []
     if selected_country:
