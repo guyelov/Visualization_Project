@@ -46,11 +46,11 @@ with row2_2:
     if selected_country:
         for flag in selected_country:
             if flag in country_flag:
-                list_flags.append(country_flag[flag])
+                list_flags.append(f'world cup images/{country_flag[flag]}')
             else:
                 try:
                     img = fp.get_flag_img(flag)
-                    list_flags.append(f'world cup images/{img}')
+                    list_flags.append(img)
                 except:
                     pass
     else:
