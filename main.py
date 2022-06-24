@@ -18,7 +18,8 @@ with row_1:
     st.title('The Evolution Of The FIFA World Cup')
 with row_2:
     st.text("")
-    st.subheader('Streamlit App by Omer Idgar and Guy Elovici')
+    st.subheader('Streamlit App by '
+                 'Omer Idgar and Guy Elovici')
 row2_spacer1, row2_1, row2_spacer2 = st.columns((.1, 3.2, .1))
 with row2_1:
     st.markdown(
