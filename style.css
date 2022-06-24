@@ -9,3 +9,7 @@ div[data-testid="stHorizontalBlock"] {
         align-items: center;
 }
 
+
+div[data-testid="stImage"] {
+        border: 5px solid red;
+}
