@@ -90,6 +90,7 @@ with row2_2:
     else:
         list_flags.append('world cup images/global_flag.png')
     st.image(list_flags, width=100)
+
 if not selected_country:
     # data_chosen = df.loc[df['Year'] == year_chosen]
     data_chosen = data.loc[data['Year'] == year_chosen]
@@ -97,7 +98,6 @@ if not selected_country:
     data_goals = goals[:15]
     range_color = None
 else:
-
     # data_chosen = df.loc[(df['Year'] == year_chosen) & (df['Team Name'].isin(selected_country))]
     data_chosen = data.loc[(data['Year'] == year_chosen) & (data['Team Name'].isin(selected_country))]
 
@@ -107,6 +107,7 @@ else:
     range_color = (min(selected_country_df['Total_goals']), max(selected_country_df['Total_goals']))
 row3_1, row3_spacer2, row3_2 = st.columns((5, .05, 4))
 with row3_1:
+    st.subheader(f'Number of goals scored by the country in {year_chosen} World Cup')
     if len(data_chosen) == 0:
         st.write(f"Oh no.. These countries weren't qualified for the World Cup this year")
         data_chosen = df.loc[(df['Year'] == 1938) & (df['Team Name'] == 'Dutch East Indies')]
