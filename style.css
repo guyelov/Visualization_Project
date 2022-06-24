@@ -10,10 +10,7 @@ div[data-testid="stHorizontalBlock"] {
 }
 
 div[data-testid="stImage"] {
-        text-align: center;
-}
-
-div[data-testid="column"] {
-        text-align: center;
+        display: flex;
+        justify-content: center;
 }
 
