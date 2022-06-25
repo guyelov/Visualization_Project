@@ -132,7 +132,7 @@ with row_1:
                             range_color=range_color)
     else:
         fig = px.choropleth(data_chosen, locations='Team Initials',
-                            color="Total_goals", hover_name='Team Name', hover_data=['Player Name', 'Goals Scored'],
+                            color=pd.cut(data_chosen["Total_goals"], bins=range(0, 20, 1)).astype(str), hover_name='Team Name', hover_data=['Player Name', 'Goals Scored'],
                             color_continuous_scale='Sunsetdark',
                             range_color=range_color)
     fig.layout.coloraxis.colorbar.title = 'Total Goals'
