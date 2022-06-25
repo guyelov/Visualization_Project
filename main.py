@@ -15,6 +15,10 @@ def local_css(file_name):
 
 local_css("style.css")
 
+def rgb_to_hex(rgb):
+    rgb = tuple(map(int, rgb[4:-1].split(',')))
+    return '#%02x%02x%02x' % rgb
+
 ### Data Import ###
 data = pd.read_csv('Data/data.csv')
 df = pd.read_csv('Data/teams_goals.csv')
@@ -134,7 +138,8 @@ with row_1:
         max_diffent_goals = min(6,len(np.unique(data_chosen["Total_goals"])))
         edges = pd.cut(data_chosen["Total_goals"], bins=max_diffent_goals, retbins=True)[1]
         edges = edges[:-1] / edges[-1]
-        colors = px.colors.sequential.Sunsetdark[:max_diffent_goals+1]
+        colors = px.colors.sequential.Sunsetdark
+        colors = [rgb_to_hex(x) for x in colors]
         cc_scale = (
                   [(0, colors[0])]
                 + [(e, colors[(i + 1) // 2]) for i, e in enumerate(np.repeat(edges, 2))]
