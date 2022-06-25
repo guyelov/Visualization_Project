@@ -151,7 +151,7 @@ with row_2:
     worlds['Year'] = worlds['Year'].astype('int')
 
     worlds = worlds.loc[worlds['Year'] <= year_chosen]
-    fig = px.line(worlds, x="Year", y=attribute, range_x=[1930, 2018], template="simple_white")
+    fig = px.line(worlds, x="Year", y=attribute, range_x=[1930, 2018], template="simple_white", markers=True)
     fig['data'][0]['line']['color'] = 'rgb(204, 204, 204)'
     fig['data'][0]['line']['width'] = 5
 
