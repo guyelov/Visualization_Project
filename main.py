@@ -140,6 +140,7 @@ with row_1:
                 + [(e, colors[(i + 1) // 2]) for i, e in enumerate(np.repeat(edges, 2))]
                 + [(1, colors[max_diffent_goals])]
         )
+        print(cc_scale)
         fig = px.choropleth(data_chosen, locations='Team Initials',
                             color="Total_goals", hover_name='Team Name', hover_data=['Player Name', 'Goals Scored'],
                             color_continuous_scale=cc_scale,
