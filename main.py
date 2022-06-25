@@ -117,7 +117,7 @@ else:
 #############
 ### Plots ###
 #############
-_, row_1, _, row_2, _ = st.columns((.1, 5, .05, 4, .1))
+_, row_1, _, row_2, _ = st.columns((5, .05, 4))
 
 # MAP
 with row_1:
