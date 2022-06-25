@@ -16,3 +16,11 @@ div[data-testid="stImage"] {
 .user-select-none{
         margin-top:100px;
 }
+
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(7) > div.css-1ia57lz.e1tzin5v2 > div:nth-child(1) > div > div:nth-child(2){
+        border: 50px solid black;
+
+}
+
+//*[@id="root"]/div[1]/div[1]/div/div/div/section/div/div[1]/div/div[7]/div[2]/div[1]/div/div[2]

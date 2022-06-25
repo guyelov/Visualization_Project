@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77f1fd6b-9c16-4a14-9a75-e0f5d6948f2d" name="Changes" comment="design flags">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="77f1fd6b-9c16-4a14-9a75-e0f5d6948f2d" name="Changes" comment="design map">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,60 +40,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656080869289</updated>
-    </task>
-    <task id="LOCAL‎00073" summary="change slider">
-      <created>1656111817945</created>
-      <option name="number" value="LOCAL‎00073" />
-      <option name="presentableId" value="LOCAL‎00073" />
-      <updated>1656111817945</updated>
-    </task>
-    <task id="LOCAL‎00074" summary="change slider">
-      <created>1656111863986</created>
-      <option name="number" value="LOCAL‎00074" />
-      <option name="presentableId" value="LOCAL‎00074" />
-      <updated>1656111863986</updated>
-    </task>
-    <task id="LOCAL‎00075" summary="change slider">
-      <created>1656112067317</created>
-      <option name="number" value="LOCAL‎00075" />
-      <option name="presentableId" value="LOCAL‎00075" />
-      <updated>1656112067317</updated>
-    </task>
-    <task id="LOCAL‎00076" summary="change slider">
-      <created>1656112112708</created>
-      <option name="number" value="LOCAL‎00076" />
-      <option name="presentableId" value="LOCAL‎00076" />
-      <updated>1656112112708</updated>
-    </task>
-    <task id="LOCAL‎00077" summary="change slider">
-      <created>1656112236407</created>
-      <option name="number" value="LOCAL‎00077" />
-      <option name="presentableId" value="LOCAL‎00077" />
-      <updated>1656112236407</updated>
-    </task>
-    <task id="LOCAL‎00078" summary="change slider">
-      <created>1656112254388</created>
-      <option name="number" value="LOCAL‎00078" />
-      <option name="presentableId" value="LOCAL‎00078" />
-      <updated>1656112254388</updated>
-    </task>
-    <task id="LOCAL‎00079" summary="change slider">
-      <created>1656112287803</created>
-      <option name="number" value="LOCAL‎00079" />
-      <option name="presentableId" value="LOCAL‎00079" />
-      <updated>1656112287803</updated>
-    </task>
-    <task id="LOCAL‎00080" summary="change slider">
-      <created>1656112306769</created>
-      <option name="number" value="LOCAL‎00080" />
-      <option name="presentableId" value="LOCAL‎00080" />
-      <updated>1656112306769</updated>
-    </task>
-    <task id="LOCAL‎00081" summary="change slider">
-      <created>1656112342149</created>
-      <option name="number" value="LOCAL‎00081" />
-      <option name="presentableId" value="LOCAL‎00081" />
-      <updated>1656112342149</updated>
     </task>
     <task id="LOCAL‎00082" summary="change slider">
       <created>1656112358962</created>
@@ -335,7 +281,61 @@
       <option name="presentableId" value="LOCAL‎00121" />
       <updated>1656115423738</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL‎00122" summary="design flags">
+      <created>1656115461466</created>
+      <option name="number" value="LOCAL‎00122" />
+      <option name="presentableId" value="LOCAL‎00122" />
+      <updated>1656115461466</updated>
+    </task>
+    <task id="LOCAL‎00123" summary="design map">
+      <created>1656115482160</created>
+      <option name="number" value="LOCAL‎00123" />
+      <option name="presentableId" value="LOCAL‎00123" />
+      <updated>1656115482160</updated>
+    </task>
+    <task id="LOCAL‎00124" summary="design map">
+      <created>1656115495982</created>
+      <option name="number" value="LOCAL‎00124" />
+      <option name="presentableId" value="LOCAL‎00124" />
+      <updated>1656115495982</updated>
+    </task>
+    <task id="LOCAL‎00125" summary="design map">
+      <created>1656115549694</created>
+      <option name="number" value="LOCAL‎00125" />
+      <option name="presentableId" value="LOCAL‎00125" />
+      <updated>1656115549694</updated>
+    </task>
+    <task id="LOCAL‎00126" summary="design map">
+      <created>1656115567584</created>
+      <option name="number" value="LOCAL‎00126" />
+      <option name="presentableId" value="LOCAL‎00126" />
+      <updated>1656115567584</updated>
+    </task>
+    <task id="LOCAL‎00127" summary="design map">
+      <created>1656115640575</created>
+      <option name="number" value="LOCAL‎00127" />
+      <option name="presentableId" value="LOCAL‎00127" />
+      <updated>1656115640575</updated>
+    </task>
+    <task id="LOCAL‎00128" summary="design map">
+      <created>1656115687784</created>
+      <option name="number" value="LOCAL‎00128" />
+      <option name="presentableId" value="LOCAL‎00128" />
+      <updated>1656115687784</updated>
+    </task>
+    <task id="LOCAL‎00129" summary="design map">
+      <created>1656115728100</created>
+      <option name="number" value="LOCAL‎00129" />
+      <option name="presentableId" value="LOCAL‎00129" />
+      <updated>1656115728100</updated>
+    </task>
+    <task id="LOCAL‎00130" summary="design map">
+      <created>1656156794077</created>
+      <option name="number" value="LOCAL‎00130" />
+      <option name="presentableId" value="LOCAL‎00130" />
+      <updated>1656156794077</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,6 +354,7 @@
     <MESSAGE value="change introduction" />
     <MESSAGE value="change slider" />
     <MESSAGE value="design flags" />
-    <option name="LAST_COMMIT_MESSAGE" value="design flags" />
+    <MESSAGE value="design map" />
+    <option name="LAST_COMMIT_MESSAGE" value="design map" />
   </component>
 </project>
