@@ -67,9 +67,7 @@ div[data-testid="stHorizontalBlock"] {
 }
 
 #root > div:nth-child(1) > div.withScreencast > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(6) > div:nth-child(4){
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        transform: translate(-50%, -50%);
 }
 
 /* Flags Border */
