@@ -131,13 +131,14 @@ with row_1:
                             color_continuous_scale='Sunsetdark',
                             range_color=range_color)
     else:
-        edges = pd.cut(data_chosen["Total_goals"], bins=7, retbins=True)[1]
+        max_diffent_goals = min(7,len(np.unique(data_chosen["Total_goals"])))
+        edges = pd.cut(data_chosen["Total_goals"], bins=max_diffent_goals, retbins=True)[1]
         edges = edges[:-1] / edges[-1]
-        colors = px.colors.sequential.Sunsetdark
+        colors = px.colors.sequential.Sunsetdark[:max_diffent_goals]
         cc_scale = (
                   [(0, colors[0])]
                 + [(e, colors[(i + 1) // 2]) for i, e in enumerate(np.repeat(edges, 2))]
-                + [(1, colors[7])]
+                + [(1, colors[max_diffent_goals])]
         )
         fig = px.choropleth(data_chosen, locations='Team Initials',
                             color="Total_goals", hover_name='Team Name', hover_data=['Player Name', 'Goals Scored'],
