@@ -144,7 +144,7 @@ with row_1:
         cc_scale = (
                   [(0, colors[0])]
                 + [(e, colors[(i + 1) // 2]) for i, e in enumerate(np.repeat(edges, 2))]
-                + [(1, colors[max_diffent_goals-1])]
+                + [(1, colors[max_diffent_goals])]
         )
 
         fig = px.choropleth(data_chosen, locations='Team Initials',
