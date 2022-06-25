@@ -140,6 +140,7 @@ with row_1:
         st.markdown(edges)
         for i, e in enumerate(np.repeat(edges, 2)):
             st.markdown(i,e)
+            st.markdown(colors[(i + 1) // 2])
         cc_scale = (
                   [(0, colors[0])]
                 + [(e, colors[(i + 1) // 2]) for i, e in enumerate(np.repeat(edges, 2))]
