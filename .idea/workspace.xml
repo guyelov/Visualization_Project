@@ -40,18 +40,6 @@
       <option name="presentableId" value="Default" />
       <updated>1656080869289</updated>
     </task>
-    <task id="LOCAL‎00137" summary="design map">
-      <created>1656159305115</created>
-      <option name="number" value="LOCAL‎00137" />
-      <option name="presentableId" value="LOCAL‎00137" />
-      <updated>1656159305115</updated>
-    </task>
-    <task id="LOCAL‎00138" summary="design map">
-      <created>1656159322644</created>
-      <option name="number" value="LOCAL‎00138" />
-      <option name="presentableId" value="LOCAL‎00138" />
-      <updated>1656159322644</updated>
-    </task>
     <task id="LOCAL‎00139" summary="design map">
       <created>1656159450843</created>
       <option name="number" value="LOCAL‎00139" />
@@ -334,7 +322,19 @@
       <option name="presentableId" value="LOCAL‎00185" />
       <updated>1656166129617</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL‎00186" summary="design map">
+      <created>1656166333328</created>
+      <option name="number" value="LOCAL‎00186" />
+      <option name="presentableId" value="LOCAL‎00186" />
+      <updated>1656166333328</updated>
+    </task>
+    <task id="LOCAL‎00187" summary="design map">
+      <created>1656166377945</created>
+      <option name="number" value="LOCAL‎00187" />
+      <option name="presentableId" value="LOCAL‎00187" />
+      <updated>1656166377945</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
