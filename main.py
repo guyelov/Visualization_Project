@@ -131,7 +131,7 @@ with row_1:
                             color_continuous_scale='Sunsetdark',
                             range_color=range_color)
     else:
-        max_diffent_goals = min(7,len(np.unique(data_chosen["Total_goals"])))
+        max_diffent_goals = min(6,len(np.unique(data_chosen["Total_goals"])))
         edges = pd.cut(data_chosen["Total_goals"], bins=max_diffent_goals, retbins=True)[1]
         edges = edges[:-1] / edges[-1]
         colors = px.colors.sequential.Sunsetdark[:max_diffent_goals+1]
