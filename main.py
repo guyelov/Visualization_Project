@@ -142,8 +142,8 @@ with row_1:
         colors = [rgb_to_hex(x) for x in colors]
         cc_scale = (
                   [[0, colors[0]]]
-                + [[e, colors[(i + 1) // 2]] for i, e in enumerate(np.repeat(edges, 2))]
-                + [[20, colors[max_diffent_goals]]]
+                + [[e, colors[(round(i + 1) // 2,3)]] for i, e in enumerate(np.repeat(edges, 2))]
+                + [[1, colors[max_diffent_goals]]]
         )
         st.markdown(cc_scale)
         fig = px.choropleth(data_chosen, locations='Team Initials',
