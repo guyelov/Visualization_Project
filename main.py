@@ -199,7 +199,7 @@ with row_1:
     fig.update_layout(
         xaxis_title="Country",
         yaxis_title="Qualifications",
-        plot_bgcolor='rgba(0, 0, 0, 0)',
+        plot_bgcolor='rgba(0, 0, 0, 50)',
         margin=dict(l=0, r=0, t=0, b=0),
         font=dict(
             family="Calibri",
