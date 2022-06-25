@@ -136,7 +136,7 @@ with row_1:
                             color_continuous_scale='Sunsetdark',
                             range_color=range_color)
     fig.layout.coloraxis.colorbar.title = 'Total Goals'
-    fig.update_layout(autosize=True, margin=dict(l=0, r=0, t=0, b=0), dragmode=False)
+    fig.update_layout(margin=dict(l=0, r=0, t=0, b=0), dragmode=False)
     st.plotly_chart(fig, use_container_width=True)
 
 # Line Plot
@@ -196,6 +196,7 @@ _, row_1, _ = st.columns((.1, 3.2, .1))
 with row_1:
     fig = px.bar(qualified_team, 'Team Name', 'Year', template="simple_white")
     fig.update_layout(
+        plot_bgcolor='rgba(0, 0, 0, 0)',
         margin=dict(l=0, r=0, t=0, b=0),
         font=dict(
             family="Calibri",
