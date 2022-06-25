@@ -136,7 +136,7 @@ with row_1:
                             color_continuous_scale='Sunsetdark',
                             range_color=range_color)
     fig.layout.coloraxis.colorbar.title = 'Total Goals'
-    fig.update_layout(height=500, margin=dict(l=0, r=0, t=0, b=0), dragmode=False)
+    fig.update_layout(autosize=True, margin=dict(l=0, r=0, t=0, b=0), dragmode=False)
     st.plotly_chart(fig, use_container_width=True)
 
 # Line Plot
