@@ -9,6 +9,11 @@
         background:#003f5c;
 }
 
+.stMarkdownContainer{
+        align-items: center;
+}
+
+
 /* Purple Blocks */
 div[data-testid="stHorizontalBlock"] {
         border:10px;
