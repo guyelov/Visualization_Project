@@ -154,6 +154,7 @@ with row_2:
     fig = px.line(worlds, x="Year", y=attribute, range_x=[1930, 2018], template="simple_white")
     fig.update_traces(textposition="bottom right")
     fig.update_layout(
+        plot_bgcolor =rgba(0, 0, 0, 0),
         margin=dict(l=0, r=0, t=0, b=0),
         font=dict(
             family="Calibri",
