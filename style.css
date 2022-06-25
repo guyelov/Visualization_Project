@@ -5,13 +5,15 @@ div[data-testid="stHorizontalBlock"] {
         background:#2f4b7c;
 }
 
+div[data-testid="stHeader"]{
+        background:#003f5c;
+}
+
 .css-18e3th9{
         background:#003f5c;
 }
 
-.css-fk4es0{
-        background:#003f5c;
-}
+
 
 .css-1kymt8f{
         display: flex;
