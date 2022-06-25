@@ -147,7 +147,7 @@ with row_1:
         )
         st.markdown(cc_scale)
         fig = px.choropleth(data_chosen, locations='Team Initials',
-                            color="Total_goals",featureidkey="properties.ID", hover_name='Team Name', hover_data=['Player Name', 'Goals Scored'],
+                            featureidkey="properties.ID", hover_name='Team Name', hover_data=['Player Name', 'Goals Scored'],
                             color_continuous_scale=cc_scale,
                             range_color=range_color)
     fig.layout.coloraxis.colorbar.title = 'Total Goals'
