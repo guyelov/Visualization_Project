@@ -199,7 +199,7 @@ else:
 # Bar Plot
 _, row_1, _ = st.columns((.1, 3.2, .1))
 with row_1:
-    st.markdown(f'##### Total Qualifications of each country up to year {int(year_chosen)} in the World Cup')
+    st.markdown(f'##### Total qualifications of each country up to year {int(year_chosen)} in the World Cup')
     fig = px.bar(qualified_team, x='Team Name', y='Year', template="simple_white")
     fig.update_layout(
         xaxis_title="Country",
