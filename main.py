@@ -126,9 +126,18 @@ with row_1:
         st.info(f"Oh no.. Your selected countries weren't qualified for the World Cup this year")
         data_chosen = df.loc[(df['Year'] == 1938) & (df['Team Name'] == 'Dutch East Indies')]
 
+        edges = pd.cut(data_chosen["Total_goals"], bins=7, retbins=True)[1]
+        edges = edges[:-1] / edges[-1]
+        colors = px.colors.sequential.Sunsetdark
+        cc_scale = (
+                  [(0, colors[0])]
+                + [(e, colors[(i + 1) // 2]) for i, e in enumerate(np.repeat(edges, 2))]
+                + [(1, colors[5])]
+        )
+
         fig = px.choropleth(data_chosen, locations='Team Initials',
-                            color=pd.cut(data_chosen["Total_goals"], bins=5, retbins=True)[1], hover_name='Team Name',
-                            color_continuous_scale='Sunsetdark',
+                            color="Total_goals", hover_name='Team Name',
+                            color_continuous_scale=cc_scale,
                             range_color=range_color)
     else:
         fig = px.choropleth(data_chosen, locations='Team Initials',
