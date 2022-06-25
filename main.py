@@ -126,10 +126,16 @@ with row_1:
         st.info(f"Oh no.. Your selected countries weren't qualified for the World Cup this year")
         data_chosen = df.loc[(df['Year'] == 1938) & (df['Team Name'] == 'Dutch East Indies')]
 
-    fig = px.choropleth(data_chosen, locations='Team Initials',
-                        color="Total_goals", hover_name='Team Name', hover_data=['Player Name', 'Goals Scored'],
-                        color_continuous_scale='Sunsetdark',
-                        range_color=range_color)
+        fig = px.choropleth(data_chosen, locations='Team Initials',
+                            color="Total_goals", hover_name='Team Name',
+                            color_continuous_scale='Sunsetdark',
+                            range_color=range_color)
+    else:
+        fig = px.choropleth(data_chosen, locations='Team Initials',
+                            color="Total_goals", hover_name='Team Name', hover_data=['Player Name', 'Goals Scored'],
+                            color_continuous_scale='Sunsetdark',
+                            range_color=range_color)
+
     fig.update_layout(margin=dict(l=0, r=0, t=0, b=0))
     st.plotly_chart(fig, use_container_width=True)
 
