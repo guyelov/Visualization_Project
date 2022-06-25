@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77f1fd6b-9c16-4a14-9a75-e0f5d6948f2d" name="Changes" comment="design map">
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="77f1fd6b-9c16-4a14-9a75-e0f5d6948f2d" name="Changes" comment="design map" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,18 +39,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656080869289</updated>
-    </task>
-    <task id="LOCAL‎00132" summary="design map">
-      <created>1656159104528</created>
-      <option name="number" value="LOCAL‎00132" />
-      <option name="presentableId" value="LOCAL‎00132" />
-      <updated>1656159104528</updated>
-    </task>
-    <task id="LOCAL‎00133" summary="design map">
-      <created>1656159166736</created>
-      <option name="number" value="LOCAL‎00133" />
-      <option name="presentableId" value="LOCAL‎00133" />
-      <updated>1656159166736</updated>
     </task>
     <task id="LOCAL‎00134" summary="design map">
       <created>1656159207358</created>
@@ -336,7 +322,19 @@
       <option name="presentableId" value="LOCAL‎00180" />
       <updated>1656164468321</updated>
     </task>
-    <option name="localTasksCounter" value="181" />
+    <task id="LOCAL‎00181" summary="design map">
+      <created>1656164797691</created>
+      <option name="number" value="LOCAL‎00181" />
+      <option name="presentableId" value="LOCAL‎00181" />
+      <updated>1656164797691</updated>
+    </task>
+    <task id="LOCAL‎00182" summary="design map">
+      <created>1656164994801</created>
+      <option name="number" value="LOCAL‎00182" />
+      <option name="presentableId" value="LOCAL‎00182" />
+      <updated>1656164994801</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

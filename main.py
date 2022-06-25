@@ -121,7 +121,7 @@ _, row_1, _, row_2, _ = st.columns((.1, 5, .05, 4, .1))
 
 # MAP
 with row_1:
-    st.markdown(f'##### Number of goals scored by the country in {int(year_chosen)} World Cup')
+    st.markdown(f'##### Number of goals scored by the countries in {int(year_chosen)} World Cup')
     if len(data_chosen) == 0:
         st.info(f"Oh no.. Your selected countries weren't qualified for the World Cup this year")
         data_chosen = df.loc[(df['Year'] == 1938) & (df['Team Name'] == 'Dutch East Indies')]
