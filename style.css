@@ -1,3 +1,15 @@
+
+/* Header */
+.css-xhm2t3{
+        background:#003f5c;
+}
+
+/* Body */
+.css-18e3th9{
+        background:#003f5c;
+}
+
+/* Purple Blocks */
 div[data-testid="stHorizontalBlock"] {
         border:10px;
         padding:20px;
@@ -5,39 +17,18 @@ div[data-testid="stHorizontalBlock"] {
         background:#2f4b7c;
 }
 
-.css-xhm2t3{
-        background:#003f5c;
-}
-
-.css-18e3th9{
-        background:#003f5c;
-}
-
-
-
+/* Center Flags */
 .css-1kymt8f{
         display: flex;
         align-items: center;
 }
 
+/* Flags Border */
 div[data-testid="stImage"] {
         border: 3px solid #16425B;
 }
 
+/* Push Map Down */
 .user-select-none{
         margin-top:100px;
 }
-
-#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(7) > div.css-1ia57lz.e1tzin5v2 > div:nth-child(1) > div > div:nth-child(2) > div > div > div > div > svg:nth-child(1){
-        background:red;
-}
-/*.main-svg{
-        background:#2f4b7c;
-}*/
-
-/*
-#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(7) > div.css-1ia57lz.e1tzin5v2 > div:nth-child(1) > div > div:nth-child(2) > div > div{
-        border: 5px solid black;
-        margin-top:70px
-
-}*/
