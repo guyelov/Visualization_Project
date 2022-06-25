@@ -32,3 +32,10 @@ div[data-testid="stImage"] {
 .user-select-none{
         margin-top:100px;
 }
+
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(7) > div.css-1ia57lz.e1tzin5v2 > div:nth-child(1) > div > div:nth-child(2) > div > div > div > div > svg:nth-child(3) > g.infolayer > g.cbcoloraxis.colorbar > rect.cbbg{
+
+        width = 500
+
+}
