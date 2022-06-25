@@ -147,9 +147,8 @@ with row_1:
         )
         st.markdown(cc_scale)
         fig = px.choropleth(data_chosen, locations='Team Initials',
-                            featureidkey="properties.ID", hover_name='Team Name', hover_data=['Player Name', 'Goals Scored'],
-                            color_continuous_scale=cc_scale,
-                            range_color=range_color)
+                            color="Total_goals", hover_name='Team Name', hover_data=['Player Name', 'Goals Scored'],
+                            color_continuous_scale=cc_scale)
     fig.layout.coloraxis.colorbar.title = 'Total Goals'
     fig.update_layout(margin=dict(l=0, r=0, t=0, b=0))
     st.plotly_chart(fig, use_container_width=True)
