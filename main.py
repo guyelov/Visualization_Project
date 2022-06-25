@@ -39,7 +39,7 @@ years = list(np.unique(df['Year']))
 
 _, row_1, _, row_2, _ = st.columns((.1, 2.3, .1, 1.3, .1))
 with row_1:
-    st.title('The Evolution Of The FIFA World Cup')
+    st.title('The Evolution Of The *FIFA* World Cup')
 with row_2:
     st.text("")
     st.subheader('Streamlit App by Omer Idgar and Guy Elovici')
