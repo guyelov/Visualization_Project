@@ -136,7 +136,7 @@ with row_1:
                             color_continuous_scale='Sunsetdark',
                             range_color=range_color)
 
-    fig.update_layout(height=500,margin=dict(l=0, r=0, t=0, b=0))
+    fig.update_layout(height=1000,margin=dict(l=0, r=0, t=0, b=0))
     st.plotly_chart(fig, use_container_width=True)
 
 # Line Plot
