@@ -39,24 +39,6 @@
       <option name="presentableId" value="Default" />
       <updated>1656080869289</updated>
     </task>
-    <task id="LOCAL‎00126" summary="design map">
-      <created>1656115567584</created>
-      <option name="number" value="LOCAL‎00126" />
-      <option name="presentableId" value="LOCAL‎00126" />
-      <updated>1656115567584</updated>
-    </task>
-    <task id="LOCAL‎00127" summary="design map">
-      <created>1656115640575</created>
-      <option name="number" value="LOCAL‎00127" />
-      <option name="presentableId" value="LOCAL‎00127" />
-      <updated>1656115640575</updated>
-    </task>
-    <task id="LOCAL‎00128" summary="design map">
-      <created>1656115687784</created>
-      <option name="number" value="LOCAL‎00128" />
-      <option name="presentableId" value="LOCAL‎00128" />
-      <updated>1656115687784</updated>
-    </task>
     <task id="LOCAL‎00129" summary="design map">
       <created>1656115728100</created>
       <option name="number" value="LOCAL‎00129" />
@@ -333,7 +315,25 @@
       <option name="presentableId" value="LOCAL‎00174" />
       <updated>1656163495602</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL‎00175" summary="design map">
+      <created>1656163612605</created>
+      <option name="number" value="LOCAL‎00175" />
+      <option name="presentableId" value="LOCAL‎00175" />
+      <updated>1656163612606</updated>
+    </task>
+    <task id="LOCAL‎00176" summary="design map">
+      <created>1656163791670</created>
+      <option name="number" value="LOCAL‎00176" />
+      <option name="presentableId" value="LOCAL‎00176" />
+      <updated>1656163791670</updated>
+    </task>
+    <task id="LOCAL‎00177" summary="design map">
+      <created>1656163938507</created>
+      <option name="number" value="LOCAL‎00177" />
+      <option name="presentableId" value="LOCAL‎00177" />
+      <updated>1656163938507</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
