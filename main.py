@@ -132,12 +132,11 @@ with row_1:
                             range_color=range_color)
     else:
         max_diffent_goals = min(7,len(np.unique(data_chosen["Total_goals"])))
-        st.markdown(max_diffent_goals)
         edges = pd.cut(data_chosen["Total_goals"], bins=max_diffent_goals, retbins=True)[1]
         edges = edges[:-1] / edges[-1]
         colors = px.colors.sequential.Sunsetdark[:max_diffent_goals]
-        print(max_diffent_goals)
-        print(colors)
+        st.markdown(max_diffent_goals)
+        st.markdown(colors)
         cc_scale = (
                   [(0, colors[0])]
                 + [(e, colors[(i + 1) // 2]) for i, e in enumerate(np.repeat(edges, 2))]
