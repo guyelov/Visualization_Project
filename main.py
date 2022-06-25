@@ -126,6 +126,11 @@ with row_1:
         st.info(f"Oh no.. Your selected countries weren't qualified for the World Cup this year")
         data_chosen = df.loc[(df['Year'] == 1938) & (df['Team Name'] == 'Dutch East Indies')]
 
+        fig = px.choropleth(data_chosen, locations='Team Initials',
+                            color="Total_goals", hover_name='Team Name',
+                            color_continuous_scale='Sunsetdark',
+                            range_color=range_color)
+    else:
         edges = pd.cut(data_chosen["Total_goals"], bins=7, retbins=True)[1]
         edges = edges[:-1] / edges[-1]
         colors = px.colors.sequential.Sunsetdark
@@ -134,16 +139,9 @@ with row_1:
                 + [(e, colors[(i + 1) // 2]) for i, e in enumerate(np.repeat(edges, 2))]
                 + [(1, colors[5])]
         )
-        st.markdown(cc_scale)
-
-        fig = px.choropleth(data_chosen, locations='Team Initials',
-                            color="Total_goals", hover_name='Team Name',
-                            color_continuous_scale=cc_scale,
-                            range_color=range_color)
-    else:
         fig = px.choropleth(data_chosen, locations='Team Initials',
                             color="Total_goals", hover_name='Team Name', hover_data=['Player Name', 'Goals Scored'],
-                            color_continuous_scale='Sunsetdark',
+                            color_continuous_scale=cc_scale,
                             range_color=range_color)
     fig.layout.coloraxis.colorbar.title = 'Total Goals'
     fig.update_layout(margin=dict(l=0, r=0, t=0, b=0))
