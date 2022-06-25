@@ -24,4 +24,7 @@ div[data-testid="stImage"] {
 
 }
 
-//*[@id="root"]/div[1]/div[1]/div/div/div/section/div/div[1]/div/div[7]/div[2]/div[1]/div/div[2]
+.geolayer{
+    flex-grow: 1;
+
+}
