@@ -4,6 +4,10 @@ div[data-testid="stHorizontalBlock"] {
         border-radius: 10px;
         background:#2f4b7c;
 }
+
+.css-14voa3e{
+        background:#ff0000;
+}
 .css-1kymt8f{
         display: flex;
         align-items: center;
