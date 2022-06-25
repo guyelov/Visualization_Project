@@ -141,6 +141,7 @@ with row_1:
         colors = px.colors.sequential.Sunsetdark
         colors = [rgb_to_hex(x) for x in colors]
         st.markdown(edges)
+        st.markdown(colors)
         cc_scale = (
                   [[0, colors[0]]]
                 + [[e, colors[(i + 1) // 2]] for i, e in enumerate(np.repeat(edges, 2))]
