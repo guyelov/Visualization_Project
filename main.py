@@ -194,7 +194,8 @@ else:
 # Bar Plot
 _, row_1, _ = st.columns((.1, 3.2, .1))
 with row_1:
-    fig = px.bar(qualified_team, 'Team Name', 'Year', template="simple_white")
+    st.markdown(f'##### Total Qualifications of each country up to year {int(year_chosen)} in the World Cup')
+    fig = px.bar(qualified_team, x='Country', y='Qualifications', template="simple_white")
     fig.update_layout(
         plot_bgcolor='rgba(0, 0, 0, 0)',
         margin=dict(l=0, r=0, t=0, b=0),
