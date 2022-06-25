@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77f1fd6b-9c16-4a14-9a75-e0f5d6948f2d" name="Changes" comment="design map" />
+    <list default="true" id="77f1fd6b-9c16-4a14-9a75-e0f5d6948f2d" name="Changes" comment="design map">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,12 +40,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656080869289</updated>
-    </task>
-    <task id="LOCAL‎00112" summary="design flags">
-      <created>1656114396632</created>
-      <option name="number" value="LOCAL‎00112" />
-      <option name="presentableId" value="LOCAL‎00112" />
-      <updated>1656114396633</updated>
     </task>
     <task id="LOCAL‎00113" summary="design flags">
       <created>1656114414090</created>
@@ -333,7 +329,13 @@
       <option name="presentableId" value="LOCAL‎00160" />
       <updated>1656161126047</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL‎00161" summary="design map">
+      <created>1656161577563</created>
+      <option name="number" value="LOCAL‎00161" />
+      <option name="presentableId" value="LOCAL‎00161" />
+      <updated>1656161577563</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
