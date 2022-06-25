@@ -15,10 +15,6 @@ def local_css(file_name):
 
 local_css("style.css")
 
-def rgb_to_hex(rgb):
-    rgb = tuple(map(int, rgb[4:-1].split(',')))
-    return '#%02x%02x%02x' % rgb
-
 ### Data Import ###
 data = pd.read_csv('Data/data.csv')
 df = pd.read_csv('Data/teams_goals.csv')
@@ -135,22 +131,10 @@ with row_1:
                             color_continuous_scale='Sunsetdark',
                             range_color=range_color)
     else:
-        max_diffent_goals = min(6,len(np.unique(data_chosen["Total_goals"])))
-        edges = pd.cut(data_chosen["Total_goals"], bins=max_diffent_goals, retbins=True)[1]
-        edges = edges[:-1] / edges[-1]
-        colors = px.colors.sequential.Sunsetdark
-        colors = [rgb_to_hex(x) for x in colors]
-        st.markdown(edges)
-        st.markdown(colors)
-        cc_scale = (
-                  [[0, colors[0]]]
-                + [[e, colors[(i + 1) // 2]] for i, e in enumerate(np.repeat(edges, 2))]
-                + [[1, colors[max_diffent_goals]]]
-        )
-        st.markdown(cc_scale)
         fig = px.choropleth(data_chosen, locations='Team Initials',
                             color="Total_goals", hover_name='Team Name', hover_data=['Player Name', 'Goals Scored'],
-                            color_continuous_scale=cc_scale)
+                            color_continuous_scale=cc_scale,
+                            range_color=range_color)
     fig.layout.coloraxis.colorbar.title = 'Total Goals'
     fig.update_layout(margin=dict(l=0, r=0, t=0, b=0))
     st.plotly_chart(fig, use_container_width=True)
