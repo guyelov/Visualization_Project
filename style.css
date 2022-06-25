@@ -8,15 +8,14 @@
 .css-18e3th9{
         background:#003f5c;
 }
-:not(#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(3) > div.css-19qgf1r.e1tzin5v2 > div:nth-child(1) > div > div:nth-child(1) > div > div) {
-        text-align: center;
-}
+
 div[data-testid="stMarkdownContainer"]{
         text-align: center;
-
 }
 
-
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(3) > div.css-19qgf1r.e1tzin5v2 > div:nth-child(1) > div > div:nth-child(1) > div > div) {
+        text-align: left;
+}
 
 /* Purple Blocks */
 div[data-testid="stHorizontalBlock"] {
