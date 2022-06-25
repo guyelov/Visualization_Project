@@ -195,8 +195,10 @@ else:
 _, row_1, _ = st.columns((.1, 3.2, .1))
 with row_1:
     st.markdown(f'##### Total Qualifications of each country up to year {int(year_chosen)} in the World Cup')
-    fig = px.bar(qualified_team, x='Country', y='Qualifications', template="simple_white")
+    fig = px.bar(qualified_team, x='Team Name', y='Year', template="simple_white")
     fig.update_layout(
+        xaxis_title="Country",
+        yaxis_title="Qualifications",
         plot_bgcolor='rgba(0, 0, 0, 0)',
         margin=dict(l=0, r=0, t=0, b=0),
         font=dict(
