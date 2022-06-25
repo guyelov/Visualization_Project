@@ -127,7 +127,7 @@ with row_1:
         data_chosen = df.loc[(df['Year'] == 1938) & (df['Team Name'] == 'Dutch East Indies')]
 
         fig = px.choropleth(data_chosen, locations='Team Initials',
-                            color=pd.cut(data_chosen["Total_goals"], bins=range(0, 20, 2), retbins=True)[1], hover_name='Team Name',
+                            color=pd.cut(data_chosen["Total_goals"], bins=5, retbins=True)[1], hover_name='Team Name',
                             color_continuous_scale='Sunsetdark',
                             range_color=range_color)
     else:
