@@ -66,6 +66,10 @@ div[data-testid="stHorizontalBlock"] {
         align-items: center;
 }
 
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(6) > div:nth-child(4){
+        text-align: center;
+}
+
 /* Flags Border */
 div[data-testid="stImage"] {
         border: 3px solid #16425B;
