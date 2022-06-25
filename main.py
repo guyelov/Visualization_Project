@@ -134,7 +134,7 @@ with row_1:
                 + [(e, colors[(i + 1) // 2]) for i, e in enumerate(np.repeat(edges, 2))]
                 + [(1, colors[5])]
         )
-        print(cc_scale)
+        st.markdown(cc_scale)
 
         fig = px.choropleth(data_chosen, locations='Team Initials',
                             color="Total_goals", hover_name='Team Name',
