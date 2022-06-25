@@ -152,9 +152,9 @@ with row_2:
 
     worlds = worlds.loc[worlds['Year'] <= year_chosen]
     fig = px.line(worlds, x="Year", y=attribute, range_x=[1930, 2018], template="simple_white", markers=True)
-    fig.update_traces(marker={'size': 10, 'color':'rgb(97, 179, 232)'})
+    fig.update_traces(marker={'size': 10, 'color':'rgba(97, 179, 232)'})
 
-    fig['data'][0]['line']['color'] = 'rgb(204, 204, 204)'
+    fig['data'][0]['line']['color'] = 'rgb(243, 198, 115,0.3)'
     fig['data'][0]['line']['width'] = 5
 
     fig.update_traces(textposition="bottom right")
