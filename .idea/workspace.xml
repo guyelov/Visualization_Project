@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77f1fd6b-9c16-4a14-9a75-e0f5d6948f2d" name="Changes" comment="design map">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="77f1fd6b-9c16-4a14-9a75-e0f5d6948f2d" name="Changes" comment="design map" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,18 +39,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656080869289</updated>
-    </task>
-    <task id="LOCAL‎00135" summary="design map">
-      <created>1656159233537</created>
-      <option name="number" value="LOCAL‎00135" />
-      <option name="presentableId" value="LOCAL‎00135" />
-      <updated>1656159233537</updated>
-    </task>
-    <task id="LOCAL‎00136" summary="design map">
-      <created>1656159251066</created>
-      <option name="number" value="LOCAL‎00136" />
-      <option name="presentableId" value="LOCAL‎00136" />
-      <updated>1656159251066</updated>
     </task>
     <task id="LOCAL‎00137" summary="design map">
       <created>1656159305115</created>
@@ -336,7 +322,19 @@
       <option name="presentableId" value="LOCAL‎00183" />
       <updated>1656165417169</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL‎00184" summary="design map">
+      <created>1656166083066</created>
+      <option name="number" value="LOCAL‎00184" />
+      <option name="presentableId" value="LOCAL‎00184" />
+      <updated>1656166083066</updated>
+    </task>
+    <task id="LOCAL‎00185" summary="design map">
+      <created>1656166129617</created>
+      <option name="number" value="LOCAL‎00185" />
+      <option name="presentableId" value="LOCAL‎00185" />
+      <updated>1656166129617</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
