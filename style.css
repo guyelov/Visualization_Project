@@ -36,7 +36,7 @@ div[data-testid="stHorizontalBlock"] {
         background:#2f4b7c;
 }
 
-
+/* Disable Plots Blocks */
 #root > div:nth-child(1) > div.withScreencast > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(7){
         border:0px;
         padding:0px;
@@ -44,7 +44,7 @@ div[data-testid="stHorizontalBlock"] {
         background:#003f5c;
 }
 
-
+/* Map Block */
 #root > div:nth-child(1) > div.withScreencast > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(7) > div.css-1hzbxjf.e1tzin5v2{
         border:10px;
         padding:20px;
@@ -52,6 +52,7 @@ div[data-testid="stHorizontalBlock"] {
         background:#2f4b7c;
 }
 
+/* Bar Plot Block */
 #root > div:nth-child(1) > div.withScreencast > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(7) > div.css-1i1hhp5.e1tzin5v2{
         border:10px;
         padding:20px;
