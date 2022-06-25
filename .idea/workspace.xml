@@ -18,13 +18,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Omer Idgar/OneDrive/University/Year 3/Semester B/Data Visualization/Project/Visualization_Project&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Omer Idgar/OneDrive/University/Year 3/Semester B/Data Visualization/Project/Visualization_Project",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Omer Idgar\OneDrive\University\Year 3\Semester B\Data Visualization\Project\Visualization_Project" />
@@ -38,18 +39,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656080869289</updated>
-    </task>
-    <task id="LOCAL‎00129" summary="design map">
-      <created>1656115728100</created>
-      <option name="number" value="LOCAL‎00129" />
-      <option name="presentableId" value="LOCAL‎00129" />
-      <updated>1656115728100</updated>
-    </task>
-    <task id="LOCAL‎00130" summary="design map">
-      <created>1656156794077</created>
-      <option name="number" value="LOCAL‎00130" />
-      <option name="presentableId" value="LOCAL‎00130" />
-      <updated>1656156794077</updated>
     </task>
     <task id="LOCAL‎00131" summary="design map">
       <created>1656159085956</created>
@@ -333,7 +322,19 @@
       <option name="presentableId" value="LOCAL‎00177" />
       <updated>1656163938507</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL‎00178" summary="design map">
+      <created>1656163952032</created>
+      <option name="number" value="LOCAL‎00178" />
+      <option name="presentableId" value="LOCAL‎00178" />
+      <updated>1656163952032</updated>
+    </task>
+    <task id="LOCAL‎00179" summary="design map">
+      <created>1656164046067</created>
+      <option name="number" value="LOCAL‎00179" />
+      <option name="presentableId" value="LOCAL‎00179" />
+      <updated>1656164046067</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
