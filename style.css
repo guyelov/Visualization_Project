@@ -20,9 +20,9 @@ div[data-testid="stImage"] {
 #root > div:nth-child(1) > div.withScreencast > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(7) > div.css-1ia57lz.e1tzin5v2 > div:nth-child(1) > div > div:nth-child(2) > div > div > div > div > svg:nth-child(1){
         background:#2f4b7c;
 }
-.main-svg{
+/*.main-svg{
         background:#2f4b7c;
-}
+}*/
 
 /*
 #root > div:nth-child(1) > div.withScreencast > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(7) > div.css-1ia57lz.e1tzin5v2 > div:nth-child(1) > div > div:nth-child(2) > div > div{
