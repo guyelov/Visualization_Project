@@ -134,7 +134,7 @@ with row_1:
         max_diffent_goals = min(7,len(np.unique(data_chosen["Total_goals"])))
         edges = pd.cut(data_chosen["Total_goals"], bins=max_diffent_goals, retbins=True)[1]
         edges = edges[:-1] / edges[-1]
-        colors = px.colors.sequential.Sunsetdark[:max_diffent_goals]
+        colors = px.colors.sequential.Sunsetdark[:max_diffent_goals+1]
         st.markdown(max_diffent_goals)
         st.markdown(colors)
         st.markdown(edges)
