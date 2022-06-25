@@ -141,14 +141,16 @@ with row_1:
         for i, e in enumerate(np.repeat(edges, 2)):
             st.markdown(i,e)
             st.markdown(colors[(i + 1) // 2])
-        # cc_scale = (
-        #           [(0, colors[0])]
-        #         + [(e, colors[(i + 1) // 2]) for i, e in enumerate(np.repeat(edges, 2))]
-        #         + [(1, colors[max_diffent_goals])]
-        # )
-
+        st.markdown("here1")
+        cc_scale = (
+                  [(0, colors[0])]
+                + [(e, colors[(i + 1) // 2]) for i, e in enumerate(np.repeat(edges, 2))]
+                + [(1, colors[max_diffent_goals])]
+        )
+        st.markdown("here")
         fig = px.choropleth(data_chosen, locations='Team Initials',
                             color="Total_goals", hover_name='Team Name', hover_data=['Player Name', 'Goals Scored'],
+                            color_continuous_scale=cc_scale,
                             range_color=range_color)
     fig.layout.coloraxis.colorbar.title = 'Total Goals'
     fig.update_layout(margin=dict(l=0, r=0, t=0, b=0))
