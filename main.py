@@ -134,7 +134,7 @@ with row_1:
         fig = px.choropleth(data_chosen, locations='Team Initials',
                             color="Total_goals", hover_name='Team Name', hover_data=['Player Name', 'Goals Scored'],
                             color_continuous_scale='Sunsetdark',
-                            range_color=range_color)
+                            range_color=range_color, dragmode=False)
     fig.layout.coloraxis.colorbar.title = 'Total Goals'
     fig.update_layout(margin=dict(l=0, r=0, t=0, b=0))
     st.plotly_chart(fig, use_container_width=True)
