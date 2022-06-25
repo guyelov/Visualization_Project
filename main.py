@@ -137,8 +137,9 @@ with row_1:
         colors = px.colors.sequential.Sunsetdark[:max_diffent_goals]
         st.markdown(max_diffent_goals)
         st.markdown(colors)
+        st.markdown(edges)
         for i, e in enumerate(np.repeat(edges, 2)):
-            print(i,e)
+            st.markdown(i,e)
         cc_scale = (
                   [(0, colors[0])]
                 + [(e, colors[(i + 1) // 2]) for i, e in enumerate(np.repeat(edges, 2))]
