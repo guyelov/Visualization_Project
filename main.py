@@ -133,7 +133,7 @@ with row_1:
     else:
         fig = px.choropleth(data_chosen, locations='Team Initials',
                             color="Total_goals", hover_name='Team Name', hover_data=['Player Name', 'Goals Scored'],
-                            color_continuous_scale=cc_scale,
+                            color_continuous_scale='Sunsetdark',
                             range_color=range_color)
     fig.layout.coloraxis.colorbar.title = 'Total Goals'
     fig.update_layout(margin=dict(l=0, r=0, t=0, b=0))
