@@ -54,12 +54,21 @@ with row_1:
 # image = Image.open('world cup images/word cup wallpaper.jpg')
 # st.image(image, caption='World Cups History')
 
+
+#####################################
+### Analysis per Country and Year ###
+#####################################
 _, row_1, _ = st.columns((.1, 3.2, .1))
 with row_1:
     st.subheader('Analysis per Country and Year')
     st.markdown(
         f'You can view how many goals each of the participating countries scored in a particular year of the world cup.'
         f' Then, you can choose the countries and compare the number of goals they scored in each world cup.')
+
+
+##############
+### Slider ###
+##############
 _, row_1, _ = st.columns((.1, 3.2, .1))
 with row_1:
     year_chosen = st.select_slider('Drag the slider to change the year:', years)
@@ -91,21 +100,26 @@ with row2_2:
         list_flags.append('world cup images/global_flag.png')
     st.image(list_flags, width=100)
 
+
 if not selected_country:
-    # data_chosen = df.loc[df['Year'] == year_chosen]
     data_chosen = data.loc[data['Year'] == year_chosen]
 
     data_goals = goals[:15]
     range_color = None
 else:
-    # data_chosen = df.loc[(df['Year'] == year_chosen) & (df['Team Name'].isin(selected_country))]
     data_chosen = data.loc[(data['Year'] == year_chosen) & (data['Team Name'].isin(selected_country))]
 
     selected_country_df = df.loc[df['Team Name'].isin(selected_country)]
 
     data_goals = goals.loc[goals['Team Name'].isin(selected_country)]
     range_color = (min(selected_country_df['Total_goals']), max(selected_country_df['Total_goals']))
+
+#############
+### Plots ###
+#############
 _, row_1, _, row_2, _ = st.columns((.1, 5, .05, 4, .1))
+
+# MAP
 with row_1:
     st.markdown(f'##### Number of goals scored by the country in {int(year_chosen)} World Cup')
     if len(data_chosen) == 0:
@@ -130,6 +144,7 @@ with row_1:
             margin=dict(l=0, r=0, t=0, b=0))
         st.plotly_chart(fig, use_container_width=True)
 
+# Line Plot
 with row_2:
     st.markdown(f'##### Number of *#Attribute* over the years up to {int(year_chosen)} World Cup')
     attribute = st.radio(
@@ -141,7 +156,6 @@ with row_2:
     worlds['Year'] = worlds['Year'].astype('int')
 
     worlds = worlds.loc[worlds['Year'] <= year_chosen]
-    # worlds['Attendance'] =np.log10( worlds['Attendance'].map(lambda x: int(('').join(x.split('.')))))
     fig = px.line(worlds, x="Year", y=attribute, range_x=[1930, 2018], template="simple_white")
     fig.update_traces(textposition="bottom right")
     fig.update_layout(
@@ -180,6 +194,8 @@ else:
                          .groupby(['Team Name'])['Year'] \
                          .count().reset_index().sort_values(by='Year', ascending=False)[:15]
 
+
+# Bar Plot
 _, row_1, _ = st.columns((.1, 3.2, .1))
 with row_1:
     fig = px.bar(qualified_team, 'Team Name', 'Year', template="simple_white")
