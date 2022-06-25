@@ -200,7 +200,7 @@ with row_1:
         font=dict(
             family="Calibri",
             size=18,
-            color="RebeccaPurple"),
+            color="#ffa600"),
         xaxis=dict(
             tickmode='linear'
         ))
