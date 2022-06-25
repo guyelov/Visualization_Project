@@ -36,6 +36,20 @@ div[data-testid="stHorizontalBlock"] {
         background:#2f4b7c;
 }
 
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(7) > div.css-1ia57lz.e1tzin5v2{
+        border:10px;
+        padding:20px;
+        border-radius: 10px;
+        background:#2f4b7c;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(7) > div.css-17ee2el.e1tzin5v2{
+        border:10px;
+        padding:20px;
+        border-radius: 10px;
+        background:#2f4b7c;
+}
+
 /* Center Flags */
 .css-1kymt8f{
         display: flex;
