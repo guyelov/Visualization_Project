@@ -9,7 +9,10 @@ div[data-testid="stHorizontalBlock"] {
         align-items: center;
 }
 
-
 div[data-testid="stImage"] {
         border: 3px solid black;
+}
+
+.element-container css-y9pmfc e1tzin5v3{
+        margin-top:40px;
 }

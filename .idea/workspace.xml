@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77f1fd6b-9c16-4a14-9a75-e0f5d6948f2d" name="Changes" comment="design flags" />
+    <list default="true" id="77f1fd6b-9c16-4a14-9a75-e0f5d6948f2d" name="Changes" comment="design flags">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,7 +11,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,150 +40,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656080869289</updated>
-    </task>
-    <task id="LOCAL‎00049" summary="change slider">
-      <created>1656105551320</created>
-      <option name="number" value="LOCAL‎00049" />
-      <option name="presentableId" value="LOCAL‎00049" />
-      <updated>1656105551320</updated>
-    </task>
-    <task id="LOCAL‎00050" summary="change slider">
-      <created>1656105629381</created>
-      <option name="number" value="LOCAL‎00050" />
-      <option name="presentableId" value="LOCAL‎00050" />
-      <updated>1656105629382</updated>
-    </task>
-    <task id="LOCAL‎00051" summary="change slider">
-      <created>1656105756518</created>
-      <option name="number" value="LOCAL‎00051" />
-      <option name="presentableId" value="LOCAL‎00051" />
-      <updated>1656105756518</updated>
-    </task>
-    <task id="LOCAL‎00052" summary="change slider">
-      <created>1656105980012</created>
-      <option name="number" value="LOCAL‎00052" />
-      <option name="presentableId" value="LOCAL‎00052" />
-      <updated>1656105980012</updated>
-    </task>
-    <task id="LOCAL‎00053" summary="change slider">
-      <created>1656106108753</created>
-      <option name="number" value="LOCAL‎00053" />
-      <option name="presentableId" value="LOCAL‎00053" />
-      <updated>1656106108753</updated>
-    </task>
-    <task id="LOCAL‎00054" summary="change slider">
-      <created>1656106221856</created>
-      <option name="number" value="LOCAL‎00054" />
-      <option name="presentableId" value="LOCAL‎00054" />
-      <updated>1656106221856</updated>
-    </task>
-    <task id="LOCAL‎00055" summary="change slider">
-      <created>1656106264310</created>
-      <option name="number" value="LOCAL‎00055" />
-      <option name="presentableId" value="LOCAL‎00055" />
-      <updated>1656106264310</updated>
-    </task>
-    <task id="LOCAL‎00056" summary="change slider">
-      <created>1656106309809</created>
-      <option name="number" value="LOCAL‎00056" />
-      <option name="presentableId" value="LOCAL‎00056" />
-      <updated>1656106309809</updated>
-    </task>
-    <task id="LOCAL‎00057" summary="change slider">
-      <created>1656106395304</created>
-      <option name="number" value="LOCAL‎00057" />
-      <option name="presentableId" value="LOCAL‎00057" />
-      <updated>1656106395304</updated>
-    </task>
-    <task id="LOCAL‎00058" summary="change slider">
-      <created>1656106519197</created>
-      <option name="number" value="LOCAL‎00058" />
-      <option name="presentableId" value="LOCAL‎00058" />
-      <updated>1656106519197</updated>
-    </task>
-    <task id="LOCAL‎00059" summary="change slider">
-      <created>1656106738029</created>
-      <option name="number" value="LOCAL‎00059" />
-      <option name="presentableId" value="LOCAL‎00059" />
-      <updated>1656106738029</updated>
-    </task>
-    <task id="LOCAL‎00060" summary="change slider">
-      <created>1656106797126</created>
-      <option name="number" value="LOCAL‎00060" />
-      <option name="presentableId" value="LOCAL‎00060" />
-      <updated>1656106797126</updated>
-    </task>
-    <task id="LOCAL‎00061" summary="change slider">
-      <created>1656107090093</created>
-      <option name="number" value="LOCAL‎00061" />
-      <option name="presentableId" value="LOCAL‎00061" />
-      <updated>1656107090093</updated>
-    </task>
-    <task id="LOCAL‎00062" summary="change slider">
-      <created>1656107141145</created>
-      <option name="number" value="LOCAL‎00062" />
-      <option name="presentableId" value="LOCAL‎00062" />
-      <updated>1656107141145</updated>
-    </task>
-    <task id="LOCAL‎00063" summary="change slider">
-      <created>1656107381873</created>
-      <option name="number" value="LOCAL‎00063" />
-      <option name="presentableId" value="LOCAL‎00063" />
-      <updated>1656107381873</updated>
-    </task>
-    <task id="LOCAL‎00064" summary="change slider">
-      <created>1656107544682</created>
-      <option name="number" value="LOCAL‎00064" />
-      <option name="presentableId" value="LOCAL‎00064" />
-      <updated>1656107544682</updated>
-    </task>
-    <task id="LOCAL‎00065" summary="change slider">
-      <created>1656107579884</created>
-      <option name="number" value="LOCAL‎00065" />
-      <option name="presentableId" value="LOCAL‎00065" />
-      <updated>1656107579884</updated>
-    </task>
-    <task id="LOCAL‎00066" summary="change slider">
-      <created>1656108000823</created>
-      <option name="number" value="LOCAL‎00066" />
-      <option name="presentableId" value="LOCAL‎00066" />
-      <updated>1656108000823</updated>
-    </task>
-    <task id="LOCAL‎00067" summary="change slider">
-      <created>1656108028001</created>
-      <option name="number" value="LOCAL‎00067" />
-      <option name="presentableId" value="LOCAL‎00067" />
-      <updated>1656108028001</updated>
-    </task>
-    <task id="LOCAL‎00068" summary="change slider">
-      <created>1656108105748</created>
-      <option name="number" value="LOCAL‎00068" />
-      <option name="presentableId" value="LOCAL‎00068" />
-      <updated>1656108105748</updated>
-    </task>
-    <task id="LOCAL‎00069" summary="change slider">
-      <created>1656109095941</created>
-      <option name="number" value="LOCAL‎00069" />
-      <option name="presentableId" value="LOCAL‎00069" />
-      <updated>1656109095941</updated>
-    </task>
-    <task id="LOCAL‎00070" summary="change slider">
-      <created>1656109211331</created>
-      <option name="number" value="LOCAL‎00070" />
-      <option name="presentableId" value="LOCAL‎00070" />
-      <updated>1656109211331</updated>
-    </task>
-    <task id="LOCAL‎00071" summary="change slider">
-      <created>1656109714025</created>
-      <option name="number" value="LOCAL‎00071" />
-      <option name="presentableId" value="LOCAL‎00071" />
-      <updated>1656109714025</updated>
-    </task>
-    <task id="LOCAL‎00072" summary="change slider">
-      <created>1656109811521</created>
-      <option name="number" value="LOCAL‎00072" />
-      <option name="presentableId" value="LOCAL‎00072" />
-      <updated>1656109811521</updated>
     </task>
     <task id="LOCAL‎00073" summary="change slider">
       <created>1656111817945</created>
@@ -334,7 +191,151 @@
       <option name="presentableId" value="LOCAL‎00097" />
       <updated>1656113583740</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL‎00098" summary="design flags">
+      <created>1656113630960</created>
+      <option name="number" value="LOCAL‎00098" />
+      <option name="presentableId" value="LOCAL‎00098" />
+      <updated>1656113630960</updated>
+    </task>
+    <task id="LOCAL‎00099" summary="design flags">
+      <created>1656113647554</created>
+      <option name="number" value="LOCAL‎00099" />
+      <option name="presentableId" value="LOCAL‎00099" />
+      <updated>1656113647554</updated>
+    </task>
+    <task id="LOCAL‎00100" summary="design flags">
+      <created>1656113683264</created>
+      <option name="number" value="LOCAL‎00100" />
+      <option name="presentableId" value="LOCAL‎00100" />
+      <updated>1656113683264</updated>
+    </task>
+    <task id="LOCAL‎00101" summary="design flags">
+      <created>1656113773259</created>
+      <option name="number" value="LOCAL‎00101" />
+      <option name="presentableId" value="LOCAL‎00101" />
+      <updated>1656113773259</updated>
+    </task>
+    <task id="LOCAL‎00102" summary="design flags">
+      <created>1656113784635</created>
+      <option name="number" value="LOCAL‎00102" />
+      <option name="presentableId" value="LOCAL‎00102" />
+      <updated>1656113784635</updated>
+    </task>
+    <task id="LOCAL‎00103" summary="design flags">
+      <created>1656113831981</created>
+      <option name="number" value="LOCAL‎00103" />
+      <option name="presentableId" value="LOCAL‎00103" />
+      <updated>1656113831981</updated>
+    </task>
+    <task id="LOCAL‎00104" summary="design flags">
+      <created>1656113863629</created>
+      <option name="number" value="LOCAL‎00104" />
+      <option name="presentableId" value="LOCAL‎00104" />
+      <updated>1656113863629</updated>
+    </task>
+    <task id="LOCAL‎00105" summary="design flags">
+      <created>1656113876364</created>
+      <option name="number" value="LOCAL‎00105" />
+      <option name="presentableId" value="LOCAL‎00105" />
+      <updated>1656113876364</updated>
+    </task>
+    <task id="LOCAL‎00106" summary="design flags">
+      <created>1656113894112</created>
+      <option name="number" value="LOCAL‎00106" />
+      <option name="presentableId" value="LOCAL‎00106" />
+      <updated>1656113894112</updated>
+    </task>
+    <task id="LOCAL‎00107" summary="design flags">
+      <created>1656114018415</created>
+      <option name="number" value="LOCAL‎00107" />
+      <option name="presentableId" value="LOCAL‎00107" />
+      <updated>1656114018415</updated>
+    </task>
+    <task id="LOCAL‎00108" summary="design flags">
+      <created>1656114051989</created>
+      <option name="number" value="LOCAL‎00108" />
+      <option name="presentableId" value="LOCAL‎00108" />
+      <updated>1656114051989</updated>
+    </task>
+    <task id="LOCAL‎00109" summary="design flags">
+      <created>1656114249115</created>
+      <option name="number" value="LOCAL‎00109" />
+      <option name="presentableId" value="LOCAL‎00109" />
+      <updated>1656114249115</updated>
+    </task>
+    <task id="LOCAL‎00110" summary="design flags">
+      <created>1656114324258</created>
+      <option name="number" value="LOCAL‎00110" />
+      <option name="presentableId" value="LOCAL‎00110" />
+      <updated>1656114324258</updated>
+    </task>
+    <task id="LOCAL‎00111" summary="design flags">
+      <created>1656114380819</created>
+      <option name="number" value="LOCAL‎00111" />
+      <option name="presentableId" value="LOCAL‎00111" />
+      <updated>1656114380819</updated>
+    </task>
+    <task id="LOCAL‎00112" summary="design flags">
+      <created>1656114396632</created>
+      <option name="number" value="LOCAL‎00112" />
+      <option name="presentableId" value="LOCAL‎00112" />
+      <updated>1656114396633</updated>
+    </task>
+    <task id="LOCAL‎00113" summary="design flags">
+      <created>1656114414090</created>
+      <option name="number" value="LOCAL‎00113" />
+      <option name="presentableId" value="LOCAL‎00113" />
+      <updated>1656114414090</updated>
+    </task>
+    <task id="LOCAL‎00114" summary="design flags">
+      <created>1656114434286</created>
+      <option name="number" value="LOCAL‎00114" />
+      <option name="presentableId" value="LOCAL‎00114" />
+      <updated>1656114434286</updated>
+    </task>
+    <task id="LOCAL‎00115" summary="design flags">
+      <created>1656114496079</created>
+      <option name="number" value="LOCAL‎00115" />
+      <option name="presentableId" value="LOCAL‎00115" />
+      <updated>1656114496079</updated>
+    </task>
+    <task id="LOCAL‎00116" summary="design flags">
+      <created>1656114557234</created>
+      <option name="number" value="LOCAL‎00116" />
+      <option name="presentableId" value="LOCAL‎00116" />
+      <updated>1656114557234</updated>
+    </task>
+    <task id="LOCAL‎00117" summary="design flags">
+      <created>1656114589234</created>
+      <option name="number" value="LOCAL‎00117" />
+      <option name="presentableId" value="LOCAL‎00117" />
+      <updated>1656114589234</updated>
+    </task>
+    <task id="LOCAL‎00118" summary="design flags">
+      <created>1656114686410</created>
+      <option name="number" value="LOCAL‎00118" />
+      <option name="presentableId" value="LOCAL‎00118" />
+      <updated>1656114686410</updated>
+    </task>
+    <task id="LOCAL‎00119" summary="design flags">
+      <created>1656114750568</created>
+      <option name="number" value="LOCAL‎00119" />
+      <option name="presentableId" value="LOCAL‎00119" />
+      <updated>1656114750568</updated>
+    </task>
+    <task id="LOCAL‎00120" summary="design flags">
+      <created>1656115388308</created>
+      <option name="number" value="LOCAL‎00120" />
+      <option name="presentableId" value="LOCAL‎00120" />
+      <updated>1656115388308</updated>
+    </task>
+    <task id="LOCAL‎00121" summary="design flags">
+      <created>1656115423737</created>
+      <option name="number" value="LOCAL‎00121" />
+      <option name="presentableId" value="LOCAL‎00121" />
+      <updated>1656115423738</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
