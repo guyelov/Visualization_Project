@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77f1fd6b-9c16-4a14-9a75-e0f5d6948f2d" name="Changes" comment="design map">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="77f1fd6b-9c16-4a14-9a75-e0f5d6948f2d" name="Changes" comment="design map" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,36 +39,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656080869289</updated>
-    </task>
-    <task id="LOCAL‎00212" summary="design map">
-      <created>1656168755700</created>
-      <option name="number" value="LOCAL‎00212" />
-      <option name="presentableId" value="LOCAL‎00212" />
-      <updated>1656168755700</updated>
-    </task>
-    <task id="LOCAL‎00213" summary="design map">
-      <created>1656168859069</created>
-      <option name="number" value="LOCAL‎00213" />
-      <option name="presentableId" value="LOCAL‎00213" />
-      <updated>1656168859069</updated>
-    </task>
-    <task id="LOCAL‎00214" summary="design map">
-      <created>1656168917031</created>
-      <option name="number" value="LOCAL‎00214" />
-      <option name="presentableId" value="LOCAL‎00214" />
-      <updated>1656168917031</updated>
-    </task>
-    <task id="LOCAL‎00215" summary="design map">
-      <created>1656169431521</created>
-      <option name="number" value="LOCAL‎00215" />
-      <option name="presentableId" value="LOCAL‎00215" />
-      <updated>1656169431521</updated>
-    </task>
-    <task id="LOCAL‎00216" summary="design map">
-      <created>1656169573287</created>
-      <option name="number" value="LOCAL‎00216" />
-      <option name="presentableId" value="LOCAL‎00216" />
-      <updated>1656169573287</updated>
     </task>
     <task id="LOCAL‎00217" summary="design map">
       <created>1656169684637</created>
@@ -336,7 +304,37 @@
       <option name="presentableId" value="LOCAL‎00260" />
       <updated>1656175683993</updated>
     </task>
-    <option name="localTasksCounter" value="261" />
+    <task id="LOCAL‎00261" summary="design map">
+      <created>1656175777198</created>
+      <option name="number" value="LOCAL‎00261" />
+      <option name="presentableId" value="LOCAL‎00261" />
+      <updated>1656175777198</updated>
+    </task>
+    <task id="LOCAL‎00262" summary="design map">
+      <created>1656175805890</created>
+      <option name="number" value="LOCAL‎00262" />
+      <option name="presentableId" value="LOCAL‎00262" />
+      <updated>1656175805890</updated>
+    </task>
+    <task id="LOCAL‎00263" summary="design map">
+      <created>1656175834826</created>
+      <option name="number" value="LOCAL‎00263" />
+      <option name="presentableId" value="LOCAL‎00263" />
+      <updated>1656175834826</updated>
+    </task>
+    <task id="LOCAL‎00264" summary="design map">
+      <created>1656176014926</created>
+      <option name="number" value="LOCAL‎00264" />
+      <option name="presentableId" value="LOCAL‎00264" />
+      <updated>1656176014926</updated>
+    </task>
+    <task id="LOCAL‎00265" summary="design map">
+      <created>1656176093520</created>
+      <option name="number" value="LOCAL‎00265" />
+      <option name="presentableId" value="LOCAL‎00265" />
+      <updated>1656176093520</updated>
+    </task>
+    <option name="localTasksCounter" value="266" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
